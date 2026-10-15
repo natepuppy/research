@@ -1,0 +1,251 @@
+ev_rank,id,list,source_file,idea_number,idea,neurips,icml,iclr,aaai,feasibility_rtx3080,best_venue,best_venue_score,ev,note
+1,N1-14,N1,rl_ideas_novel_50.md,14,Agents learn clocks,45,42,50,40,90,ICLR,50,45,"Cheap probe, clear story, horizon-generalization tie-in"
+2,N1-1,N1,rl_ideas_novel_50.md,1,Curl of the TD update field,48,55,45,35,80,ICML,55,44,"Theory-backed, never measured; JVPs cheap"
+3,S4-1,S4,rl_ideas_novel_50_set4.md,1,Edge of stability in TD,48,55,48,35,80,ICML,55,44,Hot supervised result; at risk of parallel work
+4,L1-42,L1,rl_ideas_50.md,42,Latch units for SSM horizon generalization,40,45,48,38,90,ICLR,48,43,Anchor paper names it; tiny compute
+5,N1-15,N1,rl_ideas_novel_50.md,15,Truncation as right-censoring,40,48,42,40,90,ICML,48,43,Statistics transplant; at risk of prior work
+6,S3-3,S3,rl_ideas_novel_50_set3.md,3,Empirical contraction modulus,42,52,42,35,80,ICML,52,42,"Classical quantity, never measured for deep critics"
+7,N1-5,N1,rl_ideas_novel_50.md,5,Lazy critics: action sensitivity onset,45,45,48,38,85,ICLR,48,41,Diagnostic + fix; shared with many later ideas
+8,N1-33,N1,rl_ideas_novel_50.md,33,Cross-fitted Bellman error,42,48,42,40,85,ICML,48,41,Validation signal for RL; causal-inference transplant
+9,S3-1,S3,rl_ideas_novel_50_set3.md,1,Weight decay is implicit pessimism,40,48,45,38,85,ICML,48,41,Sign-flip prediction is a crisp test
+10,S3-4,S3,rl_ideas_novel_50_set3.md,4,Critical batch size of TD,38,48,42,36,85,ICML,48,41,LLM-training concept transplanted
+11,S3-7,S3,rl_ideas_novel_50_set3.md,7,Plateaus as grokking,42,42,48,38,85,ICLR,48,41,Timely framing; precursors must exist
+12,L1-20,L1,rl_ideas_50.md,20,Does depth buy horizon generalization,45,45,50,38,80,ICLR,50,40,CRL is cheap; mechanistic follow-up to a best paper
+13,N1-48,N1,rl_ideas_novel_50.md,48,Answer-first RL,42,40,50,38,80,ICLR,50,40,Both outcomes informative
+14,S4-29,S4,rl_ideas_novel_50_set4.md,29,Prefix-only GRPO,40,40,50,38,80,ICLR,50,40,Cheap elicitation handle; at risk
+15,S3-12,S3,rl_ideas_novel_50_set3.md,12,Durbin–Watson for TD,38,45,42,40,90,ICML,45,40,POMDP detector; cheap
+16,N1-2,N1,rl_ideas_novel_50.md,2,Leverage scores in the deadly triad,45,50,45,35,75,ICML,50,38,"Classical diagnostic, new domain"
+17,N1-42,N1,rl_ideas_novel_50.md,42,Hamiltonian component in self-play,40,50,40,38,75,ICML,50,38,Game-dynamics theory meets deep self-play
+18,N1-44,N1,rl_ideas_novel_50.md,44,RL teaches when to stop,42,40,50,38,75,ICLR,50,38,"Cheap, decisive ablation; adjacent work exists"
+19,S4-31,S4,rl_ideas_novel_50_set4.md,31,How reversible is RLVR,40,38,50,38,75,ICLR,50,38,Reversibility as a lens; new
+20,L1-4,L1,rl_ideas_50.md,4,Why scaling the actor hurts,42,45,48,40,80,ICLR,48,38,"Documented puzzle, cheap, clean yes/no"
+21,S2-50,S2,rl_ideas_novel_50_set2.md,50,PEGASUS at scale,40,48,42,38,80,ICML,48,38,Revival with a real reason
+22,N1-4,N1,rl_ideas_novel_50.md,4,Activations as pessimism knob,42,45,45,40,85,ICML/ICLR,45,38,Offline MuJoCo cheap; clear mechanism
+23,S2-3,S2,rl_ideas_novel_50_set2.md,3,Entropy collapse hysteresis,40,45,42,38,85,ICML,45,38,Measurable loop; clean mechanism
+24,S3-16,S3,rl_ideas_novel_50_set3.md,16,Recurrent policies: belief vs mode,38,40,45,38,85,ICLR,45,38,Computable beliefs; clean
+25,S4-4,S4,rl_ideas_novel_50_set4.md,4,Frequency response of the learner,40,45,40,36,85,ICML,45,38,"Very original; ""so what"" risk"
+26,S4-21,S4,rl_ideas_novel_50_set4.md,21,Basin of attraction shrinks,38,38,45,40,85,ICLR,45,38,Non-monotonicity claim is the hook
+27,S4-39,S4,rl_ideas_novel_50_set4.md,39,Baldwin effect in meta-RL,42,42,45,40,85,ICLR,45,38,Tiny compute; strong framing
+28,S4-41,S4,rl_ideas_novel_50_set4.md,41,Cognitive-bias battery,38,33,40,45,85,AAAI,45,38,AAAI loves it; NeurIPS may call it cute
+29,S2-2,S2,rl_ideas_novel_50_set2.md,2,Numerical precision in TD,38,42,42,38,90,ICML/ICLR,42,38,Days of compute; effect must exist in bf16
+30,S2-4,S2,rl_ideas_novel_50_set2.md,4,Bits of advantage the actor uses,38,42,42,38,90,ICML/ICLR,42,38,One-line ablation; sign-PG variants exist
+31,S2-10,S2,rl_ideas_novel_50_set2.md,10,Exploration order,32,33,36,42,90,AAAI,42,38,Your own question; AAAI-friendly
+32,S2-15,S2,rl_ideas_novel_50_set2.md,15,Hidden curriculum in replay datasets,35,38,42,42,90,ICLR/AAAI,42,38,One week on D4RL; surprising if true
+33,S3-2,S3,rl_ideas_novel_50_set3.md,2,Adam ε as hidden schedule,35,42,40,36,90,ICML,42,38,Days of compute
+34,S4-3,S4,rl_ideas_novel_50_set4.md,3,Revealed time preference,40,42,42,42,90,ICML/ICLR/AAAI,42,38,Economist's method; tiny compute
+35,S4-46,S4,rl_ideas_novel_50_set4.md,46,Anytime-valid comparisons,38,42,35,38,90,ICML,42,38,Ship a tool
+36,S3-34,S3,rl_ideas_novel_50_set3.md,34,RL gain vs pretraining exposure (from scratch),48,48,55,40,65,ICLR,55,36,Controlled answer to sharpen-vs-create; 10 small pretrains
+37,N1-18,N1,rl_ideas_novel_50.md,18,Vine at scale,42,48,45,38,75,ICML,48,36,Cloning is a pytree copy in Brax/MJX
+38,N1-19,N1,rl_ideas_novel_50.md,19,Ground-truth ∇ₐQ vs learned,45,48,48,38,75,ICML/ICLR,48,36,Measures a folk explanation
+39,S2-27,S2,rl_ideas_novel_50_set2.md,27,Exact double sampling via cloning,38,48,40,36,75,ICML,48,36,Settles an old debate properly
+40,S3-36,S3,rl_ideas_novel_50_set3.md,36,Rewarding lucky guesses,38,36,48,40,75,ICLR,48,36,Checkable intermediates make it cheap
+41,S4-30,S4,rl_ideas_novel_50_set4.md,30,Tool-induced skill atrophy,38,36,48,42,75,ICLR,48,36,Timely; clean
+42,L1-26,L1,rl_ideas_50.md,26,Rank flips at fine-tune onset,40,40,45,40,80,ICLR,45,36,Live problem (SOAR withdrawn); D4RL cheap
+43,L1-29,L1,rl_ideas_50.md,29,Pathwise vs score-function switching rule,38,45,42,36,80,ICML,45,36,Practitioner value; GPU-parallel fast
+44,N1-3,N1,rl_ideas_novel_50.md,3,Ordering-only critic,40,42,45,38,80,ICLR,45,36,Ranking-loss critics exist; the decomposition is the novelty
+45,N1-47,N1,rl_ideas_novel_50.md,47,RLVR → in-context exploration,35,35,45,38,80,ICLR,45,36,Mostly evaluation
+46,S2-42,S2,rl_ideas_novel_50_set2.md,42,Sign accuracy of PG estimators,35,45,40,36,80,ICML,45,36,ICML-shaped estimator study
+47,S3-24,S3,rl_ideas_novel_50_set3.md,24,Buffer transplant decomposition,40,40,45,40,80,ICLR,45,36,Reframes algorithm comparison
+48,S4-35,S4,rl_ideas_novel_50_set4.md,35,Stubborn or sycophantic,32,30,45,40,80,ICLR,45,36,Cheap eval
+49,S4-36,S4,rl_ideas_novel_50_set4.md,36,Answer-mode collapse,35,35,45,40,80,ICLR,45,36,Enumerable solution sets
+50,S4-40,S4,rl_ideas_novel_50_set4.md,40,Emergent quasimetric structure,38,40,45,36,80,ICLR,45,36,Penalty vs architecture
+51,N1-9,N1,rl_ideas_novel_50.md,9,γ–learning-rate scaling law,35,42,38,38,85,ICML,42,36,"Simple rule, easy to validate"
+52,N1-27,N1,rl_ideas_novel_50.md,27,MDL of V* predicts sample complexity,35,42,35,38,85,ICML,42,36,Tabular; ICML-shaped
+53,S2-30,S2,rl_ideas_novel_50_set2.md,30,Role adapters,28,30,36,42,85,AAAI,42,36,At risk; simple
+54,S3-21,S3,rl_ideas_novel_50_set3.md,21,Rarity vs distance sparsity,35,36,40,42,85,AAAI,42,36,Benchmark grid with a thesis
+55,S3-25,S3,rl_ideas_novel_50_set3.md,25,First-success lock-in,38,36,42,40,85,ICLR,42,36,Causal intervention; nice
+56,S3-32,S3,rl_ideas_novel_50_set3.md,32,Correlated noise as coordination channel,35,35,38,42,85,AAAI,42,36,Audit finding
+57,S3-45,S3,rl_ideas_novel_50_set3.md,45,Start-state generalization offline,33,35,40,42,85,AAAI,42,36,Cheap new axis for offline RL
+58,S4-2,S4,rl_ideas_novel_50_set4.md,2,Anticipatory (extragradient) targets,35,42,40,36,85,ICML,42,36,Method with a mechanism
+59,S4-7,S4,rl_ideas_novel_50_set4.md,7,Range compression in critics,38,42,42,38,85,ICML/ICLR,42,36,"Slope, not intercept; new"
+60,S4-15,S4,rl_ideas_novel_50_set4.md,15,Junk tolerance curve,35,38,42,38,85,ICLR,42,36,Cliff shape is the result
+61,N1-38,N1,rl_ideas_novel_50.md,38,Churn hotspots = bottlenecks,30,32,35,40,90,AAAI,40,36,Cheap; HRL audience
+62,S2-1,S2,rl_ideas_novel_50_set2.md,1,Init as exploration hyperparameter,35,38,40,40,90,ICLR/AAAI,40,36,"Could join a ""hidden hyperparameters"" paper"
+63,S2-14,S2,rl_ideas_novel_50_set2.md,14,Bellman wavefront,35,40,38,40,90,ICML/AAAI,40,36,Nice visual; predictive claim is the risk
+64,S2-24,S2,rl_ideas_novel_50_set2.md,24,How open-loop is a policy,32,33,38,40,90,AAAI,40,36,Cheap and interpretable
+65,S3-10,S3,rl_ideas_novel_50_set3.md,10,Actor's state distribution,35,40,40,38,90,ICML/ICLR,40,36,One-line change
+66,S4-18,S4,rl_ideas_novel_50_set4.md,18,PPO clip vs action dimension,30,40,38,36,90,ICML,40,36,At risk; fast
+67,S2-6,S2,rl_ideas_novel_50_set2.md,6,μP under bootstrapping,40,50,45,35,70,ICML,50,35,ICML-shaped; at risk
+68,S3-41,S3,rl_ideas_novel_50_set3.md,41,Does RLVR compose,40,40,50,40,70,ICLR,50,35,The generalization test reviewers want
+69,N1-11,N1,rl_ideas_novel_50.md,11,Within-task forgetting of stepping stones,42,40,45,40,75,ICLR,45,34,"Intuitive, unmeasured, actionable"
+70,S2-33,S2,rl_ideas_novel_50_set2.md,33,Planted-error recovery metric,35,35,45,40,75,ICLR,45,34,Transfer claim is the hook
+71,S2-38,S2,rl_ideas_novel_50_set2.md,38,Activation steering for policies,35,33,45,38,75,ICLR,45,34,At risk; SAE tooling exists
+72,S3-5,S3,rl_ideas_novel_50_set3.md,5,Fraction of actor updates that improve,40,45,42,36,75,ICML,45,34,CRN oracle is the trick
+73,S3-6,S3,rl_ideas_novel_50_set3.md,6,Trust region on state distribution,38,45,42,38,75,ICML,45,34,At risk
+74,S3-18,S3,rl_ideas_novel_50_set3.md,18,Replay-time DR via re-simulation,38,40,45,40,75,ICLR,45,34,Robotics-relevant and new
+75,S3-28,S3,rl_ideas_novel_50_set3.md,28,Shield reliance,35,33,40,45,75,AAAI,45,34,Safety; AAAI strong
+76,S4-34,S4,rl_ideas_novel_50_set4.md,34,Solver–verifier asymmetry,35,35,45,38,75,ICLR,45,34,2×2 matrix
+77,L1-8,L1,rl_ideas_50.md,8,Taxonomy of nonstationarity × fix,35,38,42,42,80,ICLR/AAAI,42,34,Lookup-table paper; AAAI likes it
+78,S2-8,S2,rl_ideas_novel_50_set2.md,8,Policy-evaluation lag,35,42,40,38,80,ICML,42,34,Freeze-and-refit protocol is expensive but small nets
+79,S2-16,S2,rl_ideas_novel_50_set2.md,16,Dataset mode count picks the method,32,35,40,42,80,AAAI,42,34,Controlled dataset construction
+80,S2-25,S2,rl_ideas_novel_50_set2.md,25,Emergent equivariance,35,40,42,38,80,ICLR,42,34,Representation story
+81,S3-9,S3,rl_ideas_novel_50_set3.md,9,Effective horizon of a critic,38,42,42,38,80,ICML/ICLR,42,34,Reward-impulse response
+82,S3-37,S3,rl_ideas_novel_50_set3.md,37,Decision depth before/after RL,32,33,42,36,80,ICLR,42,34,At risk
+83,S3-46,S3,rl_ideas_novel_50_set3.md,46,Curse of context,35,38,42,38,80,ICLR,42,34,At risk
+84,S4-6,S4,rl_ideas_novel_50_set4.md,6,Frame-skip decomposition,38,40,42,40,80,ICLR,42,34,Universal knob explained
+85,S4-13,S4,rl_ideas_novel_50_set4.md,13,Recovery paradox,35,33,40,42,80,AAAI,42,34,Robotics-relevant
+86,S4-16,S4,rl_ideas_novel_50_set4.md,16,State vs action coverage offline,35,38,42,42,80,ICLR/AAAI,42,34,Dataset construction
+87,S4-26,S4,rl_ideas_novel_50_set4.md,26,Asymmetric capacity teams,30,30,35,42,80,AAAI,42,34,AAAI MARL
+88,S4-45,S4,rl_ideas_novel_50_set4.md,45,Structured label noise in BT,38,42,42,40,80,ICML/ICLR,42,34,RLHF-adjacent; small data
+89,S4-50,S4,rl_ideas_novel_50_set4.md,50,Entropy conversion efficiency,38,42,42,38,80,ICML/ICLR,42,34,Task property predicts method
+90,N1-20,N1,rl_ideas_novel_50.md,20,Counterfactual info gain via cloning,35,38,40,40,85,ICLR/AAAI,40,34,Noisy-TV solution; small envs
+91,N1-22,N1,rl_ideas_novel_50.md,22,γ-disagreement exploration,30,35,38,40,85,AAAI,40,34,May be redundant with ensembles
+92,N1-28,N1,rl_ideas_novel_50.md,28,Reward dropout,30,32,38,40,85,AAAI,40,34,One-liner; needs a big effect
+93,S2-9,S2,rl_ideas_novel_50_set2.md,9,Tanh saturation,28,32,35,40,85,AAAI,40,34,Known folklore
+94,S2-11,S2,rl_ideas_novel_50_set2.md,11,Exploration waste,32,35,36,40,85,AAAI,40,34,Needs computable V*
+95,S2-12,S2,rl_ideas_novel_50_set2.md,12,Luby restarts for RL seeds,32,40,35,40,85,ICML/AAAI,40,34,Heavy tails must show up
+96,S2-18,S2,rl_ideas_novel_50_set2.md,18,Hot-swapping reward mid-training,30,30,35,40,85,AAAI,40,34,"Practical, low prestige"
+97,S2-39,S2,rl_ideas_novel_50_set2.md,39,Dormant units are fossils,32,35,40,38,85,ICLR,40,34,Charming; may be false
+98,S2-43,S2,rl_ideas_novel_50_set2.md,43,Do seeds learn the same representation,32,35,40,36,85,ICLR,40,34,CKA across seeds
+99,S2-45,S2,rl_ideas_novel_50_set2.md,45,Learning-path imitation,28,30,35,40,85,AAAI,40,34,Simple
+100,S2-49,S2,rl_ideas_novel_50_set2.md,49,LoRA rank for dynamics adaptation,25,28,35,40,85,AAAI,40,34,At risk
+101,S3-8,S3,rl_ideas_novel_50_set3.md,8,Critic error tolerance curves,35,40,40,38,85,ICML/ICLR,40,34,"Map, not method"
+102,S3-11,S3,rl_ideas_novel_50_set3.md,11,Two-speed critics,32,38,40,38,85,ICLR,40,34,Replaces τ
+103,S3-14,S3,rl_ideas_novel_50_set3.md,14,How linear is a trained policy,32,35,38,40,85,AAAI,40,34,Deployment relevance
+104,S3-23,S3,rl_ideas_novel_50_set3.md,23,Random networks as macro-actions,32,33,40,40,85,ICLR/AAAI,40,34,"Simple, could be strong"
+105,S3-30,S3,rl_ideas_novel_50_set3.md,30,How often a policy needs to look,30,33,36,40,85,AAAI,40,34,Lyapunov tie-in
+106,S3-47,S3,rl_ideas_novel_50_set3.md,47,Exploration bonuses create habits,32,33,40,40,85,ICLR/AAAI,40,34,"Simple, likely true"
+107,S4-10,S4,rl_ideas_novel_50_set4.md,10,Advantage-sign agreement uncertainty,32,36,40,38,85,ICLR,40,34,Ensemble-free uncertainty
+108,S4-12,S4,rl_ideas_novel_50_set4.md,12,Reward-epistemic exploration,30,32,38,40,85,AAAI,40,34,Must beat RND
+109,S4-17,S4,rl_ideas_novel_50_set4.md,17,Offline RL with known π_β,33,38,40,40,85,ICLR/AAAI,40,34,Oracle comparison
+110,S4-43,S4,rl_ideas_novel_50_set4.md,43,Teacher cloneability,30,33,38,40,85,AAAI,40,34,Distillation audience
+111,S4-44,S4,rl_ideas_novel_50_set4.md,44,"Transfer actor, reset critic",30,33,38,40,85,AAAI,40,34,At risk
+112,S4-47,S4,rl_ideas_novel_50_set4.md,47,Mutation testing for RL,32,32,35,40,85,AAAI,40,34,Engineering audience
+113,N1-8,N1,rl_ideas_novel_50.md,8,Stale momentum in on-policy,30,38,35,35,90,ICML,38,34,Days of compute; effect may be small
+114,N1-32,N1,rl_ideas_novel_50.md,32,Seed-variance ANOVA,38,38,36,38,90,NeurIPS/ICML/AAAI,38,34,Null result still informative
+115,S2-7,S2,rl_ideas_novel_50_set2.md,7,Normalizer drift,30,33,36,38,90,AAAI,38,34,Infrastructure finding
+116,S2-40,S2,rl_ideas_novel_50_set2.md,40,Deterministic-eval gap,28,30,35,38,90,AAAI,38,34,Piggyback diagnostic
+117,S3-19,S3,rl_ideas_novel_50_set3.md,19,Coarse rewards,28,32,36,38,90,AAAI,38,34,Needs a big effect
+118,S3-43,S3,rl_ideas_novel_50_set3.md,43,Stratified evaluation,28,33,33,38,90,AAAI,38,34,Small tool
+119,S3-44,S3,rl_ideas_novel_50_set3.md,44,Seeds vs evaluation episodes,32,35,33,38,90,AAAI,38,34,Methodology
+120,S4-5,S4,rl_ideas_novel_50_set4.md,5,Where the regularizer enters,30,35,36,38,90,AAAI,38,34,At risk
+121,L1-5,L1,rl_ideas_50.md,5,Which normalization does the work,38,42,45,40,70,ICLR,45,32,"Useful ablation; risk of ""just an ablation"" review"
+122,L1-50,L1,rl_ideas_50.md,50,Depth × norm × plasticity sweep,40,42,45,38,70,ICLR,45,32,One heatmap; many runs
+123,N1-7,N1,rl_ideas_novel_50.md,7,Residual gradients under modern archs,38,45,42,38,70,ICML,45,32,Retest of a classic
+124,N1-50,N1,rl_ideas_novel_50.md,50,Prompt-level learned baseline,35,38,45,38,70,ICLR,45,32,At risk of prior work
+125,S3-13,S3,rl_ideas_novel_50_set3.md,13,Emergent bisimulation,35,40,45,36,70,ICLR,45,32,At risk
+126,S3-29,S3,rl_ideas_novel_50_set3.md,29,Safety is forgotten first,33,33,40,45,70,AAAI,45,32,Safety; AAAI strong
+127,L1-10,L1,rl_ideas_50.md,10,Plasticity under self-play,40,40,42,40,75,ICLR,42,32,Connects two literatures; JaxMARL cheap
+128,N1-31,N1,rl_ideas_novel_50.md,31,How often is Q multimodal,35,38,42,36,75,ICLR,42,32,Settles a motivation claim for flow policies
+129,N1-45,N1,rl_ideas_novel_50.md,45,Verifier vs policy sample allocation,35,40,42,38,75,ICLR,42,32,Clean crossover law
+130,S2-29,S2,rl_ideas_novel_50_set2.md,29,Specialization vs team size,30,32,35,42,75,AAAI,42,32,AAAI MARL track
+131,S2-47,S2,rl_ideas_novel_50_set2.md,47,How much memory a task needs,35,38,42,40,75,ICLR,42,32,Useful statistic
+132,S3-20,S3,rl_ideas_novel_50_set3.md,20,Reward-term decorrelation alarm,30,30,38,42,75,AAAI,42,32,Safety framing
+133,S3-33,S3,rl_ideas_novel_50_set3.md,33,Inaction baselines,30,32,35,42,75,AAAI,42,32,Interpretable credit
+134,S4-38,S4,rl_ideas_novel_50_set4.md,38,Temperature as an action,32,33,42,38,75,ICLR,42,32,Small
+135,L1-9,L1,rl_ideas_50.md,9,Predicting plasticity collapse,35,38,40,40,80,ICLR/AAAI,40,32,Forecaster may be trivially the return slope
+136,L1-28,L1,rl_ideas_50.md,28,O2O with changed dynamics,32,33,38,40,80,AAAI,40,32,Realistic setting; benchmark-ish
+137,L1-48,L1,rl_ideas_50.md,48,Sample efficiency when steps are free,35,40,38,35,80,ICML,40,32,Timely; REPPO raised it
+138,N1-12,N1,rl_ideas_novel_50.md,12,Half-life of a transition,35,38,40,38,80,ICLR,40,32,Buffer-size rule
+139,N1-16,N1,rl_ideas_novel_50.md,16,Control-frequency transfer,32,38,38,40,80,AAAI,40,32,Robotics-relevant
+140,N1-26,N1,rl_ideas_novel_50.md,26,Strategy modes across seeds,38,35,40,40,80,ICLR/AAAI,40,32,Reporting-practice paper
+141,S2-20,S2,rl_ideas_novel_50_set2.md,20,Origin of ensemble diversity,35,40,40,38,80,ICML/ICLR,40,32,Explains inconsistent results
+142,S4-8,S4,rl_ideas_novel_50_set4.md,8,Fresh-critic gap as reset trigger,32,36,40,38,80,ICLR,40,32,At risk
+143,S4-11,S4,rl_ideas_novel_50_set4.md,11,Budget-aware exploration,32,36,40,40,80,ICLR/AAAI,40,32,Bandit theory tie-in
+144,S4-14,S4,rl_ideas_novel_50_set4.md,14,Decide only when it matters,30,33,38,40,80,AAAI,40,32,Adaptive repeat
+145,S4-19,S4,rl_ideas_novel_50_set4.md,19,Action parameterization and noise color,33,36,40,40,80,ICLR/AAAI,40,32,Unifying predictor
+146,S4-23,S4,rl_ideas_novel_50_set4.md,23,Latency identification time,30,33,36,40,80,AAAI,40,32,RMA-adjacent
+147,S4-37,S4,rl_ideas_novel_50_set4.md,37,Scoring rules for numeric answers,32,38,40,38,80,ICLR,40,32,Decision-theoretic
+148,N1-29,N1,rl_ideas_novel_50.md,29,Reward-term equalization,28,30,35,38,85,AAAI,38,32,Hand-tuned defaults may win
+149,N1-40,N1,rl_ideas_novel_50.md,40,Learned masks for sensor selection,25,28,32,38,85,AAAI,38,32,Known technique
+150,S2-19,S2,rl_ideas_novel_50_set2.md,19,Bursty vs steady updates,32,38,38,38,85,ICML/ICLR/AAAI,38,32,Clean factorial
+151,S3-42,S3,rl_ideas_novel_50_set3.md,42,Wrapper sensitivity audit,35,35,38,38,85,ICLR/AAAI,38,32,Implementation-matters lineage
+152,S3-49,S3,rl_ideas_novel_50_set3.md,49,Reset subsidy,32,35,38,38,85,ICLR/AAAI,38,32,Reset-free RL audience
+153,S4-48,S4,rl_ideas_novel_50_set4.md,48,Checkpoint selection inflation,30,32,32,36,90,AAAI,36,32,Short paper
+154,S3-35,S3,rl_ideas_novel_50_set3.md,35,RLVR size floor,38,38,48,38,65,ICLR,48,31,1.5B GRPO tight on 10 GB
+155,L1-23,L1,rl_ideas_50.md,23,Depth vs relabeling horizon,28,32,36,35,85,ICLR,36,31,Small interaction study; workshop
+156,L1-1,L1,rl_ideas_50.md,1,Depth in TD vs contrastive RL,45,48,50,40,60,ICLR,50,30,"Strong anchor; depth-256 sweep on HumanoidBench strains 10 GB, keep it to DMC"
+157,L1-21,L1,rl_ideas_50.md,21,MI-driven relabeling horizon,32,35,40,38,75,ICLR,40,30,Diagnostic→method; moderate
+158,L1-31,L1,rl_ideas_50.md,31,Test-time flow steps in RL,30,33,40,35,75,ICLR,40,30,"Hot framing, small result"
+159,S3-22,S3,rl_ideas_novel_50_set3.md,22,Null-space exploration,32,36,40,38,75,ICLR,40,30,High-DoF tasks slow
+160,S3-26,S3,rl_ideas_novel_50_set3.md,26,Algorithm fingerprinting,35,35,40,40,75,ICLR/AAAI,40,30,Deployment story
+161,S3-40,S3,rl_ideas_novel_50_set3.md,40,Groups without replacement,28,32,40,36,75,ICLR,40,30,At risk
+162,S4-28,S4,rl_ideas_novel_50_set4.md,28,Predictability bonus,30,30,38,40,75,AAAI,40,30,At risk
+163,N1-17,N1,rl_ideas_novel_50.md,17,How many parallel envs,30,35,38,35,80,ICLR,38,30,Partially studied in PPO scaling work
+164,S2-13,S2,rl_ideas_novel_50_set2.md,13,State-dependent entropy target,30,35,38,38,80,ICLR/AAAI,38,30,Method paper
+165,S2-23,S2,rl_ideas_novel_50_set2.md,23,Weight quantization closed-loop,25,28,32,38,80,AAAI,38,30,Embedded audience
+166,S3-15,S3,rl_ideas_novel_50_set3.md,15,Actor–critic feature misalignment,30,35,38,38,80,ICLR/AAAI,38,30,Attribution noise
+167,S3-17,S3,rl_ideas_novel_50_set3.md,17,Emergent temporal abstraction,30,33,38,38,80,ICLR/AAAI,38,30,Measurement only
+168,L1-6,L1,rl_ideas_50.md,6,Deep critics and seed variance,32,35,35,35,85,ICML/ICLR/AAAI,35,30,Methodology; AAAI/workshop shape
+169,L1-33,L1,rl_ideas_50.md,33,Actor sees critic quantiles,25,28,33,35,85,AAAI,35,30,Probably already tried
+170,L1-40,L1,rl_ideas_50.md,40,RL new behaviors in interactive envs,42,40,48,38,60,ICLR,48,29,Direct test of the NeurIPS runner-up; k=256 rollouts are slow
+171,S3-31,S3,rl_ideas_novel_50_set3.md,31,Perfect-model gap,42,42,48,38,60,ICLR,48,29,Sim-as-model in TD-MPC2 is doable; in Dreamer awkward
+172,S2-17,S2,rl_ideas_novel_50_set2.md,17,Data attribution for RL,38,40,45,40,65,ICLR,45,29,At risk; influence in moving-target setting is hard
+173,S3-27,S3,rl_ideas_novel_50_set3.md,27,Sobolev critics from diff sims,38,42,45,36,65,ICLR,45,29,MJX contact gradients are noisy
+174,S4-22,S4,rl_ideas_novel_50_set4.md,22,Is hierarchy just long credit,40,40,45,40,65,ICLR,45,29,HRL baselines are finicky
+175,S4-32,S4,rl_ideas_novel_50_set4.md,32,Counterfactual token importance,35,35,45,38,65,ICLR,45,29,Resampling cost
+176,L1-2,L1,rl_ideas_50.md,2,Predictor for critic size,35,40,42,40,70,ICLR,42,29,Many short runs; the regression may not hold across suites
+177,L1-39,L1,rl_ideas_50.md,39,Step-level advantage with oracle states,33,36,42,38,70,ICLR,42,29,Controlled credit-assignment study
+178,N1-10,N1,rl_ideas_novel_50.md,10,Policy-invariant critic subspace,35,40,42,35,70,ICLR,42,29,50 policies × critics; CCA analysis
+179,N1-23,N1,rl_ideas_novel_50.md,23,Flow noise as intention,32,35,42,38,70,ICLR,42,29,Needs online flow-policy codebase
+180,N1-41,N1,rl_ideas_novel_50.md,41,Stigmergy,35,32,38,42,70,AAAI,42,29,Original; results may be messy
+181,N1-43,N1,rl_ideas_novel_50.md,43,Exact counterfactual credit in MARL,40,42,42,42,70,ICML/ICLR/AAAI,42,29,JaxMARL cloning easy; COMA baselines fiddly
+182,S2-32,S2,rl_ideas_novel_50_set2.md,32,Learning to ask for a hint,32,33,42,40,70,ICLR,42,29,Calibration angle is good
+183,S2-44,S2,rl_ideas_novel_50_set2.md,44,IRL recovers reward or shaping,38,42,40,40,70,ICML,42,29,Theory known; empirics missing
+184,S2-46,S2,rl_ideas_novel_50_set2.md,46,Anti-goals,32,30,40,42,70,AAAI,42,29,Safety interface for GCRL
+185,S3-50,S3,rl_ideas_novel_50_set3.md,50,Hyperparameter drift by forking,35,40,42,38,70,ICLR,42,29,Many forks
+186,S4-20,S4,rl_ideas_novel_50_set4.md,20,Developmental DoF curriculum,33,33,40,42,70,AAAI,42,29,Humanoid runs slow
+187,S4-42,S4,rl_ideas_novel_50_set4.md,42,Out-of-span penalty for skills,33,35,42,38,70,ICLR,42,29,Negative-transfer map
+188,L1-12,L1,rl_ideas_50.md,12,Auto UTD from spectral signal,33,36,40,38,70,ICLR,40,28,Adaptive-UTD papers exist; must beat them
+189,N1-6,N1,rl_ideas_novel_50.md,6,Gradient starvation across action dims,35,38,40,38,70,ICLR,40,28,Hand tasks are finicky
+190,N1-25,N1,rl_ideas_novel_50.md,25,OPE for exploration coverage,32,40,36,35,70,ICML,40,28,New OPE target; theory-light
+191,N1-46,N1,rl_ideas_novel_50.md,46,Spaced repetition for RLVR,30,32,40,40,70,ICLR/AAAI,40,28,Retention angle is new
+192,N1-49,N1,rl_ideas_novel_50.md,49,Interleaved vs blocked domains,30,33,40,38,70,ICLR,40,28,Gradient-conflict schedulers exist
+193,S2-28,S2,rl_ideas_novel_50_set2.md,28,Bandwidth law for coordination,35,40,38,40,70,ICML/AAAI,40,28,Information-theoretic MARL
+194,S3-39,S3,rl_ideas_novel_50_set3.md,39,Restating as an action,30,30,40,38,70,ICLR,40,28,Transfer test is the hook
+195,S4-27,S4,rl_ideas_novel_50_set4.md,27,Partner identification time,32,33,40,40,70,ICLR/AAAI,40,28,ZSC audience
+196,L1-11,L1,rl_ideas_50.md,11,Redundancy reduction as plasticity reg,30,32,38,38,75,ICLR/AAAI,38,28,Incremental method
+197,L1-25,L1,rl_ideas_50.md,25,Why intra-trajectory negatives help,30,35,38,33,75,ICLR,38,28,Explains a trick; narrow audience
+198,N1-24,N1,rl_ideas_novel_50.md,24,Denoising steps as temperature,28,32,38,36,75,ICLR,38,28,Small
+199,N1-34,N1,rl_ideas_novel_50.md,34,Early kill from first 5%,28,32,33,38,75,AAAI,38,28,AutoML flavor
+200,S2-34,S2,rl_ideas_novel_50_set2.md,34,Mixed-temperature groups,25,30,38,38,75,ICLR/AAAI,38,28,Small
+201,S2-37,S2,rl_ideas_novel_50_set2.md,37,Paraphrase groups,25,28,38,38,75,ICLR/AAAI,38,28,Small
+202,S3-48,S3,rl_ideas_novel_50_set3.md,48,Shaping ruggedness,30,33,36,38,75,AAAI,38,28,Clustering endpoints is noisy
+203,L1-24,L1,rl_ideas_50.md,24,Jacobian distillation for RL,25,28,33,35,80,AAAI,35,28,"Direct extension, little surprise"
+204,L1-27,L1,rl_ideas_50.md,27,How many warmup rollouts,25,28,32,35,80,AAAI,35,28,Hyperparameter study
+205,N1-13,N1,rl_ideas_novel_50.md,13,Replay deduplication in GPU envs,25,28,32,35,80,AAAI,35,28,"Systems-flavored, narrow"
+206,S2-31,S2,rl_ideas_novel_50_set2.md,31,Legibility tax,38,36,45,38,60,ICLR,45,27,Human-rated subset
+207,S3-38,S3,rl_ideas_novel_50_set3.md,38,Exposure bias in multi-turn RL,35,35,45,40,60,ICLR,45,27,Text-env LLM rollouts slow
+208,S4-33,S4,rl_ideas_novel_50_set4.md,33,Information content of code feedback,32,32,45,38,60,ICLR,45,27,Sandbox infra; 1.5B tight
+209,L1-32,L1,rl_ideas_50.md,32,Pathwise via WM vs via Q,38,42,42,35,65,ICML/ICLR,42,27,Clean comparison; bias measurement is the selling point
+210,S4-9,S4,rl_ideas_novel_50_set4.md,9,Dimensionless hyperparameters,35,42,40,38,65,ICML,42,27,Many rescaled families
+211,L1-43,L1,rl_ideas_50.md,43,Memory in WM vs in policy,30,33,38,38,70,ICLR/AAAI,38,27,Clean but small
+212,L1-45,L1,rl_ideas_50.md,45,Population size vs plasticity,30,32,35,38,70,AAAI,38,27,Extension of #10
+213,S4-49,S4,rl_ideas_novel_50_set4.md,49,Determinism in defaults,32,36,38,38,70,ICLR/AAAI,38,27,Re-tuning cost
+214,L1-38,L1,rl_ideas_50.md,38,Symbolic↔verbal RLVR transfer,30,32,40,40,65,ICLR/AAAI,40,26,Good question; answer may be mundane
+215,S2-5,S2,rl_ideas_novel_50_set2.md,5,n-step by transition age,30,35,38,40,65,AAAI,40,26,Atari subset
+216,S2-21,S2,rl_ideas_novel_50_set2.md,21,Value discontinuities at contact,35,38,40,38,65,ICLR,40,26,Manipulation tasks are slow to learn
+217,S2-22,S2,rl_ideas_novel_50_set2.md,22,Control margins for RL policies,35,38,38,40,65,AAAI,40,26,Linearizing through the sim is fiddly
+218,S2-36,S2,rl_ideas_novel_50_set2.md,36,Inverse-task auxiliary,30,32,40,38,65,ICLR,40,26,Problem generation is well trodden
+219,L1-3,L1,rl_ideas_50.md,3,Compute-optimal actor-critic,40,45,45,38,55,ICML/ICLR,45,25,Scaling laws from one GPU look thin to reviewers
+220,N1-21,N1,rl_ideas_novel_50.md,21,Vine advantages for LLM text agents,38,38,45,38,55,ICLR,45,25,Branching K actions × LLM rollouts is slow
+221,N1-30,N1,rl_ideas_novel_50.md,30,Hacking detection from return distribution,35,33,40,42,60,AAAI,42,25,Needs envs with known exploits
+222,S2-48,S2,rl_ideas_novel_50_set2.md,48,Hack discovery time vs capacity,35,35,42,40,60,ICLR,42,25,Exploit construction effort
+223,L1-22,L1,rl_ideas_50.md,22,Horizon-generalization benchmark,30,30,38,35,65,ICLR,38,25,Benchmark papers need breadth one GPU lacks
+224,L1-36,L1,rl_ideas_50.md,36,Adaptive GRPO group size,28,32,38,38,65,ICLR/AAAI,38,25,Small method
+225,L1-41,L1,rl_ideas_50.md,41,Auto difficulty controller,25,28,35,38,65,AAAI,38,25,Curricula at 50% success are standard
+226,S2-26,S2,rl_ideas_novel_50_set2.md,26,WM error is policy-conditioned,35,38,42,38,55,ICLR,42,23,Dreamer/TD-MPC2 cost
+227,S2-35,S2,rl_ideas_novel_50_set2.md,35,Notes across episodes,32,30,42,40,55,ICLR,42,23,Multi-episode LLM RL is slow
+228,L1-7,L1,rl_ideas_50.md,7,WM component losing plasticity first,40,40,45,38,50,ICLR,45,22,DreamerV3 continual is slow on a 3080
+229,L1-16,L1,rl_ideas_50.md,16,WM hallucination audit,35,35,40,38,55,ICLR,40,22,Good metric idea; pixel Dreamer cost
+230,L1-19,L1,rl_ideas_50.md,19,Quasimetric heads in WMs,32,35,40,35,55,ICLR,40,22,Combination paper
+231,L1-34,L1,rl_ideas_50.md,34,Dense-to-sparse RLVR curriculum,28,30,38,40,55,AAAI,40,22,Needs retrieval/search infra for MuSiQue
+232,L1-35,L1,rl_ideas_50.md,35,Difficulty-mixing law,32,38,40,38,55,ICLR,40,22,Grid × domains × budgets is heavy at 1B
+233,N1-36,N1,rl_ideas_novel_50.md,36,Do fast learners converge worse,35,38,40,36,55,ICLR,40,22,Running BRO/SimbaV2 to convergence is weeks
+234,N1-37,N1,rl_ideas_novel_50.md,37,Cross-action interference,35,38,40,38,55,ICLR,40,22,Atari subset
+235,S4-24,S4,rl_ideas_novel_50_set4.md,24,Model-tolerant actors,30,33,40,36,55,ICLR,40,22,Dreamer cost
+236,L1-17,L1,rl_ideas_50.md,17,DR inside imagination,30,32,38,38,55,ICLR/AAAI,38,21,Modest novelty
+237,L1-44,L1,rl_ideas_50.md,44,ZSC via shared world models,32,33,38,38,55,ICLR/AAAI,38,21,WM + MARL infra
+238,L1-49,L1,rl_ideas_50.md,49,Spectral health as universal signal,30,33,38,38,55,ICLR/AAAI,38,21,Needs Dreamer + Atari piggyback
+239,L1-30,L1,rl_ideas_50.md,30,Discrete Value Gradient Flow,30,35,40,35,50,ICLR,40,20,Atari-100k subset cost
+240,N1-39,N1,rl_ideas_novel_50.md,39,Value-preserving replay compression,25,28,33,36,55,AAAI,36,20,Systems paper
+241,L1-13,L1,rl_ideas_50.md,13,When decoder-free WMs fail,35,35,42,36,45,ICLR,42,19,Three pixel Dreamer variants × dials is weeks
+242,S4-25,S4,rl_ideas_novel_50_set4.md,25,Where to imagine from,28,30,38,38,50,ICLR/AAAI,38,19,At risk; Dreamer cost
+243,S2-41,S2,rl_ideas_novel_50_set2.md,41,Minimal continuous-control task subset,30,32,32,35,50,AAAI,35,18,Needs results for 15+ methods
+244,L1-15,L1,rl_ideas_50.md,15,Adaptive imagination horizon,30,32,38,38,45,ICLR/AAAI,38,17,Likely done in some form
+245,L1-37,L1,rl_ideas_50.md,37,Hackable pretext games,30,30,38,35,45,ICLR,38,17,Needs human-rated quality
+246,L1-14,L1,rl_ideas_50.md,14,Where optimism lives in a WM,35,35,40,36,35,ICLR,40,14,Dreamer on 8–10 Atari games × 3 variants × seeds is not a 3080 project
+247,L1-18,L1,rl_ideas_50.md,18,Test-time search compute-matched,35,35,38,33,30,ICLR,38,11,Requires EZ-V2 + Dreamer on Atari
+248,N1-35,N1,rl_ideas_novel_50.md,35,Cross-sim proxy for sim2real,30,28,32,32,30,ICLR/AAAI,32,10,Needs Isaac Lab and a real robot to validate
+249,L1-46,L1,rl_ideas_50.md,46,How many seeds Atari-100k needs,35,35,35,32,25,NeurIPS/ICML/ICLR,35,9,20 seeds × 8 games × 3 methods incl. EZ-V2 is far beyond a 3080
+250,L1-47,L1,rl_ideas_50.md,47,Wall-clock-matched leaderboard,33,33,33,30,25,NeurIPS/ICML/ICLR,33,8,Same runs as #46

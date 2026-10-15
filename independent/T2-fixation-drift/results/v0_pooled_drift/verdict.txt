@@ -1,0 +1,1 @@
+KILL TEST: KILLED. calibrated-chain MAE on fixation fraction 0.018 (bias +0.018) over 10 cells with p-dependent interference, vs 0.020 with pooled neutral drift; boundary kernel bimodal in 0% of cells; corr(G, boundary fixation) +nan; adaptive-G gain at matched budget +0.000.

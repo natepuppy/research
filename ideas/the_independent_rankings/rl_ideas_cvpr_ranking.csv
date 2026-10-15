@@ -1,0 +1,251 @@
+cvpr_rank,id,source_file,idea_number,idea,cvpr,cvpr_reason,neurips,icml,iclr,aaai,feasibility_rtx3080
+1,L1-13,rl_ideas_50.md,13,When decoder-free WMs fail,35,Decoder-free vs reconstruction world models on small-object / distractor pixels; the only idea whose core variable is visual,35,35,42,36,45
+2,N1-39,rl_ideas_novel_50.md,39,Value-preserving replay compression,32,Value-aware learned image codec for replay; learned compression is a CVPR community,25,28,33,36,55
+3,L1-16,rl_ideas_50.md,16,WM hallucination audit,30,Hallucination audit of imagined pixel rollouts; connects to video world-model evaluation,35,35,40,38,55
+4,S3-13,rl_ideas_novel_50_set3.md,13,Emergent bisimulation,26,"Emergent bisimulation under visual distractors (Procgen, distracting DMC); representation-learning story",35,40,45,36,70
+5,S2-25,rl_ideas_novel_50_set2.md,25,Emergent equivariance,24,"Emergent equivariance; the equivariance community is at CVPR, but tasks are proprioceptive unless moved to pixels",35,40,42,38,80
+6,S2-26,rl_ideas_novel_50_set2.md,26,WM error is policy-conditioned,23,Policy-conditioned world-model error on pixel DMC; video-model evaluation angle,35,38,42,38,55
+7,S2-38,rl_ideas_novel_50_set2.md,38,Activation steering for policies,22,Sparse-autoencoder steering on visual policies (Procgen); interpretability track,35,33,45,38,75
+8,L1-15,rl_ideas_50.md,15,Adaptive imagination horizon,22,Uncertainty-truncated imagination horizon in pixel Dreamer; video-prediction flavor,30,32,38,38,45
+9,L1-7,rl_ideas_50.md,7,WM component losing plasticity first,21,Encoder vs dynamics plasticity in a pixel world model; representation-collapse angle,40,40,45,38,50
+10,S4-24,rl_ideas_novel_50_set4.md,24,Model-tolerant actors,20,State-Lipschitz actors inside pixel Dreamer; model-error tolerance,30,33,40,36,55
+11,L1-17,rl_ideas_50.md,17,DR inside imagination,20,Latent-dynamics randomization in a pixel world model; robustness story,30,32,38,38,55
+12,S4-25,rl_ideas_novel_50_set4.md,25,Where to imagine from,20,Prioritized imagination start states in pixel Dreamer,28,30,38,38,50
+13,S2-17,rl_ideas_novel_50_set2.md,17,Data attribution for RL,18,TracIn-style data attribution for Procgen policies; attribution methods come from vision,38,40,45,40,65
+14,S3-31,rl_ideas_novel_50_set3.md,31,Perfect-model gap,18,Perfect-model gap; a diagnostic for visual world models if run on pixel DMC,42,42,48,38,60
+15,L1-14,rl_ideas_50.md,14,Where optimism lives in a WM,18,Optimism placement inside a pixel world model on Atari,35,35,40,36,35
+16,L1-1,rl_ideas_50.md,1,Depth in TD vs contrastive RL,15,"1000-layer-style depth scaling; architecture story, but no visual input",45,48,50,40,60
+17,L1-19,rl_ideas_50.md,19,Quasimetric heads in WMs,15,Quasimetric heads in world models; metric-learning flavor,32,35,40,35,55
+18,N1-37,rl_ideas_novel_50.md,37,Cross-action interference,14,Cross-action interference in Atari conv critics,35,38,40,38,55
+19,S2-39,rl_ideas_novel_50_set2.md,39,Dormant units are fossils,12,Dormant-unit archaeology on Procgen conv nets,32,35,40,38,85
+20,N1-40,rl_ideas_novel_50.md,40,Learned masks for sensor selection,12,"Learned input masks as sensor selection; attention-mask analogue, proprioceptive tasks",25,28,32,38,85
+21,L1-50,rl_ideas_50.md,50,Depth × norm × plasticity sweep,12,Depth x normalization x plasticity on Procgen; architecture sweep,40,42,45,38,70
+22,L1-43,rl_ideas_50.md,43,Memory in WM vs in policy,12,Memory in world model vs policy; could be framed on pixel POMDPs,30,33,38,38,70
+23,L1-5,rl_ideas_50.md,5,Which normalization does the work,11,Normalization ablation for plasticity on Procgen,38,42,45,40,70
+24,L1-42,rl_ideas_50.md,42,Latch units for SSM horizon generalization,10,"Bistable units in SSMs; SSM architecture interest, no visual task",40,45,48,38,90
+25,S3-46,rl_ideas_novel_50_set3.md,46,Curse of context,10,Context-length overfitting with frame-stacks and transformer policies,35,38,42,38,80
+26,L1-11,rl_ideas_50.md,11,Redundancy reduction as plasticity reg,10,Barlow-Twins objective as plasticity regularizer; borrowed from visual SSL,30,32,38,38,75
+27,L1-44,rl_ideas_50.md,44,ZSC via shared world models,10,Shared world models for coordination,32,33,38,38,55
+28,N1-35,rl_ideas_novel_50.md,35,Cross-sim proxy for sim2real,10,Sim-to-sim robustness proxy; only CVPR-relevant if vision-based policies,30,28,32,32,30
+29,L1-49,rl_ideas_50.md,49,Spectral health as universal signal,9,Spectral statistics across Dreamer and Atari agents,30,33,38,38,55
+30,N1-14,rl_ideas_novel_50.md,14,Agents learn clocks,8,"Implicit clock probing; representation story, non-visual",45,42,50,40,90
+31,S4-6,rl_ideas_novel_50_set4.md,6,Frame-skip decomposition,8,Frame-skip decomposition on Atari,38,40,42,40,80
+32,N1-26,rl_ideas_novel_50.md,26,Strategy modes across seeds,8,Clustering learned strategies via trajectory embeddings,38,35,40,40,80
+33,S2-46,rl_ideas_novel_50_set2.md,46,Anti-goals,8,Anti-goal conditioning; negative-prompt analogy,32,30,40,42,70
+34,S3-16,rl_ideas_novel_50_set3.md,16,Recurrent policies: belief vs mode,7,Probing recurrent policies for belief vs mode,38,40,45,38,85
+35,S4-15,rl_ideas_novel_50_set4.md,15,Junk tolerance curve,7,Junk-data tolerance; data-quality flavor,35,38,42,38,85
+36,N1-20,rl_ideas_novel_50.md,20,Counterfactual info gain via cloning,7,Counterfactual information gain; noisy-TV benchmark,35,38,40,40,85
+37,S2-47,rl_ideas_novel_50_set2.md,47,How much memory a task needs,7,Memory-horizon estimation across POMDP suites,35,38,42,40,75
+38,S2-48,rl_ideas_novel_50_set2.md,48,Hack discovery time vs capacity,7,Exploit discovery time on Procgen,35,35,42,40,60
+39,S4-39,rl_ideas_novel_50_set4.md,39,Baldwin effect in meta-RL,6,Baldwin effect in in-context RL,42,42,45,40,85
+40,S4-41,rl_ideas_novel_50_set4.md,41,Cognitive-bias battery,6,Cognitive-bias battery; behavior analysis,38,33,40,45,85
+41,N1-41,rl_ideas_novel_50.md,41,Stigmergy,6,Stigmergic communication in gridworlds,35,32,38,42,70
+42,N1-15,rl_ideas_novel_50.md,15,Truncation as right-censoring,5,State-based control or TD learning dynamics; no visual component,40,48,42,40,90
+43,S3-12,rl_ideas_novel_50_set3.md,12,Durbin–Watson for TD,5,State-based control or TD learning dynamics; no visual component,38,45,42,40,90
+44,S2-2,rl_ideas_novel_50_set2.md,2,Numerical precision in TD,5,State-based control or TD learning dynamics; no visual component,38,42,42,38,90
+45,S2-4,rl_ideas_novel_50_set2.md,4,Bits of advantage the actor uses,5,State-based control or TD learning dynamics; no visual component,38,42,42,38,90
+46,S2-10,rl_ideas_novel_50_set2.md,10,Exploration order,5,State-based control or TD learning dynamics; no visual component,32,33,36,42,90
+47,S2-15,rl_ideas_novel_50_set2.md,15,Hidden curriculum in replay datasets,5,State-based control or TD learning dynamics; no visual component,35,38,42,42,90
+48,S3-2,rl_ideas_novel_50_set3.md,2,Adam ε as hidden schedule,5,State-based control or TD learning dynamics; no visual component,35,42,40,36,90
+49,S4-3,rl_ideas_novel_50_set4.md,3,Revealed time preference,5,State-based control or TD learning dynamics; no visual component,40,42,42,42,90
+50,N1-38,rl_ideas_novel_50.md,38,Churn hotspots = bottlenecks,5,State-based control or TD learning dynamics; no visual component,30,32,35,40,90
+51,S2-1,rl_ideas_novel_50_set2.md,1,Init as exploration hyperparameter,5,State-based control or TD learning dynamics; no visual component,35,38,40,40,90
+52,S2-14,rl_ideas_novel_50_set2.md,14,Bellman wavefront,5,State-based control or TD learning dynamics; no visual component,35,40,38,40,90
+53,S2-24,rl_ideas_novel_50_set2.md,24,How open-loop is a policy,5,State-based control or TD learning dynamics; no visual component,32,33,38,40,90
+54,S3-10,rl_ideas_novel_50_set3.md,10,Actor's state distribution,5,State-based control or TD learning dynamics; no visual component,35,40,40,38,90
+55,S4-18,rl_ideas_novel_50_set4.md,18,PPO clip vs action dimension,5,State-based control or TD learning dynamics; no visual component,30,40,38,36,90
+56,N1-8,rl_ideas_novel_50.md,8,Stale momentum in on-policy,5,State-based control or TD learning dynamics; no visual component,30,38,35,35,90
+57,S2-7,rl_ideas_novel_50_set2.md,7,Normalizer drift,5,State-based control or TD learning dynamics; no visual component,30,33,36,38,90
+58,S3-19,rl_ideas_novel_50_set3.md,19,Coarse rewards,5,State-based control or TD learning dynamics; no visual component,28,32,36,38,90
+59,S4-5,rl_ideas_novel_50_set4.md,5,Where the regularizer enters,5,State-based control or TD learning dynamics; no visual component,30,35,36,38,90
+60,N1-5,rl_ideas_novel_50.md,5,Lazy critics: action sensitivity onset,5,State-based control or TD learning dynamics; no visual component,45,45,48,38,85
+61,N1-33,rl_ideas_novel_50.md,33,Cross-fitted Bellman error,5,State-based control or TD learning dynamics; no visual component,42,48,42,40,85
+62,S3-1,rl_ideas_novel_50_set3.md,1,Weight decay is implicit pessimism,5,State-based control or TD learning dynamics; no visual component,40,48,45,38,85
+63,S3-4,rl_ideas_novel_50_set3.md,4,Critical batch size of TD,5,State-based control or TD learning dynamics; no visual component,38,48,42,36,85
+64,S3-7,rl_ideas_novel_50_set3.md,7,Plateaus as grokking,5,State-based control or TD learning dynamics; no visual component,42,42,48,38,85
+65,N1-4,rl_ideas_novel_50.md,4,Activations as pessimism knob,5,State-based control or TD learning dynamics; no visual component,42,45,45,40,85
+66,S2-3,rl_ideas_novel_50_set2.md,3,Entropy collapse hysteresis,5,State-based control or TD learning dynamics; no visual component,40,45,42,38,85
+67,S4-4,rl_ideas_novel_50_set4.md,4,Frequency response of the learner,5,State-based control or TD learning dynamics; no visual component,40,45,40,36,85
+68,S4-21,rl_ideas_novel_50_set4.md,21,Basin of attraction shrinks,5,State-based control or TD learning dynamics; no visual component,38,38,45,40,85
+69,N1-9,rl_ideas_novel_50.md,9,γ–learning-rate scaling law,5,State-based control or TD learning dynamics; no visual component,35,42,38,38,85
+70,N1-27,rl_ideas_novel_50.md,27,MDL of V* predicts sample complexity,5,State-based control or TD learning dynamics; no visual component,35,42,35,38,85
+71,S2-30,rl_ideas_novel_50_set2.md,30,Role adapters,5,State-based control or TD learning dynamics; no visual component,28,30,36,42,85
+72,S3-21,rl_ideas_novel_50_set3.md,21,Rarity vs distance sparsity,5,State-based control or TD learning dynamics; no visual component,35,36,40,42,85
+73,S3-25,rl_ideas_novel_50_set3.md,25,First-success lock-in,5,State-based control or TD learning dynamics; no visual component,38,36,42,40,85
+74,S3-32,rl_ideas_novel_50_set3.md,32,Correlated noise as coordination channel,5,State-based control or TD learning dynamics; no visual component,35,35,38,42,85
+75,S3-45,rl_ideas_novel_50_set3.md,45,Start-state generalization offline,5,State-based control or TD learning dynamics; no visual component,33,35,40,42,85
+76,S4-2,rl_ideas_novel_50_set4.md,2,Anticipatory (extragradient) targets,5,State-based control or TD learning dynamics; no visual component,35,42,40,36,85
+77,S4-7,rl_ideas_novel_50_set4.md,7,Range compression in critics,5,State-based control or TD learning dynamics; no visual component,38,42,42,38,85
+78,N1-22,rl_ideas_novel_50.md,22,γ-disagreement exploration,5,State-based control or TD learning dynamics; no visual component,30,35,38,40,85
+79,N1-28,rl_ideas_novel_50.md,28,Reward dropout,5,State-based control or TD learning dynamics; no visual component,30,32,38,40,85
+80,S2-9,rl_ideas_novel_50_set2.md,9,Tanh saturation,5,State-based control or TD learning dynamics; no visual component,28,32,35,40,85
+81,S2-11,rl_ideas_novel_50_set2.md,11,Exploration waste,5,State-based control or TD learning dynamics; no visual component,32,35,36,40,85
+82,S2-12,rl_ideas_novel_50_set2.md,12,Luby restarts for RL seeds,5,State-based control or TD learning dynamics; no visual component,32,40,35,40,85
+83,S2-18,rl_ideas_novel_50_set2.md,18,Hot-swapping reward mid-training,5,State-based control or TD learning dynamics; no visual component,30,30,35,40,85
+84,S2-45,rl_ideas_novel_50_set2.md,45,Learning-path imitation,5,State-based control or TD learning dynamics; no visual component,28,30,35,40,85
+85,S2-49,rl_ideas_novel_50_set2.md,49,LoRA rank for dynamics adaptation,5,State-based control or TD learning dynamics; no visual component,25,28,35,40,85
+86,S3-8,rl_ideas_novel_50_set3.md,8,Critic error tolerance curves,5,State-based control or TD learning dynamics; no visual component,35,40,40,38,85
+87,S3-11,rl_ideas_novel_50_set3.md,11,Two-speed critics,5,State-based control or TD learning dynamics; no visual component,32,38,40,38,85
+88,S3-14,rl_ideas_novel_50_set3.md,14,How linear is a trained policy,5,State-based control or TD learning dynamics; no visual component,32,35,38,40,85
+89,S3-23,rl_ideas_novel_50_set3.md,23,Random networks as macro-actions,5,State-based control or TD learning dynamics; no visual component,32,33,40,40,85
+90,S3-30,rl_ideas_novel_50_set3.md,30,How often a policy needs to look,5,State-based control or TD learning dynamics; no visual component,30,33,36,40,85
+91,S3-47,rl_ideas_novel_50_set3.md,47,Exploration bonuses create habits,5,State-based control or TD learning dynamics; no visual component,32,33,40,40,85
+92,S4-10,rl_ideas_novel_50_set4.md,10,Advantage-sign agreement uncertainty,5,State-based control or TD learning dynamics; no visual component,32,36,40,38,85
+93,S4-12,rl_ideas_novel_50_set4.md,12,Reward-epistemic exploration,5,State-based control or TD learning dynamics; no visual component,30,32,38,40,85
+94,S4-17,rl_ideas_novel_50_set4.md,17,Offline RL with known π_β,5,State-based control or TD learning dynamics; no visual component,33,38,40,40,85
+95,S4-43,rl_ideas_novel_50_set4.md,43,Teacher cloneability,5,State-based control or TD learning dynamics; no visual component,30,33,38,40,85
+96,S4-44,rl_ideas_novel_50_set4.md,44,"Transfer actor, reset critic",5,State-based control or TD learning dynamics; no visual component,30,33,38,40,85
+97,N1-29,rl_ideas_novel_50.md,29,Reward-term equalization,5,State-based control or TD learning dynamics; no visual component,28,30,35,38,85
+98,S2-19,rl_ideas_novel_50_set2.md,19,Bursty vs steady updates,5,State-based control or TD learning dynamics; no visual component,32,38,38,38,85
+99,S3-49,rl_ideas_novel_50_set3.md,49,Reset subsidy,5,State-based control or TD learning dynamics; no visual component,32,35,38,38,85
+100,L1-23,rl_ideas_50.md,23,Depth vs relabeling horizon,5,State-based control or TD learning dynamics; no visual component,28,32,36,35,85
+101,L1-6,rl_ideas_50.md,6,Deep critics and seed variance,5,State-based control or TD learning dynamics; no visual component,32,35,35,35,85
+102,L1-33,rl_ideas_50.md,33,Actor sees critic quantiles,5,State-based control or TD learning dynamics; no visual component,25,28,33,35,85
+103,N1-1,rl_ideas_novel_50.md,1,Curl of the TD update field,5,State-based control or TD learning dynamics; no visual component,48,55,45,35,80
+104,S4-1,rl_ideas_novel_50_set4.md,1,Edge of stability in TD,5,State-based control or TD learning dynamics; no visual component,48,55,48,35,80
+105,S3-3,rl_ideas_novel_50_set3.md,3,Empirical contraction modulus,5,State-based control or TD learning dynamics; no visual component,42,52,42,35,80
+106,L1-20,rl_ideas_50.md,20,Does depth buy horizon generalization,5,State-based control or TD learning dynamics; no visual component,45,45,50,38,80
+107,L1-4,rl_ideas_50.md,4,Why scaling the actor hurts,5,State-based control or TD learning dynamics; no visual component,42,45,48,40,80
+108,S2-50,rl_ideas_novel_50_set2.md,50,PEGASUS at scale,5,State-based control or TD learning dynamics; no visual component,40,48,42,38,80
+109,L1-26,rl_ideas_50.md,26,Rank flips at fine-tune onset,5,State-based control or TD learning dynamics; no visual component,40,40,45,40,80
+110,L1-29,rl_ideas_50.md,29,Pathwise vs score-function switching rule,5,State-based control or TD learning dynamics; no visual component,38,45,42,36,80
+111,N1-3,rl_ideas_novel_50.md,3,Ordering-only critic,5,State-based control or TD learning dynamics; no visual component,40,42,45,38,80
+112,S3-24,rl_ideas_novel_50_set3.md,24,Buffer transplant decomposition,5,State-based control or TD learning dynamics; no visual component,40,40,45,40,80
+113,S4-40,rl_ideas_novel_50_set4.md,40,Emergent quasimetric structure,5,State-based control or TD learning dynamics; no visual component,38,40,45,36,80
+114,L1-8,rl_ideas_50.md,8,Taxonomy of nonstationarity × fix,5,State-based control or TD learning dynamics; no visual component,35,38,42,42,80
+115,S2-8,rl_ideas_novel_50_set2.md,8,Policy-evaluation lag,5,State-based control or TD learning dynamics; no visual component,35,42,40,38,80
+116,S2-16,rl_ideas_novel_50_set2.md,16,Dataset mode count picks the method,5,State-based control or TD learning dynamics; no visual component,32,35,40,42,80
+117,S3-9,rl_ideas_novel_50_set3.md,9,Effective horizon of a critic,5,State-based control or TD learning dynamics; no visual component,38,42,42,38,80
+118,S4-13,rl_ideas_novel_50_set4.md,13,Recovery paradox,5,State-based control or TD learning dynamics; no visual component,35,33,40,42,80
+119,S4-16,rl_ideas_novel_50_set4.md,16,State vs action coverage offline,5,State-based control or TD learning dynamics; no visual component,35,38,42,42,80
+120,S4-26,rl_ideas_novel_50_set4.md,26,Asymmetric capacity teams,5,State-based control or TD learning dynamics; no visual component,30,30,35,42,80
+121,S4-45,rl_ideas_novel_50_set4.md,45,Structured label noise in BT,5,State-based control or TD learning dynamics; no visual component,38,42,42,40,80
+122,S4-50,rl_ideas_novel_50_set4.md,50,Entropy conversion efficiency,5,State-based control or TD learning dynamics; no visual component,38,42,42,38,80
+123,L1-9,rl_ideas_50.md,9,Predicting plasticity collapse,5,State-based control or TD learning dynamics; no visual component,35,38,40,40,80
+124,L1-28,rl_ideas_50.md,28,O2O with changed dynamics,5,State-based control or TD learning dynamics; no visual component,32,33,38,40,80
+125,L1-48,rl_ideas_50.md,48,Sample efficiency when steps are free,5,State-based control or TD learning dynamics; no visual component,35,40,38,35,80
+126,N1-12,rl_ideas_novel_50.md,12,Half-life of a transition,5,State-based control or TD learning dynamics; no visual component,35,38,40,38,80
+127,N1-16,rl_ideas_novel_50.md,16,Control-frequency transfer,5,State-based control or TD learning dynamics; no visual component,32,38,38,40,80
+128,S2-20,rl_ideas_novel_50_set2.md,20,Origin of ensemble diversity,5,State-based control or TD learning dynamics; no visual component,35,40,40,38,80
+129,S4-8,rl_ideas_novel_50_set4.md,8,Fresh-critic gap as reset trigger,5,State-based control or TD learning dynamics; no visual component,32,36,40,38,80
+130,S4-11,rl_ideas_novel_50_set4.md,11,Budget-aware exploration,5,State-based control or TD learning dynamics; no visual component,32,36,40,40,80
+131,S4-14,rl_ideas_novel_50_set4.md,14,Decide only when it matters,5,State-based control or TD learning dynamics; no visual component,30,33,38,40,80
+132,S4-19,rl_ideas_novel_50_set4.md,19,Action parameterization and noise color,5,State-based control or TD learning dynamics; no visual component,33,36,40,40,80
+133,S4-23,rl_ideas_novel_50_set4.md,23,Latency identification time,5,State-based control or TD learning dynamics; no visual component,30,33,36,40,80
+134,N1-17,rl_ideas_novel_50.md,17,How many parallel envs,5,State-based control or TD learning dynamics; no visual component,30,35,38,35,80
+135,S2-13,rl_ideas_novel_50_set2.md,13,State-dependent entropy target,5,State-based control or TD learning dynamics; no visual component,30,35,38,38,80
+136,S2-23,rl_ideas_novel_50_set2.md,23,Weight quantization closed-loop,5,State-based control or TD learning dynamics; no visual component,25,28,32,38,80
+137,S3-15,rl_ideas_novel_50_set3.md,15,Actor–critic feature misalignment,5,State-based control or TD learning dynamics; no visual component,30,35,38,38,80
+138,S3-17,rl_ideas_novel_50_set3.md,17,Emergent temporal abstraction,5,State-based control or TD learning dynamics; no visual component,30,33,38,38,80
+139,L1-24,rl_ideas_50.md,24,Jacobian distillation for RL,5,State-based control or TD learning dynamics; no visual component,25,28,33,35,80
+140,L1-27,rl_ideas_50.md,27,How many warmup rollouts,5,State-based control or TD learning dynamics; no visual component,25,28,32,35,80
+141,N1-13,rl_ideas_novel_50.md,13,Replay deduplication in GPU envs,5,State-based control or TD learning dynamics; no visual component,25,28,32,35,80
+142,N1-2,rl_ideas_novel_50.md,2,Leverage scores in the deadly triad,5,State-based control or TD learning dynamics; no visual component,45,50,45,35,75
+143,N1-42,rl_ideas_novel_50.md,42,Hamiltonian component in self-play,5,State-based control or TD learning dynamics; no visual component,40,50,40,38,75
+144,N1-18,rl_ideas_novel_50.md,18,Vine at scale,5,State-based control or TD learning dynamics; no visual component,42,48,45,38,75
+145,N1-19,rl_ideas_novel_50.md,19,Ground-truth ∇ₐQ vs learned,5,State-based control or TD learning dynamics; no visual component,45,48,48,38,75
+146,S2-27,rl_ideas_novel_50_set2.md,27,Exact double sampling via cloning,5,State-based control or TD learning dynamics; no visual component,38,48,40,36,75
+147,N1-11,rl_ideas_novel_50.md,11,Within-task forgetting of stepping stones,5,State-based control or TD learning dynamics; no visual component,42,40,45,40,75
+148,S3-5,rl_ideas_novel_50_set3.md,5,Fraction of actor updates that improve,5,State-based control or TD learning dynamics; no visual component,40,45,42,36,75
+149,S3-6,rl_ideas_novel_50_set3.md,6,Trust region on state distribution,5,State-based control or TD learning dynamics; no visual component,38,45,42,38,75
+150,S3-18,rl_ideas_novel_50_set3.md,18,Replay-time DR via re-simulation,5,State-based control or TD learning dynamics; no visual component,38,40,45,40,75
+151,S3-28,rl_ideas_novel_50_set3.md,28,Shield reliance,5,State-based control or TD learning dynamics; no visual component,35,33,40,45,75
+152,L1-10,rl_ideas_50.md,10,Plasticity under self-play,5,State-based control or TD learning dynamics; no visual component,40,40,42,40,75
+153,N1-31,rl_ideas_novel_50.md,31,How often is Q multimodal,5,State-based control or TD learning dynamics; no visual component,35,38,42,36,75
+154,S2-29,rl_ideas_novel_50_set2.md,29,Specialization vs team size,5,State-based control or TD learning dynamics; no visual component,30,32,35,42,75
+155,S3-20,rl_ideas_novel_50_set3.md,20,Reward-term decorrelation alarm,5,State-based control or TD learning dynamics; no visual component,30,30,38,42,75
+156,S3-33,rl_ideas_novel_50_set3.md,33,Inaction baselines,5,State-based control or TD learning dynamics; no visual component,30,32,35,42,75
+157,L1-21,rl_ideas_50.md,21,MI-driven relabeling horizon,5,State-based control or TD learning dynamics; no visual component,32,35,40,38,75
+158,L1-31,rl_ideas_50.md,31,Test-time flow steps in RL,5,State-based control or TD learning dynamics; no visual component,30,33,40,35,75
+159,S3-22,rl_ideas_novel_50_set3.md,22,Null-space exploration,5,State-based control or TD learning dynamics; no visual component,32,36,40,38,75
+160,S3-26,rl_ideas_novel_50_set3.md,26,Algorithm fingerprinting,5,State-based control or TD learning dynamics; no visual component,35,35,40,40,75
+161,S4-28,rl_ideas_novel_50_set4.md,28,Predictability bonus,5,State-based control or TD learning dynamics; no visual component,30,30,38,40,75
+162,L1-25,rl_ideas_50.md,25,Why intra-trajectory negatives help,5,State-based control or TD learning dynamics; no visual component,30,35,38,33,75
+163,N1-24,rl_ideas_novel_50.md,24,Denoising steps as temperature,5,State-based control or TD learning dynamics; no visual component,28,32,38,36,75
+164,S3-48,rl_ideas_novel_50_set3.md,48,Shaping ruggedness,5,State-based control or TD learning dynamics; no visual component,30,33,36,38,75
+165,S2-6,rl_ideas_novel_50_set2.md,6,μP under bootstrapping,5,State-based control or TD learning dynamics; no visual component,40,50,45,35,70
+166,N1-7,rl_ideas_novel_50.md,7,Residual gradients under modern archs,5,State-based control or TD learning dynamics; no visual component,38,45,42,38,70
+167,S3-29,rl_ideas_novel_50_set3.md,29,Safety is forgotten first,5,State-based control or TD learning dynamics; no visual component,33,33,40,45,70
+168,L1-2,rl_ideas_50.md,2,Predictor for critic size,5,State-based control or TD learning dynamics; no visual component,35,40,42,40,70
+169,N1-10,rl_ideas_novel_50.md,10,Policy-invariant critic subspace,5,State-based control or TD learning dynamics; no visual component,35,40,42,35,70
+170,N1-23,rl_ideas_novel_50.md,23,Flow noise as intention,5,State-based control or TD learning dynamics; no visual component,32,35,42,38,70
+171,N1-43,rl_ideas_novel_50.md,43,Exact counterfactual credit in MARL,5,State-based control or TD learning dynamics; no visual component,40,42,42,42,70
+172,S2-44,rl_ideas_novel_50_set2.md,44,IRL recovers reward or shaping,5,State-based control or TD learning dynamics; no visual component,38,42,40,40,70
+173,S3-50,rl_ideas_novel_50_set3.md,50,Hyperparameter drift by forking,5,State-based control or TD learning dynamics; no visual component,35,40,42,38,70
+174,S4-20,rl_ideas_novel_50_set4.md,20,Developmental DoF curriculum,5,State-based control or TD learning dynamics; no visual component,33,33,40,42,70
+175,S4-42,rl_ideas_novel_50_set4.md,42,Out-of-span penalty for skills,5,State-based control or TD learning dynamics; no visual component,33,35,42,38,70
+176,L1-12,rl_ideas_50.md,12,Auto UTD from spectral signal,5,State-based control or TD learning dynamics; no visual component,33,36,40,38,70
+177,N1-6,rl_ideas_novel_50.md,6,Gradient starvation across action dims,5,State-based control or TD learning dynamics; no visual component,35,38,40,38,70
+178,N1-25,rl_ideas_novel_50.md,25,OPE for exploration coverage,5,State-based control or TD learning dynamics; no visual component,32,40,36,35,70
+179,S2-28,rl_ideas_novel_50_set2.md,28,Bandwidth law for coordination,5,State-based control or TD learning dynamics; no visual component,35,40,38,40,70
+180,S4-27,rl_ideas_novel_50_set4.md,27,Partner identification time,5,State-based control or TD learning dynamics; no visual component,32,33,40,40,70
+181,L1-45,rl_ideas_50.md,45,Population size vs plasticity,5,State-based control or TD learning dynamics; no visual component,30,32,35,38,70
+182,S4-49,rl_ideas_novel_50_set4.md,49,Determinism in defaults,5,State-based control or TD learning dynamics; no visual component,32,36,38,38,70
+183,S3-27,rl_ideas_novel_50_set3.md,27,Sobolev critics from diff sims,5,State-based control or TD learning dynamics; no visual component,38,42,45,36,65
+184,S4-22,rl_ideas_novel_50_set4.md,22,Is hierarchy just long credit,5,State-based control or TD learning dynamics; no visual component,40,40,45,40,65
+185,L1-32,rl_ideas_50.md,32,Pathwise via WM vs via Q,5,State-based control or TD learning dynamics; no visual component,38,42,42,35,65
+186,S4-9,rl_ideas_novel_50_set4.md,9,Dimensionless hyperparameters,5,State-based control or TD learning dynamics; no visual component,35,42,40,38,65
+187,S2-5,rl_ideas_novel_50_set2.md,5,n-step by transition age,5,State-based control or TD learning dynamics; no visual component,30,35,38,40,65
+188,S2-21,rl_ideas_novel_50_set2.md,21,Value discontinuities at contact,5,State-based control or TD learning dynamics; no visual component,35,38,40,38,65
+189,S2-22,rl_ideas_novel_50_set2.md,22,Control margins for RL policies,5,State-based control or TD learning dynamics; no visual component,35,38,38,40,65
+190,L1-22,rl_ideas_50.md,22,Horizon-generalization benchmark,5,State-based control or TD learning dynamics; no visual component,30,30,38,35,65
+191,N1-30,rl_ideas_novel_50.md,30,Hacking detection from return distribution,5,State-based control or TD learning dynamics; no visual component,35,33,40,42,60
+192,L1-3,rl_ideas_50.md,3,Compute-optimal actor-critic,5,State-based control or TD learning dynamics; no visual component,40,45,45,38,55
+193,N1-36,rl_ideas_novel_50.md,36,Do fast learners converge worse,5,State-based control or TD learning dynamics; no visual component,35,38,40,36,55
+194,L1-30,rl_ideas_50.md,30,Discrete Value Gradient Flow,5,State-based control or TD learning dynamics; no visual component,30,35,40,35,50
+195,L1-18,rl_ideas_50.md,18,Test-time search compute-matched,5,State-based control or TD learning dynamics; no visual component,35,35,38,33,30
+196,S4-46,rl_ideas_novel_50_set4.md,46,Anytime-valid comparisons,4,RL evaluation methodology; no visual component,38,42,35,38,90
+197,N1-32,rl_ideas_novel_50.md,32,Seed-variance ANOVA,4,RL evaluation methodology; no visual component,38,38,36,38,90
+198,S2-40,rl_ideas_novel_50_set2.md,40,Deterministic-eval gap,4,RL evaluation methodology; no visual component,28,30,35,38,90
+199,S3-43,rl_ideas_novel_50_set3.md,43,Stratified evaluation,4,RL evaluation methodology; no visual component,28,33,33,38,90
+200,S3-44,rl_ideas_novel_50_set3.md,44,Seeds vs evaluation episodes,4,RL evaluation methodology; no visual component,32,35,33,38,90
+201,S4-48,rl_ideas_novel_50_set4.md,48,Checkpoint selection inflation,4,RL evaluation methodology; no visual component,30,32,32,36,90
+202,S2-43,rl_ideas_novel_50_set2.md,43,Do seeds learn the same representation,4,RL evaluation methodology; no visual component,32,35,40,36,85
+203,S4-47,rl_ideas_novel_50_set4.md,47,Mutation testing for RL,4,RL evaluation methodology; no visual component,32,32,35,40,85
+204,S3-42,rl_ideas_novel_50_set3.md,42,Wrapper sensitivity audit,4,RL evaluation methodology; no visual component,35,35,38,38,85
+205,S2-42,rl_ideas_novel_50_set2.md,42,Sign accuracy of PG estimators,4,RL evaluation methodology; no visual component,35,45,40,36,80
+206,N1-34,rl_ideas_novel_50.md,34,Early kill from first 5%,4,RL evaluation methodology; no visual component,28,32,33,38,75
+207,S2-41,rl_ideas_novel_50_set2.md,41,Minimal continuous-control task subset,4,RL evaluation methodology; no visual component,30,32,32,35,50
+208,L1-46,rl_ideas_50.md,46,How many seeds Atari-100k needs,4,RL evaluation methodology; no visual component,35,35,35,32,25
+209,L1-47,rl_ideas_50.md,47,Wall-clock-matched leaderboard,4,RL evaluation methodology; no visual component,33,33,33,30,25
+210,N1-48,rl_ideas_novel_50.md,48,Answer-first RL,3,"LLM reasoning RL; no visual component, out of scope for CVPR",42,40,50,38,80
+211,S4-29,rl_ideas_novel_50_set4.md,29,Prefix-only GRPO,3,"LLM reasoning RL; no visual component, out of scope for CVPR",40,40,50,38,80
+212,N1-47,rl_ideas_novel_50.md,47,RLVR → in-context exploration,3,"LLM reasoning RL; no visual component, out of scope for CVPR",35,35,45,38,80
+213,S4-35,rl_ideas_novel_50_set4.md,35,Stubborn or sycophantic,3,"LLM reasoning RL; no visual component, out of scope for CVPR",32,30,45,40,80
+214,S4-36,rl_ideas_novel_50_set4.md,36,Answer-mode collapse,3,"LLM reasoning RL; no visual component, out of scope for CVPR",35,35,45,40,80
+215,S3-37,rl_ideas_novel_50_set3.md,37,Decision depth before/after RL,3,"LLM reasoning RL; no visual component, out of scope for CVPR",32,33,42,36,80
+216,S4-37,rl_ideas_novel_50_set4.md,37,Scoring rules for numeric answers,3,"LLM reasoning RL; no visual component, out of scope for CVPR",32,38,40,38,80
+217,N1-44,rl_ideas_novel_50.md,44,RL teaches when to stop,3,"LLM reasoning RL; no visual component, out of scope for CVPR",42,40,50,38,75
+218,S4-31,rl_ideas_novel_50_set4.md,31,How reversible is RLVR,3,"LLM reasoning RL; no visual component, out of scope for CVPR",40,38,50,38,75
+219,S3-36,rl_ideas_novel_50_set3.md,36,Rewarding lucky guesses,3,"LLM reasoning RL; no visual component, out of scope for CVPR",38,36,48,40,75
+220,S4-30,rl_ideas_novel_50_set4.md,30,Tool-induced skill atrophy,3,"LLM reasoning RL; no visual component, out of scope for CVPR",38,36,48,42,75
+221,S2-33,rl_ideas_novel_50_set2.md,33,Planted-error recovery metric,3,"LLM reasoning RL; no visual component, out of scope for CVPR",35,35,45,40,75
+222,S4-34,rl_ideas_novel_50_set4.md,34,Solver–verifier asymmetry,3,"LLM reasoning RL; no visual component, out of scope for CVPR",35,35,45,38,75
+223,N1-45,rl_ideas_novel_50.md,45,Verifier vs policy sample allocation,3,"LLM reasoning RL; no visual component, out of scope for CVPR",35,40,42,38,75
+224,S4-38,rl_ideas_novel_50_set4.md,38,Temperature as an action,3,"LLM reasoning RL; no visual component, out of scope for CVPR",32,33,42,38,75
+225,S3-40,rl_ideas_novel_50_set3.md,40,Groups without replacement,3,"LLM reasoning RL; no visual component, out of scope for CVPR",28,32,40,36,75
+226,S2-34,rl_ideas_novel_50_set2.md,34,Mixed-temperature groups,3,"LLM reasoning RL; no visual component, out of scope for CVPR",25,30,38,38,75
+227,S2-37,rl_ideas_novel_50_set2.md,37,Paraphrase groups,3,"LLM reasoning RL; no visual component, out of scope for CVPR",25,28,38,38,75
+228,S3-41,rl_ideas_novel_50_set3.md,41,Does RLVR compose,3,"LLM reasoning RL; no visual component, out of scope for CVPR",40,40,50,40,70
+229,N1-50,rl_ideas_novel_50.md,50,Prompt-level learned baseline,3,"LLM reasoning RL; no visual component, out of scope for CVPR",35,38,45,38,70
+230,L1-39,rl_ideas_50.md,39,Step-level advantage with oracle states,3,"LLM reasoning RL; no visual component, out of scope for CVPR",33,36,42,38,70
+231,S2-32,rl_ideas_novel_50_set2.md,32,Learning to ask for a hint,3,"LLM reasoning RL; no visual component, out of scope for CVPR",32,33,42,40,70
+232,N1-46,rl_ideas_novel_50.md,46,Spaced repetition for RLVR,3,"LLM reasoning RL; no visual component, out of scope for CVPR",30,32,40,40,70
+233,N1-49,rl_ideas_novel_50.md,49,Interleaved vs blocked domains,3,"LLM reasoning RL; no visual component, out of scope for CVPR",30,33,40,38,70
+234,S3-39,rl_ideas_novel_50_set3.md,39,Restating as an action,3,"LLM reasoning RL; no visual component, out of scope for CVPR",30,30,40,38,70
+235,S3-34,rl_ideas_novel_50_set3.md,34,RL gain vs pretraining exposure (from scratch),3,"LLM reasoning RL; no visual component, out of scope for CVPR",48,48,55,40,65
+236,S3-35,rl_ideas_novel_50_set3.md,35,RLVR size floor,3,"LLM reasoning RL; no visual component, out of scope for CVPR",38,38,48,38,65
+237,S4-32,rl_ideas_novel_50_set4.md,32,Counterfactual token importance,3,"LLM reasoning RL; no visual component, out of scope for CVPR",35,35,45,38,65
+238,L1-38,rl_ideas_50.md,38,Symbolic↔verbal RLVR transfer,3,"LLM reasoning RL; no visual component, out of scope for CVPR",30,32,40,40,65
+239,S2-36,rl_ideas_novel_50_set2.md,36,Inverse-task auxiliary,3,"LLM reasoning RL; no visual component, out of scope for CVPR",30,32,40,38,65
+240,L1-36,rl_ideas_50.md,36,Adaptive GRPO group size,3,"LLM reasoning RL; no visual component, out of scope for CVPR",28,32,38,38,65
+241,L1-41,rl_ideas_50.md,41,Auto difficulty controller,3,"LLM reasoning RL; no visual component, out of scope for CVPR",25,28,35,38,65
+242,L1-40,rl_ideas_50.md,40,RL new behaviors in interactive envs,3,"LLM reasoning RL; no visual component, out of scope for CVPR",42,40,48,38,60
+243,S2-31,rl_ideas_novel_50_set2.md,31,Legibility tax,3,"LLM reasoning RL; no visual component, out of scope for CVPR",38,36,45,38,60
+244,S3-38,rl_ideas_novel_50_set3.md,38,Exposure bias in multi-turn RL,3,"LLM reasoning RL; no visual component, out of scope for CVPR",35,35,45,40,60
+245,S4-33,rl_ideas_novel_50_set4.md,33,Information content of code feedback,3,"LLM reasoning RL; no visual component, out of scope for CVPR",32,32,45,38,60
+246,N1-21,rl_ideas_novel_50.md,21,Vine advantages for LLM text agents,3,"LLM reasoning RL; no visual component, out of scope for CVPR",38,38,45,38,55
+247,S2-35,rl_ideas_novel_50_set2.md,35,Notes across episodes,3,"LLM reasoning RL; no visual component, out of scope for CVPR",32,30,42,40,55
+248,L1-34,rl_ideas_50.md,34,Dense-to-sparse RLVR curriculum,3,"LLM reasoning RL; no visual component, out of scope for CVPR",28,30,38,40,55
+249,L1-35,rl_ideas_50.md,35,Difficulty-mixing law,3,"LLM reasoning RL; no visual component, out of scope for CVPR",32,38,40,38,55
+250,L1-37,rl_ideas_50.md,37,Hackable pretext games,3,"LLM reasoning RL; no visual component, out of scope for CVPR",30,30,38,35,45

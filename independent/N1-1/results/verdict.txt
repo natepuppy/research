@@ -1,0 +1,1 @@
+KILL TEST: SUPPORTED. at step 0, curl/divergence correlation 1.000 vs TD-error undefined (no variance at step 0) vs |Q| undefined (no variance at step 0); mean curl fraction diverged-minus-stable = 0.324. symplectic step-0 curl 0.000, diverged 1.00, final norm 70.7; adaptive_tau step-0 curl 0.324, diverged 0.00, final norm 12.7.

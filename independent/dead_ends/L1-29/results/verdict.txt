@@ -1,0 +1,1 @@
+KILL TEST: SUPPORTED. leave-one-task-out accuracy 0.83. logistic weights [intercept, action_dim/8, smooth, contact] = [2.473, -3.76, 0.094, 1.125].

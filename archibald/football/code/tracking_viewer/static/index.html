@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Play viewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <h1>Play viewer</h1>
+        <p id="subtitle">2026 tracking, ball in the air</p>
+      </div>
+      <div class="modes">
+        <button class="ghost mode active" id="mode-plays" type="button">Plays</button>
+        <button class="ghost mode" id="mode-combine" type="button">Combine</button>
+      </div>
+      <label class="field-control">
+        <span id="week-label">Week</span>
+        <select id="week"></select>
+      </label>
+      <label class="field-control">
+        <span id="game-label">Game</span>
+        <select id="game"></select>
+      </label>
+      <label class="field-control grow">
+        <span id="play-label">Play</span>
+        <select id="play"></select>
+      </label>
+      <button class="ghost" id="surprise" type="button">Surprise me</button>
+      <button class="ghost" id="align" type="button">Offense to the right</button>
+    </header>
+
+    <div class="main">
+      <section class="stage">
+        <div class="field-wrap" id="field-wrap">
+          <svg id="field" viewBox="-1 -3 122 59.3" role="img" aria-label="Football field"></svg>
+          <div class="tag" id="tag" hidden></div>
+          <div class="loading" id="loading">Loading tracking…</div>
+        </div>
+        <div class="transport">
+          <button class="step" id="back" type="button" aria-label="Previous frame">◀</button>
+          <button class="play" id="toggle" type="button" aria-label="Play">▶</button>
+          <button class="step" id="forward" type="button" aria-label="Next frame">▶</button>
+          <input class="scrub" id="scrub" type="range" min="0" max="1" value="0" step="1">
+          <div class="phase" id="phase"><strong>Before the throw</strong> 0.0s</div>
+          <button class="speed-btn" type="button" data-speed="0.5">0.5×</button>
+          <button class="speed-btn active" type="button" data-speed="1">1×</button>
+          <button class="speed-btn" type="button" data-speed="2">2×</button>
+          <button class="speed-btn" type="button" data-speed="4">4×</button>
+          <button class="speed-btn" type="button" data-speed="8">8×</button>
+        </div>
+        <div class="legend">
+          <span><i class="swatch" id="off-swatch"></i><span id="off-name">Offense</span></span>
+          <span><i class="swatch" id="def-swatch"></i><span id="def-name">Defense</span></span>
+          <span id="legend-note">Gold ring is the target. Faded players stop being tracked after the throw.</span>
+        </div>
+      </section>
+
+      <aside class="rail">
+        <div class="score" id="score"></div>
+        <p class="description" id="description">Choose a play.</p>
+        <div class="chips" id="chips"></div>
+        <dl class="facts" id="facts"></dl>
+        <div class="player-card" id="card">
+          <p class="empty">Click a player</p>
+        </div>
+        <p class="note" id="footnote">Space plays and pauses. Arrow keys step one frame. This file is passing plays only, and it leaves out offensive linemen.</p>
+      </aside>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

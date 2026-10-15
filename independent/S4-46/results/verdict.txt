@@ -1,0 +1,1 @@
+KILL TEST: SUPPORTED. under the beta null, anytime false-positive rate 0.000 (optional stopping 0.390, nominal alpha 0.05). Under the beta gap, anytime power 1.00 at mean 27.5 seeds versus fixed 80 (saving 66%).

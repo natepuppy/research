@@ -1,0 +1,5 @@
+fixed_fpr_or_power,optional_fpr_or_power,anytime_fpr_or_power,optional_mean_n,anytime_mean_n,fixed_n,anytime_saving,setting
+0.08333333333333333,0.39,0.0,55.98,80.0,80,0.0,beta_null
+1.0,1.0,1.0,4.27,27.54,80,0.65575,beta_gap
+0.006666666666666667,0.14,0.0,26.776666666666667,30.0,30,0.0,grid_null
+1.0,1.0,1.0,2.1366666666666667,8.07,30,0.731,grid_gap

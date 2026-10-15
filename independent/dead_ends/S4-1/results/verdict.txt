@@ -1,0 +1,1 @@
+KILL TEST: SUPPORTED. late full-update sharpness/edge mean 0.344 (1 would be the supervised 2/eta edge), mean late CV 0.093, spread across the sweep 0.496.

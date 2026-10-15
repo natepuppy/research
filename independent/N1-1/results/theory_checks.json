@@ -1,0 +1,9 @@
+{
+ "systems": 900,
+ "unstable_symmetric_part": 440,
+ "unstable_field": 254,
+ "bendixson_violations": 0,
+ "max(ReK - lamS)": 4.233314562549534e-16,
+ "explicit_bound_violations": 0,
+ "implicit_bound_violations": 0
+}

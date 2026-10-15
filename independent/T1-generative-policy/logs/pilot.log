@@ -1,0 +1,116 @@
+reach     gdiag       seed 0: det   31.70 sampled   30.99 bimodal 0.00 corr 0.10 rank 1.95 (18s)
+reach     gdiag       seed 1: det   32.69 sampled   31.88 bimodal 0.00 corr 0.11 rank 1.96 (16s)
+reach     gdiag       seed 2: det   29.44 sampled   28.30 bimodal 0.01 corr 0.11 rank 1.97 (20s)
+reach     glowrank    seed 0: det   30.10 sampled   28.03 bimodal 0.00 corr 0.55 rank 1.30 (33s)
+reach     glowrank    seed 1: det   30.76 sampled   29.55 bimodal 0.00 corr 0.53 rank 1.60 (32s)
+reach     glowrank    seed 2: det   32.05 sampled   30.91 bimodal 0.01 corr 0.24 rank 1.88 (39s)
+reach     gou         seed 0: det   32.58 sampled   31.64 bimodal 0.01 corr 0.11 rank 1.90 (27s)
+reach     gou         seed 1: det   32.32 sampled   31.64 bimodal 0.01 corr 0.11 rank 1.84 (35s)
+reach     gou         seed 2: det   32.44 sampled   31.89 bimodal 0.01 corr 0.09 rank 1.87 (29s)
+reach     gmip        seed 0: det   32.97 sampled   30.91 bimodal 0.00 corr 0.11 rank 2.00 (56s)
+reach     gmip        seed 1: det   31.83 sampled   31.18 bimodal 0.00 corr 0.10 rank 2.00 (78s)
+reach     gmip        seed 2: det   33.25 sampled   32.90 bimodal 0.00 corr 0.11 rank 1.98 (55s)
+reach     ggmm        seed 0: det   33.06 sampled   32.59 bimodal 0.00 corr 0.09 rank 1.99 (37s)
+reach     ggmm        seed 1: det   31.17 sampled   29.15 bimodal 0.00 corr 0.14 rank 2.00 (38s)
+reach     ggmm        seed 2: det   24.41 sampled   23.72 bimodal 0.15 corr 0.24 rank 1.81 (37s)
+reach     flow1       seed 0: det   32.37 sampled   30.54 bimodal 0.01 corr 0.15 rank 1.98 (68s)
+reach     flow1       seed 1: det   33.04 sampled   31.58 bimodal 0.00 corr 0.14 rank 1.96 (78s)
+reach     flow1       seed 2: det   30.62 sampled   29.14 bimodal 0.00 corr 0.58 rank 1.51 (73s)
+reach     flow8       seed 0: det   30.83 sampled   27.27 bimodal 0.00 corr 0.23 rank 1.93 (85s)
+reach     flow8       seed 1: det   30.78 sampled   29.39 bimodal 0.00 corr 0.17 rank 1.95 (95s)
+reach     flow8       seed 2: det   33.06 sampled   31.99 bimodal 0.00 corr 0.20 rank 1.96 (101s)
+reach     flowfrozen  seed 0: det  -18.60 sampled  -18.60 bimodal 0.00 corr 0.09 rank 2.00 (106s)
+reach     flowfrozen  seed 1: det   25.46 sampled   20.42 bimodal 0.01 corr 0.10 rank 2.00 (127s)
+reach     flowfrozen  seed 2: det   32.61 sampled   32.45 bimodal 0.00 corr 0.09 rank 2.00 (134s)
+fork      gdiag       seed 0: det   31.00 sampled   27.64 bimodal 0.00 corr 0.10 rank 2.00 (34s)
+fork      gdiag       seed 1: det   30.80 sampled   26.90 bimodal 0.00 corr 0.11 rank 2.00 (37s)
+fork      gdiag       seed 2: det   -8.67 sampled   -9.02 bimodal 0.00 corr 0.11 rank 2.00 (32s)
+fork      glowrank    seed 0: det   29.86 sampled   29.03 bimodal 0.00 corr 0.37 rank 1.45 (49s)
+fork      glowrank    seed 1: det   28.24 sampled   24.76 bimodal 0.01 corr 0.48 rank 1.77 (45s)
+fork      glowrank    seed 2: det   22.70 sampled   21.39 bimodal 0.01 corr 0.23 rank 1.67 (56s)
+fork      gou         seed 0: det   26.90 sampled   23.80 bimodal 0.01 corr 0.11 rank 1.95 (66s)
+fork      gou         seed 1: det   13.80 sampled    8.97 bimodal 0.02 corr 0.11 rank 1.85 (36s)
+fork      gou         seed 2: det   26.45 sampled   22.24 bimodal 0.02 corr 0.09 rank 1.91 (33s)
+fork      gmip        seed 0: det   30.66 sampled   28.30 bimodal 0.00 corr 0.11 rank 1.95 (55s)
+fork      gmip        seed 1: det   31.69 sampled   29.70 bimodal 0.00 corr 0.10 rank 1.97 (173s)
+fork      gmip        seed 2: det  -10.06 sampled  -10.25 bimodal 0.00 corr 0.11 rank 2.00 (176s)
+fork      ggmm        seed 0: det   30.99 sampled   28.33 bimodal 0.00 corr 0.09 rank 1.99 (270s)
+fork      ggmm        seed 1: det   30.39 sampled   29.41 bimodal 0.05 corr 0.13 rank 1.96 (155s)
+fork      ggmm        seed 2: det   30.55 sampled   28.21 bimodal 0.00 corr 0.17 rank 1.98 (144s)
+fork      flow1       seed 0: det   28.07 sampled   26.74 bimodal 0.01 corr 0.51 rank 1.92 (406s)
+fork      flow1       seed 1: det   20.87 sampled   18.95 bimodal 0.01 corr 0.51 rank 1.92 (370s)
+fork      flow1       seed 2: det   31.47 sampled   25.78 bimodal 0.00 corr 0.36 rank 1.98 (311s)
+fork      flow8       seed 0: det   29.61 sampled   29.00 bimodal 0.00 corr 0.20 rank 1.92 (315s)
+fork      flow8       seed 1: det   29.24 sampled   27.95 bimodal 0.01 corr 0.18 rank 1.90 (204s)
+fork      flow8       seed 2: det   30.74 sampled   28.28 bimodal 0.00 corr 0.32 rank 1.87 (258s)
+fork      flowfrozen  seed 0: det    6.77 sampled    6.31 bimodal 0.00 corr 0.09 rank 2.00 (189s)
+fork      flowfrozen  seed 1: det   12.13 sampled   11.37 bimodal 0.01 corr 0.10 rank 2.00 (180s)
+fork      flowfrozen  seed 2: det   -6.93 sampled   -6.08 bimodal 0.00 corr 0.09 rank 2.00 (145s)
+corridor  gdiag       seed 0: det   49.69 sampled   34.70 bimodal 0.00 corr 0.10 rank 7.91 (89s)
+corridor  gdiag       seed 1: det   47.70 sampled   36.04 bimodal 0.00 corr 0.10 rank 7.94 (91s)
+corridor  gdiag       seed 2: det   50.10 sampled   36.72 bimodal 0.00 corr 0.10 rank 7.97 (134s)
+corridor  glowrank    seed 0: det   48.76 sampled   41.52 bimodal 0.00 corr 0.22 rank 5.64 (361s)
+corridor  glowrank    seed 1: det   46.01 sampled   38.26 bimodal 0.00 corr 0.18 rank 6.93 (299s)
+corridor  glowrank    seed 2: det   48.15 sampled   39.36 bimodal 0.00 corr 0.19 rank 6.68 (300s)
+corridor  gou         seed 0: det   44.53 sampled   32.40 bimodal 0.00 corr 0.10 rank 7.96 (129s)
+corridor  gou         seed 1: det   41.41 sampled   26.56 bimodal 0.00 corr 0.10 rank 7.97 (137s)
+corridor  gou         seed 2: det   44.63 sampled   29.81 bimodal 0.00 corr 0.10 rank 7.97 (130s)
+corridor  gmip        seed 0: det   50.41 sampled   36.54 bimodal 0.00 corr 0.10 rank 7.96 (248s)
+corridor  gmip        seed 1: det   50.32 sampled   34.82 bimodal 0.00 corr 0.10 rank 7.94 (249s)
+corridor  gmip        seed 2: det   48.11 sampled   32.92 bimodal 0.00 corr 0.10 rank 7.94 (310s)
+corridor  ggmm        seed 0: det   50.20 sampled   34.09 bimodal 0.00 corr 0.18 rank 7.13 (225s)
+corridor  ggmm        seed 1: det  -12.36 sampled  -24.83 bimodal 0.02 corr 0.23 rank 6.54 (228s)
+corridor  ggmm        seed 2: det   49.84 sampled   36.94 bimodal 0.00 corr 0.11 rank 7.97 (222s)
+corridor  flow1       seed 0: det  -19.74 sampled  -55.17 bimodal 0.00 corr 0.37 rank 5.12 (377s)
+corridor  flow1       seed 1: det  -24.35 sampled  -54.13 bimodal 0.00 corr 0.44 rank 4.19 (405s)
+corridor  flow1       seed 2: det  -31.05 sampled  -75.41 bimodal 0.00 corr 0.28 rank 5.91 (442s)
+corridor  flow8       seed 0: det   -7.88 sampled  -32.77 bimodal 0.00 corr 0.41 rank 4.07 (480s)
+corridor  flow8       seed 1: det  -11.57 sampled  -33.80 bimodal 0.00 corr 0.49 rank 3.45 (403s)
+corridor  flow8       seed 2: det   -9.80 sampled  -52.42 bimodal 0.00 corr 0.29 rank 5.78 (461s)
+corridor  flowfrozen  seed 0: det  -78.84 sampled  -81.02 bimodal 0.00 corr 0.10 rank 8.00 (446s)
+Traceback (most recent call last):
+  File "/Users/nathanclark/dev/havn/ideas/Implementing_ideas/T1-generative-policy/t1_policy_heads.py", line 592, in <module>
+    main()
+  File "/Users/nathanclark/dev/havn/ideas/Implementing_ideas/T1-generative-policy/t1_policy_heads.py", line 578, in main
+    row = train(task, head, iterations, seed, n_envs, device)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nathanclark/dev/havn/ideas/Implementing_ideas/T1-generative-policy/t1_policy_heads.py", line 508, in train
+    diag = diagnostics(task, head, device)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nathanclark/dev/havn/ideas/Implementing_ideas/.venv/lib/python3.12/site-packages/torch/utils/_contextlib.py", line 124, in decorate_context
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nathanclark/dev/havn/ideas/Implementing_ideas/T1-generative-policy/t1_policy_heads.py", line 462, in diagnostics
+    eig = torch.linalg.eigvalsh(mean_cov).clamp_min(1e-12)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+torch._C._LinAlgError: linalg.eigh: The algorithm failed to converge because the input matrix is ill-conditioned or has too many repeated eigenvalues (error code: 7).
+T1_DONE 1
+corridor  flowfrozen  seed 1: det     nan sampled     nan bimodal 0.00 corr nan rank 8.00 (384s)
+corridor  flowfrozen  seed 2: det  -46.50 sampled  -48.31 bimodal 0.00 corr 0.10 rank 8.00 (401s)
+KILL TEST: INCONCLUSIVE. flow8 did not beat gdiag beyond seed spread on any task; these tasks do not reproduce the gap, so the pilot cannot attribute it.
+reach     gdiag       det   31.28 ±  1.36  closed +0.00  bimodal 0.00
+reach     glowrank    det   30.97 ±  0.81  closed -1.10  bimodal 0.00
+reach     gou         det   32.45 ±  0.11  closed +4.18  bimodal 0.01
+reach     gmip        det   32.68 ±  0.61  closed +5.03  bimodal 0.00
+reach     ggmm        det   29.55 ±  3.71  closed -6.18  bimodal 0.05
+reach     flow1       det   32.01 ±  1.02  closed +2.63  bimodal 0.00
+reach     flow8       det   31.55 ±  1.06  closed +1.00  bimodal 0.00
+reach     flowfrozen  det   13.16 ± 22.65  closed -64.75  bimodal 0.00
+fork      gdiag       det   17.71 ± 18.66  closed +0.00  bimodal 0.00
+fork      glowrank    det   26.93 ±  3.07  closed +0.76  bimodal 0.01
+fork      gou         det   22.38 ±  6.07  closed +0.38  bimodal 0.01
+fork      gmip        det   17.43 ± 19.44  closed -0.02  bimodal 0.00
+fork      ggmm        det   30.64 ±  0.25  closed +1.06  bimodal 0.02
+fork      flow1       det   26.81 ±  4.42  closed +0.75  bimodal 0.01
+fork      flow8       det   29.86 ±  0.64  closed +1.00  bimodal 0.00
+fork      flowfrozen  det    3.99 ±  8.03  closed -1.13  bimodal 0.00
+corridor  gdiag       det   49.17 ±  1.05  closed -0.00  bimodal 0.00
+corridor  glowrank    det   47.64 ±  1.18  closed +0.03  bimodal 0.00
+corridor  gou         det   43.53 ±  1.50  closed +0.10  bimodal 0.00
+corridor  gmip        det   49.62 ±  1.06  closed -0.01  bimodal 0.00
+corridor  ggmm        det   29.23 ± 29.41  closed +0.34  bimodal 0.01
+corridor  flow1       det  -25.04 ±  4.64  closed +1.26  bimodal 0.00
+corridor  flow8       det   -9.75 ±  1.51  closed +1.00  bimodal 0.00
+corridor  flowfrozen  det     nan ±   nan  closed +nan  bimodal 0.00
+wrote /Users/nathanclark/dev/havn/ideas/Implementing_ideas/T1-generative-policy/results
+T1_DONE 0
