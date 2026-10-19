@@ -1,0 +1,81 @@
+t=20000 [21s] remaining 12/256
+t=40000 [45s] remaining 4/256
+t=60000 [68s] remaining 4/256
+seed 0 done: 256/256 converged
+t=20000 [51s] remaining 12/256
+t=40000 [73s] remaining 4/256
+t=60000 [94s] remaining 4/256
+seed 1 done: 512/512 converged
+t=20000 [21s] remaining 12/256
+t=40000 [41s] remaining 4/256
+t=60000 [63s] remaining 4/256
+seed 2 done: 768/768 converged
+/Users/nathanclark/dev/havn/research/independent/R12-bootstrap-speed-limit/code/r12_speed_limit.py:99: RuntimeWarning: invalid value encountered in scalar divide
+  r2 = 1 - ((y - pred) ** 2).sum() / ((y - y.mean()) ** 2).sum()
+KILL TEST: KILLED. [sgd] K1 (R2 of log t_prop on log hops*max(K, c L/B) = 0.883 >= 0.9; c* = 7.68, slope 1.10; baselines hops-only R2 = 0.44, hops*K R2 = 0.72) = False. K2 (slope on K: target-limited 0.91 >= 0.8 over 12 groups; replay-limited 0.03 <= 0.2 over 4 groups) = True. K3 (slope on n in target-limited regime = -1.88 in [-1.3, -0.7]) = False. [adam] K1 (R2 of log t_prop on log hops*max(K, c L/B) = 0.902 >= 0.9; c* = 3.38, slope 0.87; baselines hops-only R2 = 0.34, hops*K R2 = 0.80) = True. K2 (slope on K: target-limited 0.88 >= 0.8 over 20 groups; replay-limited nan <= 0.2 over 0 groups) = False. K3 (slope on n in target-limited regime = -1.47 in [-1.3, -0.7]) = False.
+
+opt   L   n    K    B   hops  L/B    t_prop     pred
+adam   8   1     1  32     8   0.2         20         8
+sgd    8   1     1  32     8   0.2          9        15
+adam   8   1    10  32     8   0.2         79        80
+sgd    8   1    10  32     8   0.2         71        80
+adam   8   1   100  32     8   0.2        704       800
+sgd    8   1   100  32     8   0.2        701       800
+adam   8   1  1000  32     8   0.2       7003      8000
+sgd    8   1  1000  32     8   0.2       7001      8000
+adam   8   8     1  32     1   0.2         11         1
+sgd    8   8     1  32     1   0.2          1         2
+adam   8   8    10  32     1   0.2         11        10
+sgd    8   8    10  32     1   0.2          1        10
+adam   8   8   100  32     1   0.2         11       100
+sgd    8   8   100  32     1   0.2          1       100
+adam   8   8  1000  32     1   0.2         11      1000
+sgd    8   8  1000  32     1   0.2          1      1000
+adam  16   1     1  32    16   0.5         35        27
+sgd   16   1     1  32    16   0.5         26        61
+adam  16   1    10  32    16   0.5        157       160
+sgd   16   1    10  32    16   0.5        151       160
+adam  16   1   100  32    16   0.5       1504      1600
+sgd   16   1   100  32    16   0.5       1501      1600
+adam  16   1  1000  32    16   0.5      15003     16000
+sgd   16   1  1000  32    16   0.5      15001     16000
+adam  16   8     1  32     2   0.5         14         3
+sgd   16   8     1  32     2   0.5          4         8
+adam  16   8    10  32     2   0.5         23        20
+sgd   16   8    10  32     2   0.5         11        20
+adam  16   8   100  32     2   0.5        108       200
+sgd   16   8   100  32     2   0.5        102       200
+adam  16   8  1000  32     2   0.5       1003      2000
+sgd   16   8  1000  32     2   0.5       1001      2000
+adam  32   1     1  32    32   1.0         68       108
+sgd   32   1     1  32    32   1.0        101       246
+adam  32   1    10  32    32   1.0        318       320
+sgd   32   1    10  32    32   1.0        323       320
+adam  32   1   100  32    32   1.0       3105      3200
+sgd   32   1   100  32    32   1.0       3104      3200
+adam  32   1  1000  32    32   1.0      31005     32000
+sgd   32   1  1000  32    32   1.0      31005     32000
+adam  32   8     1  32     4   1.0         25        14
+sgd   32   8     1  32     4   1.0         10        31
+adam  32   8    10  32     4   1.0         46        40
+sgd   32   8    10  32     4   1.0         35        40
+adam  32   8   100  32     4   1.0        307       400
+sgd   32   8   100  32     4   1.0        302       400
+adam  32   8  1000  32     4   1.0       3005      4000
+sgd   32   8  1000  32     4   1.0       3003      4000
+adam  64   1     1  32    64   2.0        186       433
+sgd   64   1     1  32    64   2.0        422       983
+adam  64   1    10  32    64   2.0        642       640
+sgd   64   1    10  32    64   2.0        790       983
+adam  64   1   100  32    64   2.0       6309      6400
+sgd   64   1   100  32    64   2.0       6303      6400
+adam  64   1  1000  32    64   2.0      63005     64000
+sgd   64   1  1000  32    64   2.0      63003     64000
+adam  64   8     1  32     8   2.0         46        54
+sgd   64   8     1  32     8   2.0         49       123
+adam  64   8    10  32     8   2.0         95        80
+sgd   64   8    10  32     8   2.0         86       123
+adam  64   8   100  32     8   2.0        706       800
+sgd   64   8   100  32     8   2.0        705       800
+adam  64   8  1000  32     8   2.0       7005      8000
+sgd   64   8  1000  32     8   2.0       7006      8000

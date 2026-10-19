@@ -1,0 +1,94 @@
+R15 post hoc (not pre-registered). Three sigma grids: pilot (sigma 0/0.5/1.5, seeds 0-3), band (0/0.1/0.2/0.3, seeds 0-3), band2 (0/0.05/0.1, seeds 4-7).
+
+1. Bias decomposition. pess(n) = over_all at sigma=0 (the uncorrected n-step / T^mu term, no noise);
+   maxbias(n, sigma) = over_all(sigma) - pess(n). V* = 0.468. Means over the last 5 checkpoints.
+
+   [band] q      eps=0.1
+      sigma=0.1  pess    : n1:+0.009 n2:-0.002 n3:-0.005 n5:-0.010 n10:-0.016
+                 maxbias : n1:+0.140 n2:+0.021 n3:+0.011 n5:-0.018 n10:-0.058
+                 total   : n1:+0.149 n2:+0.020 n3:+0.006 n5:-0.027 n10:-0.074   best n (AUC) = 3; final/V*: 27% 39% 55% 44% 43%
+      sigma=0.2  pess    : n1:+0.009 n2:-0.002 n3:-0.005 n5:-0.010 n10:-0.016
+                 maxbias : n1:+0.663 n2:+0.229 n3:+0.102 n5:+0.056 n10:-0.068
+                 total   : n1:+0.672 n2:+0.227 n3:+0.097 n5:+0.046 n10:-0.083   best n (AUC) = 5; final/V*: 0% 1% 6% 14% 9%
+      sigma=0.3  pess    : n1:+0.009 n2:-0.002 n3:-0.005 n5:-0.010 n10:-0.016
+                 maxbias : n1:+1.200 n2:+0.561 n3:+0.416 n5:+0.199 n10:+0.047
+                 total   : n1:+1.209 n2:+0.559 n3:+0.411 n5:+0.190 n10:+0.031   best n (AUC) = 10; final/V*: 0% 0% 0% 0% 2%
+   [band] q      eps=0.3
+      sigma=0.1  pess    : n1:+0.010 n2:-0.015 n3:-0.028 n5:-0.042 n10:-0.057
+                 maxbias : n1:+0.185 n2:+0.034 n3:+0.014 n5:-0.031 n10:-0.087
+                 total   : n1:+0.195 n2:+0.019 n3:-0.014 n5:-0.073 n10:-0.144   best n (AUC) = 3; final/V*: 10% 19% 26% 27% 24%
+      sigma=0.2  pess    : n1:+0.010 n2:-0.015 n3:-0.028 n5:-0.042 n10:-0.057
+                 maxbias : n1:+0.740 n2:+0.344 n3:+0.262 n5:+0.068 n10:+0.018
+                 total   : n1:+0.750 n2:+0.329 n3:+0.234 n5:+0.026 n10:-0.039   best n (AUC) = 10; final/V*: 0% 1% 1% 3% 4%
+      sigma=0.3  pess    : n1:+0.010 n2:-0.015 n3:-0.028 n5:-0.042 n10:-0.057
+                 maxbias : n1:+1.496 n2:+0.749 n3:+0.530 n5:+0.363 n10:+0.136
+                 total   : n1:+1.506 n2:+0.734 n3:+0.502 n5:+0.321 n10:+0.079   best n (AUC) = 10; final/V*: 0% 0% 0% 0% 1%
+   [band] double eps=0.1
+      sigma=0.1  pess    : n1:+0.005 n2:-0.005 n3:-0.008 n5:-0.012 n10:-0.025
+                 maxbias : n1:+0.046 n2:-0.012 n3:+0.003 n5:-0.031 n10:-0.045
+                 total   : n1:+0.051 n2:-0.017 n3:-0.004 n5:-0.043 n10:-0.070   best n (AUC) = 3; final/V*: 44% 34% 54% 65% 44%
+      sigma=0.2  pess    : n1:+0.005 n2:-0.005 n3:-0.008 n5:-0.012 n10:-0.025
+                 maxbias : n1:+0.243 n2:+0.074 n3:+0.023 n5:-0.039 n10:-0.080
+                 total   : n1:+0.248 n2:+0.069 n3:+0.016 n5:-0.051 n10:-0.105   best n (AUC) = 5; final/V*: 9% 4% 7% 14% 12%
+      sigma=0.3  pess    : n1:+0.005 n2:-0.005 n3:-0.008 n5:-0.012 n10:-0.025
+                 maxbias : n1:+0.667 n2:+0.192 n3:+0.159 n5:+0.069 n10:-0.008
+                 total   : n1:+0.672 n2:+0.187 n3:+0.152 n5:+0.058 n10:-0.034   best n (AUC) = 10; final/V*: 0% 3% 2% 4% 4%
+   [band] double eps=0.3
+      sigma=0.1  pess    : n1:+0.006 n2:-0.018 n3:-0.029 n5:-0.045 n10:-0.067
+                 maxbias : n1:+0.110 n2:-0.003 n3:-0.001 n5:-0.030 n10:-0.077
+                 total   : n1:+0.117 n2:-0.022 n3:-0.031 n5:-0.075 n10:-0.143   best n (AUC) = 3; final/V*: 15% 30% 32% 23% 17%
+      sigma=0.2  pess    : n1:+0.006 n2:-0.018 n3:-0.029 n5:-0.045 n10:-0.067
+                 maxbias : n1:+0.427 n2:+0.130 n3:+0.079 n5:+0.019 n10:-0.067
+                 total   : n1:+0.433 n2:+0.112 n3:+0.050 n5:-0.026 n10:-0.134   best n (AUC) = 3; final/V*: 0% 2% 5% 6% 6%
+      sigma=0.3  pess    : n1:+0.006 n2:-0.018 n3:-0.029 n5:-0.045 n10:-0.067
+                 maxbias : n1:+0.891 n2:+0.375 n3:+0.269 n5:+0.144 n10:-0.029
+                 total   : n1:+0.898 n2:+0.357 n3:+0.240 n5:+0.099 n10:-0.095   best n (AUC) = 5; final/V*: 0% 2% 2% 2% 1%
+   [band2] q      eps=0.1
+      sigma=0.05 pess    : n1:+0.010 n2:-0.002 n3:-0.007 n5:-0.011 n10:-0.018
+                 maxbias : n1:+0.028 n2:+0.005 n3:+0.002 n5:-0.008 n10:-0.026
+                 total   : n1:+0.037 n2:+0.003 n3:-0.005 n5:-0.020 n10:-0.044   best n (AUC) = 3; final/V*: 73% 72% 79% 68% 59%
+      sigma=0.1  pess    : n1:+0.010 n2:-0.002 n3:-0.007 n5:-0.011 n10:-0.018
+                 maxbias : n1:+0.122 n2:+0.017 n3:+0.016 n5:-0.021 n10:-0.068
+                 total   : n1:+0.132 n2:+0.015 n3:+0.009 n5:-0.032 n10:-0.086   best n (AUC) = 3; final/V*: 35% 38% 45% 42% 36%
+   [band2] q      eps=0.3
+      sigma=0.05 pess    : n1:+0.009 n2:-0.016 n3:-0.027 n5:-0.044 n10:-0.058
+                 maxbias : n1:+0.041 n2:+0.002 n3:-0.002 n5:-0.017 n10:-0.044
+                 total   : n1:+0.051 n2:-0.014 n3:-0.030 n5:-0.061 n10:-0.102   best n (AUC) = 2; final/V*: 57% 65% 71% 51% 57%
+      sigma=0.1  pess    : n1:+0.009 n2:-0.016 n3:-0.027 n5:-0.044 n10:-0.058
+                 maxbias : n1:+0.152 n2:+0.056 n3:+0.014 n5:-0.054 n10:-0.076
+                 total   : n1:+0.162 n2:+0.040 n3:-0.013 n5:-0.098 n10:-0.134   best n (AUC) = 3; final/V*: 16% 24% 28% 19% 22%
+   [band2] double eps=0.1
+      sigma=0.05 pess    : n1:+0.004 n2:-0.005 n3:-0.008 n5:-0.012 n10:-0.016
+                 maxbias : n1:+0.015 n2:+0.004 n3:+0.000 n5:-0.012 n10:-0.010
+                 total   : n1:+0.020 n2:-0.001 n3:-0.008 n5:-0.025 n10:-0.026   best n (AUC) = 3; final/V*: 83% 75% 70% 81% 85%
+      sigma=0.1  pess    : n1:+0.004 n2:-0.005 n3:-0.008 n5:-0.012 n10:-0.016
+                 maxbias : n1:+0.058 n2:-0.004 n3:+0.003 n5:-0.025 n10:-0.083
+                 total   : n1:+0.062 n2:-0.009 n3:-0.006 n5:-0.037 n10:-0.099   best n (AUC) = 5; final/V*: 35% 53% 51% 59% 27%
+   [band2] double eps=0.3
+      sigma=0.05 pess    : n1:+0.005 n2:-0.021 n3:-0.030 n5:-0.048 n10:-0.075
+                 maxbias : n1:+0.027 n2:+0.002 n3:-0.018 n5:-0.019 n10:-0.016
+                 total   : n1:+0.032 n2:-0.019 n3:-0.049 n5:-0.067 n10:-0.091   best n (AUC) = 1; final/V*: 61% 66% 59% 59% 56%
+      sigma=0.1  pess    : n1:+0.005 n2:-0.021 n3:-0.030 n5:-0.048 n10:-0.075
+                 maxbias : n1:+0.116 n2:+0.010 n3:-0.005 n5:-0.033 n10:-0.077
+                 total   : n1:+0.121 n2:-0.011 n3:-0.035 n5:-0.080 n10:-0.153   best n (AUC) = 3; final/V*: 19% 40% 24% 28% 17%
+
+2. Reading. The max-bias term falls by 5-10x from n=1 to n=2 and is near zero by n=3 at sigma<=0.1; the pessimistic term grows
+   roughly linearly in log n and is the same for plain and double Q (sigma=0 rows agree to +-0.005). So the fall of total
+   overestimation with n is dominated by the max-bias shrinking (bootstrap weight gamma^n and fewer compounding steps), not by
+   the pessimistic term growing. The two terms do have opposite signs, and the best n by AUC sits where their sum crosses zero
+   (P4 held in both band and band2 at every noisy cell), which is the cancellation prediction in its weak form.
+
+3. Double Q halves max-bias at n=1 (0.062 vs 0.132 at sigma=0.1 eps=0.1, band2; 0.020 vs 0.037 at sigma=0.05) but does not remove
+   it, and shares the pessimistic term, so its slope on log n is 60-80% of plain Q's (K3 fails in all three grids). Double Q still
+   benefits from n>1 under noise (best n = 3-5 at sigma=0.1).
+
+4. Cost of pessimism at sigma=0: n=10 loses 11-13% (eps=0.1) and 22-23% (eps=0.3) of final return against n=1, for both methods.
+   This is the price of uncorrected n-step in a deterministic-reward task and scales with eps as the T^mu story predicts.
+
+5. Replication at sigma=0.1 across seed sets: best n = 3 for both eps in band (seeds 0-3) and band2 (seeds 4-7); plain-Q best
+   final return 55% of V* (band) and 45% (band2). P3's 50% threshold was missed by the second seed set (45%), hence INCONCLUSIVE by rule.
+
+6. P4 (best n is one of the two n whose total overestimation is nearest zero), plain Q, all 10 noisy cells across band and band2:
+   band  s0.1/e0.1 nearest {3,2} best 3 | s0.1/e0.3 {3,2} best 3 | s0.2/e0.1 {5,10} best 5 | s0.2/e0.3 {5,10} best 10 | s0.3/e0.1 {10,5} best 10 | s0.3/e0.3 {10,5} best 10
+   band2 s0.05/e0.1 {2,3} best 3 | s0.05/e0.3 {2,3} best 2 | s0.1/e0.1 {3,2} best 3 | s0.1/e0.3 {3,2} best 3
+   10/10. Under a chance rate of 2/5 per cell the probability of 10/10 is 0.4^10 = 1e-4. (Pilot cells at sigma 0.5/1.5 are excluded: no agent learned.)

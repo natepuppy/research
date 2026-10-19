@@ -1,0 +1,17 @@
+POST HOC (not pre-registered). R2 in log space of the identity prediction (no free slope), c fitted per optimiser.
+[sgd]
+   pre-registered: hops*max(K, cL/B)                R2=0.860  c=3.26
+   sum: (hops-1)K + c*hops*L/B                      R2=0.996  c=2.63
+   smoothmax p=2: hops*sqrt(K^2+(cL/B)^2)           R2=0.860  c=2.99
+   sum w/ (hops-1) on both: (hops-1)(K + cL/B)      R2=0.898  c=2.99
+   K>=100, hops>1: t/((hops-1)K) median=1.002 range=[1.000,1.225] n=60
+   K=1 cells: log t on log(L^2/(nB)): slope=0.99 R2=0.990 (n=32)
+   n-slope, target-limited, hops>=2 only: mean=-1.21 (groups=16)
+[adam]
+   pre-registered: hops*max(K, cL/B)                R2=0.881  c=3.55
+   sum: (hops-1)K + c*hops*L/B                      R2=0.924  c=4.21
+   smoothmax p=2: hops*sqrt(K^2+(cL/B)^2)           R2=0.890  c=3.55
+   sum w/ (hops-1) on both: (hops-1)(K + cL/B)      R2=0.897  c=3.70
+   K>=100, hops>1: t/((hops-1)K) median=1.004 range=[1.000,1.465] n=60
+   K=1 cells: log t on log(L^2/(nB)): slope=0.61 R2=0.941 (n=32)
+   n-slope, target-limited, hops>=2 only: mean=-1.18 (groups=16)

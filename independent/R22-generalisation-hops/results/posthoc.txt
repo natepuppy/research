@@ -1,0 +1,18 @@
+POST-HOC (not pre-registered) and the pre-registered follow-up outcome.
+
+KILL TEST: INCONCLUSIVE. GAP FOLLOW-UP. F1 (onehot front <= 16 at end in 8/8: 0/8 stalled; all 8 solved, median T_p 3450) = False. F2 (coord solved >= 6/8: 8/8, median T_p 7850) = True. F3 (thermo solved >= 6/8: 8/8, median 6250) = True. random: 7/8 solved, median 4850.
+   F1 failed for a reason worth stating: a one-hot MLP is not a table. Its hidden and output layers are shared, so a state with no data still receives a value through the biases and the random untrained row of W1. The gap is bridged by every encoding; the smooth one bridges it at exactly the full-coverage speed (7850 = the no-gap T_p at K=200), the one-hot one 'bridges' it fastest by skipping it.
+
+P1 value accuracy inside the gap (states 15-24) at the end of the gap run, ratio V_hat/V* (median over seeds and gap states), and outside the gap:
+   onehot : gap 1.24 (IQR 1.17-1.32)   outside 1.04
+   random : gap 1.00 (IQR 0.90-1.09)   outside 1.00
+   thermo : gap 1.32 (IQR 1.00-1.67)   outside 1.01
+   coord  : gap 1.01 (IQR 0.99-1.02)   outside 0.99
+   -> the one-hot network's gap values are set by shared parameters, not by the data: they are what lets it skip the gap, and they are not anchored to V*. The coordinate network interpolates and lands near V*.
+
+P2 policy front vs value front in the full-coverage pilot (K=200): median over seeds of the first t at which each front reaches L.
+   onehot : policy front at   8825 updates, value front at   7850
+   random : policy front at   7675 updates, value front at   7850
+   thermo : policy front at   4250 updates, value front at   7850
+   coord  : policy front at    250 updates, value front at   7850
+   -> with smooth or monotone encodings the greedy policy is correct long before the values arrive (coord: 250 vs 7850 updates): in a corridor where one action is right everywhere, a monotone feature plus the shared output bias gives the right policy without any propagated value. One-hot and random codes get no such shortcut (policy front at or after the value front). This is encoding-dependent policy generalisation, not value propagation, and it is why the value front is the measurement; it is also a reminder that 'solved' can precede 'learned'.

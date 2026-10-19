@@ -1,0 +1,1 @@
+KILL TEST: KILLED. K1 (Spearman of mean churn on log K over 12 cells = +0.88 <= -0.8) = False. K2 (epsilon's AUC gain, eps 0.2 minus 0, by K: K20:+0, K100:+79, K500:+65, K2500:+73; Spearman on log K = +0.40 >= 0.8 and gain(K=2500) - gain(K=20) >= 20) = False. K3 (eps = 0 runs: Spearman of AUC on early churn = +0.72 >= 0.4) = True.

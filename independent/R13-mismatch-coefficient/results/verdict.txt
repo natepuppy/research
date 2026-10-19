@@ -1,0 +1,1 @@
+KILL TEST: KILLED. K1 (Spearman of log t on log D_mu over the 23 configs with finite D_mu = -0.67 >= 0.7) = False. K2 (Spearman of log t on log D_0 over all 31 converged configs = -0.52 >= 0.7, beats D_mu by 0.1, all configs converged = False) = False. K3 (within-layout Spearman for D_0 all >= 0.6: [-0.63, -0.4, 0.7, -0.05]) = False. [E_0 (expected ratio) Spearman = -0.47]

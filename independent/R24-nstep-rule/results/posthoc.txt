@@ -1,0 +1,17 @@
+POST-HOC (not pre-registered).
+
+P1 learned Q(s0,A) (median over seeds) vs closed-form pessimistic bias QA*(1-eps/2)^((L+1)-ceil((L+1)/n)) over all 168 cells: Pearson r=0.985, RMSE=0.029, max |err|=0.086. Within-cell seed std of the learned value: median 0.064, 90th pct 0.097.
+P2 the three K1 misses and their predicted margin bias_pred - g at n*: 
+   eps=0.01 gap=0.1 n*=20: margin=+0.026
+   eps=0.03 gap=0.2 n*=8: margin=+0.005
+   eps=0.05 gap=0.3 n*=8: margin=+0.001
+   all three margins are below the seed std of the learned value (~0.03), i.e. the rule predicted 'correct' by less than the noise. The nine hits have margins at n* of +0.126, +0.226, +0.100, +0.096, +0.100, +0.017, +0.100, +0.200, +0.300.
+P3 fraction of seeds final-correct by predicted margin (bias_pred - g), pooled over K:
+   margin in (-1.00,-0.05]: 0.00 correct over 64 cells
+   margin in (-0.05,-0.02]: 0.00 correct over 4 cells
+   margin in (-0.02,+0.00]: 0.04 correct over 10 cells
+   margin in (+0.00,+0.02]: 0.06 correct over 6 cells
+   margin in (+0.02,+0.05]: 0.29 correct over 16 cells
+   margin in (+0.05,+1.00]: 0.96 correct over 68 cells
+P4 in the 66 correct cells, median T / law = 1.050 (min 1.005, max 1.990); the law is (ceil(21/n)-1)K+1 with no fitted constant. At K=2000 the eps=0.01 cells give T = 40200, 20200, 12200, 8200, 4200, 2200, 2200 for n = 1,2,3,5,8,12,20: an 18x speed-up from n=1 to n=12 at zero cost in correctness when the gap is >= 0.2.
+P5 reading of published settings on this 20-step path (safe n = all n where the closed-form bias stays above g): eps=0.1 (Nature DQN), gap 0.1/0.2/0.3 -> n<=1/1/1; eps=0.01 (Rainbow eval / DER / BBF eps), gap 0.1/0.2/0.3 -> n<=40/40/40.

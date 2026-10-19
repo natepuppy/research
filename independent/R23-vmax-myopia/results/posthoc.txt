@@ -1,0 +1,11 @@
+POST-HOC (not pre-registered).
+
+P1 in the 18 both-saturate cells the clipped fixed point prefers the immediate reward by exactly (1-gamma)*V_max: 18/18 cells (e.g. V_max=10 -> 0.10, V_max=3 -> 0.03). The C51 learned margin: Vmax=3: 0.030, Vmax=5: 0.050, Vmax=3: 0.030, Vmax=5: 0.050, Vmax=10: 0.033, Vmax=3: 0.030, Vmax=5: 0.050, Vmax=10: 0.100, Vmax=3: 0.030, Vmax=5: 0.050, Vmax=10: 0.100, Vmax=30: 0.159.
+   -> the pre-registered 0.05 indifference threshold sits inside this band: 'myopic' and 'indifferent' were not separable by construction at V_max <= 5, and at V_max=10 the 0.4 atom spacing shaved the top value to 9.93. The five K1 misses and five K3 misses are all this; none is a 'patient' choice in a saturated cell.
+
+P2 the K1 misses: [(5, 5, 'indifferent', 'myopic', 0.05), (10, 5, 'indifferent', 'myopic', 0.05), (10, 10, 'myopic', 'indifferent', 0.033), (20, 5, 'indifferent', 'myopic', 0.05), (40, 5, 'indifferent', 'myopic', 0.05)]
+   patient choices in saturated cells: 0/18. The K4 miss is the M=10, V_max=10 cell (scalar says myopic by 0.10, C51 says indifferent by 0.03: atom resolution).
+
+P3 what this says about Atari defaults (V_max=10, gamma=0.99, rewards clipped to {-1,0,1}): any two actions whose continuations are both worth >= 10 are separated by at most 0.1 in the learned value, whatever their true values (here 33.8 vs 62.8). A continuation exceeds 10 whenever the clipped reward rate over the next ~100 steps exceeds about 0.1 per step. Under function-approximation noise larger than 0.1, the agent is not myopic in such states, it is random among saturated actions. The paper's deep experiment must measure the saturation fraction of trained Rainbow agents and the policy entropy in saturated states, not just returns.
+
+P4 the boundary: the agent becomes patient exactly when V_max exceeds the myopic action's true value 1+gamma*V_M (so that the myopic action no longer saturates while the patient one still does): M=10 -> 10.47 (patient from V_max=15 on), M=40 -> 33.77 (patient from V_max=50 on). Matches the clipped-VI prediction in all 4 forks.

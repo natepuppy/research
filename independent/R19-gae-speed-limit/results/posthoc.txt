@@ -1,0 +1,29 @@
+POST-HOC (not pre-registered). All analyses on median t_V per cell from results/summary.csv.
+
+P1 linear law, T=inf, all lam<1 cells (30): t_V = 1.25 * D(1-lam) + 1.91, R2 = 0.999
+   (slope ~1.25 rather than 1: with ~50% stall actions early on, V(s) rises geometrically toward V(s+1) each iteration, adding a constant fraction per state)
+
+P2 harmonic model for T=16 cells (35): t_V = a*D*((1-lam) + 1/T_eff) + b with a=1.06, T_eff=6.1 states, b=0.61; R2 = 0.998
+P3 min-horizon model (pre-registered form h_eff=min(T,1/(1-lam))) on the same cells: a=1.27, T_eff=6.1, b=2.08; R2 = 0.988
+   -> the two slowdowns add as rates (1/h_eff = (1-lam) + 1/T_eff), they do not take a min. T_eff ~ states per segment, below 16 because stalls make 16 time steps cover fewer states and because fixed-time boundaries fall at different states across episodes.
+
+P4 lam=0.99 vs lam=1 at T=16: [(8, 1.0), (8, 1.0), (16, 3.0), (16, 3.0), (32, 7.0), (32, 6.0), (64, 13.0), (64, 13.0), (128, 26.0), (128, 25.0)]
+   rollout length alone sets the latency once lam is near 1.
+
+P5 t_pi - t_V per cell (median iterations between V(s0) crossing 0.25 and success prob crossing 0.75):
+   mean -0.34, min -2, max +1: the policy at s0 moves in the same iteration the critic does; there is no further policy lag.
+
+P6 all 70 cells reach final success prob >= 0.98 by iteration 600 (min over cells: 0.983). Latency, not decay: no (lam, D) pair fails to learn.
+
+P7 critic frozen at V=0 (post-hoc, 4 seeds, 600 iterations, T=inf): does the policy still learn from the decayed direct signal (gamma*lam)^D?
+   D   lam  median t_pi  pi_hit  final_psucc
+   32  0.80     600       0.00    0.21
+   32  0.95      24       1.00    1.00
+   32  1.00       3       1.00    1.00
+   64  0.80     600       0.00    0.25
+   64  0.95     218       1.00    0.94
+   64  1.00       3       1.00    1.00
+  128  0.80     600       0.00    0.37
+  128  0.95     600       0.00    0.16
+  128  1.00       3       1.00    1.00
+   -> Without the critic the decay view is right: lam=0.95 never solves D=128 (and lam=0.8 solves nothing), because the direct weight (gamma*lam)^D on the start-state advantage is below the noise floor even after batch normalisation. With the critic (main table) the same lam=0.95, D=128 cell solves in 11 iterations. The critic converts decay into latency, and the latency is ~1.25*D*(1-lam) iterations.

@@ -1,0 +1,1 @@
+KILL TEST: INCONCLUSIVE. K1 (onehot: eta = L/slope = 1.03 in [0.67, 1.5], slope 38.9 updates per unit K, intercept 117, R2 = 1.000) = True. K2 (eta(coord) >= 2 eta(onehot) and coord >= thermo >= onehot; etas onehot=1.03, random=1.02, thermo=1.03, coord=1.03; slopes onehot=38.9, random=39.1, thermo=39.0, coord=39.0) = False. K3 (eta(random) <= 1.5 eta(onehot)) = True.

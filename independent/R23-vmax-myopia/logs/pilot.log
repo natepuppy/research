@@ -1,0 +1,41 @@
+M=  5 P= 12 vmax=   3  true (  5.85, 11.25)  clippedVI (  3.00,  2.97) -> indifferent  C51 (  3.00,  2.97) -> indifferent scalar -> indifferent
+M=  5 P= 12 vmax=   5  true (  5.85, 11.25)  clippedVI (  5.00,  4.95) -> indifferent  C51 (  5.00,  4.95) -> myopic      scalar -> myopic
+M=  5 P= 12 vmax=   8  true (  5.85, 11.25)  clippedVI (  5.85,  7.92) -> patient      C51 (  5.85,  7.92) -> patient     scalar -> patient
+M=  5 P= 12 vmax=  10  true (  5.85, 11.25)  clippedVI (  5.85,  9.90) -> patient      C51 (  5.85,  9.90) -> patient     scalar -> patient
+M=  5 P= 12 vmax=  15  true (  5.85, 11.25)  clippedVI (  5.85, 11.25) -> patient      C51 (  5.85, 11.25) -> patient     scalar -> patient
+M=  5 P= 12 vmax=  20  true (  5.85, 11.25)  clippedVI (  5.85, 11.25) -> patient      C51 (  5.85, 11.25) -> patient     scalar -> patient
+M=  5 P= 12 vmax=  30  true (  5.85, 11.25)  clippedVI (  5.85, 11.25) -> patient      C51 (  5.85, 11.25) -> patient     scalar -> patient
+M=  5 P= 12 vmax=  50  true (  5.85, 11.25)  clippedVI (  5.85, 11.25) -> patient      C51 (  5.85, 11.25) -> patient     scalar -> patient
+M=  5 P= 12 vmax= 100  true (  5.85, 11.25)  clippedVI (  5.85, 11.25) -> patient      C51 (  5.85, 11.25) -> patient     scalar -> patient
+M=  5 P= 12 vmax= 200  true (  5.85, 11.25)  clippedVI (  5.85, 11.25) -> patient      C51 (  5.85, 11.25) -> patient     scalar -> patient
+M= 10 P= 25 vmax=   3  true ( 10.47, 22.00)  clippedVI (  3.00,  2.97) -> indifferent  C51 (  3.00,  2.97) -> indifferent scalar -> indifferent
+M= 10 P= 25 vmax=   5  true ( 10.47, 22.00)  clippedVI (  5.00,  4.95) -> indifferent  C51 (  5.00,  4.95) -> myopic      scalar -> myopic
+M= 10 P= 25 vmax=   8  true ( 10.47, 22.00)  clippedVI (  8.00,  7.92) -> myopic       C51 (  8.00,  7.92) -> myopic      scalar -> myopic
+M= 10 P= 25 vmax=  10  true ( 10.47, 22.00)  clippedVI ( 10.00,  9.90) -> myopic       C51 (  9.93,  9.90) -> indifferent scalar -> myopic
+M= 10 P= 25 vmax=  15  true ( 10.47, 22.00)  clippedVI ( 10.47, 14.85) -> patient      C51 ( 10.47, 14.85) -> patient     scalar -> patient
+M= 10 P= 25 vmax=  20  true ( 10.47, 22.00)  clippedVI ( 10.47, 19.80) -> patient      C51 ( 10.47, 19.80) -> patient     scalar -> patient
+M= 10 P= 25 vmax=  30  true ( 10.47, 22.00)  clippedVI ( 10.47, 22.00) -> patient      C51 ( 10.47, 22.00) -> patient     scalar -> patient
+M= 10 P= 25 vmax=  50  true ( 10.47, 22.00)  clippedVI ( 10.47, 22.00) -> patient      C51 ( 10.47, 22.00) -> patient     scalar -> patient
+M= 10 P= 25 vmax= 100  true ( 10.47, 22.00)  clippedVI ( 10.47, 22.00) -> patient      C51 ( 10.47, 22.00) -> patient     scalar -> patient
+M= 10 P= 25 vmax= 200  true ( 10.47, 22.00)  clippedVI ( 10.47, 22.00) -> patient      C51 ( 10.47, 22.00) -> patient     scalar -> patient
+M= 20 P= 50 vmax=   3  true ( 19.03, 39.10)  clippedVI (  3.00,  2.97) -> indifferent  C51 (  3.00,  2.97) -> indifferent scalar -> indifferent
+M= 20 P= 50 vmax=   5  true ( 19.03, 39.10)  clippedVI (  5.00,  4.95) -> indifferent  C51 (  5.00,  4.95) -> myopic      scalar -> myopic
+M= 20 P= 50 vmax=   8  true ( 19.03, 39.10)  clippedVI (  8.00,  7.92) -> myopic       C51 (  8.00,  7.92) -> myopic      scalar -> myopic
+M= 20 P= 50 vmax=  10  true ( 19.03, 39.10)  clippedVI ( 10.00,  9.90) -> myopic       C51 ( 10.00,  9.90) -> myopic      scalar -> myopic
+M= 20 P= 50 vmax=  15  true ( 19.03, 39.10)  clippedVI ( 15.00, 14.85) -> myopic       C51 ( 15.00, 14.85) -> myopic      scalar -> myopic
+M= 20 P= 50 vmax=  20  true ( 19.03, 39.10)  clippedVI ( 19.03, 19.80) -> patient      C51 ( 18.92, 19.80) -> patient     scalar -> patient
+M= 20 P= 50 vmax=  30  true ( 19.03, 39.10)  clippedVI ( 19.03, 29.70) -> patient      C51 ( 19.03, 29.70) -> patient     scalar -> patient
+M= 20 P= 50 vmax=  50  true ( 19.03, 39.10)  clippedVI ( 19.03, 39.10) -> patient      C51 ( 19.03, 39.05) -> patient     scalar -> patient
+M= 20 P= 50 vmax= 100  true ( 19.03, 39.10)  clippedVI ( 19.03, 39.10) -> patient      C51 ( 19.03, 39.10) -> patient     scalar -> patient
+M= 20 P= 50 vmax= 200  true ( 19.03, 39.10)  clippedVI ( 19.03, 39.10) -> patient      C51 ( 19.03, 39.10) -> patient     scalar -> patient
+M= 40 P=100 vmax=   3  true ( 33.77, 62.76)  clippedVI (  3.00,  2.97) -> indifferent  C51 (  3.00,  2.97) -> indifferent scalar -> indifferent
+M= 40 P=100 vmax=   5  true ( 33.77, 62.76)  clippedVI (  5.00,  4.95) -> indifferent  C51 (  5.00,  4.95) -> myopic      scalar -> myopic
+M= 40 P=100 vmax=   8  true ( 33.77, 62.76)  clippedVI (  8.00,  7.92) -> myopic       C51 (  8.00,  7.92) -> myopic      scalar -> myopic
+M= 40 P=100 vmax=  10  true ( 33.77, 62.76)  clippedVI ( 10.00,  9.90) -> myopic       C51 ( 10.00,  9.90) -> myopic      scalar -> myopic
+M= 40 P=100 vmax=  15  true ( 33.77, 62.76)  clippedVI ( 15.00, 14.85) -> myopic       C51 ( 15.00, 14.85) -> myopic      scalar -> myopic
+M= 40 P=100 vmax=  20  true ( 33.77, 62.76)  clippedVI ( 20.00, 19.80) -> myopic       C51 ( 20.00, 19.80) -> myopic      scalar -> myopic
+M= 40 P=100 vmax=  30  true ( 33.77, 62.76)  clippedVI ( 30.00, 29.70) -> myopic       C51 ( 29.86, 29.70) -> myopic      scalar -> myopic
+M= 40 P=100 vmax=  50  true ( 33.77, 62.76)  clippedVI ( 33.77, 49.50) -> patient      C51 ( 33.77, 49.48) -> patient     scalar -> patient
+M= 40 P=100 vmax= 100  true ( 33.77, 62.76)  clippedVI ( 33.77, 62.76) -> patient      C51 ( 33.77, 62.76) -> patient     scalar -> patient
+M= 40 P=100 vmax= 200  true ( 33.77, 62.76)  clippedVI ( 33.77, 62.76) -> patient      C51 ( 33.77, 62.76) -> patient     scalar -> patient
+KILL TEST: KILLED. K1 (C51 choice matches clipped-VI prediction in 35/40 cells) = False. K2 (C51 mean within 5% of V_max of the clipped fixed point in 80/80 (cell, action) pairs) = True. K3 (myopic in all 18 both-saturate cells and patient in all 15 none-saturate cells: 28/33) = False. K4 (scalar clipped-Q agrees with C51 in 39/40) = False.

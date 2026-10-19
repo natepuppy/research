@@ -1,0 +1,1 @@
+KILL TEST: SUPPORTED. K1 (binning inflates: binned - raw optimism = +17.82 > 2) = True. K2 (coarser state/action adds optimism beyond seed noise, hits: 4/5 coarse/fine, coarse/coarse, binary/fine, binary/coarse) = True. K3 (raw-log FQE closer to truth than in-phi FQE for binned pipelines in 77% of runs) = True.

@@ -1,0 +1,1 @@
+KILL TEST: INCONCLUSIVE. K1 (control runs: AUROC of failure-Q for a collapse within the next 2 evals = 0.61 >= 0.7, n=185, positives=45; Spearman failure-Q vs buffer terminal fraction = -0.53 <= -0.5) = False. K2 (terminal reservoir: collapse reduction +97% >= 40%, final 154 vs control 119) = True. K3 (random reservoir reduction +12% < half of terminal's) = True.

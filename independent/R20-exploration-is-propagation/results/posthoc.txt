@@ -1,0 +1,36 @@
+POST-HOC (not pre-registered).
+
+P1 R12 two-term law on the 18 no-bonus cells: T_p = 0.96*(ceil(D/n)-1)K + 59.3*D^2/(nB) + 584, R2 = 0.996 (target-term only: R2 = 0.995).
+   The target term coefficient near 1 means T_p counts the K-period sync latency almost exactly; the replay term carries the K=1 cells.
+
+P2 share of time-to-solve spent after discovery (median over seeds), no bonus:
+   D    K=1,n=1  K=1,n=5  K=200,n=1  K=200,n=5  K=2000,n=1  K=2000,n=5
+  10   0.51       0.62       0.95       0.77       0.98       0.96    
+  20   0.39       0.18       0.68       0.49       0.95       0.90    
+  30   0.28       0.22       0.67       0.26       0.86       0.67    
+
+P3 the count bonus: median T_d, T_p and total time-to-solve (T_d+T_p) with vs without bonus, per cell:
+   D     K  n    T_d(0)  T_d(b)   T_p(0)   T_p(b)   total(0)  total(b)
+  10     1  1      246      59      290     6205       500      6500
+  10     1  5      215     422      381     6384       500      7250
+  10   200  1       90     193     1945    18346      2000     18500
+  10   200  5      116     214      392      476       500      1250
+  10  2000  1      346     106    18154     3682     18500      4000
+  10  2000  5      111     148     2389     2202      2500      2500
+  20     1  1     1470    4042      856    10159      2250     14000
+  20     1  5     1874    3746      376    13480      2250     19000
+  20   200  1     1910    4902     3982    20226      6000     26000
+  20   200  5     1188    3303     1058    14447      2250     17000
+  20  2000  1     1862     586    37716    81020     39500     82500
+  20  2000  5      740     918     6037    21095      6750     22750
+  30     1  1     6746    8650     3606    10364     11000     20500
+  30     1  5     7653    4581     1597    17919      9250     21750
+  30   200  1     3229   17922     6822    11653     10000     32000
+  30   200  5     8746   12288     2412    11379     12000     23500
+  30  2000  1     9324   10055    57648    78346     67500     95000
+  30  2000  5     6576    5196    13651    18304     20750     25000
+   bonus makes median total time-to-solve WORSE in 16/18 cells. It shortens median discovery in only 5/18 cells (beta=0.1 with a stale stored bonus is a weak explorer here; a stronger or non-stale bonus is the proper control) and lengthens propagation in 16/18.
+   Mechanism (not tested): bonuses are stored in the buffer at collection time and replayed stale; with a fast target they inject persistent value noise that masks the gamma^D-attenuated true signal at the start. This is the known stale-bonus problem and it falls on the propagation half.
+
+P4 headline: under Nature-DQN-like settings (K=2000, n=1) the post-discovery share is [0.98, 0.95, 0.86] ; with n=5 and a fast target it is [0.62, 0.18, 0.22] .
+   Removing the propagation latency (K=1, n=5) cuts total time-to-solve by ['D10: 31x', 'D20: 18x', 'D30: 7x'] with no change to exploration.

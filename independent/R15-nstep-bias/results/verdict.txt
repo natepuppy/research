@@ -1,0 +1,6 @@
+KILL TEST: SUPPORTED. K1 (plain Q: Spearman of overestimation on n per noisy cell = s0.5/e0.1:-1.00, s0.5/e0.3:-1.00, s1.5/e0.1:-1.00, s1.5/e0.3:-1.00 all <= -0.8; n>=3 pessimistic at sigma=0 = True) = True. K2 (best n by AUC, plain Q: s0/e0.1:n=1, s0/e0.3:n=1, s0.5/e0.1:n=10, s0.5/e0.3:n=10, s1.5/e0.1:n=10, s1.5/e0.3:n=10; best n larger at sigma=1.5 than at 0 for both eps) = True. K3 (slope of overestimation on log n: plain Q -1.879, double -1.194; |double| < half |plain|) = False.
+
+[Pilot grid, sigma 0/0.5/1.5. K2 above is degenerate: at sigma > 0 no agent exceeded 0.4% of V*. See README "Pre-registered follow-up" and results/band/, results/band2/.]
+[band  (sigma 0/0.1/0.2/0.3, seeds 0-3): K1 True, K2 True (best n 1,3,5-10,10), K3 False; working-agent condition at sigma_max=0.3 FAILED (0.7% of V*) -> not SUPPORTED by the follow-up rule.]
+[band2 (sigma 0/0.05/0.1, seeds 4-7, fresh): P1 True, P2 True (best n 1,1 / 3,2 / 3,3), P3 FAILED (45% of V* vs 50% threshold), P4 True (10/10 noisy cells across band+band2).]
+FINAL (by the pre-registered replication rule): INCONCLUSIVE. Sign and ordering predictions replicated on fresh seeds; the working-agent threshold was missed by 5 points; double-Q prediction (K3) failed in all three grids.

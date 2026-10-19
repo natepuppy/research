@@ -1,0 +1,1 @@
+KILL TEST: KILLED. K1 (battery AUROC wrong-vs-right 0.63 >= standard checks 0.60 + 0.10) = False. K2 (best test power at 10% false alarm: confounding: ncp 0.99, miscal: self 0.95, abstraction: ncp 0.38, support: placebo 0.30) = False. K3 (agreement power against confounding 0.35 <= 0.2) = False.

@@ -1,0 +1,18 @@
+128 runs x 30000 steps
+step 5000 [60s]  iid/K100: 170.0  iid/K2500:  18.2  win4/K100: 152.8  win4/K2500:  13.5  win1/K100: 165.6  win1/K2500:  10.7  recent/K100: 143.2  recent/K2500:  15.3
+step 10000 [126s]  iid/K100: 113.3  iid/K2500: 107.2  win4/K100: 128.0  win4/K2500:  83.3  win1/K100: 106.9  win1/K2500:  95.1  recent/K100: 170.5  recent/K2500:  47.7
+step 15000 [192s]  iid/K100: 104.1  iid/K2500: 146.5  win4/K100: 118.4  win4/K2500: 137.6  win1/K100:  86.7  win1/K2500: 141.1  recent/K100: 179.2  recent/K2500:  94.1
+step 20000 [257s]  iid/K100:  90.9  iid/K2500: 159.4  win4/K100: 108.4  win4/K2500: 142.0  win1/K100:  79.1  win1/K2500: 149.3  recent/K100: 163.5  recent/K2500: 133.4
+step 25000 [326s]  iid/K100:  99.9  iid/K2500: 141.7  win4/K100: 138.6  win4/K2500: 137.9  win1/K100:  91.6  win1/K2500: 135.6  recent/K100: 183.2  recent/K2500: 137.5
+step 30000 [395s]  iid/K100: 117.0  iid/K2500: 150.5  win4/K100: 121.0  win4/K2500: 129.1  win1/K100: 102.2  win1/K2500: 142.1  recent/K100: 180.6  recent/K2500: 127.2
+KILL TEST: KILLED. K1 (K=100: AUC iid - win1 = +8.3 >= 20, iid wins 12/16 >= 12) = False. K2 (gap at K=2500 = +8.1 <= half of gap at K=100 = +4.2) = False. K3 (reuse control, win1 - recent: K100 -48.1, K2500 +23.9, both >= 20) = False.
+
+   K   sampler   final (sd)       AUC (sd)      grad cos
+  100  iid       113.7 ( 38.1)    119.1 ( 19.1)   0.655
+  100  win4      125.3 ( 38.5)    126.6 ( 23.9)   0.617
+  100  win1      101.2 ( 50.8)    110.8 ( 22.8)   0.585
+  100  recent    183.0 ( 22.6)    158.9 ( 14.2)   0.104
+ 2500  iid       146.2 ( 30.6)    122.4 ( 16.0)   0.510
+ 2500  win4      133.2 ( 17.3)    111.9 ( 12.6)   0.501
+ 2500  win1      139.2 ( 23.0)    114.3 ( 15.1)   0.447
+ 2500  recent    139.5 ( 35.5)     90.4 ( 12.8)   0.147

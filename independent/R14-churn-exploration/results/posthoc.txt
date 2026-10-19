@@ -1,0 +1,21 @@
+R14 post-hoc (not pre-registered)
+
+1. Within-K correlation of AUC with early churn, eps=0 runs (8 seeds each):
+   K=   20  rho(AUC, early churn)=+0.05  rho(AUC, churn)=+0.05  AUC range 9-10
+   K=  100  rho(AUC, early churn)=+0.78  rho(AUC, churn)=+0.81  AUC range 9-146
+   K=  500  rho(AUC, early churn)=+0.70  rho(AUC, churn)=+0.78  AUC range 9-163
+   K= 2500  rho(AUC, early churn)=+0.83  rho(AUC, churn)=+0.88  AUC range 9-123
+   pooled K>20, eps=0 (n=24): rho(AUC, early churn)=+0.80 p=0.000
+
+2. Same for eps=0.05 and 0.2 (does churn still predict once epsilon supplies exploration?):
+   eps=0.05 pooled K>20 (n=24): rho(AUC, early churn)=+0.67 p=0.000
+   eps=0.20 pooled K>20 (n=24): rho(AUC, early churn)=-0.02 p=0.920
+
+3. Churn vs K (all eps pooled, per-run):
+   rho(churn, log K) = +0.34, rho(early churn, log K) = +0.53
+
+4. K=20 cell: all 24 runs final return 8.8-10.2, churn ~0. Network collapsed to a constant greedy action within the first
+   eval interval (near-on-policy target -> fast overestimation feedback -> single dominant action). Treated as degenerate, excluded above.
+
+5. Variance of final return at eps=0 (sd 70-87) vs eps=0.2 (sd 11-50): without epsilon, churn-only exploration is
+   bimodal (some seeds solve, some never leave ~10), consistent with churn being an unreliable exploration source.

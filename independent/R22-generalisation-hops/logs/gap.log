@@ -1,0 +1,21 @@
+random t=5000 [10s] solved 0.50 mean front 33.5
+random t=10000 [20s] solved 0.75 mean front 37.1
+random t=15000 [30s] solved 0.88 mean front 37.2
+random t=20000 [39s] solved 0.88 mean front 37.2
+random t=25000 [49s] solved 0.88 mean front 37.2
+random t=30000 [59s] solved 0.88 mean front 37.2
+random t=35000 [69s] solved 0.88 mean front 37.2
+random t=40000 [79s] solved 0.88 mean front 37.2
+random t=45000 [89s] solved 0.88 mean front 37.2
+random t=50000 [99s] solved 0.88 mean front 37.2
+random t=55000 [109s] solved 0.88 mean front 37.2
+random t=60000 [119s] solved 0.88 mean front 37.2
+thermo t=5000 [10s] solved 0.00 mean front 32.6
+coord t=5000 [9s] solved 0.00 mean front 25.5
+KILL TEST: KILLED. K1 (onehot: eta = L/slope = 2.32 in [0.67, 1.5], slope 17.2 updates per unit K, intercept 0, R2 = 1.000) = False. K2 (eta(coord) >= 2 eta(onehot) and coord >= thermo >= onehot; etas onehot=2.32, random=1.65, thermo=1.28, coord=1.02; slopes onehot=17.2, random=24.2, thermo=31.2, coord=39.2) = False. K3 (eta(random) <= 1.5 eta(onehot)) = True.
+
+ enc      K    n   T_p    solved  eta
+ onehot   200   8    3450   1.00   2.32
+ random   200   8    4850   0.88   1.65
+ thermo   200   8    6250   1.00   1.28
+ coord    200   8    7850   1.00   1.02

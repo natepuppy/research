@@ -1,0 +1,111 @@
+seed 0 raw   fine   fine    V_phi=  12.11  V_true=  13.37  V_raw=  12.11  optimism= -1.25  raw_err= -1.25  [    1s]
+seed 0 raw   fine   coarse  V_phi=  11.63  V_true=  13.13  V_raw=  12.67  optimism= -1.50  raw_err= -0.46  [    1s]
+seed 0 raw   coarse fine    V_phi=  10.80  V_true=   5.95  V_raw=   2.97  optimism= +4.84  raw_err= -2.99  [    2s]
+seed 0 raw   coarse coarse  V_phi=  12.73  V_true=   9.67  V_raw=   9.14  optimism= +3.06  raw_err= -0.53  [    2s]
+seed 0 raw   binary fine    V_phi=   9.77  V_true= -24.34  V_raw= -22.37  optimism=+34.12  raw_err= +1.97  [    2s]
+seed 0 raw   binary coarse  V_phi=  10.53  V_true= -18.03  V_raw= -87.98  optimism=+28.56  raw_err=-69.96  [    3s]
+seed 0 bin1h fine   fine    V_phi=  16.02  V_true=  -0.71  V_raw=  11.60  optimism=+16.73  raw_err=+12.31  [   21s]
+seed 0 bin1h fine   coarse  V_phi=  12.13  V_true=   2.67  V_raw=   4.06  optimism= +9.46  raw_err= +1.38  [   39s]
+seed 0 bin1h coarse fine    V_phi=  14.43  V_true=  -2.90  V_raw=  16.94  optimism=+17.33  raw_err=+19.85  [   58s]
+seed 0 bin1h coarse coarse  V_phi=  11.10  V_true=  -0.38  V_raw=  -2.54  optimism=+11.48  raw_err= -2.16  [   78s]
+seed 0 bin1h binary fine    V_phi=  14.21  V_true= -35.20  V_raw=   9.45  optimism=+49.41  raw_err=+44.65  [   97s]
+seed 0 bin1h binary coarse  V_phi=  10.42  V_true=  -3.86  V_raw=  -7.46  optimism=+14.28  raw_err= -3.59  [  115s]
+seed 0 bin4h fine   fine    V_phi=  16.65  V_true=   1.89  V_raw=  -2.91  optimism=+14.75  raw_err= -4.81  [  120s]
+seed 0 bin4h fine   coarse  V_phi=  16.43  V_true=   2.37  V_raw=  -9.00  optimism=+14.06  raw_err=-11.37  [  124s]
+seed 0 bin4h coarse fine    V_phi=  16.57  V_true=   1.14  V_raw=   3.08  optimism=+15.43  raw_err= +1.93  [  129s]
+seed 0 bin4h coarse coarse  V_phi=  16.69  V_true=   1.86  V_raw=  -7.59  optimism=+14.84  raw_err= -9.45  [  133s]
+seed 0 bin4h binary fine    V_phi=  16.14  V_true=  -1.70  V_raw=   2.00  optimism=+17.83  raw_err= +3.70  [  138s]
+seed 0 bin4h binary coarse  V_phi=  16.23  V_true=   0.22  V_raw=  -8.66  optimism=+16.01  raw_err= -8.87  [  142s]
+seed 1 raw   fine   fine    V_phi=  12.41  V_true=  13.34  V_raw=  12.41  optimism= -0.93  raw_err= -0.93  [  143s]
+seed 1 raw   fine   coarse  V_phi=  11.81  V_true=  13.19  V_raw=  11.47  optimism= -1.38  raw_err= -1.72  [  144s]
+seed 1 raw   coarse fine    V_phi=  10.95  V_true=   6.78  V_raw=  -8.89  optimism= +4.17  raw_err=-15.67  [  144s]
+seed 1 raw   coarse coarse  V_phi=  10.94  V_true=   6.80  V_raw= -10.50  optimism= +4.13  raw_err=-17.30  [  144s]
+seed 1 raw   binary fine    V_phi=   9.96  V_true= -19.61  V_raw= -81.26  optimism=+29.56  raw_err=-61.65  [  145s]
+seed 1 raw   binary coarse  V_phi=  10.52  V_true=  -8.82  V_raw= -62.72  optimism=+19.34  raw_err=-53.91  [  145s]
+seed 1 bin1h fine   fine    V_phi=  16.49  V_true=  -5.21  V_raw=   6.51  optimism=+21.70  raw_err=+11.72  [  163s]
+seed 1 bin1h fine   coarse  V_phi=  12.49  V_true=   0.62  V_raw=   0.06  optimism=+11.86  raw_err= -0.56  [  181s]
+seed 1 bin1h coarse fine    V_phi=  15.14  V_true=  -9.25  V_raw=   7.82  optimism=+24.39  raw_err=+17.07  [  205s]
+seed 1 bin1h coarse coarse  V_phi=  10.79  V_true=   1.57  V_raw=  -0.73  optimism= +9.23  raw_err= -2.30  [  225s]
+seed 1 bin1h binary fine    V_phi=  15.10  V_true= -35.85  V_raw= -10.35  optimism=+50.95  raw_err=+25.51  [  244s]
+seed 1 bin1h binary coarse  V_phi=  10.30  V_true=  -3.74  V_raw=  -4.16  optimism=+14.04  raw_err= -0.42  [  264s]
+seed 1 bin4h fine   fine    V_phi=  16.37  V_true=   2.17  V_raw=  -2.66  optimism=+14.20  raw_err= -4.83  [  269s]
+seed 1 bin4h fine   coarse  V_phi=  16.18  V_true=   2.26  V_raw= -10.25  optimism=+13.92  raw_err=-12.51  [  273s]
+seed 1 bin4h coarse fine    V_phi=  16.67  V_true=   2.07  V_raw= -25.68  optimism=+14.60  raw_err=-27.76  [  278s]
+seed 1 bin4h coarse coarse  V_phi=  16.37  V_true=   1.79  V_raw= -13.72  optimism=+14.59  raw_err=-15.51  [  283s]
+seed 1 bin4h binary fine    V_phi=  16.23  V_true=  -0.18  V_raw= -26.37  optimism=+16.41  raw_err=-26.19  [  287s]
+seed 1 bin4h binary coarse  V_phi=  15.99  V_true=   0.41  V_raw= -20.09  optimism=+15.59  raw_err=-20.49  [  292s]
+seed 2 raw   fine   fine    V_phi=  12.99  V_true=  12.32  V_raw=  12.99  optimism= +0.67  raw_err= +0.67  [  292s]
+seed 2 raw   fine   coarse  V_phi=  11.09  V_true=  11.96  V_raw=  11.71  optimism= -0.87  raw_err= -0.24  [  293s]
+seed 2 raw   coarse fine    V_phi=  13.05  V_true=   3.64  V_raw=  25.53  optimism= +9.41  raw_err=+21.89  [  293s]
+seed 2 raw   coarse coarse  V_phi=  13.45  V_true=   6.75  V_raw=   9.19  optimism= +6.70  raw_err= +2.44  [  294s]
+seed 2 raw   binary fine    V_phi=   8.94  V_true= -21.12  V_raw= -12.32  optimism=+30.06  raw_err= +8.80  [  294s]
+seed 2 raw   binary coarse  V_phi=   9.62  V_true= -12.98  V_raw= -16.63  optimism=+22.60  raw_err= -3.65  [  294s]
+seed 2 bin1h fine   fine    V_phi=  15.70  V_true=  -5.97  V_raw=   2.08  optimism=+21.68  raw_err= +8.05  [  312s]
+seed 2 bin1h fine   coarse  V_phi=  11.88  V_true=   0.88  V_raw=   9.19  optimism=+11.00  raw_err= +8.31  [  331s]
+seed 2 bin1h coarse fine    V_phi=  14.52  V_true=  -8.86  V_raw=  -5.48  optimism=+23.37  raw_err= +3.37  [  349s]
+seed 2 bin1h coarse coarse  V_phi=  11.29  V_true=  -2.97  V_raw=  -0.87  optimism=+14.26  raw_err= +2.10  [  369s]
+seed 2 bin1h binary fine    V_phi=  14.30  V_true= -32.13  V_raw= -17.80  optimism=+46.43  raw_err=+14.33  [  390s]
+seed 2 bin1h binary coarse  V_phi=  10.78  V_true=  -5.26  V_raw=  -1.83  optimism=+16.04  raw_err= +3.43  [  412s]
+seed 2 bin4h fine   fine    V_phi=  15.82  V_true=   0.53  V_raw=   1.80  optimism=+15.29  raw_err= +1.27  [  417s]
+seed 2 bin4h fine   coarse  V_phi=  16.13  V_true=   1.13  V_raw=   4.29  optimism=+15.00  raw_err= +3.16  [  421s]
+seed 2 bin4h coarse fine    V_phi=  17.14  V_true=  -0.02  V_raw=   2.42  optimism=+17.16  raw_err= +2.44  [  426s]
+seed 2 bin4h coarse coarse  V_phi=  16.56  V_true=   0.31  V_raw=   2.30  optimism=+16.26  raw_err= +1.99  [  432s]
+seed 2 bin4h binary fine    V_phi=  16.71  V_true=  -1.59  V_raw= -19.99  optimism=+18.30  raw_err=-18.40  [  438s]
+seed 2 bin4h binary coarse  V_phi=  16.37  V_true=   0.16  V_raw=   2.16  optimism=+16.22  raw_err= +2.00  [  443s]
+seed 3 raw   fine   fine    V_phi=  12.38  V_true=  13.72  V_raw=  12.38  optimism= -1.33  raw_err= -1.33  [  444s]
+seed 3 raw   fine   coarse  V_phi=  12.47  V_true=  13.98  V_raw=  11.41  optimism= -1.51  raw_err= -2.58  [  445s]
+seed 3 raw   coarse fine    V_phi=  10.53  V_true=   6.89  V_raw=  -3.22  optimism= +3.64  raw_err=-10.11  [  445s]
+seed 3 raw   coarse coarse  V_phi=  13.10  V_true=   9.64  V_raw=  12.07  optimism= +3.46  raw_err= +2.44  [  445s]
+seed 3 raw   binary fine    V_phi=   8.78  V_true= -14.47  V_raw= -20.62  optimism=+23.25  raw_err= -6.15  [  446s]
+seed 3 raw   binary coarse  V_phi=  10.98  V_true=  -7.10  V_raw= -26.94  optimism=+18.08  raw_err=-19.84  [  446s]
+seed 3 bin1h fine   fine    V_phi=  16.07  V_true=  -6.45  V_raw= -21.19  optimism=+22.52  raw_err=-14.74  [  467s]
+seed 3 bin1h fine   coarse  V_phi=  11.49  V_true=   0.36  V_raw= -16.91  optimism=+11.14  raw_err=-17.27  [  486s]
+seed 3 bin1h coarse fine    V_phi=  13.71  V_true= -11.57  V_raw= -38.80  optimism=+25.27  raw_err=-27.23  [  505s]
+seed 3 bin1h coarse coarse  V_phi=  10.74  V_true=  -2.84  V_raw=   0.84  optimism=+13.58  raw_err= +3.68  [  524s]
+seed 3 bin1h binary fine    V_phi=  13.85  V_true= -33.33  V_raw= -27.99  optimism=+47.18  raw_err= +5.33  [  542s]
+seed 3 bin1h binary coarse  V_phi=  10.21  V_true=  -6.42  V_raw=  -1.85  optimism=+16.63  raw_err= +4.58  [  560s]
+seed 3 bin4h fine   fine    V_phi=  16.15  V_true=   2.74  V_raw=   1.68  optimism=+13.40  raw_err= -1.07  [  565s]
+seed 3 bin4h fine   coarse  V_phi=  16.06  V_true=   2.69  V_raw=   4.48  optimism=+13.37  raw_err= +1.79  [  569s]
+seed 3 bin4h coarse fine    V_phi=  16.68  V_true=   2.15  V_raw=  -2.39  optimism=+14.53  raw_err= -4.54  [  574s]
+seed 3 bin4h coarse coarse  V_phi=  16.24  V_true=   1.84  V_raw=  -0.73  optimism=+14.40  raw_err= -2.57  [  579s]
+seed 3 bin4h binary fine    V_phi=  16.17  V_true=  -0.22  V_raw= -29.71  optimism=+16.38  raw_err=-29.49  [  583s]
+seed 3 bin4h binary coarse  V_phi=  15.88  V_true=   0.43  V_raw=  -1.94  optimism=+15.45  raw_err= -2.37  [  588s]
+seed 4 raw   fine   fine    V_phi=  13.91  V_true=  12.89  V_raw=  13.91  optimism= +1.01  raw_err= +1.01  [  588s]
+seed 4 raw   fine   coarse  V_phi=  12.03  V_true=  13.12  V_raw=  11.84  optimism= -1.09  raw_err= -1.28  [  589s]
+seed 4 raw   coarse fine    V_phi=  13.78  V_true=   0.39  V_raw= -18.10  optimism=+13.39  raw_err=-18.49  [  589s]
+seed 4 raw   coarse coarse  V_phi=  15.42  V_true=   9.68  V_raw=  15.63  optimism= +5.75  raw_err= +5.96  [  590s]
+seed 4 raw   binary fine    V_phi=  11.52  V_true= -16.95  V_raw= -20.21  optimism=+28.47  raw_err= -3.25  [  590s]
+seed 4 raw   binary coarse  V_phi=  12.87  V_true= -12.82  V_raw=   1.50  optimism=+25.69  raw_err=+14.31  [  590s]
+seed 4 bin1h fine   fine    V_phi=  15.91  V_true=  -3.84  V_raw=   9.59  optimism=+19.76  raw_err=+13.43  [  608s]
+seed 4 bin1h fine   coarse  V_phi=  12.13  V_true=  -1.71  V_raw= -11.58  optimism=+13.84  raw_err= -9.87  [  626s]
+seed 4 bin1h coarse fine    V_phi=  14.03  V_true=  -7.45  V_raw=   8.03  optimism=+21.48  raw_err=+15.48  [  644s]
+seed 4 bin1h coarse coarse  V_phi=  11.37  V_true=   0.38  V_raw=   9.99  optimism=+10.99  raw_err= +9.61  [  662s]
+seed 4 bin1h binary fine    V_phi=  14.56  V_true= -35.90  V_raw= -65.50  optimism=+50.46  raw_err=-29.60  [  680s]
+seed 4 bin1h binary coarse  V_phi=  10.78  V_true=  -3.38  V_raw=   8.48  optimism=+14.16  raw_err=+11.86  [  698s]
+seed 4 bin4h fine   fine    V_phi=  16.53  V_true=   2.05  V_raw= -15.82  optimism=+14.47  raw_err=-17.87  [  703s]
+seed 4 bin4h fine   coarse  V_phi=  16.18  V_true=   2.82  V_raw= -24.13  optimism=+13.36  raw_err=-26.95  [  707s]
+seed 4 bin4h coarse fine    V_phi=  16.61  V_true=   1.13  V_raw= -11.52  optimism=+15.48  raw_err=-12.65  [  712s]
+seed 4 bin4h coarse coarse  V_phi=  16.42  V_true=   2.02  V_raw= -19.22  optimism=+14.40  raw_err=-21.24  [  716s]
+seed 4 bin4h binary fine    V_phi=  16.21  V_true=  -1.71  V_raw= -47.94  optimism=+17.93  raw_err=-46.23  [  721s]
+seed 4 bin4h binary coarse  V_phi=  16.17  V_true=   0.32  V_raw= -41.09  optimism=+15.85  raw_err=-41.41  [  725s]
+KILL TEST: SUPPORTED. K1 (binning inflates: binned - raw optimism = +17.82 > 2) = True. K2 (coarser state/action adds optimism beyond seed noise, hits: 4/5 coarse/fine, coarse/coarse, binary/fine, binary/coarse) = True. K3 (raw-log FQE closer to truth than in-phi FQE for binned pipelines in 77% of runs) = True.
+
+time   state   action  V_true  optimism(sd)   |opt|   raw_err  |raw_err|  raw_better
+raw    fine    fine     13.13   -0.37 (1.12)   1.04   -0.37    1.04   0.00
+raw    fine    coarse   13.08   -1.27 (0.28)   1.27   -1.26    1.26   0.40
+raw    coarse  fine      4.73   +7.09 (4.20)   7.09   -5.07   13.83   0.20
+raw    coarse  coarse    8.51   +4.62 (1.55)   4.62   -1.40    5.73   0.60
+raw    binary  fine    -19.30  +29.09 (3.90)  29.09  -12.06   16.37   0.80
+raw    binary  coarse  -11.95  +22.85 (4.35)  22.85  -26.61   32.33   0.40
+bin1h  fine    fine     -4.44  +20.48 (2.33)  20.48   +6.16   12.05   1.00
+bin1h  fine    coarse    0.57  +11.46 (1.59)  11.46   -3.60    7.48   0.80
+bin1h  coarse  fine     -8.01  +22.37 (3.15)  22.37   +5.71   16.60   0.60
+bin1h  coarse  coarse   -0.85  +11.91 (2.04)  11.91   +2.19    3.97   1.00
+bin1h  binary  fine    -34.48  +48.89 (2.00)  48.89  +12.04   23.88   1.00
+bin1h  binary  coarse   -4.53  +15.03 (1.21)  15.03   +3.17    4.78   1.00
+bin4h  fine    fine      1.88  +14.42 (0.70)  14.42   -5.46    5.97   0.80
+bin4h  fine    coarse    2.25  +13.94 (0.67)  13.94   -9.18   11.15   0.80
+bin4h  coarse  fine      1.29  +15.44 (1.06)  15.44   -8.12    9.86   0.80
+bin4h  coarse  coarse    1.56  +14.90 (0.78)  14.90   -9.35   10.15   0.60
+bin4h  binary  fine     -1.08  +17.37 (0.91)  17.37  -23.32   24.80   0.20
+bin4h  binary  coarse    0.30  +15.82 (0.31)  15.82  -14.23   15.03   0.60

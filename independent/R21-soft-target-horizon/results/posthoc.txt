@@ -1,0 +1,14 @@
+POST-HOC (not pre-registered).
+
+P1 the implicit discount schedule. Horizon h(t) and the discount gamma_eff = 1 - 1/h(t) whose 1/(1-gamma) horizon equals h(t), for n=1, alpha=1:
+   tau=0.1: t=100: h=11, g_eff=0.908; t=1000: h=100, g_eff=0.990; t=3000: h=200, g_eff=0.995; t=10000: h=200, g_eff=0.995; t=30000: h=200, g_eff=0.995; t=100000: h=200, g_eff=0.995
+   tau=0.01: t=100: h=2, g_eff=0.496; t=1000: h=11, g_eff=0.909; t=3000: h=31, g_eff=0.968; t=10000: h=100, g_eff=0.990; t=30000: h=200, g_eff=0.995; t=100000: h=200, g_eff=0.995
+   tau=0.001: t=100: h=1, g_eff=0.090; t=1000: h=2, g_eff=0.498; t=3000: h=4, g_eff=0.749; t=10000: h=11, g_eff=0.909; t=30000: h=31, g_eff=0.968; t=100000: h=100, g_eff=0.990
+   -> at tau=0.01 the agent is effectively a gamma=0.9 agent for the first ~1000 updates and a gamma=0.99 agent only after ~10,000; the task's gamma=0.99 is reached on the law's schedule, not at initialisation.
+
+P2 hard vs soft shape (same cell, K=1/tau=100 vs tau=0.01, n=1, alpha=1): h(t) sampled every 100 updates for t in 100..1000:
+   hard: 1.0, 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 10.0
+   soft: 2.0, 3.0, 4.0, 5.0, 6.0, 7.0, 8.0, 9.0, 9.9, 10.9
+   -> the hard target gives a staircase (one hop per sync), the soft target a straight line at the same mean speed; the two agree at K=1/tau (K4).
+
+P3 what the law says about the default tau=0.005 (n=1): per-segment delay 200 updates plus 1/alpha_eff. With an ideal critic (alpha=1) a decision 100 steps from its consequence sees it after ~20k updates; with n=5, ~4k. The alpha_eff of a replay-trained neural critic is not 1 and is the quantity the 3080 experiment must measure (regress the learned V on truncated MC returns to read h(t) directly).

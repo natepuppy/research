@@ -1,0 +1,1 @@
+KILL TEST: SUPPORTED. K1 (T=inf, lam<1, D(1-lam)>=4, 16 cells: log t_V slopes on log D = 0.95, on log(1-lam) = 0.88, R2 = 0.999) = True. K2 (lam=1, T=inf: slope on log D = 0.00 < 0.3) = True. K3 (T=16, lam=1, D>=32: slope 1.03; ratios to lam=0.95,T=inf = [1.5, 2.17, 2.27]) = False. K4 (Spearman(t_pi, t_V) over 70 cells = +0.99 >= 0.8) = True.

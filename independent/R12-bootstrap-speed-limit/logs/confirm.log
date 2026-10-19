@@ -1,0 +1,46 @@
+t=20000 [16s] remaining 40/192
+t=40000 [32s] remaining 24/192
+t=60000 [49s] remaining 16/192
+t=80000 [67s] remaining 12/192
+t=100000 [82s] remaining 8/192
+t=120000 [98s] remaining 8/192
+t=140000 [115s] remaining 8/192
+t=160000 [132s] remaining 4/192
+t=180000 [147s] remaining 4/192
+t=200000 [163s] remaining 4/192
+t=220000 [179s] remaining 4/192
+t=240000 [195s] remaining 4/192
+t=260000 [211s] remaining 4/192
+t=280000 [227s] remaining 4/192
+seed 100 done: 192/192 converged
+t=20000 [15s] remaining 40/192
+t=40000 [31s] remaining 24/192
+t=60000 [47s] remaining 16/192
+t=80000 [63s] remaining 12/192
+t=100000 [80s] remaining 8/192
+t=120000 [95s] remaining 8/192
+t=140000 [110s] remaining 8/192
+t=160000 [125s] remaining 4/192
+t=180000 [140s] remaining 4/192
+t=200000 [155s] remaining 4/192
+t=220000 [169s] remaining 4/192
+t=240000 [184s] remaining 4/192
+t=260000 [200s] remaining 4/192
+t=280000 [214s] remaining 4/192
+seed 101 done: 384/384 converged
+t=20000 [14s] remaining 40/192
+t=40000 [28s] remaining 24/192
+t=60000 [44s] remaining 16/192
+t=80000 [60s] remaining 12/192
+t=100000 [77s] remaining 8/192
+t=120000 [93s] remaining 8/192
+t=140000 [109s] remaining 8/192
+t=160000 [125s] remaining 4/192
+t=180000 [141s] remaining 4/192
+t=200000 [158s] remaining 4/192
+t=220000 [174s] remaining 4/192
+t=240000 [190s] remaining 4/192
+t=260000 [207s] remaining 4/192
+t=280000 [224s] remaining 4/192
+seed 102 done: 576/576 converged
+KILL TEST: SUPPORTED. CONFIRMATION. [sgd] C1 (out-of-sample identity-fit R2 in log space of (hops-1)K + c*hops*L/B with c = 2.63 fixed from the pilot = 0.997 >= 0.95) = True; t/pred median 0.97, 10-90% [0.81, 1.01], n = 96, unconverged excluded = 0. [adam] C1 (out-of-sample identity-fit R2 in log space of (hops-1)K + c*hops*L/B with c = 4.21 fixed from the pilot = 0.971 >= 0.9) = True; t/pred median 0.96, 10-90% [0.47, 1.00], n = 96, unconverged excluded = 0.

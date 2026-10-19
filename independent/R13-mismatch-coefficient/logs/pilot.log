@@ -1,0 +1,75 @@
+open      mix0      D_mu=      inf D_0=   148.08 E_0=  57.63  t=964 [0s]
+open      mix0.02   D_mu=  1762.89 D_0=   101.09 E_0=  40.17  t=941 [0s]
+open      mix0.1    D_mu=   352.58 D_0=    44.54 E_0=  18.72  t=892 [1s]
+open      mix0.3    D_mu=   117.53 D_0=    18.57 E_0=   8.48  t=902 [1s]
+open      mix0.6    D_mu=    58.76 D_0=     9.91 E_0=   4.98  t=1118 [1s]
+open      mix1      D_mu=    35.26 D_0=     6.11 E_0=   4.01  t=3470 [1s]
+open      dstar     D_mu=     1.00 D_0=     4.58 E_0=   1.69  t=1393 [2s]
+open      far       D_mu=      inf D_0=    14.07 E_0=   7.68  t=1591 [2s]
+open      far_only  D_mu=      inf D_0=    12.78 E_0=   7.90  t=41365 [9s]
+wall      mix0      D_mu=      inf D_0=   587.94 E_0= 222.94  t=1051 [9s]
+wall      mix0.02   D_mu=  1623.49 D_0=   191.84 E_0=  76.15  t=979 [10s]
+wall      mix0.1    D_mu=   324.70 D_0=    51.92 E_0=  22.33  t=855 [10s]
+wall      mix0.3    D_mu=   108.23 D_0=    18.39 E_0=   8.76  t=797 [10s]
+wall      mix0.6    D_mu=    54.12 D_0=     9.34 E_0=   4.96  t=906 [10s]
+wall      mix1      D_mu=    32.47 D_0=     5.64 E_0=   3.90  t=2901 [10s]
+wall      dstar     D_mu=     1.00 D_0=     4.44 E_0=   1.74  t=1306 [10s]
+wall      far       D_mu=      inf D_0=    14.25 E_0=   7.98  t=2419 [11s]
+wall      far_only  D_mu=      inf D_0=    15.09 E_0=   8.78  t=42205 [17s]
+snake     mix0      D_mu=      inf D_0=772908265.09 E_0=35354128.45  t=-1 [22s]
+snake     mix0.02   D_mu=   172.38 D_0=    49.96 E_0=  17.12  t=-1 [27s]
+snake     mix0.1    D_mu=    34.48 D_0=    12.46 E_0=   5.17  t=19377 [29s]
+snake     mix0.3    D_mu=    11.49 D_0=     4.94 E_0=   2.39  t=11004 [30s]
+snake     mix0.6    D_mu=     5.75 D_0=     2.90 E_0=   1.61  t=9387 [31s]
+snake     mix1      D_mu=     3.66 D_0=     3.66 E_0=   1.90  t=21530 [33s]
+snake     dstar     D_mu=     1.00 D_0=     3.31 E_0=   1.02  t=10339 [34s]
+snake     far       D_mu=      inf D_0=   507.17 E_0=  82.50  t=-1 [38s]
+snake     far_only  D_mu=      inf D_0=2434653.56 E_0=398350.26  t=-1 [43s]
+rooms     mix0      D_mu=      inf D_0=   773.15 E_0= 295.01  t=1446 [43s]
+rooms     mix0.02   D_mu=  1471.58 D_0=   194.87 E_0=  79.25  t=1283 [43s]
+rooms     mix0.1    D_mu=   294.32 D_0=    48.82 E_0=  21.59  t=1037 [43s]
+rooms     mix0.3    D_mu=    98.11 D_0=    16.99 E_0=   8.25  t=904 [43s]
+rooms     mix0.6    D_mu=    49.05 D_0=     8.59 E_0=   4.64  t=964 [44s]
+rooms     mix1      D_mu=    29.43 D_0=     5.18 E_0=   3.74  t=2445 [44s]
+rooms     dstar     D_mu=     1.00 D_0=     4.57 E_0=   1.81  t=1216 [44s]
+rooms     far       D_mu=      inf D_0=    10.02 E_0=   6.14  t=1625 [44s]
+rooms     far_only  D_mu=      inf D_0=    19.81 E_0=   8.57  t=-1 [51s]
+KILL TEST: KILLED. K1 (Spearman of log t on log D_mu over the 23 configs with finite D_mu = -0.67 >= 0.7) = False. K2 (Spearman of log t on log D_0 over all 31 converged configs = -0.52 >= 0.7, beats D_mu by 0.1, all configs converged = False) = False. K3 (within-layout Spearman for D_0 all >= 0.6: [-0.63, -0.4, 0.7, -0.05]) = False. [E_0 (expected ratio) Spearman = -0.47]
+
+layout     mu         D_mu       D_0      E_0     iters
+open      mix0            inf    148.08   57.63      964
+open      mix0.02     1762.89    101.09   40.17      941
+open      mix0.1       352.58     44.54   18.72      892
+open      mix0.3       117.53     18.57    8.48      902
+open      mix0.6        58.76      9.91    4.98     1118
+open      mix1          35.26      6.11    4.01     3470
+open      dstar          1.00      4.58    1.69     1393
+open      far             inf     14.07    7.68     1591
+open      far_only        inf     12.78    7.90    41365
+wall      mix0            inf    587.94  222.94     1051
+wall      mix0.02     1623.49    191.84   76.15      979
+wall      mix0.1       324.70     51.92   22.33      855
+wall      mix0.3       108.23     18.39    8.76      797
+wall      mix0.6        54.12      9.34    4.96      906
+wall      mix1          32.47      5.64    3.90     2901
+wall      dstar          1.00      4.44    1.74     1306
+wall      far             inf     14.25    7.98     2419
+wall      far_only        inf     15.09    8.78    42205
+snake     mix0            inf 772908265.09 35354128.45    50000 (cap)
+snake     mix0.02      172.38     49.96   17.12    50000 (cap)
+snake     mix0.1        34.48     12.46    5.17    19377
+snake     mix0.3        11.49      4.94    2.39    11004
+snake     mix0.6         5.75      2.90    1.61     9387
+snake     mix1           3.66      3.66    1.90    21530
+snake     dstar          1.00      3.31    1.02    10339
+snake     far             inf    507.17   82.50    50000 (cap)
+snake     far_only        inf 2434653.56 398350.26    50000 (cap)
+rooms     mix0            inf    773.15  295.01     1446
+rooms     mix0.02     1471.58    194.87   79.25     1283
+rooms     mix0.1       294.32     48.82   21.59     1037
+rooms     mix0.3        98.11     16.99    8.25      904
+rooms     mix0.6        49.05      8.59    4.64      964
+rooms     mix1          29.43      5.18    3.74     2445
+rooms     dstar          1.00      4.57    1.81     1216
+rooms     far             inf     10.02    6.14     1625
+rooms     far_only        inf     19.81    8.57    50000 (cap)

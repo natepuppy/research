@@ -1,0 +1,24 @@
+POST HOC (not pre-registered).
+converged configs: 31/36
+  Spearman(log t, D0       ) = -0.52
+  Spearman(log t, overlap  ) = +0.07
+  Spearman(log t, mass     ) = -0.05
+  Spearman(log t, mu_start ) = -0.55
+
+Easy layouts (open, wall, rooms) only:
+  Spearman(log t, D0       ) = -0.39
+  Spearman(log t, overlap  ) = -0.06
+  Spearman(log t, mass     ) = -0.25
+  Spearman(log t, mu_start ) = -0.65
+
+Snake only (converged):
+  Spearman(log t, D0       ) = +0.70  (n=5)
+  Spearman(log t, overlap  ) = -0.10  (n=5)
+  Spearman(log t, mass     ) = +0.30  (n=5)
+  Spearman(log t, mu_start ) = -0.10  (n=5)
+
+Reversal: single-start vs optimal-coverage vs uniform iterations
+  open   delta_start=964  d*=1393  uniform=3470  far_only=41365
+  wall   delta_start=1051  d*=1306  uniform=2901  far_only=42205
+  snake  delta_start=50000  d*=10339  uniform=21530  far_only=50000
+  rooms  delta_start=1446  d*=1216  uniform=2445  far_only=50000

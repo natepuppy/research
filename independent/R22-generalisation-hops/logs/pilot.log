@@ -1,0 +1,39 @@
+onehot t=5000 [23s] solved 0.33 mean front 24.0
+onehot t=10000 [45s] solved 0.67 mean front 31.0
+onehot t=15000 [68s] solved 0.67 mean front 33.0
+onehot t=20000 [90s] solved 0.67 mean front 35.0
+onehot t=25000 [112s] solved 0.67 mean front 37.3
+onehot t=30000 [135s] solved 0.67 mean front 39.3
+random t=5000 [21s] solved 0.33 mean front 24.0
+random t=10000 [42s] solved 0.67 mean front 31.0
+random t=15000 [62s] solved 0.67 mean front 33.0
+random t=20000 [84s] solved 0.67 mean front 34.9
+random t=25000 [111s] solved 0.67 mean front 37.2
+random t=30000 [133s] solved 0.67 mean front 39.2
+thermo t=5000 [28s] solved 0.33 mean front 24.0
+thermo t=10000 [56s] solved 0.67 mean front 31.0
+thermo t=15000 [75s] solved 0.67 mean front 33.0
+thermo t=20000 [95s] solved 0.67 mean front 35.0
+thermo t=25000 [116s] solved 0.67 mean front 37.3
+thermo t=30000 [136s] solved 0.67 mean front 39.3
+coord t=5000 [17s] solved 0.33 mean front 23.9
+coord t=10000 [34s] solved 0.67 mean front 30.9
+coord t=15000 [51s] solved 0.67 mean front 32.9
+coord t=20000 [68s] solved 0.67 mean front 34.9
+coord t=25000 [84s] solved 0.67 mean front 37.2
+coord t=30000 [101s] solved 0.67 mean front 39.2
+KILL TEST: INCONCLUSIVE. K1 (onehot: eta = L/slope = 1.03 in [0.67, 1.5], slope 38.9 updates per unit K, intercept 117, R2 = 1.000) = True. K2 (eta(coord) >= 2 eta(onehot) and coord >= thermo >= onehot; etas onehot=1.03, random=1.02, thermo=1.03, coord=1.03; slopes onehot=38.9, random=39.1, thermo=39.0, coord=39.0) = False. K3 (eta(random) <= 1.5 eta(onehot)) = True.
+
+ enc      K    n   T_p    solved  eta
+ onehot    50   8    2100   1.00   0.95
+ onehot   200   8    7850   1.00   1.02
+ onehot   800   8   31250   1.00   1.02
+ random    50   8    1850   1.00   1.08
+ random   200   8    7850   1.00   1.02
+ random   800   8   31250   1.00   1.02
+ thermo    50   8    2050   1.00   0.98
+ thermo   200   8    7850   1.00   1.02
+ thermo   800   8   31250   1.00   1.02
+ coord     50   8    2050   1.00   0.98
+ coord    200   8    7850   1.00   1.02
+ coord    800   8   31250   1.00   1.02

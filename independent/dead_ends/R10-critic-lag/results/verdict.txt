@@ -1,0 +1,1 @@
+KILL TEST: INCONCLUSIVE. K1 (ratio<=1 cells: fraction of (run,eval) with k*>0 = 0.83 >= 0.6 and error reduction from best past policy = 0.23 >= 0.2) = True. K2 (Spearman of mean k* on log lr_critic/lr_actor = +0.06 <= -0.6) = False. K3 (Spearman of final return on k* = +0.44 or on err0 = -0.78, <= -0.5) = True.

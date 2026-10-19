@@ -1,0 +1,36 @@
+R16 post hoc (not pre-registered)
+
+1. Residual (learned bias - Huber fixed-point bias) by kappa, pilot (two identical actions per chain state) vs nomax (one):
+   kappa= 0.1  pilot residual mean +0.002 (range +0.001..+0.005)   nomax residual mean -0.000 (range -0.000..+0.000)
+   kappa= 0.3  pilot residual mean +0.007 (range +0.004..+0.013)   nomax residual mean +0.000 (range -0.001..+0.001)
+   kappa= 1.0  pilot residual mean +0.024 (range +0.012..+0.042)   nomax residual mean +0.000 (range -0.001..+0.002)
+   kappa= 3.0  pilot residual mean +0.064 (range +0.037..+0.129)   nomax residual mean -0.001 (range -0.022..+0.018)
+   kappa= inf  pilot residual mean +0.188 (range +0.085..+0.313)   nomax residual mean +0.000 (range -0.006..+0.021)
+   The pilot residual is positive in every cell and grows with kappa: it is Q-learning's max-bias over the two noisy duplicate
+   estimates, which the Huber clip suppresses (clipped updates have less variance) and the squared loss lets through in full.
+   With one action per chain state the residual is within +-0.03 everywhere: the Huber fixed point is the whole story.
+
+2. Size of the Huber bias relative to the gap (nomax, kappa=1, the DQN default), by skew / g / p:
+   hazard  g=0.1 p=0.05  bias +0.899  (9.0x the gap)  greedy wrong in 100% of seeds
+   hazard  g=0.1 p=0.10  bias +0.847  (8.5x the gap)  greedy wrong in 100% of seeds
+   hazard  g=0.1 p=0.30  bias +0.574  (5.7x the gap)  greedy wrong in 100% of seeds
+   hazard  g=0.3 p=0.05  bias +1.070  (3.6x the gap)  greedy wrong in 100% of seeds
+   hazard  g=0.3 p=0.10  bias +1.019  (3.4x the gap)  greedy wrong in 100% of seeds
+   hazard  g=0.3 p=0.30  bias +0.747  (2.5x the gap)  greedy wrong in 100% of seeds
+   lottery g=0.1 p=0.05  bias -0.897  (9.0x the gap)  greedy wrong in 100% of seeds
+   lottery g=0.1 p=0.10  bias -0.846  (8.5x the gap)  greedy wrong in 100% of seeds
+   lottery g=0.1 p=0.30  bias -0.576  (5.8x the gap)  greedy wrong in 100% of seeds
+   lottery g=0.3 p=0.05  bias -1.068  (3.6x the gap)  greedy wrong in 100% of seeds
+   lottery g=0.3 p=0.10  bias -1.018  (3.4x the gap)  greedy wrong in 100% of seeds
+   lottery g=0.3 p=0.30  bias -0.747  (2.5x the gap)  greedy wrong in 100% of seeds
+
+3. When does the Huber bias vanish? It is zero whenever kappa exceeds the largest deviation of the target from its
+   Huber root, i.e. roughly kappa > M(1-p). At p=0.3 the jump is 3.7 (g=0.1) and kappa=3 is nearly inactive; at p=0.05 the
+   jump is 22 and even kappa=3 removes 80-95% of the risky arm's expected premium. For DQN with kappa=1 and reward
+   clipping to [-1,1], Huber is inactive on reward noise and active only on *value* jumps: terminations from high-value
+   states and rare large bootstrapped values.
+
+4. DQN check (results/dqn/verdict.txt): K4 passed 13/16. Failure-Q (true value 1) ends at 26.8 under Huber vs 22.2 under the
+   squared loss; only 2% of TD errors exceed kappa=1, but those are exactly the terminal ones. Return is equal at the end
+   (129 vs 131) and the squared loss has higher AUC (146 vs 125). Huber's protective reputation on CartPole is not visible
+   here; its cost on the terminal values is.

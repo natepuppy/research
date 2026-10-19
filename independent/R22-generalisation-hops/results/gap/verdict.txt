@@ -1,0 +1,1 @@
+KILL TEST: INCONCLUSIVE. GAP FOLLOW-UP. F1 (onehot front <= 16 at end in 8/8: 0/8 stalled; all 8 solved, median T_p 3450) = False. F2 (coord solved >= 6/8: 8/8, median T_p 7850) = True. F3 (thermo solved >= 6/8: 8/8, median 6250) = True. random: 7/8 solved, median 4850.

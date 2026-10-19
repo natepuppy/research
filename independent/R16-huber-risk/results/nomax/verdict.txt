@@ -1,0 +1,1 @@
+KILL TEST: INCONCLUSIVE. K1 (sign = -skew in all finite-kappa cells: False; |bias| non-increasing in kappa, Spearman range [-1.00, -0.90] all <= -0.8: True) = False. K2 (identity-fit R^2 of learned bias on Huber fixed-point bias = 1.000 >= 0.9) = True. K3 (wrong-policy cells agree with |pred bias| > g in 100% of cells >= 90%; any squared-loss cell wrong = False) = True.

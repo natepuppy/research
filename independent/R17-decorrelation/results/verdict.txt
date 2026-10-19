@@ -1,0 +1,1 @@
+KILL TEST: KILLED. K1 (K=100: AUC iid - win1 = +8.3 >= 20, iid wins 12/16 >= 12) = False. K2 (gap at K=2500 = +8.1 <= half of gap at K=100 = +4.2) = False. K3 (reuse control, win1 - recent: K100 -48.1, K2500 +23.9, both >= 20) = False.

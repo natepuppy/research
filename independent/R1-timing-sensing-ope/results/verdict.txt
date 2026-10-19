@@ -1,0 +1,1 @@
+KILL TEST: KILLED. K1 (timing+ipw halves the sparse-target error of the better of bin1h/exo: 3.25 vs 0.69, 0/5 seeds) = False. K2 (support flag dense/sparse = 0.000/0.000) = False. K3 (binned FQE closer to the fixed-grid policy's truth than to the target's, 4/6) = True. Naive masking bias on sparse = +0.94, IPW masking = +3.25.

@@ -1,0 +1,1 @@
+KILL TEST: KILLED. K1 (C51 choice matches clipped-VI prediction in 35/40 cells) = False. K2 (C51 mean within 5% of V_max of the clipped fixed point in 80/80 (cell, action) pairs) = True. K3 (myopic in all 18 both-saturate cells and patient in all 15 none-saturate cells: 28/33) = False. K4 (scalar clipped-Q agrees with C51 in 39/40) = False.

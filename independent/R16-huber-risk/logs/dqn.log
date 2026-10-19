@@ -1,0 +1,7 @@
+step 5000 [24s]  huber: ret 159.0 failQ  2.71 clip 0.03  mse: ret 162.1 failQ  1.73 clip 0.03
+step 10000 [50s]  huber: ret 150.8 failQ  4.90 clip 0.02  mse: ret 181.3 failQ  1.71 clip 0.05
+step 15000 [76s]  huber: ret 133.3 failQ  7.17 clip 0.01  mse: ret 171.4 failQ  2.07 clip 0.02
+step 20000 [102s]  huber: ret 104.4 failQ 16.35 clip 0.01  mse: ret 146.2 failQ  9.71 clip 0.01
+step 25000 [124s]  huber: ret 115.5 failQ 23.39 clip 0.01  mse: ret 126.8 failQ 17.96 clip 0.01
+step 30000 [149s]  huber: ret 148.6 failQ 27.85 clip 0.01  mse: ret 133.0 failQ 23.45 clip 0.01
+K4 (secondary; final failure-Q higher under Huber than squared loss in 13/16 paired seeds, >= 12): huber failQ 26.84 (max 28.07), mse failQ 22.15 (max 24.26); final return huber 129.1 vs mse 131.2; AUC 125.1 vs 146.4; fraction of TD errors beyond kappa=1: 0.02. K4 = True.

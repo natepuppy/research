@@ -1,0 +1,1 @@
+K4 (secondary; final failure-Q higher under Huber than squared loss in 13/16 paired seeds, >= 12): huber failQ 26.84 (max 28.07), mse failQ 22.15 (max 24.26); final return huber 129.1 vs mse 131.2; AUC 125.1 vs 146.4; fraction of TD errors beyond kappa=1: 0.02. K4 = True.

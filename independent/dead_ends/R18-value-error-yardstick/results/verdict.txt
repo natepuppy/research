@@ -1,0 +1,1 @@
+KILL TEST: KILLED. K1 (time-controlled Spearman(sup, delta) = +0.72 <= 0.5) = False. K2 (Spearman(cross_dhat, delta) = +0.93 >= 0.8) = True. K3 (cross_dhat beats best norm-type statistic +0.78 by >= 0.1, and cross_unif +0.91 by >= 0.05) = False. [secondary: |Spearman(over_dhat, delta)| = 0.65 <= 0.5 = False]

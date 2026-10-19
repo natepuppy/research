@@ -1,0 +1,37 @@
+R17 post hoc (not pre-registered)
+
+1. Paired comparisons (16 seeds), AUC and final:
+   K= 100 recent - iid : AUC  +39.7  wins 15/16 (p=0.001)   final  +69.3 wins 14/16 (p=0.004)
+   K= 100 win1   - iid : AUC   -8.3  wins  4/16 (p=0.077)   final  -12.6 wins  5/16 (p=0.210)
+   K= 100 win4   - iid : AUC   +7.4  wins 10/16 (p=0.454)   final  +11.6 wins  9/16 (p=0.804)
+   K= 100 recent - win1: AUC  +48.1  wins 15/16 (p=0.001)   final  +81.8 wins 15/16 (p=0.001)
+   K=2500 recent - iid : AUC  -31.9  wins  1/16 (p=0.001)   final   -6.7 wins  7/16 (p=0.804)
+   K=2500 win1   - iid : AUC   -8.1  wins  4/16 (p=0.077)   final   -7.0 wins  8/16 (p=1.000)
+   K=2500 win4   - iid : AUC  -10.5  wins  5/16 (p=0.210)   final  -13.0 wins  8/16 (p=1.000)
+   K=2500 recent - win1: AUC  -23.9  wins  2/16 (p=0.004)   final   +0.3 wins  8/16 (p=1.000)
+
+2. Learning curves (mean eval score) at 5k/10k/20k/30k steps:
+   K= 100 iid   : 170.0  113.3   90.9  117.0
+   K= 100 win4  : 152.8  128.0  108.4  121.0
+   K= 100 win1  : 165.6  106.9   79.1  102.2
+   K= 100 recent: 143.2  170.5  163.5  180.6
+   K=2500 iid   :  18.2  107.2  159.4  150.5
+   K=2500 win4  :  13.5   83.3  142.0  129.1
+   K=2500 win1  :  10.7   95.1  149.3  142.1
+   K=2500 recent:  15.3   47.7  133.4  127.2
+
+3. Gradient cosine to the full-buffer gradient vs performance (per run, all cells): rho(grad_cos, AUC) = -0.02
+   Within replay samplers only (iid/win4/win1): rho = +0.08
+   'recent' has cosine 0.10-0.15 (its gradient is nearly orthogonal to the buffer objective's) and the best AUC at K=100:
+   the minibatch is not a noisy estimate of the buffer gradient, it is the gradient of a different (on-policy) objective.
+
+4. Reading. At fixed data and update count, within-batch correlation costs 0-8 AUC points (win1 vs iid; 4/16 win1 wins at
+   K=100, p=0.08; 4/16 at K=2500). The textbook decorrelation effect is small. The large effect is the opposite of the
+   textbook's: with a fast target (K=100) training on the most recent 32 transitions (no replay) beats uniform replay by 40 AUC
+   points and 70 final-return points (15/16 and 14/16 wins), while with a slow target (K=2500) it is the worst by AUC (-32)
+   and equal at the end. The learning curves show why: at K=100 every replay sampler peaks at 5k steps (~165) and then
+   declines to 80-120 (the reach-ceiling-then-collapse pattern of R11), while the recent-data learner keeps climbing to 180.
+   At K=2500 nothing moves before 10k (the target-period speed limit of R12) and replay then wins on reuse.
+   Two candidate explanations for the K=100 result, not separated here: (a) stale replay targets (the buffer's actions and
+   next-states come from older, worse policies) feed the collapse; (b) the recent-only learner never loses its failure
+   transitions, since every failure it makes is in the next few batches. (b) is R11's mechanism and is the first thing to test.

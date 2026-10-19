@@ -1,0 +1,1 @@
+KILL TEST: SUPPORTED. K1 (centered gamma-ratio 0.9999/0.99: fast chain 1.00 < 1.5, slow chain 5.72 > 3) = True. K2 (same ratio with scaling on slow chain 1.00 > 2) = False. K3 (R2 of log t_conv on log 1/(1-gamma*lambda2) = 0.98 > 0.8 and beats 1/(1-gamma) R2 = 0.08 by 0.1) = True.

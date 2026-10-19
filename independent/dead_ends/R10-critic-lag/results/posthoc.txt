@@ -1,0 +1,11 @@
+POST HOC (not pre-registered).
+Spearman(log ratio, rel. improvement from best past policy) over 12 cells = -0.74
+Spearman(log lr_critic, rel. improvement) = -0.87;  Spearman(log lr_critic, err0) = -0.93
+Spearman(drift, err0) over cells = +0.90
+moving (drift > median): n=1008 P(k*>0)=0.80 mean k*=2.99 rel.imp=0.30 err0=33.6 median drift=4.3
+still (drift <= median): n=1008 P(k*>0)=0.88 mean k*=3.66 rel.imp=0.05 err0=15.6 median drift=0.3
+Moving evals only, per cell (n cells=12): Spearman(log ratio, mean k*) = -0.01; Spearman(log ratio, rel.imp) = -0.50
+Pooled (run,eval) in window: log err0 on log drift: slope 0.22, corr 0.67, n=2016
+Early phase (5k..10k): P(k*>0)=0.45 mean k*=0.89 rel.imp=0.10 err0=74.9 drift=29.2
+critic lr 1e-4: mean |Q_critic - Q^(pi_t-k)| for k=0..6: 47.6 48.8 49.5 51.0 53.5 58.0 64.2
+critic lr >= 1e-3: mean |Q_critic - Q^(pi_t-k)| for k=0..6: 14.5 14.6 14.7 15.0 15.3 16.2 18.1

@@ -1,0 +1,24 @@
+t=10000 [2s]  mean delta 1.403  mean sup 6.847
+t=20000 [3s]  mean delta 1.137  mean sup 5.748
+t=30000 [5s]  mean delta 0.957  mean sup 5.064
+t=40000 [6s]  mean delta 0.823  mean sup 4.668
+t=50000 [8s]  mean delta 0.697  mean sup 4.350
+t=60000 [9s]  mean delta 0.605  mean sup 4.051
+t=70000 [11s]  mean delta 0.553  mean sup 3.758
+t=80000 [12s]  mean delta 0.513  mean sup 3.568
+t=90000 [14s]  mean delta 0.469  mean sup 3.355
+t=100000 [15s]  mean delta 0.433  mean sup 3.166
+KILL TEST: KILLED. K1 (time-controlled Spearman(sup, delta) = +0.72 <= 0.5) = False. K2 (Spearman(cross_dhat, delta) = +0.93 >= 0.8) = True. K3 (cross_dhat beats best norm-type statistic +0.78 by >= 0.1, and cross_unif +0.91 by >= 0.05) = False. [secondary: |Spearman(over_dhat, delta)| = 0.65 <= 0.5 = False]
+
+stat            time-ctrl (sd)    pooled   dense   sparse
+sup             +0.72 (0.14)     +0.76    +0.80   +0.63
+rms             +0.75 (0.13)     +0.79    +0.83   +0.68
+rms_dstar       +0.78 (0.12)     +0.82    +0.84   +0.72
+rms_dhat        +0.77 (0.11)     +0.81    +0.83   +0.72
+bell_sup        +0.58 (0.16)     +0.62    +0.68   +0.48
+bell_rms_dhat   +0.77 (0.11)     +0.83    +0.84   +0.71
+over_dhat       -0.65 (0.17)     -0.73    -0.74   -0.55
+abs_over_dhat   +0.69 (0.14)     +0.77    +0.74   +0.65
+cross_unif      +0.91 (0.04)     +0.93    +0.92   +0.89
+cross_dstar     +0.92 (0.04)     +0.94    +0.92   +0.92
+cross_dhat      +0.93 (0.04)     +0.95    +0.91   +0.94

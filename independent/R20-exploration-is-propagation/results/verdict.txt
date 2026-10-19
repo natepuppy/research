@@ -1,0 +1,1 @@
+KILL TEST: SUPPORTED. K1 (K=2000, n=1, no bonus: median T_p > median T_d for every D; T_p/T_d = D10:18154/346, D20:37716/1862, D30:57648/9324) = True. K2 (Spearman of median T_p on (ceil(D/n)-1)K+1 over 18 no-bonus cells = +0.92 >= 0.8) = True. K3 (bonus halves T_d at K=2000,n=1 for every D: [True, True, False]) = False.

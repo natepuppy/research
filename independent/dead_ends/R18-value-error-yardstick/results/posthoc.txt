@@ -1,0 +1,27 @@
+R18 post hoc (not pre-registered)
+
+1. Which learner factors drive suboptimality at t=100k (mean delta by factor):
+   alpha: 0.05 -> delta 0.546, sup 3.77, over -0.520  0.2 -> delta 0.319, sup 2.56, over -0.141
+   eps: 0.1 -> delta 0.692, sup 5.51, over -0.629  0.5 -> delta 0.173, sup 0.82, over -0.031
+   sigma: 0 -> delta 0.410, sup 3.20, over -0.360  0.5 -> delta 0.455, sup 3.13, over -0.301
+
+2. Sign of over_dhat: mean over all Q-hats = -0.918; fraction negative (underestimation) = 0.88
+   Zero-initialised tabular Q-learning with restarts under-estimates on the way up; the learners that are further behind
+   (small alpha, large eps) under-estimate more AND have worse policies, so 'more overestimation' correlates with BETTER
+   performance here (rho = -0.65). The sign is the opposite of the deep-RL story and is a time-of-learning effect, not a bias effect.
+
+3. How diffuse are the errors? Ratio of sup-norm error to RMS error:
+   sup/rms: median 2.87 (iid Gaussian over 200 entries would give ~2.8). Errors are not concentrated in a few entries.
+
+4. Spearman among predictors (are the norms and cross_dhat measuring the same thing?), pooled over all Q-hats:
+   rho(sup, cross_dhat) = +0.31
+   rho(rms_dhat, cross_dhat) = +0.52
+   rho(sup, rms) = +0.95
+   rho(cross_unif, cross_dhat) = +0.91
+
+5. Reading. In this corpus the errors learning produces are diffuse (every state is visited under eps-greedy with restarts),
+   so every norm is a monotone proxy for 'how far along is this learner', and all of them predict performance at 0.72-0.78.
+   The gap-crossing statistic is better (0.93) because it ignores error that does not flip an action, but the margin is
+   0.15 over the best norm, not the regime change the hypothesis claimed, and weighting by the policy's own visitation
+   adds only 0.02. The hypothesis was motivated by errors concentrated off the policy's path (function approximation,
+   narrow behaviour data); the pilot did not produce such errors and so could not test that regime.
