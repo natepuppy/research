@@ -1,0 +1,9 @@
+{"table": "team_usage_regular_season", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"table": "shot_zones_regular_season", "error": "ShotChartLeagueWide.__init__() got an unexpected keyword argument 'season_type_all_star'"}
+{"table": "team_usage_playoffs", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"table": "shot_zones_playoffs", "error": "ShotChartLeagueWide.__init__() got an unexpected keyword argument 'season_type_all_star'"}
+{"game_id": "0022500001", "kind": "winprob", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"game_id": "0022500002", "kind": "winprob", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"game_id": "0022500003", "kind": "winprob", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"game_id": "0022500004", "kind": "winprob", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"game_id": "0022500080", "kind": "winprob", "error": "Expecting value: line 1 column 1 (char 0)"}

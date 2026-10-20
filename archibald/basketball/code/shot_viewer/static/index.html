@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shot viewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <h1>Shot viewer</h1>
+        <p>2025–26, from the basket</p>
+      </div>
+      <label class="field-control grow">
+        <span>Game</span>
+        <select id="game"></select>
+      </label>
+      <button class="ghost" id="surprise" type="button">Surprise me</button>
+    </header>
+
+    <div class="main">
+      <section class="stage">
+        <div class="field-wrap" id="field-wrap">
+          <svg id="court" viewBox="-1 -1 52 49" role="img" aria-label="Basketball court"></svg>
+          <div class="tag" id="tag" hidden></div>
+          <div class="loading" id="loading">Loading game…</div>
+        </div>
+        <div class="transport">
+          <button class="step" id="back" type="button" aria-label="Previous event">◀</button>
+          <button class="play" id="toggle" type="button" aria-label="Play">▶</button>
+          <button class="step" id="forward" type="button" aria-label="Next event">▶</button>
+          <input class="scrub" id="scrub" type="range" min="0" max="1" value="0" step="1">
+          <div class="phase" id="phase"><strong>Tip</strong></div>
+          <button class="speed-btn" type="button" data-speed="0.5">0.5×</button>
+          <button class="speed-btn active" type="button" data-speed="1">1×</button>
+          <button class="speed-btn" type="button" data-speed="2">2×</button>
+          <button class="speed-btn" type="button" data-speed="4">4×</button>
+          <button class="speed-btn" type="button" data-speed="8">8×</button>
+        </div>
+        <div class="legend">
+          <span><i class="swatch made"></i>Made</span>
+          <span><i class="swatch missed"></i>Missed</span>
+          <span>Shots stay on the court as the game moves forward. Click a player to see only their shots.</span>
+        </div>
+      </section>
+
+      <aside class="rail">
+        <div class="score" id="score"></div>
+        <p class="description" id="description">Choose a game.</p>
+        <div class="chips" id="chips"></div>
+        <div class="player-card" id="card">
+          <p class="empty">Click a shot</p>
+        </div>
+        <ul class="roster" id="roster"></ul>
+        <p class="note">Space plays and pauses. Arrow keys step one event. Games appear here as the download finishes.</p>
+      </aside>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
