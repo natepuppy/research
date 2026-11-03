@@ -1,0 +1,1221 @@
+{
+  "games": 1228,
+  "set_plays": {
+    "all": {
+      "none": {
+        "mean": 1.1310560307874031,
+        "se": 0.0036979314822594015,
+        "n": 104978
+      },
+      "opp": {
+        "mean": 0.881207400194742,
+        "se": 0.03337213533392314,
+        "n": 1027
+      },
+      "own": {
+        "mean": 1.0834070144414971,
+        "se": 0.01429199104080133,
+        "n": 6786
+      },
+      "tov_rate": {
+        "none": 0.14541141953552172,
+        "opp": 0.26484907497565724,
+        "own": 0.16312997347480107
+      },
+      "ft_trip_rate": {
+        "none": 0.11441444874164111,
+        "opp": 0.28529698149951316,
+        "own": 0.11936339522546419
+      },
+      "early_share": {
+        "none": 0.07709234315761397,
+        "opp": 0.2609542356377799,
+        "own": 0.05319776009431182
+      }
+    },
+    "even": {
+      "none": {
+        "mean": 1.1293746414228343,
+        "se": 0.005239421888238641,
+        "n": 52290
+      },
+      "opp": {
+        "mean": 0.9349904397705545,
+        "se": 0.04687199047437851,
+        "n": 523
+      },
+      "own": {
+        "mean": 1.0965171192443919,
+        "se": 0.020150578163828897,
+        "n": 3388
+      },
+      "tov_rate": {
+        "none": 0.1480397781602601,
+        "opp": 0.26195028680688337,
+        "own": 0.1717827626918536
+      },
+      "ft_trip_rate": {
+        "none": 0.11394148020654045,
+        "opp": 0.30401529636711283,
+        "own": 0.12012987012987013
+      },
+      "early_share": {
+        "none": 0.07718493019697839,
+        "opp": 0.2829827915869981,
+        "own": 0.050177095631641085
+      }
+    },
+    "odd": {
+      "none": {
+        "mean": 1.1327247191011236,
+        "se": 0.0052200014740465,
+        "n": 52688
+      },
+      "opp": {
+        "mean": 0.8253968253968254,
+        "se": 0.04744384865902355,
+        "n": 504
+      },
+      "own": {
+        "mean": 1.070335491465568,
+        "se": 0.020273165596680454,
+        "n": 3398
+      },
+      "tov_rate": {
+        "none": 0.1428029152748254,
+        "opp": 0.26785714285714285,
+        "own": 0.15450264861683344
+      },
+      "ft_trip_rate": {
+        "none": 0.11488384451867598,
+        "opp": 0.26587301587301587,
+        "own": 0.11859917598587405
+      },
+      "early_share": {
+        "none": 0.07700045551169146,
+        "opp": 0.23809523809523808,
+        "own": 0.05620953502060035
+      }
+    },
+    "quarter_start": {
+      "Q1": {
+        "mean": 1.0147167034584252,
+        "se": 0.031709904461046684,
+        "n": 1359
+      },
+      "Q2": {
+        "mean": 1.0686546463245492,
+        "se": 0.03138049270043014,
+        "n": 1442
+      },
+      "Q3": {
+        "mean": 1.0577367205542725,
+        "se": 0.032770095030138516,
+        "n": 1299
+      },
+      "Q4": {
+        "mean": 1.0867733782645324,
+        "se": 0.03425669901421899,
+        "n": 1187
+      }
+    },
+    "quarter_start_tov_rate": 0.17068160597572363,
+    "quarter_start_first_shot_zone": {
+      "other": 0.502,
+      "three": 0.31,
+      "rim": 0.188
+    },
+    "dead_ball_baseline": {
+      "mean": 1.1310560307874031,
+      "se": 0.0036979314822594015,
+      "n": 104978
+    },
+    "quarter_start_by_half": {
+      "even": {
+        "mean": 1.0593642282650326,
+        "se": 0.023148865736224294,
+        "n": 2611
+      },
+      "odd": {
+        "mean": 1.053064275037369,
+        "se": 0.02278557897905408,
+        "n": 2676
+      }
+    },
+    "team_after_own_timeout": {
+      "ATL": {
+        "mean": 0.956,
+        "count": 229,
+        "vs_own_flow": -0.191
+      },
+      "MIA": {
+        "mean": 0.962,
+        "count": 236,
+        "vs_own_flow": -0.185
+      },
+      "PHI": {
+        "mean": 0.99,
+        "count": 205,
+        "vs_own_flow": -0.153
+      },
+      "NOP": {
+        "mean": 0.974,
+        "count": 266,
+        "vs_own_flow": -0.139
+      },
+      "WAS": {
+        "mean": 0.934,
+        "count": 241,
+        "vs_own_flow": -0.134
+      },
+      "IND": {
+        "mean": 0.963,
+        "count": 297,
+        "vs_own_flow": -0.129
+      },
+      "CHI": {
+        "mean": 0.979,
+        "count": 236,
+        "vs_own_flow": -0.121
+      },
+      "UTA": {
+        "mean": 0.98,
+        "count": 196,
+        "vs_own_flow": -0.106
+      },
+      "PHX": {
+        "mean": 1.026,
+        "count": 235,
+        "vs_own_flow": -0.105
+      },
+      "SAS": {
+        "mean": 1.108,
+        "count": 260,
+        "vs_own_flow": -0.089
+      },
+      "DEN": {
+        "mean": 1.12,
+        "count": 250,
+        "vs_own_flow": -0.078
+      },
+      "NYK": {
+        "mean": 1.11,
+        "count": 227,
+        "vs_own_flow": -0.071
+      },
+      "CHA": {
+        "mean": 1.094,
+        "count": 202,
+        "vs_own_flow": -0.063
+      },
+      "DET": {
+        "mean": 1.117,
+        "count": 179,
+        "vs_own_flow": -0.056
+      },
+      "LAC": {
+        "mean": 1.085,
+        "count": 224,
+        "vs_own_flow": -0.056
+      },
+      "TOR": {
+        "mean": 1.055,
+        "count": 275,
+        "vs_own_flow": -0.053
+      },
+      "OKC": {
+        "mean": 1.117,
+        "count": 206,
+        "vs_own_flow": -0.042
+      },
+      "GSW": {
+        "mean": 1.073,
+        "count": 234,
+        "vs_own_flow": -0.036
+      },
+      "LAL": {
+        "mean": 1.149,
+        "count": 194,
+        "vs_own_flow": -0.019
+      },
+      "MIL": {
+        "mean": 1.108,
+        "count": 240,
+        "vs_own_flow": -0.013
+      },
+      "BOS": {
+        "mean": 1.176,
+        "count": 221,
+        "vs_own_flow": -0.007
+      },
+      "MIN": {
+        "mean": 1.144,
+        "count": 187,
+        "vs_own_flow": 0.01
+      },
+      "CLE": {
+        "mean": 1.185,
+        "count": 216,
+        "vs_own_flow": 0.019
+      },
+      "MEM": {
+        "mean": 1.141,
+        "count": 241,
+        "vs_own_flow": 0.032
+      },
+      "DAL": {
+        "mean": 1.126,
+        "count": 230,
+        "vs_own_flow": 0.05
+      },
+      "ORL": {
+        "mean": 1.162,
+        "count": 222,
+        "vs_own_flow": 0.054
+      },
+      "SAC": {
+        "mean": 1.158,
+        "count": 241,
+        "vs_own_flow": 0.067
+      },
+      "BKN": {
+        "mean": 1.153,
+        "count": 222,
+        "vs_own_flow": 0.072
+      },
+      "POR": {
+        "mean": 1.22,
+        "count": 191,
+        "vs_own_flow": 0.117
+      },
+      "HOU": {
+        "mean": 1.32,
+        "count": 169,
+        "vs_own_flow": 0.159
+      }
+    }
+  },
+  "discipline": {
+    "per_team_game": {
+      "technical_fts_conceded": 0.44218241042345274,
+      "technical_ft_pct": 0.8195211786372008,
+      "fouls_on_three_point_shooters": 0.3794788273615635,
+      "shot_clock_violations": 0.6710097719869706,
+      "backcourt_8s_5s_inbound": 0.16856677524429967,
+      "defensive_three_seconds": 0.12825732899022801,
+      "flagrants": 0.0993485342019544
+    },
+    "three_shot_foul_points_per_trip": 2.5021459227467813,
+    "three_shot_foul_cost_vs_a_three": 1.4021459227467812,
+    "average_possession": 1.1608422333378396,
+    "points_given_away_per_team_game": {
+      "mean": 1.9515034403383176,
+      "se": 0.03076365438200127,
+      "n": 2450
+    },
+    "team_points_given_away_per_game": {
+      "MIA": {
+        "cost": 1.49,
+        "technical_fts": 0.14,
+        "three_shot_fouls": 0.39,
+        "shot_clock": 0.49,
+        "backcourt": 0.2,
+        "def3": 0.05
+      },
+      "OKC": {
+        "cost": 1.5,
+        "technical_fts": 0.24,
+        "three_shot_fouls": 0.32,
+        "shot_clock": 0.57,
+        "backcourt": 0.13,
+        "def3": 0.06
+      },
+      "CHI": {
+        "cost": 1.61,
+        "technical_fts": 0.22,
+        "three_shot_fouls": 0.35,
+        "shot_clock": 0.65,
+        "backcourt": 0.13,
+        "def3": 0.05
+      },
+      "MEM": {
+        "cost": 1.62,
+        "technical_fts": 0.34,
+        "three_shot_fouls": 0.43,
+        "shot_clock": 0.39,
+        "backcourt": 0.24,
+        "def3": 0.02
+      },
+      "SAC": {
+        "cost": 1.65,
+        "technical_fts": 0.44,
+        "three_shot_fouls": 0.37,
+        "shot_clock": 0.6,
+        "backcourt": 0.05,
+        "def3": 0.06
+      },
+      "IND": {
+        "cost": 1.72,
+        "technical_fts": 0.42,
+        "three_shot_fouls": 0.25,
+        "shot_clock": 0.62,
+        "backcourt": 0.22,
+        "def3": 0.09
+      },
+      "DAL": {
+        "cost": 1.75,
+        "technical_fts": 0.4,
+        "three_shot_fouls": 0.35,
+        "shot_clock": 0.52,
+        "backcourt": 0.18,
+        "def3": 0.16
+      },
+      "UTA": {
+        "cost": 1.76,
+        "technical_fts": 0.43,
+        "three_shot_fouls": 0.35,
+        "shot_clock": 0.49,
+        "backcourt": 0.16,
+        "def3": 0.23
+      },
+      "ATL": {
+        "cost": 1.76,
+        "technical_fts": 0.33,
+        "three_shot_fouls": 0.28,
+        "shot_clock": 0.76,
+        "backcourt": 0.15,
+        "def3": 0.09
+      },
+      "CLE": {
+        "cost": 1.83,
+        "technical_fts": 0.54,
+        "three_shot_fouls": 0.33,
+        "shot_clock": 0.63,
+        "backcourt": 0.1,
+        "def3": 0.13
+      },
+      "GSW": {
+        "cost": 1.86,
+        "technical_fts": 0.48,
+        "three_shot_fouls": 0.31,
+        "shot_clock": 0.63,
+        "backcourt": 0.19,
+        "def3": 0.14
+      },
+      "ORL": {
+        "cost": 1.88,
+        "technical_fts": 0.61,
+        "three_shot_fouls": 0.41,
+        "shot_clock": 0.48,
+        "backcourt": 0.11,
+        "def3": 0.18
+      },
+      "NYK": {
+        "cost": 1.89,
+        "technical_fts": 0.32,
+        "three_shot_fouls": 0.35,
+        "shot_clock": 0.78,
+        "backcourt": 0.13,
+        "def3": 0.11
+      },
+      "WAS": {
+        "cost": 1.89,
+        "technical_fts": 0.54,
+        "three_shot_fouls": 0.36,
+        "shot_clock": 0.47,
+        "backcourt": 0.23,
+        "def3": 0.19
+      },
+      "NOP": {
+        "cost": 1.91,
+        "technical_fts": 0.5,
+        "three_shot_fouls": 0.39,
+        "shot_clock": 0.7,
+        "backcourt": 0.09,
+        "def3": 0.09
+      },
+      "LAL": {
+        "cost": 1.91,
+        "technical_fts": 0.55,
+        "three_shot_fouls": 0.35,
+        "shot_clock": 0.65,
+        "backcourt": 0.16,
+        "def3": 0.06
+      },
+      "TOR": {
+        "cost": 1.96,
+        "technical_fts": 0.37,
+        "three_shot_fouls": 0.43,
+        "shot_clock": 0.68,
+        "backcourt": 0.2,
+        "def3": 0.07
+      },
+      "BOS": {
+        "cost": 1.97,
+        "technical_fts": 0.28,
+        "three_shot_fouls": 0.4,
+        "shot_clock": 0.78,
+        "backcourt": 0.18,
+        "def3": 0.09
+      },
+      "SAS": {
+        "cost": 1.97,
+        "technical_fts": 0.37,
+        "three_shot_fouls": 0.37,
+        "shot_clock": 0.78,
+        "backcourt": 0.1,
+        "def3": 0.19
+      },
+      "MIN": {
+        "cost": 1.98,
+        "technical_fts": 0.56,
+        "three_shot_fouls": 0.36,
+        "shot_clock": 0.65,
+        "backcourt": 0.22,
+        "def3": 0.04
+      },
+      "PHI": {
+        "cost": 2.04,
+        "technical_fts": 0.38,
+        "three_shot_fouls": 0.49,
+        "shot_clock": 0.61,
+        "backcourt": 0.23,
+        "def3": 0.11
+      },
+      "BKN": {
+        "cost": 2.04,
+        "technical_fts": 0.59,
+        "three_shot_fouls": 0.26,
+        "shot_clock": 0.71,
+        "backcourt": 0.13,
+        "def3": 0.32
+      },
+      "LAC": {
+        "cost": 2.09,
+        "technical_fts": 0.35,
+        "three_shot_fouls": 0.45,
+        "shot_clock": 0.73,
+        "backcourt": 0.23,
+        "def3": 0.09
+      },
+      "CHA": {
+        "cost": 2.11,
+        "technical_fts": 0.32,
+        "three_shot_fouls": 0.35,
+        "shot_clock": 0.94,
+        "backcourt": 0.21,
+        "def3": 0.05
+      },
+      "DEN": {
+        "cost": 2.13,
+        "technical_fts": 0.52,
+        "three_shot_fouls": 0.41,
+        "shot_clock": 0.7,
+        "backcourt": 0.1,
+        "def3": 0.28
+      },
+      "POR": {
+        "cost": 2.26,
+        "technical_fts": 0.6,
+        "three_shot_fouls": 0.35,
+        "shot_clock": 0.78,
+        "backcourt": 0.12,
+        "def3": 0.32
+      },
+      "MIL": {
+        "cost": 2.3,
+        "technical_fts": 0.56,
+        "three_shot_fouls": 0.45,
+        "shot_clock": 0.65,
+        "backcourt": 0.26,
+        "def3": 0.23
+      },
+      "HOU": {
+        "cost": 2.31,
+        "technical_fts": 0.51,
+        "three_shot_fouls": 0.38,
+        "shot_clock": 0.88,
+        "backcourt": 0.27,
+        "def3": 0.06
+      },
+      "PHX": {
+        "cost": 2.57,
+        "technical_fts": 0.59,
+        "three_shot_fouls": 0.51,
+        "shot_clock": 0.94,
+        "backcourt": 0.15,
+        "def3": 0.17
+      },
+      "DET": {
+        "cost": 2.78,
+        "technical_fts": 0.79,
+        "three_shot_fouls": 0.54,
+        "shot_clock": 0.93,
+        "backcourt": 0.19,
+        "def3": 0.15
+      }
+    },
+    "within_team": {
+      "all": {
+        "net_rating_per_point_given_away": 0.46,
+        "se": 0.207
+      },
+      "even": {
+        "net_rating_per_point_given_away": 0.406,
+        "se": 0.3
+      },
+      "odd": {
+        "net_rating_per_point_given_away": 0.61,
+        "se": 0.285
+      }
+    }
+  },
+  "foul_trouble": {
+    "starters_with_2_fouls_in_q1": 1021,
+    "per_game": 0.8314332247557004,
+    "share_sat_within_90s": 0.6767874632713027,
+    "fouled_out": {
+      "all": {
+        "sat": {
+          "mean": 0.04486251808972504,
+          "se": 0.007880435557775494,
+          "n": 691
+        },
+        "stayed": {
+          "mean": 0.03636363636363636,
+          "se": 0.010320299339755453,
+          "n": 330
+        },
+        "gap": 0.008498881726088675,
+        "noise": 0.01298498529234474
+      },
+      "even": {
+        "sat": {
+          "mean": 0.046583850931677016,
+          "se": 0.011762683982299816,
+          "n": 322
+        },
+        "stayed": {
+          "mean": 0.02857142857142857,
+          "se": 0.012629809210528349,
+          "n": 175
+        },
+        "gap": 0.018012422360248446,
+        "noise": 0.017258992298561333
+      },
+      "odd": {
+        "sat": {
+          "mean": 0.04336043360433604,
+          "se": 0.010616883908116541,
+          "n": 369
+        },
+        "stayed": {
+          "mean": 0.04516129032258064,
+          "se": 0.016733539727492207,
+          "n": 155
+        },
+        "gap": -0.0018008567182445992,
+        "noise": 0.01981740587791409
+      }
+    },
+    "reached_5_fouls": {
+      "all": {
+        "sat": {
+          "mean": 0.19681620839363242,
+          "se": 0.015136077857521947,
+          "n": 691
+        },
+        "stayed": {
+          "mean": 0.1787878787878788,
+          "se": 0.021125099462826553,
+          "n": 330
+        },
+        "gap": 0.018028329605753624,
+        "noise": 0.025987894878640727
+      },
+      "even": {
+        "sat": {
+          "mean": 0.20186335403726707,
+          "se": 0.022403447410375164,
+          "n": 322
+        },
+        "stayed": {
+          "mean": 0.14857142857142858,
+          "se": 0.02696293317544311,
+          "n": 175
+        },
+        "gap": 0.0532919254658385,
+        "noise": 0.03505587285024945
+      },
+      "odd": {
+        "sat": {
+          "mean": 0.19241192411924118,
+          "se": 0.020548826765935987,
+          "n": 369
+        },
+        "stayed": {
+          "mean": 0.2129032258064516,
+          "se": 0.03298715238372955,
+          "n": 155
+        },
+        "gap": -0.020491301687210417,
+        "noise": 0.03886394863937324
+      }
+    },
+    "minutes_played": {
+      "all": {
+        "sat": {
+          "mean": 27.169102749638203,
+          "se": 0.2610401120566038,
+          "n": 691
+        },
+        "stayed": {
+          "mean": 29.14444444444445,
+          "se": 0.3688162410760243,
+          "n": 330
+        },
+        "gap": -1.9753416948062466,
+        "noise": 0.45184882403739013
+      },
+      "even": {
+        "sat": {
+          "mean": 27.435144927536232,
+          "se": 0.37562455630281366,
+          "n": 322
+        },
+        "stayed": {
+          "mean": 29.30038095238096,
+          "se": 0.517212575172122,
+          "n": 175
+        },
+        "gap": -1.8652360248447266,
+        "noise": 0.6392203494991877
+      },
+      "odd": {
+        "sat": {
+          "mean": 26.936946702800363,
+          "se": 0.362693566663833,
+          "n": 369
+        },
+        "stayed": {
+          "mean": 28.968387096774197,
+          "se": 0.5263709990767255,
+          "n": 155
+        },
+        "gap": -2.031440393973835,
+        "noise": 0.6392284818187957
+      }
+    },
+    "final_fouls": {
+      "all": {
+        "sat": {
+          "mean": 3.56150506512301,
+          "se": 0.041118815764347526,
+          "n": 691
+        },
+        "stayed": {
+          "mean": 3.4212121212121214,
+          "se": 0.05950670038052004,
+          "n": 330
+        },
+        "gap": 0.14029294391088865,
+        "noise": 0.07233121317964561
+      },
+      "even": {
+        "sat": {
+          "mean": 3.562111801242236,
+          "se": 0.06073358201296265,
+          "n": 322
+        },
+        "stayed": {
+          "mean": 3.382857142857143,
+          "se": 0.07674592278630119,
+          "n": 175
+        },
+        "gap": 0.1792546583850929,
+        "noise": 0.09786983523254836
+      },
+      "odd": {
+        "sat": {
+          "mean": 3.5609756097560976,
+          "se": 0.0559364698473369,
+          "n": 369
+        },
+        "stayed": {
+          "mean": 3.464516129032258,
+          "se": 0.09257179161513106,
+          "n": 155
+        },
+        "gap": 0.0964594807238397,
+        "noise": 0.10815925878914519
+      }
+    },
+    "all_starters_foul_out_rate": 0.015403422982885086,
+    "all_starters_minutes": {
+      "mean": 29.7129543602282,
+      "se": 0.05899001651186938,
+      "n": 12270
+    }
+  },
+  "bench_windows": {
+    "ppp_by_window": {
+      "Q1 first 6 min": {
+        "mean": 1.1564979221760483,
+        "se": 0.006745456351129188,
+        "n": 31764
+      },
+      "Q2 first 3 min": {
+        "mean": 1.1175776641761699,
+        "se": 0.009667557924818954,
+        "n": 15258
+      },
+      "Q3 first 6 min": {
+        "mean": 1.1899770717327218,
+        "se": 0.007197727096830846,
+        "n": 27477
+      },
+      "Q4 first 3 min": {
+        "mean": 1.1442128315354043,
+        "se": 0.01076926902444193,
+        "n": 12329
+      },
+      "other": {
+        "mean": 1.1621527882498417,
+        "se": 0.003249053517393424,
+        "n": 132628
+      }
+    },
+    "sd_of_team_net_by_window": {
+      "Q1 first 6 min": 6.2,
+      "Q2 first 3 min": 4.39,
+      "Q3 first 6 min": 6.42,
+      "Q4 first 3 min": 4.69,
+      "other": 14.05
+    },
+    "team_net_per_game": {
+      "Q2 first 3 min": {
+        "UTA": -1.19,
+        "SAC": -1.0,
+        "DEN": -0.8,
+        "CHI": -0.78,
+        "BKN": -0.71,
+        "ATL": -0.6,
+        "IND": -0.42,
+        "LAL": -0.28,
+        "DET": -0.2,
+        "MIN": -0.19,
+        "HOU": -0.18,
+        "ORL": -0.11,
+        "LAC": -0.08,
+        "PHX": -0.01,
+        "CLE": 0.02,
+        "GSW": 0.05,
+        "SAS": 0.07,
+        "POR": 0.08,
+        "WAS": 0.1,
+        "TOR": 0.22,
+        "MIL": 0.23,
+        "PHI": 0.3,
+        "NOP": 0.4,
+        "MEM": 0.42,
+        "MIA": 0.45,
+        "NYK": 0.49,
+        "CHA": 0.69,
+        "OKC": 0.95,
+        "DAL": 0.96,
+        "BOS": 1.26
+      },
+      "Q2 first 3 min spread": {
+        "best": 1.26,
+        "worst": -1.19,
+        "sd_across_teams": 0.5810853894954316
+      },
+      "Q4 first 3 min": {
+        "WAS": -2.16,
+        "NOP": -1.24,
+        "MEM": -1.04,
+        "UTA": -0.76,
+        "MIL": -0.67,
+        "DAL": -0.49,
+        "SAC": -0.43,
+        "LAC": -0.34,
+        "CHA": -0.28,
+        "MIA": -0.27,
+        "IND": -0.23,
+        "TOR": -0.2,
+        "CHI": -0.15,
+        "PHI": -0.03,
+        "ORL": -0.03,
+        "BKN": -0.02,
+        "ATL": -0.01,
+        "GSW": 0.0,
+        "MIN": 0.07,
+        "PHX": 0.09,
+        "POR": 0.3,
+        "BOS": 0.45,
+        "HOU": 0.49,
+        "CLE": 0.68,
+        "SAS": 0.79,
+        "DEN": 0.8,
+        "NYK": 1.03,
+        "OKC": 1.22,
+        "LAL": 1.4,
+        "DET": 1.58
+      },
+      "Q4 first 3 min spread": {
+        "best": 1.58,
+        "worst": -2.16,
+        "sd_across_teams": 0.7962978273768285
+      },
+      "Q1 first 6 min": {
+        "BKN": -2.67,
+        "SAC": -2.44,
+        "WAS": -2.33,
+        "NOP": -1.96,
+        "DAL": -1.57,
+        "UTA": -1.44,
+        "CHI": -1.13,
+        "MIL": -0.93,
+        "IND": -0.6,
+        "MEM": -0.49,
+        "GSW": -0.3,
+        "PHI": -0.04,
+        "PHX": 0.0,
+        "LAL": 0.11,
+        "NYK": 0.37,
+        "ATL": 0.39,
+        "LAC": 0.45,
+        "HOU": 0.5,
+        "POR": 0.51,
+        "TOR": 0.51,
+        "MIN": 0.56,
+        "BOS": 0.57,
+        "ORL": 0.98,
+        "CLE": 0.99,
+        "DEN": 0.99,
+        "CHA": 1.04,
+        "DET": 1.4,
+        "OKC": 1.94,
+        "MIA": 2.04,
+        "SAS": 2.65
+      },
+      "Q1 first 6 min spread": {
+        "best": 2.65,
+        "worst": -2.67,
+        "sd_across_teams": 1.3460909774380891
+      }
+    },
+    "share_of_season_margin_from_bench_windows": {
+      "ATL": -0.25,
+      "BKN": 0.07,
+      "BOS": 0.21,
+      "CHA": 0.09,
+      "CHI": 0.18,
+      "CLE": 0.15,
+      "DAL": -0.1,
+      "DEN": -0.01,
+      "DET": 0.14,
+      "GSW": -0.06,
+      "HOU": 0.04,
+      "IND": 0.08,
+      "LAC": -0.33,
+      "LAL": 0.55,
+      "MEM": 0.08,
+      "MIA": 0.09,
+      "MIL": 0.06,
+      "MIN": -0.04,
+      "NOP": 0.16,
+      "NYK": 0.22,
+      "OKC": 0.17,
+      "ORL": -0.21,
+      "PHI": -1.53,
+      "PHX": 0.04,
+      "POR": -1.35,
+      "SAC": 0.14,
+      "SAS": 0.09,
+      "TOR": 0.01,
+      "UTA": 0.2,
+      "WAS": 0.13
+    }
+  },
+  "hot_hand": {
+    "threes_with_two_prior": 51533,
+    "all": {
+      "mixed": {
+        "fg_pct": 0.3659078065714055,
+        "vs_own_rate": 0.0015256223104466108,
+        "se": 0.0030428952026724,
+        "n": 24774
+      },
+      "two_makes": {
+        "fg_pct": 0.3475824319040792,
+        "vs_own_rate": -0.0227369943093972,
+        "se": 0.005405233457927693,
+        "n": 7673
+      },
+      "two_misses": {
+        "fg_pct": 0.36607984910405533,
+        "vs_own_rate": 0.007160494090799555,
+        "se": 0.00346152702800035,
+        "n": 19086
+      }
+    },
+    "even": {
+      "mixed": {
+        "fg_pct": 0.3671583725076998,
+        "vs_own_rate": 0.0027999555678049825,
+        "se": 0.004313819281539192,
+        "n": 12338
+      },
+      "two_makes": {
+        "fg_pct": 0.3422626788036411,
+        "vs_own_rate": -0.029074509604670944,
+        "se": 0.0075998500597476894,
+        "n": 3845
+      },
+      "two_misses": {
+        "fg_pct": 0.3656240192488754,
+        "vs_own_rate": 0.006622086863021112,
+        "se": 0.004888401095095533,
+        "n": 9559
+      }
+    },
+    "odd": {
+      "mixed": {
+        "fg_pct": 0.36466709552910903,
+        "vs_own_rate": 0.0002613312418322992,
+        "se": 0.004293003708369674,
+        "n": 12436
+      },
+      "two_makes": {
+        "fg_pct": 0.35292580982236155,
+        "vs_own_rate": -0.016371334353721238,
+        "se": 0.007688178135922663,
+        "n": 3828
+      },
+      "two_misses": {
+        "fg_pct": 0.3665372100346384,
+        "vs_own_rate": 0.007700709761035114,
+        "se": 0.004902549589609708,
+        "n": 9527
+      }
+    },
+    "distance_by_state": {
+      "mixed": 22.36,
+      "two_makes": 23.11,
+      "two_misses": 22.04
+    }
+  },
+  "ft_icing": {
+    "first_free_throws": 30629,
+    "iced_share": 0.03238760651669986,
+    "made_vs_own_rate": {
+      "all": {
+        "after_timeout": {
+          "mean": -0.01586170475475785,
+          "se": 0.013476184327503561,
+          "n": 992
+        },
+        "normal": {
+          "mean": 0.0005309178093842112,
+          "se": 0.0024066305836029822,
+          "n": 29637
+        },
+        "gap": -0.016392622564142062,
+        "noise": 0.013689390592527698
+      },
+      "even": {
+        "after_timeout": {
+          "mean": -0.0199692976681053,
+          "se": 0.019363453477270212,
+          "n": 498
+        },
+        "normal": {
+          "mean": 0.006379170452826632,
+          "se": 0.003375772272419798,
+          "n": 14890
+        },
+        "gap": -0.02634846812093193,
+        "noise": 0.019655512432944763
+      },
+      "odd": {
+        "after_timeout": {
+          "mean": -0.011720851979763863,
+          "se": 0.018760449528415827,
+          "n": 494
+        },
+        "normal": {
+          "mean": -0.0053740446820281194,
+          "se": 0.003430866475280492,
+          "n": 14747
+        },
+        "gap": -0.0063468072977357435,
+        "noise": 0.019071583869187194
+      }
+    },
+    "raw_pct": {
+      "after_timeout": {
+        "mean": 0.751008064516129,
+        "se": 0.013736563990321915,
+        "n": 992
+      },
+      "normal": {
+        "mean": 0.7602658838613895,
+        "se": 0.0024799211883335835,
+        "n": 29637
+      },
+      "gap": -0.009257819345260487,
+      "noise": 0.013958624551171028
+    },
+    "late_game_only": {
+      "after_timeout": {
+        "mean": -0.06428300239840697,
+        "se": 0.04257285620432444,
+        "n": 106
+      },
+      "normal": {
+        "mean": -0.012638767662775916,
+        "se": 0.008548370584707555,
+        "n": 2352
+      },
+      "gap": -0.05164423473563105,
+      "noise": 0.04342260615218275
+    }
+  },
+  "timeouts_left": {
+    "team_games_close": 602,
+    "timeouts_left_after_last_call_close_games": {
+      "mean": 0.8189368770764119,
+      "se": 0.047294393568622674,
+      "n": 602
+    },
+    "share_close_games_ending_with_2_plus_unused": 0.2441860465116279,
+    "close_losses_with_2_plus_unused": 0.12624584717607973,
+    "by_team_close_games": {
+      "DEN": 0.29,
+      "SAC": 0.29,
+      "OKC": 0.31,
+      "NOP": 0.32,
+      "NYK": 0.56,
+      "IND": 0.59,
+      "WAS": 0.64,
+      "MIN": 0.65,
+      "MIA": 0.69,
+      "SAS": 0.7,
+      "MIL": 0.71,
+      "DAL": 0.72,
+      "CHI": 0.73,
+      "GSW": 0.74,
+      "DET": 0.75,
+      "TOR": 0.83,
+      "PHX": 0.85,
+      "BKN": 0.86,
+      "ORL": 0.87,
+      "LAC": 0.91,
+      "MEM": 0.94,
+      "CHA": 0.94,
+      "BOS": 0.95,
+      "ATL": 0.95,
+      "LAL": 1.07,
+      "PHI": 1.2,
+      "CLE": 1.2,
+      "POR": 1.22,
+      "UTA": 1.4,
+      "HOU": 1.58
+    },
+    "note": "left = 7 minus the used-count on the team's last timeout row (the count includes challenges); a team that never called one is missing."
+  },
+  "clutch_clock": {
+    "clutch_possessions": 4121,
+    "clutch_ppp": {
+      "mean": 1.1521475370055811,
+      "se": 0.01795177489626431,
+      "n": 4121
+    },
+    "normal_ppp": {
+      "mean": 1.1608422333378396,
+      "se": 0.002616767551869792,
+      "n": 207116
+    },
+    "clutch_by_seconds_to_shot": [
+      {
+        "sec_bin": "0-6",
+        "mean": 1.537,
+        "count": 382
+      },
+      {
+        "sec_bin": "6-10",
+        "mean": 1.302,
+        "count": 440
+      },
+      {
+        "sec_bin": "10-14",
+        "mean": 1.222,
+        "count": 599
+      },
+      {
+        "sec_bin": "14-18",
+        "mean": 1.256,
+        "count": 677
+      },
+      {
+        "sec_bin": "18-24",
+        "mean": 1.063,
+        "count": 844
+      }
+    ],
+    "normal_by_seconds_to_shot": [
+      {
+        "sec_bin": "0-6",
+        "mean": 1.48,
+        "count": 26440
+      },
+      {
+        "sec_bin": "6-10",
+        "mean": 1.339,
+        "count": 28750
+      },
+      {
+        "sec_bin": "10-14",
+        "mean": 1.3,
+        "count": 36998
+      },
+      {
+        "sec_bin": "14-18",
+        "mean": 1.265,
+        "count": 33559
+      },
+      {
+        "sec_bin": "18-24",
+        "mean": 1.22,
+        "count": 28369
+      }
+    ],
+    "clutch_median_seconds_to_shot": 15.0,
+    "normal_median_seconds_to_shot": 13.0,
+    "clutch_three_share": 0.2977432661975249,
+    "normal_three_share": 0.33246103632746865,
+    "clutch_tov_rate": 0.13249211356466878,
+    "normal_tov_rate": 0.14406419590953862,
+    "by_state": {
+      "leading": {
+        "ppp": 1.1086837793555435,
+        "median_sec": 18.0,
+        "three_share": 0.2725286728563626,
+        "n": 1831
+      },
+      "tied": {
+        "ppp": 1.2086720867208671,
+        "median_sec": 16.099999999999994,
+        "three_share": 0.2926829268292683,
+        "n": 369
+      },
+      "trailing": {
+        "ppp": 1.1827173347214992,
+        "median_sec": 12.0,
+        "three_share": 0.32274856845393024,
+        "n": 1921
+      }
+    }
+  }
+}

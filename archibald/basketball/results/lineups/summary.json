@@ -1,0 +1,220 @@
+{
+  "reactive_substitution": {
+    "games": 377,
+    "team_games": 624,
+    "offense_by_state": [
+      {
+        "state": "star off, stopper off",
+        "poss": 9249,
+        "ppp": 1.1093091144988647,
+        "ppp_vs_game": -0.05102931816568113,
+        "se": 0.012416535417882422
+      },
+      {
+        "state": "star off, stopper on",
+        "poss": 8591,
+        "ppp": 1.1031311837969968,
+        "ppp_vs_game": -0.05368743319221779,
+        "se": 0.012882513676412957
+      },
+      {
+        "state": "star on, stopper off",
+        "poss": 15357,
+        "ppp": 1.2019925766751318,
+        "ppp_vs_game": 0.03582915809277253,
+        "se": 0.009681478864564863
+      },
+      {
+        "state": "star on, stopper on",
+        "poss": 26185,
+        "ppp": 1.1741836929539813,
+        "ppp_vs_game": 0.0146255688920382,
+        "se": 0.007358931047496763
+      }
+    ],
+    "defense_by_state": [
+      {
+        "state": "star off, stopper off",
+        "poss": 9299,
+        "ppp": 1.1113022905688783,
+        "ppp_vs_game": -0.0303172922692276,
+        "se": 0.012328139653777749
+      },
+      {
+        "state": "star off, stopper on",
+        "poss": 8662,
+        "ppp": 1.1362271992611406,
+        "ppp_vs_game": -0.010243072151033575,
+        "se": 0.012872159798993739
+      },
+      {
+        "state": "star on, stopper off",
+        "poss": 15330,
+        "ppp": 1.150293542074364,
+        "ppp_vs_game": 0.002298311289042848,
+        "se": 0.009612971855879657
+      },
+      {
+        "state": "star on, stopper on",
+        "poss": 26109,
+        "ppp": 1.1630855260638093,
+        "ppp_vs_game": 0.012846638313331556,
+        "se": 0.007377957583088881
+      }
+    ],
+    "star_offense_value": {
+      "stopper on": {
+        "star_on_minus_off": 0.06831300208425599,
+        "se": 0.014836206549680356,
+        "poss_on": 26185,
+        "poss_off": 8591
+      },
+      "stopper off": {
+        "star_on_minus_off": 0.08685847625845367,
+        "se": 0.015744884400609144,
+        "poss_on": 15357,
+        "poss_off": 9249
+      }
+    },
+    "star_defense_value": {
+      "stopper on": {
+        "star_on_minus_off": 0.023089710464365136,
+        "se": 0.014836669302397017,
+        "poss_on": 26109,
+        "poss_off": 8662
+      },
+      "stopper off": {
+        "star_on_minus_off": 0.03261560355827045,
+        "se": 0.01563305009347129,
+        "poss_on": 15330,
+        "poss_off": 9299
+      }
+    },
+    "net_star_value": {
+      "stopper on": {
+        "net_per_100": 4.522329161989085
+      },
+      "stopper off": {
+        "net_per_100": 5.424287270018321
+      }
+    },
+    "coach_reaction": {
+      "p_star_on_when_stopper_on": 0.7286475986864613,
+      "p_star_on_when_stopper_off": 0.5803255902315382,
+      "mean_within_game_difference": 0.1483220084549233,
+      "se": 0.015118665428173327,
+      "team_games": 622
+    },
+    "state_share": {
+      "star off, stopper off": 0.15615160546210705,
+      "star off, stopper on": 0.1452492801939688,
+      "star on, stopper off": 0.2583472243269182,
+      "star on, stopper on": 0.44025189001700593
+    }
+  },
+  "composition": {
+    "star_lineups": 239,
+    "teams": 20,
+    "minutes": 18381.0,
+    "off_rating": {
+      "per_10pts_of_teammate_usage": {
+        "coef": 2.3703262746763127,
+        "se": 1.0143113565699649
+      },
+      "per_1sd_teammate_defense": {
+        "coef": 1.4376286218877248,
+        "se": 3.810011628818516
+      },
+      "per_5pts_teammate_ts": {
+        "coef": 2.338120609044194,
+        "se": 2.5602854168946063
+      }
+    },
+    "def_rating": {
+      "per_10pts_of_teammate_usage": {
+        "coef": 1.8085173967642008,
+        "se": 0.9936442218875627
+      },
+      "per_1sd_teammate_defense": {
+        "coef": -2.411038739988255,
+        "se": 3.7323806105278527
+      },
+      "per_5pts_teammate_ts": {
+        "coef": -5.473321657119275,
+        "se": 2.5081182364784413
+      }
+    },
+    "net_rating": {
+      "per_10pts_of_teammate_usage": {
+        "coef": 0.5631384701607048,
+        "se": 1.4285816784817917
+      },
+      "per_1sd_teammate_defense": {
+        "coef": 3.867523652788665,
+        "se": 5.366116402500578
+      },
+      "per_5pts_teammate_ts": {
+        "coef": 7.7951613140054,
+        "se": 3.6059705085313802
+      }
+    },
+    "contrast_raw": [
+      {
+        "type": "mixed",
+        "lineups": 145.0,
+        "minutes": 10564.0,
+        "off_rating": 116.80571753123817,
+        "def_rating": 110.86985990155243,
+        "net_rating": 5.934371450208255
+      },
+      {
+        "type": "star + defenders, no 15-ppg teammate",
+        "lineups": 8.0,
+        "minutes": 411.0,
+        "off_rating": 112.82871046228712,
+        "def_rating": 110.5,
+        "net_rating": 2.337469586374696
+      },
+      {
+        "type": "star + two 15-ppg scorers",
+        "lineups": 86.0,
+        "minutes": 7406.0,
+        "off_rating": 119.5051714825817,
+        "def_rating": 111.19164191196326,
+        "net_rating": 8.313826627059141
+      }
+    ],
+    "contrast_within_team": [
+      {
+        "type": "mixed",
+        "lineups": 145.0,
+        "minutes": 10564.0,
+        "off_vs_team": 0.01504965658562585,
+        "def_vs_team": -0.6336717513584418,
+        "net_vs_team": 0.650848264477891
+      },
+      {
+        "type": "star + defenders, no 15-ppg teammate",
+        "lineups": 8.0,
+        "minutes": 411.0,
+        "off_vs_team": -5.723787935616894,
+        "def_vs_team": 3.089957983432864,
+        "net_vs_team": -8.784964266884423
+      },
+      {
+        "type": "star + two 15-ppg scorers",
+        "lineups": 86.0,
+        "minutes": 7406.0,
+        "off_vs_team": 0.29617773013339627,
+        "def_vs_team": 0.7323974682905263,
+        "net_vs_team": -0.4408507631994254
+      }
+    ],
+    "all_lineups_usage_curve": {
+      "lineups": 546,
+      "linear": 0.6722292449964077,
+      "quadratic": 25.04061918748334,
+      "se_quadratic": 44.02493238616202
+    }
+  }
+}

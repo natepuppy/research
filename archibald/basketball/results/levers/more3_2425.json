@@ -1,0 +1,73 @@
+{
+  "games": 153,
+  "momentum": {
+    "windows": 20385,
+    "share_with_run": 0.011086583272013735,
+    "after_run_next6_net_for_running_team": {
+      "mean": 0.13716814159292035,
+      "se": 0.1968656953811607,
+      "n": 226
+    },
+    "after_run_by_half": {
+      "even": {
+        "mean": 0.4,
+        "se": 0.458257569495584,
+        "n": 40
+      },
+      "odd": {
+        "mean": 0.08064516129032258,
+        "se": 0.2182990386766387,
+        "n": 186
+      }
+    },
+    "after_run_next6_controlling_for_margin": {
+      "intercept": 0.13887667973434548,
+      "se": 0.19650665013126858,
+      "per_point_of_margin": 0.035102692723825046
+    },
+    "no_run_next6_for_leader": {
+      "mean": 0.5945988964346349,
+      "se": 0.02203393753416688,
+      "n": 18848
+    }
+  },
+  "letdown": {
+    "team_games": 2118,
+    "margin_after_big_win": {
+      "coef": -0.06045939246817607,
+      "se": 1.0754423794432981,
+      "n": 218
+    },
+    "margin_after_big_loss": {
+      "coef": -1.7705707416302991,
+      "se": 1.0735678462388918,
+      "n": 217
+    },
+    "margin_per_point_of_previous_margin_within_team": {
+      "coef": 0.026717965179278977,
+      "se": 0.021568923491465403
+    },
+    "margin_after_any_win_within_team": {
+      "coef": 0.13864432571005122,
+      "se": 0.6679569721636943
+    },
+    "even": {
+      "after_big_win": 0.6236061333965923,
+      "after_big_loss": -1.9632376142691392
+    },
+    "odd": {
+      "after_big_win": -0.9124036567761342,
+      "after_big_loss": -1.5120077442875475
+    },
+    "margin_after_3_losses": {
+      "coef": -0.729619742498098,
+      "se": 0.938513232833232,
+      "n": 343
+    },
+    "margin_after_3_wins": {
+      "coef": -0.6728718449417281,
+      "se": 0.9338852589688422,
+      "n": 334
+    }
+  }
+}

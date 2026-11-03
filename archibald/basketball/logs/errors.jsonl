@@ -7,3 +7,13 @@
 {"game_id": "0022500003", "kind": "winprob", "error": "Expecting value: line 1 column 1 (char 0)"}
 {"game_id": "0022500004", "kind": "winprob", "error": "Expecting value: line 1 column 1 (char 0)"}
 {"game_id": "0022500080", "kind": "winprob", "error": "Expecting value: line 1 column 1 (char 0)"}
+{"game_id": "0022500029", "kind": "box_hustle", "error": "HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=90)"}
+{"game_id": "0022500184", "kind": "box_hustle", "error": "HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=90)"}
+{"game_id": "0022500184", "kind": "box_matchups", "error": "HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=90)"}
+{"game_id": "0022500241", "kind": "box_four_factors", "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"game_id": "0022500241", "kind": "box_tracking", "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"game_id": "0022500241", "kind": "box_hustle", "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"game_id": "0022500287", "kind": "box_four_factors", "error": "HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=90)"}
+{"game_id": "0022500287", "kind": "box_tracking", "error": "HTTPSConnectionPool(host='stats.nba.com', port=443): Read timed out. (read timeout=90)"}
+{"game_id": "0022500062", "kind": "box_tracking", "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}
+{"game_id": "0022500062", "kind": "box_hustle", "error": "('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))"}

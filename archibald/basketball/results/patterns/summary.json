@@ -1,0 +1,1279 @@
+{
+  "scale": {
+    "league_player_points_per_poss": 0.24,
+    "league_team_points_per_poss": 1.1515,
+    "league_fga_per_poss": 0.1831,
+    "pair_min_poss": 30.0,
+    "rows_in_fit": 5624,
+    "note": "Rates are per on-court team possession, not per touch. A star at 0.30 scores about 0.30 points per team possession while he is on the floor. Team points per possession are the team's scoring on those same possessions, about 1.15."
+  },
+  "coverage": {
+    "regular_season_matchup_rows": 146193,
+    "tracked_matchup_minutes": 219958.2217,
+    "player_minutes_in_advanced_table": 593497.1,
+    "matchup_minutes_over_player_minutes": 0.3706,
+    "game_sample": "387 regular-season games with box matchups. Ids span the season but cluster in the early games plus a late slice.",
+    "switches": "games.box_matchups_team.switches_on and games.box_defensive_player.switches_on are 0 on every row.",
+    "playoff_matchups": "The playoff matchup request returned no rows.",
+    "lineups": "Five-man lineup tables have no opponent lineup. They cannot answer which unit to answer a unit with.",
+    "partial_possessions": "Rates are per on-court team possession, not per touch. A star at 0.30 scores about 0.30 points per team possession while he is on the floor. Team points per possession are the team's scoring on those same possessions, about 1.15."
+  },
+  "does_the_defender_matter": {
+    "overall": {
+      "scorer_points_per_poss": {
+        "n_pairs": 5624,
+        "poss": 254468.7,
+        "y_mean": 0.1971,
+        "r2_offense_only": 0.1738,
+        "r2_offense_and_defender": 0.2104,
+        "incremental_r2": 0.0367,
+        "defender_coef_on_raw": 0.4735,
+        "defender_coef_se": 0.0293,
+        "offense_coef": 0.7343,
+        "slope_of_residual_on_defender": 0.5156,
+        "slope_se": 0.0296,
+        "residual_slope_r2": 0.0513
+      },
+      "team_points_per_poss": {
+        "n_pairs": 5624,
+        "poss": 254468.7,
+        "y_mean": 1.0391,
+        "r2_offense_only": 0.0131,
+        "r2_offense_and_defender": 0.0198,
+        "incremental_r2": 0.0066,
+        "defender_coef_on_raw": 0.4343,
+        "defender_coef_se": 0.0705,
+        "offense_coef": 0.5343,
+        "slope_of_residual_on_defender": 0.4579,
+        "slope_se": 0.0708,
+        "residual_slope_r2": 0.0074
+      },
+      "fga_per_poss": {
+        "n_pairs": 5624,
+        "poss": 254468.7,
+        "y_mean": 0.1529,
+        "r2_offense_only": 0.2302,
+        "r2_offense_and_defender": 0.3242,
+        "incremental_r2": 0.0939,
+        "defender_coef_on_raw": 0.5903,
+        "defender_coef_se": 0.0211,
+        "offense_coef": 0.8564,
+        "slope_of_residual_on_defender": 0.6335,
+        "slope_se": 0.0206,
+        "residual_slope_r2": 0.1442
+      },
+      "true_shooting": {
+        "n_pairs": 842,
+        "r2": 0.0655,
+        "defender_coef": -0.1546,
+        "defender_coef_se": 0.0981,
+        "offense_coef": 1.0297,
+        "note": "Defender coefficient is the change in true shooting for a 1.0 increase in the defender's points-allowed rate. Season true shooting is the offensive baseline."
+      }
+    },
+    "by_scoring_tier": {
+      "medium (10\u201320 ppg)": {
+        "scorer_points": {
+          "n_pairs": 2919,
+          "poss": 131819.0,
+          "y_mean": 0.185,
+          "r2_offense_only": 0.034,
+          "r2_offense_and_defender": 0.0683,
+          "incremental_r2": 0.0342,
+          "defender_coef_on_raw": 0.4,
+          "defender_coef_se": 0.0386,
+          "offense_coef": 0.593,
+          "slope_of_residual_on_defender": 0.4314,
+          "slope_se": 0.0388,
+          "residual_slope_r2": 0.0406
+        },
+        "team_points": {
+          "n_pairs": 2919,
+          "poss": 131819.0,
+          "y_mean": 1.0363,
+          "r2_offense_only": 0.0092,
+          "r2_offense_and_defender": 0.0165,
+          "incremental_r2": 0.0073,
+          "defender_coef_on_raw": 0.4579,
+          "defender_coef_se": 0.0983,
+          "offense_coef": 0.4714,
+          "slope_of_residual_on_defender": 0.4703,
+          "slope_se": 0.0988,
+          "residual_slope_r2": 0.0077
+        },
+        "fga_rate": {
+          "n_pairs": 2919,
+          "poss": 131819.0,
+          "y_mean": 0.1455,
+          "r2_offense_only": 0.0775,
+          "r2_offense_and_defender": 0.1903,
+          "incremental_r2": 0.1128,
+          "defender_coef_on_raw": 0.5809,
+          "defender_coef_se": 0.0288,
+          "offense_coef": 0.8691,
+          "slope_of_residual_on_defender": 0.6126,
+          "slope_se": 0.0273,
+          "residual_slope_r2": 0.1472
+        }
+      },
+      "role (<10 ppg)": {
+        "scorer_points": {
+          "n_pairs": 1252,
+          "poss": 52279.5,
+          "y_mean": 0.1358,
+          "r2_offense_only": 0.0586,
+          "r2_offense_and_defender": 0.079,
+          "incremental_r2": 0.0204,
+          "defender_coef_on_raw": 0.2374,
+          "defender_coef_se": 0.0451,
+          "offense_coef": 0.6069,
+          "slope_of_residual_on_defender": 0.2254,
+          "slope_se": 0.0456,
+          "residual_slope_r2": 0.0192
+        },
+        "team_points": {
+          "n_pairs": 1252,
+          "poss": 52279.5,
+          "y_mean": 1.0253,
+          "r2_offense_only": 0.0103,
+          "r2_offense_and_defender": 0.0177,
+          "incremental_r2": 0.0074,
+          "defender_coef_on_raw": 0.4486,
+          "defender_coef_se": 0.146,
+          "offense_coef": 0.4472,
+          "slope_of_residual_on_defender": 0.5074,
+          "slope_se": 0.1468,
+          "residual_slope_r2": 0.0095
+        },
+        "fga_rate": {
+          "n_pairs": 1252,
+          "poss": 52279.5,
+          "y_mean": 0.1087,
+          "r2_offense_only": 0.1478,
+          "r2_offense_and_defender": 0.2046,
+          "incremental_r2": 0.0567,
+          "defender_coef_on_raw": 0.309,
+          "defender_coef_se": 0.0327,
+          "offense_coef": 0.8234,
+          "slope_of_residual_on_defender": 0.3429,
+          "slope_se": 0.0316,
+          "residual_slope_r2": 0.0861
+        }
+      },
+      "star (20+ ppg)": {
+        "scorer_points": {
+          "n_pairs": 1453,
+          "poss": 70370.2,
+          "y_mean": 0.2652,
+          "r2_offense_only": 0.0303,
+          "r2_offense_and_defender": 0.1298,
+          "incremental_r2": 0.0995,
+          "defender_coef_on_raw": 1.0187,
+          "defender_coef_se": 0.0791,
+          "offense_coef": 0.5961,
+          "slope_of_residual_on_defender": 1.0537,
+          "slope_se": 0.0796,
+          "residual_slope_r2": 0.1077
+        },
+        "team_points": {
+          "n_pairs": 1453,
+          "poss": 70370.2,
+          "y_mean": 1.0545,
+          "r2_offense_only": 0.0183,
+          "r2_offense_and_defender": 0.0234,
+          "incremental_r2": 0.0051,
+          "defender_coef_on_raw": 0.3869,
+          "defender_coef_se": 0.1404,
+          "offense_coef": 0.7155,
+          "slope_of_residual_on_defender": 0.3968,
+          "slope_se": 0.1405,
+          "residual_slope_r2": 0.0055
+        },
+        "fga_rate": {
+          "n_pairs": 1453,
+          "poss": 70370.2,
+          "y_mean": 0.1996,
+          "r2_offense_only": 0.0416,
+          "r2_offense_and_defender": 0.2229,
+          "incremental_r2": 0.1812,
+          "defender_coef_on_raw": 1.0299,
+          "defender_coef_se": 0.056,
+          "offense_coef": 0.7739,
+          "slope_of_residual_on_defender": 1.0676,
+          "slope_se": 0.0552,
+          "residual_slope_r2": 0.2049
+        }
+      }
+    },
+    "help_defense": {
+      "scorer_points_coef_on_help_fga_per_poss": 0.0,
+      "scorer_points_se": null,
+      "team_points_coef_on_help_fga_per_poss": 0.0,
+      "team_points_se": null,
+      "n": 5624,
+      "note": "Help field-goal attempts per possession, after the offensive player's own scoring rate. A negative scorer coefficient with a flat team coefficient means the shot moved to a teammate."
+    }
+  },
+  "examples": {
+    "largest_drop_vs_own_baseline": [
+      {
+        "off_player_name": "Anthony Edwards",
+        "def_player_name": "Isaac Okoro",
+        "gp": 2,
+        "partial_poss": 38.5,
+        "player_pts": 0.0,
+        "player_ppp": 0.0,
+        "off_ppp": 0.391,
+        "vs_own_baseline": -0.391,
+        "team_ppp": 1.039,
+        "def_ppp": 0.241,
+        "def_ppg": 9.3
+      },
+      {
+        "off_player_name": "Jaylen Brown",
+        "def_player_name": "Micah Peavy",
+        "gp": 1,
+        "partial_poss": 35.7,
+        "player_pts": 1.0,
+        "player_ppp": 0.028,
+        "off_ppp": 0.418,
+        "vs_own_baseline": -0.39,
+        "team_ppp": 1.625,
+        "def_ppp": 0.222,
+        "def_ppg": 4.3
+      },
+      {
+        "off_player_name": "Shai Gilgeous-Alexander",
+        "def_player_name": "Moses Moody",
+        "gp": 3,
+        "partial_poss": 31.1,
+        "player_pts": 2.0,
+        "player_ppp": 0.064,
+        "off_ppp": 0.443,
+        "vs_own_baseline": -0.379,
+        "team_ppp": 0.9,
+        "def_ppp": 0.235,
+        "def_ppg": 12.1
+      },
+      {
+        "off_player_name": "Devin Booker",
+        "def_player_name": "Naji Marshall",
+        "gp": 2,
+        "partial_poss": 31.7,
+        "player_pts": 0.0,
+        "player_ppp": 0.0,
+        "off_ppp": 0.373,
+        "vs_own_baseline": -0.373,
+        "team_ppp": 1.041,
+        "def_ppp": 0.207,
+        "def_ppg": 15.2
+      },
+      {
+        "off_player_name": "Lauri Markkanen",
+        "def_player_name": "Julius Randle",
+        "gp": 2,
+        "partial_poss": 40.4,
+        "player_pts": 0.0,
+        "player_ppp": 0.0,
+        "off_ppp": 0.367,
+        "vs_own_baseline": -0.367,
+        "team_ppp": 0.545,
+        "def_ppp": 0.221,
+        "def_ppg": 21.1
+      },
+      {
+        "off_player_name": "Lauri Markkanen",
+        "def_player_name": "Jaylen Brown",
+        "gp": 2,
+        "partial_poss": 31.3,
+        "player_pts": 0.0,
+        "player_ppp": 0.0,
+        "off_ppp": 0.366,
+        "vs_own_baseline": -0.366,
+        "team_ppp": 1.022,
+        "def_ppp": 0.205,
+        "def_ppg": 28.7
+      },
+      {
+        "off_player_name": "Lauri Markkanen",
+        "def_player_name": "LeBron James",
+        "gp": 2,
+        "partial_poss": 31.2,
+        "player_pts": 0.0,
+        "player_ppp": 0.0,
+        "off_ppp": 0.366,
+        "vs_own_baseline": -0.366,
+        "team_ppp": 0.801,
+        "def_ppp": 0.165,
+        "def_ppg": 20.9
+      },
+      {
+        "off_player_name": "Kawhi Leonard",
+        "def_player_name": "Alex Caruso",
+        "gp": 2,
+        "partial_poss": 35.0,
+        "player_pts": 2.0,
+        "player_ppp": 0.057,
+        "off_ppp": 0.422,
+        "vs_own_baseline": -0.365,
+        "team_ppp": 0.771,
+        "def_ppp": 0.211,
+        "def_ppg": 6.2
+      },
+      {
+        "off_player_name": "Donovan Mitchell",
+        "def_player_name": "Amen Thompson",
+        "gp": 2,
+        "partial_poss": 47.6,
+        "player_pts": 2.0,
+        "player_ppp": 0.042,
+        "off_ppp": 0.406,
+        "vs_own_baseline": -0.364,
+        "team_ppp": 0.882,
+        "def_ppp": 0.156,
+        "def_ppg": 18.3
+      },
+      {
+        "off_player_name": "Kawhi Leonard",
+        "def_player_name": "Herbert Jones",
+        "gp": 3,
+        "partial_poss": 30.7,
+        "player_pts": 2.0,
+        "player_ppp": 0.065,
+        "off_ppp": 0.421,
+        "vs_own_baseline": -0.356,
+        "team_ppp": 1.336,
+        "def_ppp": 0.225,
+        "def_ppg": 8.9
+      },
+      {
+        "off_player_name": "Anthony Edwards",
+        "def_player_name": "VJ Edgecombe",
+        "gp": 2,
+        "partial_poss": 49.5,
+        "player_pts": 2.0,
+        "player_ppp": 0.04,
+        "off_ppp": 0.392,
+        "vs_own_baseline": -0.351,
+        "team_ppp": 0.606,
+        "def_ppp": 0.219,
+        "def_ppg": 16.0
+      },
+      {
+        "off_player_name": "Victor Wembanyama",
+        "def_player_name": "Royce O'Neale",
+        "gp": 2,
+        "partial_poss": 30.0,
+        "player_pts": 2.0,
+        "player_ppp": 0.067,
+        "off_ppp": 0.417,
+        "vs_own_baseline": -0.35,
+        "team_ppp": 0.633,
+        "def_ppp": 0.23,
+        "def_ppg": 9.8
+      }
+    ],
+    "largest_gain_vs_own_baseline": [
+      {
+        "off_player_name": "Jamal Murray",
+        "def_player_name": "Ace Bailey",
+        "gp": 4,
+        "partial_poss": 35.7,
+        "player_pts": 36.0,
+        "player_ppp": 1.008,
+        "off_ppp": 0.345,
+        "vs_own_baseline": 0.663,
+        "team_ppp": 2.101,
+        "def_ppp": 0.249,
+        "def_ppg": 13.8
+      },
+      {
+        "off_player_name": "Bam Adebayo",
+        "def_player_name": "Alex Sarr",
+        "gp": 2,
+        "partial_poss": 49.2,
+        "player_pts": 39.0,
+        "player_ppp": 0.793,
+        "off_ppp": 0.293,
+        "vs_own_baseline": 0.5,
+        "team_ppp": 1.443,
+        "def_ppp": 0.359,
+        "def_ppg": 16.3
+      },
+      {
+        "off_player_name": "Alperen Sengun",
+        "def_player_name": "Donovan Clingan",
+        "gp": 2,
+        "partial_poss": 31.1,
+        "player_pts": 25.0,
+        "player_ppp": 0.804,
+        "off_ppp": 0.309,
+        "vs_own_baseline": 0.495,
+        "team_ppp": 1.415,
+        "def_ppp": 0.405,
+        "def_ppg": 12.1
+      },
+      {
+        "off_player_name": "Evan Mobley",
+        "def_player_name": "Rudy Gobert",
+        "gp": 2,
+        "partial_poss": 37.0,
+        "player_pts": 27.0,
+        "player_ppp": 0.73,
+        "off_ppp": 0.281,
+        "vs_own_baseline": 0.448,
+        "team_ppp": 1.486,
+        "def_ppp": 0.29,
+        "def_ppg": 10.9
+      },
+      {
+        "off_player_name": "Kevin Durant",
+        "def_player_name": "DeMar DeRozan",
+        "gp": 4,
+        "partial_poss": 32.8,
+        "player_pts": 25.0,
+        "player_ppp": 0.762,
+        "off_ppp": 0.346,
+        "vs_own_baseline": 0.417,
+        "team_ppp": 1.646,
+        "def_ppp": 0.194,
+        "def_ppg": 18.4
+      },
+      {
+        "off_player_name": "Kon Knueppel",
+        "def_player_name": "Donovan Mitchell",
+        "gp": 4,
+        "partial_poss": 43.2,
+        "player_pts": 30.0,
+        "player_ppp": 0.694,
+        "off_ppp": 0.295,
+        "vs_own_baseline": 0.399,
+        "team_ppp": 1.574,
+        "def_ppp": 0.178,
+        "def_ppg": 27.9
+      },
+      {
+        "off_player_name": "Kon Knueppel",
+        "def_player_name": "Davion Mitchell",
+        "gp": 4,
+        "partial_poss": 37.2,
+        "player_pts": 25.0,
+        "player_ppp": 0.672,
+        "off_ppp": 0.296,
+        "vs_own_baseline": 0.376,
+        "team_ppp": 1.478,
+        "def_ppp": 0.223,
+        "def_ppg": 9.3
+      },
+      {
+        "off_player_name": "DeMar DeRozan",
+        "def_player_name": "Luka Don\u010di\u0107",
+        "gp": 3,
+        "partial_poss": 31.0,
+        "player_pts": 20.0,
+        "player_ppp": 0.645,
+        "off_ppp": 0.281,
+        "vs_own_baseline": 0.364,
+        "team_ppp": 1.323,
+        "def_ppp": 0.238,
+        "def_ppg": 33.5
+      }
+    ],
+    "filter": "Offensive player at least 18 ppg and 40 games. Matchup at least 30 partial possessions. Drop is points per on-court possession minus that player's season rate."
+  },
+  "how_concentrated_is_the_assignment": {
+    "min_on_court_poss": 400,
+    "overall": {
+      "players": 462,
+      "median_top1_share": 0.024,
+      "median_top3_share": 0.0626,
+      "median_effective_defenders": 197.8129,
+      "p10_top1": 0.0163,
+      "p90_top1": 0.0425
+    },
+    "by_tier": {
+      "medium (10\u201320 ppg)": {
+        "players": 164,
+        "median_top1_share": 0.0219,
+        "median_top3_share": 0.0578,
+        "median_effective_defenders": 216.4538,
+        "p10_top1": 0.0155,
+        "p90_top1": 0.0417
+      },
+      "role (<10 ppg)": {
+        "players": 251,
+        "median_top1_share": 0.0259,
+        "median_top3_share": 0.065,
+        "median_effective_defenders": 186.525,
+        "p10_top1": 0.0167,
+        "p90_top1": 0.0428
+      },
+      "star (20+ ppg)": {
+        "players": 47,
+        "median_top1_share": 0.0233,
+        "median_top3_share": 0.0628,
+        "median_effective_defenders": 214.2122,
+        "p10_top1": 0.0176,
+        "p90_top1": 0.0346
+      }
+    },
+    "top1_share_hist": [
+      {
+        "bin": "under 6%",
+        "players": 453
+      },
+      {
+        "bin": "6\u20138%",
+        "players": 7
+      },
+      {
+        "bin": "8\u201310%",
+        "players": 1
+      },
+      {
+        "bin": "10\u201312%",
+        "players": 0
+      },
+      {
+        "bin": "12\u201315%",
+        "players": 1
+      },
+      {
+        "bin": "15\u201320%",
+        "players": 0
+      },
+      {
+        "bin": "20\u201330%",
+        "players": 0
+      },
+      {
+        "bin": "over 30%",
+        "players": 0
+      }
+    ],
+    "note": "Shares are of tracked matchup possessions, which themselves cover about 37% of playing time but are scaled so they sum to on-court possessions. Top-1 share is the primary defender's fraction of that."
+  },
+  "who_is_assigned_when_both_are_on": {
+    "games": 387,
+    "commit": {
+      "pairs": 51857,
+      "within_offensive_player_corr_commit_vs_defender_ppp": 0.0381,
+      "within_offensive_player_slope": 0.133,
+      "within_offensive_player_slope_se": 0.0153,
+      "within_defender_corr_commit_vs_scorer_ppp": -0.018,
+      "within_defender_slope": -0.0422,
+      "within_defender_slope_se": 0.0103,
+      "reading": "Commit is the fraction of shared floor time spent as the matchup. Positive within-scorer correlation means a larger share of the overlap is assigned when the defender gives up more points to everyone else (the offense hunts, or the defense fails to hide him). Positive within-defender correlation means a defender spends a larger share of the overlap on scorers who score more on everyone else."
+    },
+    "duration": {
+      "bins": [
+        {
+          "assignment": "under 1 min",
+          "rows": 27751,
+          "poss": 101241.2,
+          "scorer_points_vs_own_rate": 0.0443,
+          "scorer_points_per_poss": 0.2797,
+          "team_points_per_poss": 1.2131
+        },
+        {
+          "assignment": "1\u20132 min",
+          "rows": 13424,
+          "poss": 97310.4,
+          "scorer_points_vs_own_rate": -0.0038,
+          "scorer_points_per_poss": 0.2369,
+          "team_points_per_poss": 1.1515
+        },
+        {
+          "assignment": "2\u20134 min",
+          "rows": 6309,
+          "poss": 86424.4,
+          "scorer_points_vs_own_rate": -0.0518,
+          "scorer_points_per_poss": 0.1945,
+          "team_points_per_poss": 1.0594
+        },
+        {
+          "assignment": "4\u20137 min",
+          "rows": 2031,
+          "poss": 50429.8,
+          "scorer_points_vs_own_rate": -0.0735,
+          "scorer_points_per_poss": 0.1888,
+          "team_points_per_poss": 1.0134
+        },
+        {
+          "assignment": "7+ min",
+          "rows": 241,
+          "poss": 9069.4,
+          "scorer_points_vs_own_rate": -0.0864,
+          "scorer_points_per_poss": 0.1932,
+          "team_points_per_poss": 1.0126
+        }
+      ],
+      "minutes_coef_on_scorer_ppp": -0.0239,
+      "minutes_coef_se": 0.0007,
+      "defender_coef": 0.9479,
+      "n_stints": 49756,
+      "r2": 0.089,
+      "stars_minutes_coef": -0.0335,
+      "stars_minutes_se": 0.0018,
+      "stars_n": 7363,
+      "note": "Each row is the whole assignment in one game, not a running clock. The coefficient is the change in the scorer's points per possession per extra minute of that assignment, holding his season rate and the defender's season rate fixed. It is not a within-stint decay curve. The tracking feed has no timestamp for when the assignment started."
+    }
+  },
+  "scorer_guarding_a_scorer": {
+    "player_games": 3524,
+    "players": 184,
+    "games": 387,
+    "who": "Players with season usage at least 18% and at least 6 games of 12+ minutes in the 387-game sample.",
+    "points_per_minute_on_star_share": 0.0448,
+    "points_per_minute_se": 0.0219,
+    "usage_on_star_share": 0.0029,
+    "usage_se": 0.0053,
+    "points_per_minute_on_best_opponent_share": 0.0308,
+    "points_per_minute_best_se": 0.0304,
+    "mean_star_share": 0.1734,
+    "note": "Within-player. Star share is the fraction of this player's tracked defensive matchup time spent on opponents whose season usage is at least 25%. The coefficient is the change in his own points per minute when that fraction goes from 0 to 1, holding his minutes played fixed. Games against a team with a star are also games against that team's defense, so this is not a pure fatigue effect."
+  },
+  "offensive_load_vs_defensive_load": {
+    "players": 465,
+    "corr_usage_vs_def_poss_per_36": 0.2323,
+    "corr_usage_vs_touches_per_game": 0.7425,
+    "corr_ppg_vs_def_poss_per_36": 0.2841,
+    "corr_usage_vs_off_poss_per_36": 0.4817,
+    "median_def_poss_per_36": 70.7358,
+    "median_off_poss_per_36": 70.6635,
+    "note": "Defensive possessions per 36 are the on-court possessions of the players he was assigned to, scaled as in the matchup table. Offensive possessions per 36 are his own on-court possessions and mostly track minutes, so usage should be nearly uncorrelated with them. Touches are per game from the tracking table."
+  },
+  "shot_zones": {
+    "regular_season": [
+      {
+        "zone": "Restricted area",
+        "shot_value": 2,
+        "attempts": 62645,
+        "fg_pct": 0.6703,
+        "points_per_shot": 1.3406,
+        "share_of_attempts": 0.284
+      },
+      {
+        "zone": "Paint, non-RA",
+        "shot_value": 2,
+        "attempts": 44093,
+        "fg_pct": 0.4461,
+        "points_per_shot": 0.8923,
+        "share_of_attempts": 0.1999
+      },
+      {
+        "zone": "Midrange",
+        "shot_value": 2,
+        "attempts": 22192,
+        "fg_pct": 0.4157,
+        "points_per_shot": 0.8314,
+        "share_of_attempts": 0.1006
+      },
+      {
+        "zone": "Corner 3",
+        "shot_value": 3,
+        "attempts": 24172,
+        "fg_pct": 0.3872,
+        "points_per_shot": 1.1617,
+        "share_of_attempts": 0.1096
+      },
+      {
+        "zone": "Above-the-break 3",
+        "shot_value": 3,
+        "attempts": 67500,
+        "fg_pct": 0.3499,
+        "points_per_shot": 1.0497,
+        "share_of_attempts": 0.306
+      }
+    ],
+    "playoffs": [
+      {
+        "zone": "Restricted area",
+        "shot_value": 2,
+        "attempts": 4160,
+        "fg_pct": 0.6452,
+        "points_per_shot": 1.2904,
+        "share_of_attempts": 0.2843
+      },
+      {
+        "zone": "Paint, non-RA",
+        "shot_value": 2,
+        "attempts": 2873,
+        "fg_pct": 0.4099,
+        "points_per_shot": 0.8198,
+        "share_of_attempts": 0.1963
+      },
+      {
+        "zone": "Midrange",
+        "shot_value": 2,
+        "attempts": 1696,
+        "fg_pct": 0.4123,
+        "points_per_shot": 0.8247,
+        "share_of_attempts": 0.1159
+      },
+      {
+        "zone": "Corner 3",
+        "shot_value": 3,
+        "attempts": 1632,
+        "fg_pct": 0.3717,
+        "points_per_shot": 1.1151,
+        "share_of_attempts": 0.1115
+      },
+      {
+        "zone": "Above-the-break 3",
+        "shot_value": 3,
+        "attempts": 4274,
+        "fg_pct": 0.3396,
+        "points_per_shot": 1.0187,
+        "share_of_attempts": 0.292
+      }
+    ],
+    "corr_player_frequency_vs_efficiency": [
+      {
+        "zone": "Restricted area",
+        "players": 363,
+        "corr_frequency_vs_points_per_shot": 0.3002
+      },
+      {
+        "zone": "Paint, non-RA",
+        "players": 259,
+        "corr_frequency_vs_points_per_shot": 0.3621
+      },
+      {
+        "zone": "Midrange",
+        "players": 120,
+        "corr_frequency_vs_points_per_shot": 0.3568
+      },
+      {
+        "zone": "Corner 3",
+        "players": 182,
+        "corr_frequency_vs_points_per_shot": -0.1101
+      },
+      {
+        "zone": "Above-the-break 3",
+        "players": 332,
+        "corr_frequency_vs_points_per_shot": 0.3195
+      }
+    ],
+    "best_zone_counts": {
+      "Restricted area": 303,
+      "Corner 3": 75,
+      "Above-the-break 3": 34,
+      "Paint, non-RA": 2,
+      "Midrange": 1
+    },
+    "players_with_a_best_zone": 415,
+    "median_frequency_of_best_zone": 0.2865,
+    "playoff_share_shift": [
+      {
+        "zone": "Restricted area",
+        "players": 168,
+        "mean_share_change_playoffs_minus_rs": -0.0143
+      },
+      {
+        "zone": "Paint, non-RA",
+        "players": 168,
+        "mean_share_change_playoffs_minus_rs": -0.0025
+      },
+      {
+        "zone": "Midrange",
+        "players": 168,
+        "mean_share_change_playoffs_minus_rs": 0.0071
+      },
+      {
+        "zone": "Corner 3",
+        "players": 168,
+        "mean_share_change_playoffs_minus_rs": 0.0006
+      },
+      {
+        "zone": "Above-the-break 3",
+        "players": 168,
+        "mean_share_change_playoffs_minus_rs": 0.0092
+      }
+    ]
+  },
+  "play_types": {
+    "league": [
+      {
+        "play_type": "isolation",
+        "side": "offensive",
+        "season": "regular_season",
+        "players": 284,
+        "ppp": 0.934,
+        "poss_per_game": 1.2139,
+        "mean_poss_pct": 0.1295
+      },
+      {
+        "play_type": "isolation",
+        "side": "offensive",
+        "season": "playoffs",
+        "players": 44,
+        "ppp": 0.9317,
+        "poss_per_game": 2.6847,
+        "mean_poss_pct": 0.0899
+      },
+      {
+        "play_type": "isolation",
+        "side": "defensive",
+        "season": "regular_season",
+        "players": 394,
+        "ppp": 0.9315,
+        "poss_per_game": 0.8511,
+        "mean_poss_pct": 0.0942
+      },
+      {
+        "play_type": "isolation",
+        "side": "defensive",
+        "season": "playoffs",
+        "players": 58,
+        "ppp": 0.9004,
+        "poss_per_game": 1.398,
+        "mean_poss_pct": 0.138
+      },
+      {
+        "play_type": "prballhandler",
+        "side": "offensive",
+        "season": "regular_season",
+        "players": 347,
+        "ppp": 0.8813,
+        "poss_per_game": 2.3105,
+        "mean_poss_pct": 0.2561
+      },
+      {
+        "play_type": "prballhandler",
+        "side": "offensive",
+        "season": "playoffs",
+        "players": 69,
+        "ppp": 0.8714,
+        "poss_per_game": 3.6957,
+        "mean_poss_pct": 0.1488
+      },
+      {
+        "play_type": "prballhandler",
+        "side": "defensive",
+        "season": "regular_season",
+        "players": 415,
+        "ppp": 0.8789,
+        "poss_per_game": 3.5808,
+        "mean_poss_pct": 0.3805
+      },
+      {
+        "play_type": "prballhandler",
+        "side": "defensive",
+        "season": "playoffs",
+        "players": 139,
+        "ppp": 0.8603,
+        "poss_per_game": 4.1516,
+        "mean_poss_pct": 0.415
+      },
+      {
+        "play_type": "prrollman",
+        "side": "offensive",
+        "season": "regular_season",
+        "players": 269,
+        "ppp": 1.124,
+        "poss_per_game": 0.8336,
+        "mean_poss_pct": 0.1393
+      },
+      {
+        "play_type": "prrollman",
+        "side": "offensive",
+        "season": "playoffs",
+        "players": 32,
+        "ppp": 1.1236,
+        "poss_per_game": 1.579,
+        "mean_poss_pct": 0.1032
+      },
+      {
+        "play_type": "prrollman",
+        "side": "defensive",
+        "season": "regular_season",
+        "players": 386,
+        "ppp": 1.1437,
+        "poss_per_game": 0.9248,
+        "mean_poss_pct": 0.1043
+      },
+      {
+        "play_type": "prrollman",
+        "side": "defensive",
+        "season": "playoffs",
+        "players": 54,
+        "ppp": 1.101,
+        "poss_per_game": 1.3704,
+        "mean_poss_pct": 0.1272
+      },
+      {
+        "play_type": "postup",
+        "side": "offensive",
+        "season": "regular_season",
+        "players": 149,
+        "ppp": 1.0158,
+        "poss_per_game": 1.0374,
+        "mean_poss_pct": 0.1151
+      },
+      {
+        "play_type": "postup",
+        "side": "offensive",
+        "season": "playoffs",
+        "players": 18,
+        "ppp": 0.9537,
+        "poss_per_game": 1.8829,
+        "mean_poss_pct": 0.0466
+      },
+      {
+        "play_type": "postup",
+        "side": "defensive",
+        "season": "regular_season",
+        "players": 329,
+        "ppp": 1.0044,
+        "poss_per_game": 0.4402,
+        "mean_poss_pct": 0.0483
+      },
+      {
+        "play_type": "postup",
+        "side": "defensive",
+        "season": "playoffs",
+        "players": 7,
+        "ppp": 0.9502,
+        "poss_per_game": 1.1976,
+        "mean_poss_pct": 0.1049
+      },
+      {
+        "play_type": "spotup",
+        "side": "offensive",
+        "season": "regular_season",
+        "players": 400,
+        "ppp": 1.0544,
+        "poss_per_game": 2.8289,
+        "mean_poss_pct": 0.2984
+      },
+      {
+        "play_type": "spotup",
+        "side": "offensive",
+        "season": "playoffs",
+        "players": 120,
+        "ppp": 1.0236,
+        "poss_per_game": 3.1282,
+        "mean_poss_pct": 0.1559
+      },
+      {
+        "play_type": "spotup",
+        "side": "defensive",
+        "season": "regular_season",
+        "players": 419,
+        "ppp": 1.0466,
+        "poss_per_game": 2.8605,
+        "mean_poss_pct": 0.3071
+      },
+      {
+        "play_type": "spotup",
+        "side": "defensive",
+        "season": "playoffs",
+        "players": 124,
+        "ppp": 1.0094,
+        "poss_per_game": 2.9857,
+        "mean_poss_pct": 0.3076
+      },
+      {
+        "play_type": "cut",
+        "side": "offensive",
+        "season": "regular_season",
+        "players": 339,
+        "ppp": 1.3195,
+        "poss_per_game": 0.8727,
+        "mean_poss_pct": 0.1382
+      },
+      {
+        "play_type": "cut",
+        "side": "offensive",
+        "season": "playoffs",
+        "players": 34,
+        "ppp": 1.2719,
+        "poss_per_game": 1.6655,
+        "mean_poss_pct": 0.1181
+      },
+      {
+        "play_type": "handoff",
+        "side": "offensive",
+        "season": "regular_season",
+        "players": 276,
+        "ppp": 0.9544,
+        "poss_per_game": 0.7569,
+        "mean_poss_pct": 0.076
+      },
+      {
+        "play_type": "handoff",
+        "side": "offensive",
+        "season": "playoffs",
+        "players": 30,
+        "ppp": 0.9675,
+        "poss_per_game": 1.2617,
+        "mean_poss_pct": 0.033
+      },
+      {
+        "play_type": "handoff",
+        "side": "defensive",
+        "season": "regular_season",
+        "players": 313,
+        "ppp": 0.9531,
+        "poss_per_game": 0.6246,
+        "mean_poss_pct": 0.0722
+      },
+      {
+        "play_type": "handoff",
+        "side": "defensive",
+        "season": "playoffs",
+        "players": 24,
+        "ppp": 0.9048,
+        "poss_per_game": 0.9437,
+        "mean_poss_pct": 0.0943
+      },
+      {
+        "play_type": "offscreen",
+        "side": "offensive",
+        "season": "regular_season",
+        "players": 215,
+        "ppp": 0.9879,
+        "poss_per_game": 0.7559,
+        "mean_poss_pct": 0.0841
+      },
+      {
+        "play_type": "offscreen",
+        "side": "offensive",
+        "season": "playoffs",
+        "players": 16,
+        "ppp": 0.9259,
+        "poss_per_game": 1.167,
+        "mean_poss_pct": 0.0411
+      },
+      {
+        "play_type": "offscreen",
+        "side": "defensive",
+        "season": "regular_season",
+        "players": 317,
+        "ppp": 0.9811,
+        "poss_per_game": 0.496,
+        "mean_poss_pct": 0.0567
+      },
+      {
+        "play_type": "offscreen",
+        "side": "defensive",
+        "season": "playoffs",
+        "players": 13,
+        "ppp": 1.0075,
+        "poss_per_game": 0.824,
+        "mean_poss_pct": 0.076
+      },
+      {
+        "play_type": "transition",
+        "side": "offensive",
+        "season": "regular_season",
+        "players": 409,
+        "ppp": 1.1391,
+        "poss_per_game": 2.102,
+        "mean_poss_pct": 0.2023
+      },
+      {
+        "play_type": "transition",
+        "side": "offensive",
+        "season": "playoffs",
+        "players": 102,
+        "ppp": 1.0917,
+        "poss_per_game": 2.3765,
+        "mean_poss_pct": 0.1082
+      },
+      {
+        "play_type": "offrebound",
+        "side": "offensive",
+        "season": "regular_season",
+        "players": 301,
+        "ppp": 1.1304,
+        "poss_per_game": 0.7175,
+        "mean_poss_pct": 0.121
+      },
+      {
+        "play_type": "offrebound",
+        "side": "offensive",
+        "season": "playoffs",
+        "players": 29,
+        "ppp": 1.1101,
+        "poss_per_game": 1.3577,
+        "mean_poss_pct": 0.0727
+      },
+      {
+        "play_type": "misc",
+        "side": "offensive",
+        "season": "regular_season",
+        "players": 375,
+        "ppp": 0.5244,
+        "poss_per_game": 0.6023,
+        "mean_poss_pct": 0.0631
+      },
+      {
+        "play_type": "misc",
+        "side": "offensive",
+        "season": "playoffs",
+        "players": 36,
+        "ppp": 0.6346,
+        "poss_per_game": 1.0931,
+        "mean_poss_pct": 0.0378
+      }
+    ],
+    "within_player_best_minus_worst_ppp": {
+      "players": 298,
+      "median": 0.5465,
+      "p90": 0.9612
+    },
+    "ppp_spread_across_players": [
+      {
+        "play_type": "cut",
+        "players": 147,
+        "ppp_p10": 1.1484,
+        "ppp_p50": 1.326,
+        "ppp_p90": 1.5374
+      },
+      {
+        "play_type": "handoff",
+        "players": 98,
+        "ppp_p10": 0.7304,
+        "ppp_p50": 0.9745,
+        "ppp_p90": 1.1558
+      },
+      {
+        "play_type": "isolation",
+        "players": 138,
+        "ppp_p10": 0.7249,
+        "ppp_p50": 0.911,
+        "ppp_p90": 1.0681
+      },
+      {
+        "play_type": "misc",
+        "players": 116,
+        "ppp_p10": 0.2555,
+        "ppp_p50": 0.4905,
+        "ppp_p90": 0.7985
+      },
+      {
+        "play_type": "offrebound",
+        "players": 104,
+        "ppp_p10": 0.9468,
+        "ppp_p50": 1.161,
+        "ppp_p90": 1.3608
+      },
+      {
+        "play_type": "offscreen",
+        "players": 77,
+        "ppp_p10": 0.8154,
+        "ppp_p50": 1.014,
+        "ppp_p90": 1.2718
+      },
+      {
+        "play_type": "postup",
+        "players": 68,
+        "ppp_p10": 0.8531,
+        "ppp_p50": 1.009,
+        "ppp_p90": 1.1853
+      },
+      {
+        "play_type": "prballhandler",
+        "players": 226,
+        "ppp_p10": 0.669,
+        "ppp_p50": 0.865,
+        "ppp_p90": 1.013
+      },
+      {
+        "play_type": "prrollman",
+        "players": 105,
+        "ppp_p10": 0.9614,
+        "ppp_p50": 1.136,
+        "ppp_p90": 1.3932
+      },
+      {
+        "play_type": "spotup",
+        "players": 355,
+        "ppp_p10": 0.831,
+        "ppp_p50": 1.049,
+        "ppp_p90": 1.2306
+      },
+      {
+        "play_type": "transition",
+        "players": 323,
+        "ppp_p10": 0.9226,
+        "ppp_p50": 1.134,
+        "ppp_p90": 1.3126
+      }
+    ],
+    "note": "Synergy tables are per-game rates. Weights are possessions per game times games. A player needs 40 such possessions in a play type to enter the within-player spread. Defensive player rows do not exist for cuts, putbacks, transition, or misc."
+  },
+  "closest_defender": {
+    "by_distance": [
+      {
+        "distance": "overall",
+        "players": 580,
+        "mean_fg_pct_allowed": 0.4698,
+        "mean_shooter_normal_fg_pct": 0.4693,
+        "mean_pct_plusminus": 0.0005,
+        "sd_pct_plusminus": 0.0765
+      },
+      {
+        "distance": "under 6 ft",
+        "players": 576,
+        "mean_fg_pct_allowed": 0.6315,
+        "mean_shooter_normal_fg_pct": 0.6349,
+        "mean_pct_plusminus": -0.0035,
+        "sd_pct_plusminus": 0.1205
+      },
+      {
+        "distance": "under 10 ft",
+        "players": 578,
+        "mean_fg_pct_allowed": 0.5884,
+        "mean_shooter_normal_fg_pct": 0.59,
+        "mean_pct_plusminus": -0.0015,
+        "sd_pct_plusminus": 0.11
+      },
+      {
+        "distance": "over 15 ft",
+        "players": 579,
+        "mean_fg_pct_allowed": 0.3647,
+        "mean_shooter_normal_fg_pct": 0.3642,
+        "mean_pct_plusminus": 0.0005,
+        "sd_pct_plusminus": 0.0925
+      },
+      {
+        "distance": "twos",
+        "players": 579,
+        "mean_fg_pct_allowed": 0.5482,
+        "mean_shooter_normal_fg_pct": 0.5481,
+        "mean_pct_plusminus": 0.0001,
+        "sd_pct_plusminus": 0.0983
+      },
+      {
+        "distance": "threes",
+        "players": 575,
+        "mean_fg_pct_allowed": 0.3589,
+        "mean_shooter_normal_fg_pct": 0.3587,
+        "mean_pct_plusminus": 0.0001,
+        "sd_pct_plusminus": 0.1047
+      }
+    ],
+    "playoff_vs_rs_corr_of_pct_plusminus": 0.332,
+    "playoff_players": 157,
+    "mean_playoff_minus_rs": -0.0166,
+    "note": "pct_plusminus is the closest defender's field-goal percentage minus the shooter's usual percentage, on shots they contested. Negative means the shooter made less than usual. This is the contest at the shot, not the assigned matchup."
+  },
+  "contest_vs_assignment": {
+    "players": 465,
+    "corr_contest_plusminus_vs_matchup_ppp_allowed": -0.1293,
+    "note": "Positive correlation means defenders who let shooters beat their usual percentage also give up more points as the assigned matchup. The two measurements are not the same event."
+  },
+  "playoffs_vs_regular_season": {
+    "players": 168,
+    "mean_usage_change": -0.0023,
+    "mean_ts_change": -0.0434,
+    "mean_off_rating_change": -8.1661,
+    "mean_def_rating_change": -2.2298,
+    "corr_rs_usage_vs_playoff_usage": 0.8295,
+    "corr_rs_ts_vs_playoff_ts": 0.274,
+    "note": "Playoff minus regular season. Defensive rating down is better. No playoff matchup table was loaded, so who-guards-whom cannot be compared."
+  }
+}

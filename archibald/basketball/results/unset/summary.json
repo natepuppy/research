@@ -1,0 +1,1550 @@
+{
+  "crash_structure": {
+    "team_games": 770,
+    "league_mean_crashers_per_miss": 0.45255453334624646,
+    "league_mean_by_position_per_miss": {
+      "big": 0.1702915217068242,
+      "forward": 0.13922521840889107,
+      "guard": 0.14303779323053117
+    },
+    "sd_within_team_crash_per_miss": 0.13568178122592414,
+    "team_spread": [
+      {
+        "team_tricode": "MIL",
+        "crash_per_miss": 0.358,
+        "big_per_miss": 0.09,
+        "forward_per_miss": 0.172,
+        "guard_per_miss": 0.096,
+        "oreb_pct": 0.244,
+        "opp_fb_per_100": 14.249,
+        "d_ppp_after_dreb": 1.186,
+        "net_rating": -3.576
+      },
+      {
+        "team_tricode": "WAS",
+        "crash_per_miss": 0.37,
+        "big_per_miss": 0.059,
+        "forward_per_miss": 0.197,
+        "guard_per_miss": 0.113,
+        "oreb_pct": 0.277,
+        "opp_fb_per_100": 16.607,
+        "d_ppp_after_dreb": 1.199,
+        "net_rating": -13.875
+      },
+      {
+        "team_tricode": "IND",
+        "crash_per_miss": 0.385,
+        "big_per_miss": 0.08,
+        "forward_per_miss": 0.171,
+        "guard_per_miss": 0.134,
+        "oreb_pct": 0.29,
+        "opp_fb_per_100": 15.128,
+        "d_ppp_after_dreb": 1.185,
+        "net_rating": -7.962
+      },
+      {
+        "team_tricode": "CHI",
+        "crash_per_miss": 0.391,
+        "big_per_miss": 0.131,
+        "forward_per_miss": 0.151,
+        "guard_per_miss": 0.109,
+        "oreb_pct": 0.277,
+        "opp_fb_per_100": 15.527,
+        "d_ppp_after_dreb": 1.176,
+        "net_rating": -4.612
+      },
+      {
+        "team_tricode": "BKN",
+        "crash_per_miss": 0.397,
+        "big_per_miss": 0.206,
+        "forward_per_miss": 0.109,
+        "guard_per_miss": 0.083,
+        "oreb_pct": 0.301,
+        "opp_fb_per_100": 18.403,
+        "d_ppp_after_dreb": 1.249,
+        "net_rating": -5.452
+      },
+      {
+        "team_tricode": "SAC",
+        "crash_per_miss": 0.406,
+        "big_per_miss": 0.158,
+        "forward_per_miss": 0.084,
+        "guard_per_miss": 0.163,
+        "oreb_pct": 0.256,
+        "opp_fb_per_100": 14.964,
+        "d_ppp_after_dreb": 1.25,
+        "net_rating": -11.031
+      },
+      {
+        "team_tricode": "MIA",
+        "crash_per_miss": 0.416,
+        "big_per_miss": 0.151,
+        "forward_per_miss": 0.112,
+        "guard_per_miss": 0.153,
+        "oreb_pct": 0.271,
+        "opp_fb_per_100": 14.633,
+        "d_ppp_after_dreb": 1.179,
+        "net_rating": 2.388
+      },
+      {
+        "team_tricode": "OKC",
+        "crash_per_miss": 0.417,
+        "big_per_miss": 0.194,
+        "forward_per_miss": 0.034,
+        "guard_per_miss": 0.189,
+        "oreb_pct": 0.248,
+        "opp_fb_per_100": 10.952,
+        "d_ppp_after_dreb": 1.018,
+        "net_rating": 16.619
+      },
+      {
+        "team_tricode": "ATL",
+        "crash_per_miss": 0.417,
+        "big_per_miss": 0.101,
+        "forward_per_miss": 0.163,
+        "guard_per_miss": 0.153,
+        "oreb_pct": 0.28,
+        "opp_fb_per_100": 14.966,
+        "d_ppp_after_dreb": 1.178,
+        "net_rating": 0.485
+      },
+      {
+        "team_tricode": "PHI",
+        "crash_per_miss": 0.434,
+        "big_per_miss": 0.125,
+        "forward_per_miss": 0.183,
+        "guard_per_miss": 0.126,
+        "oreb_pct": 0.322,
+        "opp_fb_per_100": 17.857,
+        "d_ppp_after_dreb": 1.165,
+        "net_rating": 1.152
+      },
+      {
+        "team_tricode": "NOP",
+        "crash_per_miss": 0.436,
+        "big_per_miss": 0.156,
+        "forward_per_miss": 0.126,
+        "guard_per_miss": 0.154,
+        "oreb_pct": 0.31,
+        "opp_fb_per_100": 16.641,
+        "d_ppp_after_dreb": 1.249,
+        "net_rating": -8.526
+      },
+      {
+        "team_tricode": "LAC",
+        "crash_per_miss": 0.441,
+        "big_per_miss": 0.263,
+        "forward_per_miss": 0.05,
+        "guard_per_miss": 0.128,
+        "oreb_pct": 0.29,
+        "opp_fb_per_100": 18.168,
+        "d_ppp_after_dreb": 1.264,
+        "net_rating": -5.662
+      },
+      {
+        "team_tricode": "UTA",
+        "crash_per_miss": 0.442,
+        "big_per_miss": 0.26,
+        "forward_per_miss": 0.111,
+        "guard_per_miss": 0.07,
+        "oreb_pct": 0.316,
+        "opp_fb_per_100": 14.991,
+        "d_ppp_after_dreb": 1.245,
+        "net_rating": -6.92
+      },
+      {
+        "team_tricode": "DAL",
+        "crash_per_miss": 0.444,
+        "big_per_miss": 0.209,
+        "forward_per_miss": 0.159,
+        "guard_per_miss": 0.076,
+        "oreb_pct": 0.27,
+        "opp_fb_per_100": 14.981,
+        "d_ppp_after_dreb": 1.156,
+        "net_rating": -3.567
+      },
+      {
+        "team_tricode": "DEN",
+        "crash_per_miss": 0.449,
+        "big_per_miss": 0.18,
+        "forward_per_miss": 0.109,
+        "guard_per_miss": 0.16,
+        "oreb_pct": 0.307,
+        "opp_fb_per_100": 14.417,
+        "d_ppp_after_dreb": 1.173,
+        "net_rating": 9.338
+      },
+      {
+        "team_tricode": "NYK",
+        "crash_per_miss": 0.451,
+        "big_per_miss": 0.21,
+        "forward_per_miss": 0.064,
+        "guard_per_miss": 0.177,
+        "oreb_pct": 0.335,
+        "opp_fb_per_100": 14.897,
+        "d_ppp_after_dreb": 1.149,
+        "net_rating": 8.708
+      },
+      {
+        "team_tricode": "LAL",
+        "crash_per_miss": 0.453,
+        "big_per_miss": 0.179,
+        "forward_per_miss": 0.191,
+        "guard_per_miss": 0.084,
+        "oreb_pct": 0.299,
+        "opp_fb_per_100": 16.295,
+        "d_ppp_after_dreb": 1.187,
+        "net_rating": 1.568
+      },
+      {
+        "team_tricode": "ORL",
+        "crash_per_miss": 0.456,
+        "big_per_miss": 0.166,
+        "forward_per_miss": 0.148,
+        "guard_per_miss": 0.142,
+        "oreb_pct": 0.326,
+        "opp_fb_per_100": 15.7,
+        "d_ppp_after_dreb": 1.117,
+        "net_rating": 3.519
+      },
+      {
+        "team_tricode": "MIN",
+        "crash_per_miss": 0.461,
+        "big_per_miss": 0.257,
+        "forward_per_miss": 0.053,
+        "guard_per_miss": 0.151,
+        "oreb_pct": 0.307,
+        "opp_fb_per_100": 13.882,
+        "d_ppp_after_dreb": 1.153,
+        "net_rating": 4.65
+      },
+      {
+        "team_tricode": "CLE",
+        "crash_per_miss": 0.467,
+        "big_per_miss": 0.223,
+        "forward_per_miss": 0.069,
+        "guard_per_miss": 0.175,
+        "oreb_pct": 0.307,
+        "opp_fb_per_100": 15.851,
+        "d_ppp_after_dreb": 1.194,
+        "net_rating": 1.481
+      },
+      {
+        "team_tricode": "GSW",
+        "crash_per_miss": 0.468,
+        "big_per_miss": 0.054,
+        "forward_per_miss": 0.213,
+        "guard_per_miss": 0.201,
+        "oreb_pct": 0.295,
+        "opp_fb_per_100": 15.353,
+        "d_ppp_after_dreb": 1.164,
+        "net_rating": 1.811
+      },
+      {
+        "team_tricode": "MEM",
+        "crash_per_miss": 0.47,
+        "big_per_miss": 0.272,
+        "forward_per_miss": 0.062,
+        "guard_per_miss": 0.137,
+        "oreb_pct": 0.31,
+        "opp_fb_per_100": 14.199,
+        "d_ppp_after_dreb": 1.199,
+        "net_rating": -0.788
+      },
+      {
+        "team_tricode": "TOR",
+        "crash_per_miss": 0.477,
+        "big_per_miss": 0.14,
+        "forward_per_miss": 0.222,
+        "guard_per_miss": 0.115,
+        "oreb_pct": 0.305,
+        "opp_fb_per_100": 13.39,
+        "d_ppp_after_dreb": 1.156,
+        "net_rating": 2.089
+      },
+      {
+        "team_tricode": "BOS",
+        "crash_per_miss": 0.488,
+        "big_per_miss": 0.159,
+        "forward_per_miss": 0.093,
+        "guard_per_miss": 0.236,
+        "oreb_pct": 0.328,
+        "opp_fb_per_100": 14.528,
+        "d_ppp_after_dreb": 1.226,
+        "net_rating": 5.931
+      },
+      {
+        "team_tricode": "SAS",
+        "crash_per_miss": 0.491,
+        "big_per_miss": 0.148,
+        "forward_per_miss": 0.219,
+        "guard_per_miss": 0.123,
+        "oreb_pct": 0.31,
+        "opp_fb_per_100": 12.481,
+        "d_ppp_after_dreb": 1.192,
+        "net_rating": 4.164
+      },
+      {
+        "team_tricode": "POR",
+        "crash_per_miss": 0.498,
+        "big_per_miss": 0.174,
+        "forward_per_miss": 0.23,
+        "guard_per_miss": 0.094,
+        "oreb_pct": 0.348,
+        "opp_fb_per_100": 16.032,
+        "d_ppp_after_dreb": 1.193,
+        "net_rating": -3.419
+      },
+      {
+        "team_tricode": "PHX",
+        "crash_per_miss": 0.501,
+        "big_per_miss": 0.136,
+        "forward_per_miss": 0.163,
+        "guard_per_miss": 0.202,
+        "oreb_pct": 0.334,
+        "opp_fb_per_100": 14.289,
+        "d_ppp_after_dreb": 1.113,
+        "net_rating": 0.004
+      },
+      {
+        "team_tricode": "DET",
+        "crash_per_miss": 0.549,
+        "big_per_miss": 0.216,
+        "forward_per_miss": 0.145,
+        "guard_per_miss": 0.188,
+        "oreb_pct": 0.351,
+        "opp_fb_per_100": 14.424,
+        "d_ppp_after_dreb": 1.192,
+        "net_rating": 6.335
+      },
+      {
+        "team_tricode": "CHA",
+        "crash_per_miss": 0.556,
+        "big_per_miss": 0.123,
+        "forward_per_miss": 0.259,
+        "guard_per_miss": 0.175,
+        "oreb_pct": 0.333,
+        "opp_fb_per_100": 16.839,
+        "d_ppp_after_dreb": 1.211,
+        "net_rating": -3.673
+      },
+      {
+        "team_tricode": "HOU",
+        "crash_per_miss": 0.591,
+        "big_per_miss": 0.307,
+        "forward_per_miss": 0.107,
+        "guard_per_miss": 0.178,
+        "oreb_pct": 0.412,
+        "opp_fb_per_100": 13.875,
+        "d_ppp_after_dreb": 1.167,
+        "net_rating": 9.9
+      }
+    ],
+    "within_team_total_crashers": {
+      "oreb_pct": {
+        "per_extra_crasher_per_miss": 0.22249538368649102,
+        "se": 0.01657460361639576
+      },
+      "second_chance_per_100": {
+        "per_extra_crasher_per_miss": 12.78973668964404,
+        "se": 1.4517030082302593
+      },
+      "d_early_after_dreb_share": {
+        "per_extra_crasher_per_miss": 0.09788855954956885,
+        "se": 0.025624875623164036
+      },
+      "d_ppp_after_dreb": {
+        "per_extra_crasher_per_miss": 0.09483251270140275,
+        "se": 0.05134104212047339
+      },
+      "opp_fb_per_100": {
+        "per_extra_crasher_per_miss": 2.7037978381153556,
+        "se": 1.5791439180133777
+      },
+      "d_ppp": {
+        "per_extra_crasher_per_miss": -0.0071846830915324655,
+        "se": 0.027933779631654214
+      },
+      "offensive_rating": {
+        "per_extra_crasher_per_miss": 11.964312492579852,
+        "se": 2.691851098984221
+      },
+      "defensive_rating": {
+        "per_extra_crasher_per_miss": -0.0952390662828052,
+        "se": 2.752330360859365
+      },
+      "net_rating": {
+        "per_extra_crasher_per_miss": 12.059657654247053,
+        "se": 3.6954591175645173
+      }
+    },
+    "within_team_by_position": {
+      "oreb_pct": {
+        "big": {
+          "coef": 0.24035761978509168,
+          "se": 0.02927394308898235
+        },
+        "forward": {
+          "coef": 0.16373810915137296,
+          "se": 0.03141571778629949
+        },
+        "guard": {
+          "coef": 0.2578088039343395,
+          "se": 0.03413853202547582
+        }
+      },
+      "second_chance_per_100": {
+        "big": {
+          "coef": 14.057171680480556,
+          "se": 2.566642416594956
+        },
+        "forward": {
+          "coef": 8.55936488215941,
+          "se": 2.754426131559987
+        },
+        "guard": {
+          "coef": 15.355355850778086,
+          "se": 2.993153469982972
+        }
+      },
+      "d_early_after_dreb_share": {
+        "big": {
+          "coef": 0.1327932131952827,
+          "se": 0.04537288098220031
+        },
+        "forward": {
+          "coef": 0.06616564858145998,
+          "se": 0.048692505131795426
+        },
+        "guard": {
+          "coef": 0.08552142469555836,
+          "se": 0.05291270621763018
+        }
+      },
+      "d_ppp_after_dreb": {
+        "big": {
+          "coef": -0.017329866515462616,
+          "se": 0.09082762669080932
+        },
+        "forward": {
+          "coef": 0.17677538156078776,
+          "se": 0.09747286447351708
+        },
+        "guard": {
+          "coef": 0.15415401181026378,
+          "se": 0.10592088100865223
+        }
+      },
+      "opp_fb_per_100": {
+        "big": {
+          "coef": 3.827779348053191,
+          "se": 2.7974327947282744
+        },
+        "forward": {
+          "coef": 1.54842101359746,
+          "se": 3.0021018671174042
+        },
+        "guard": {
+          "coef": 2.4366366090330036,
+          "se": 3.2622953717461574
+        }
+      },
+      "d_ppp": {
+        "big": {
+          "coef": -0.05645641843816007,
+          "se": 0.04942769420974701
+        },
+        "forward": {
+          "coef": -0.014516925841294064,
+          "se": 0.053043981379650273
+        },
+        "guard": {
+          "coef": 0.061305744778566554,
+          "se": 0.05764132684810563
+        }
+      },
+      "offensive_rating": {
+        "big": {
+          "coef": 3.6943475610971763,
+          "se": 4.749584804339248
+        },
+        "forward": {
+          "coef": 10.522006096301462,
+          "se": 5.097079520912785
+        },
+        "guard": {
+          "coef": 23.66726815029705,
+          "se": 5.53884567097057
+        }
+      },
+      "defensive_rating": {
+        "big": {
+          "coef": -4.944547546315657,
+          "se": 4.869106208597459
+        },
+        "forward": {
+          "coef": -1.5694966642755195,
+          "se": 5.225345490897927
+        },
+        "guard": {
+          "coef": 7.382593849083309,
+          "se": 5.678228509647143
+        }
+      },
+      "net_rating": {
+        "big": {
+          "coef": 8.655905205309166,
+          "se": 6.545683179348425
+        },
+        "forward": {
+          "coef": 12.107257322883463,
+          "se": 7.02458616032263
+        },
+        "guard": {
+          "coef": 16.2484220639684,
+          "se": 7.633410168475283
+        }
+      }
+    },
+    "conversion_vs_crashers_within_team": {
+      "slope": -0.6735761509141144,
+      "se": 0.037013134502741046
+    },
+    "across_teams_season": {
+      "chances_vs_oreb_pct": 0.8797918660199381,
+      "chances_vs_conversion": 0.03643569018392548,
+      "chances_vs_opp_fast_break_pts": -0.10001838075364768,
+      "chances_vs_def_rating": -0.3564989140840145,
+      "chances_vs_net_rating": 0.3368346618727589,
+      "chances_vs_second_chance_pts": 0.8867938126330597,
+      "teams": [
+        {
+          "team": "MIL",
+          "oreb_chances": 15.0,
+          "oreb_chance_pct": 0.596,
+          "oreb_pct": 0.263,
+          "pts_2_nd_chance": 11.7,
+          "opp_pts_fb": 15.5,
+          "def_rating": 118.3,
+          "net_rating": -6.1
+        },
+        {
+          "team": "DEN",
+          "oreb_chances": 16.2,
+          "oreb_chance_pct": 0.602,
+          "oreb_pct": 0.286,
+          "pts_2_nd_chance": 14.7,
+          "opp_pts_fb": 15.5,
+          "def_rating": 116.0,
+          "net_rating": 5.2
+        },
+        {
+          "team": "LAL",
+          "oreb_chances": 16.4,
+          "oreb_chance_pct": 0.576,
+          "oreb_pct": 0.285,
+          "pts_2_nd_chance": 12.8,
+          "opp_pts_fb": 14.8,
+          "def_rating": 115.5,
+          "net_rating": 1.5
+        },
+        {
+          "team": "BKN",
+          "oreb_chances": 16.9,
+          "oreb_chance_pct": 0.61,
+          "oreb_pct": 0.287,
+          "pts_2_nd_chance": 13.6,
+          "opp_pts_fb": 17.4,
+          "def_rating": 118.2,
+          "net_rating": -10.0
+        },
+        {
+          "team": "LAC",
+          "oreb_chances": 16.9,
+          "oreb_chance_pct": 0.567,
+          "oreb_pct": 0.284,
+          "pts_2_nd_chance": 13.3,
+          "opp_pts_fb": 14.8,
+          "def_rating": 115.2,
+          "net_rating": 1.1
+        },
+        {
+          "team": "OKC",
+          "oreb_chances": 17.1,
+          "oreb_chance_pct": 0.558,
+          "oreb_pct": 0.264,
+          "pts_2_nd_chance": 13.7,
+          "opp_pts_fb": 12.0,
+          "def_rating": 106.5,
+          "net_rating": 11.1
+        },
+        {
+          "team": "IND",
+          "oreb_chances": 17.2,
+          "oreb_chance_pct": 0.57,
+          "oreb_pct": 0.263,
+          "pts_2_nd_chance": 12.5,
+          "opp_pts_fb": 14.6,
+          "def_rating": 117.9,
+          "net_rating": -7.8
+        },
+        {
+          "team": "WAS",
+          "oreb_chances": 17.2,
+          "oreb_chance_pct": 0.637,
+          "oreb_pct": 0.285,
+          "pts_2_nd_chance": 15.1,
+          "opp_pts_fb": 17.7,
+          "def_rating": 121.5,
+          "net_rating": -11.8
+        },
+        {
+          "team": "CHI",
+          "oreb_chances": 17.3,
+          "oreb_chance_pct": 0.6,
+          "oreb_pct": 0.279,
+          "pts_2_nd_chance": 13.4,
+          "opp_pts_fb": 15.8,
+          "def_rating": 117.4,
+          "net_rating": -5.3
+        },
+        {
+          "team": "MIN",
+          "oreb_chances": 17.9,
+          "oreb_chance_pct": 0.619,
+          "oreb_pct": 0.302,
+          "pts_2_nd_chance": 14.3,
+          "opp_pts_fb": 14.5,
+          "def_rating": 112.5,
+          "net_rating": 3.1
+        },
+        {
+          "team": "PHI",
+          "oreb_chances": 18.9,
+          "oreb_chance_pct": 0.625,
+          "oreb_pct": 0.306,
+          "pts_2_nd_chance": 15.4,
+          "opp_pts_fb": 16.7,
+          "def_rating": 114.4,
+          "net_rating": -0.1
+        },
+        {
+          "team": "SAS",
+          "oreb_chances": 18.9,
+          "oreb_chance_pct": 0.602,
+          "oreb_pct": 0.306,
+          "pts_2_nd_chance": 15.5,
+          "opp_pts_fb": 12.8,
+          "def_rating": 110.4,
+          "net_rating": 8.4
+        },
+        {
+          "team": "ORL",
+          "oreb_chances": 18.9,
+          "oreb_chance_pct": 0.579,
+          "oreb_pct": 0.306,
+          "pts_2_nd_chance": 14.9,
+          "opp_pts_fb": 15.8,
+          "def_rating": 113.6,
+          "net_rating": 0.6
+        },
+        {
+          "team": "UTA",
+          "oreb_chances": 19.0,
+          "oreb_chance_pct": 0.631,
+          "oreb_pct": 0.298,
+          "pts_2_nd_chance": 14.7,
+          "opp_pts_fb": 18.2,
+          "def_rating": 120.8,
+          "net_rating": -8.2
+        },
+        {
+          "team": "DAL",
+          "oreb_chances": 19.0,
+          "oreb_chance_pct": 0.552,
+          "oreb_pct": 0.279,
+          "pts_2_nd_chance": 13.6,
+          "opp_pts_fb": 16.1,
+          "def_rating": 115.5,
+          "net_rating": -5.2
+        },
+        {
+          "team": "TOR",
+          "oreb_chances": 19.1,
+          "oreb_chance_pct": 0.57,
+          "oreb_pct": 0.3,
+          "pts_2_nd_chance": 14.0,
+          "opp_pts_fb": 12.5,
+          "def_rating": 112.1,
+          "net_rating": 2.9
+        },
+        {
+          "team": "NOP",
+          "oreb_chances": 19.2,
+          "oreb_chance_pct": 0.635,
+          "oreb_pct": 0.311,
+          "pts_2_nd_chance": 15.3,
+          "opp_pts_fb": 16.7,
+          "def_rating": 117.6,
+          "net_rating": -4.4
+        },
+        {
+          "team": "ATL",
+          "oreb_chances": 19.2,
+          "oreb_chance_pct": 0.573,
+          "oreb_pct": 0.291,
+          "pts_2_nd_chance": 14.7,
+          "opp_pts_fb": 16.1,
+          "def_rating": 112.9,
+          "net_rating": 2.2
+        },
+        {
+          "team": "NYK",
+          "oreb_chances": 19.4,
+          "oreb_chance_pct": 0.655,
+          "oreb_pct": 0.328,
+          "pts_2_nd_chance": 16.3,
+          "opp_pts_fb": 14.0,
+          "def_rating": 112.3,
+          "net_rating": 6.4
+        },
+        {
+          "team": "GSW",
+          "oreb_chances": 19.5,
+          "oreb_chance_pct": 0.584,
+          "oreb_pct": 0.302,
+          "pts_2_nd_chance": 15.7,
+          "opp_pts_fb": 15.7,
+          "def_rating": 114.4,
+          "net_rating": -0.5
+        },
+        {
+          "team": "SAC",
+          "oreb_chances": 19.5,
+          "oreb_chance_pct": 0.59,
+          "oreb_pct": 0.298,
+          "pts_2_nd_chance": 14.8,
+          "opp_pts_fb": 15.4,
+          "def_rating": 120.3,
+          "net_rating": -9.7
+        },
+        {
+          "team": "MIA",
+          "oreb_chances": 19.5,
+          "oreb_chance_pct": 0.608,
+          "oreb_pct": 0.296,
+          "pts_2_nd_chance": 16.0,
+          "opp_pts_fb": 14.6,
+          "def_rating": 113.6,
+          "net_rating": 2.1
+        },
+        {
+          "team": "CLE",
+          "oreb_chances": 20.1,
+          "oreb_chance_pct": 0.584,
+          "oreb_pct": 0.307,
+          "pts_2_nd_chance": 15.1,
+          "opp_pts_fb": 15.5,
+          "def_rating": 114.1,
+          "net_rating": 4.1
+        },
+        {
+          "team": "MEM",
+          "oreb_chances": 20.2,
+          "oreb_chance_pct": 0.553,
+          "oreb_pct": 0.301,
+          "pts_2_nd_chance": 14.9,
+          "opp_pts_fb": 15.2,
+          "def_rating": 118.4,
+          "net_rating": -6.0
+        },
+        {
+          "team": "BOS",
+          "oreb_chances": 21.3,
+          "oreb_chance_pct": 0.587,
+          "oreb_pct": 0.336,
+          "pts_2_nd_chance": 16.9,
+          "opp_pts_fb": 13.8,
+          "def_rating": 111.7,
+          "net_rating": 8.3
+        },
+        {
+          "team": "DET",
+          "oreb_chances": 21.7,
+          "oreb_chance_pct": 0.603,
+          "oreb_pct": 0.354,
+          "pts_2_nd_chance": 17.0,
+          "opp_pts_fb": 13.4,
+          "def_rating": 108.9,
+          "net_rating": 8.4
+        },
+        {
+          "team": "PHX",
+          "oreb_chances": 22.1,
+          "oreb_chance_pct": 0.586,
+          "oreb_pct": 0.331,
+          "pts_2_nd_chance": 16.4,
+          "opp_pts_fb": 14.2,
+          "def_rating": 112.9,
+          "net_rating": 1.4
+        },
+        {
+          "team": "POR",
+          "oreb_chances": 22.4,
+          "oreb_chance_pct": 0.629,
+          "oreb_pct": 0.354,
+          "pts_2_nd_chance": 18.4,
+          "opp_pts_fb": 16.6,
+          "def_rating": 113.5,
+          "net_rating": -0.4
+        },
+        {
+          "team": "HOU",
+          "oreb_chances": 22.5,
+          "oreb_chance_pct": 0.669,
+          "oreb_pct": 0.388,
+          "pts_2_nd_chance": 17.8,
+          "opp_pts_fb": 15.0,
+          "def_rating": 112.1,
+          "net_rating": 5.4
+        },
+        {
+          "team": "CHA",
+          "oreb_chances": 23.9,
+          "oreb_chance_pct": 0.535,
+          "oreb_pct": 0.358,
+          "pts_2_nd_chance": 17.8,
+          "opp_pts_fb": 15.3,
+          "def_rating": 113.5,
+          "net_rating": 4.9
+        }
+      ]
+    }
+  },
+  "unset_defense": {
+    "possessions": 66708,
+    "early_definition_seconds": 8.0,
+    "by_start_type": {
+      "dead_tov": {
+        "poss": 4119,
+        "early_share": 0.12745812090313183,
+        "ppp": 1.1512503034717165,
+        "ppp_early": 1.1333333333333333,
+        "ppp_not_early": 1.1538675570395103,
+        "median_sec": 14.0
+      },
+      "def_reb": {
+        "poss": 21457,
+        "early_share": 0.5246772614997437,
+        "ppp": 1.1818054714079322,
+        "ppp_early": 1.2105169657132706,
+        "ppp_not_early": 1.150112756152564,
+        "median_sec": 8.0
+      },
+      "def_reb_ft": {
+        "poss": 1346,
+        "early_share": 0.18573551263001487,
+        "ppp": 1.1983655274888558,
+        "ppp_early": 1.164,
+        "ppp_not_early": 1.2062043795620438,
+        "median_sec": 13.0
+      },
+      "made_fg": {
+        "poss": 25785,
+        "early_share": 0.0777196044211751,
+        "ppp": 1.1273608687221253,
+        "ppp_early": 1.0214570858283434,
+        "ppp_not_early": 1.1362852697531642,
+        "median_sec": 16.0
+      },
+      "made_ft": {
+        "poss": 6608,
+        "early_share": 0.07627118644067797,
+        "ppp": 1.112590799031477,
+        "ppp_early": 1.0436507936507937,
+        "ppp_not_early": 1.1182830930537353,
+        "median_sec": 15.0
+      },
+      "period_start": {
+        "poss": 1704,
+        "early_share": 0.02464788732394366,
+        "ppp": 1.0187793427230047,
+        "ppp_early": 0.6904761904761905,
+        "ppp_not_early": 1.0270758122743682,
+        "median_sec": 18.0
+      },
+      "steal": {
+        "poss": 5392,
+        "early_share": 0.733679525222552,
+        "ppp": 1.349406528189911,
+        "ppp_early": 1.4067239635995956,
+        "ppp_not_early": 1.1915041782729805,
+        "median_sec": 5.0
+      },
+      "unknown": {
+        "poss": 297,
+        "early_share": 1.0,
+        "ppp": 0.8383838383838383,
+        "ppp_early": 0.8383838383838383,
+        "ppp_not_early": NaN,
+        "median_sec": 0.0
+      }
+    },
+    "where_early_possessions_come_from": {
+      "dead_tov": 0.028,
+      "def_reb": 0.598,
+      "def_reb_ft": 0.013,
+      "made_fg": 0.106,
+      "made_ft": 0.027,
+      "period_start": 0.002,
+      "steal": 0.21,
+      "unknown": 0.016
+    },
+    "start_type_mix": {
+      "made_fg": 0.387,
+      "def_reb": 0.322,
+      "made_ft": 0.099,
+      "steal": 0.081,
+      "dead_tov": 0.062,
+      "period_start": 0.026,
+      "def_reb_ft": 0.02,
+      "unknown": 0.004
+    },
+    "after_def_rebound_by_miss_type": {
+      "missed 3": {
+        "poss": 11108,
+        "early_share": 0.47056175729204175,
+        "ppp": 1.1636658264314008,
+        "ppp_early": 1.1830878132772145,
+        "ppp_not_early": 1.1464036728447542,
+        "median_sec": 9.0
+      },
+      "missed long 2 (15+ ft)": {
+        "poss": 1756,
+        "early_share": 0.4982915717539863,
+        "ppp": 1.1907744874715263,
+        "ppp_early": 1.1965714285714286,
+        "ppp_not_early": 1.185017026106697,
+        "median_sec": 9.0
+      },
+      "missed mid 2 (5-15 ft)": {
+        "poss": 4805,
+        "early_share": 0.5710718002081165,
+        "ppp": 1.1972944849115505,
+        "ppp_early": 1.206997084548105,
+        "ppp_not_early": 1.1843765162542454,
+        "median_sec": 7.0
+      },
+      "missed shot at rim (<5 ft)": {
+        "poss": 3788,
+        "early_share": 0.6367476240760296,
+        "ppp": 1.2111932418162619,
+        "ppp_early": 1.279021558872305,
+        "ppp_not_early": 1.092296511627907,
+        "median_sec": 6.0
+      }
+    },
+    "after_def_rebound_by_rebounder": {
+      "big": {
+        "poss": 5947,
+        "early_share": 0.5145451488145283,
+        "ppp": 1.186648730452329,
+        "ppp_early": 1.215032679738562,
+        "ppp_not_early": 1.1565639071700728,
+        "median_sec": 8.0
+      },
+      "forward": {
+        "poss": 6062,
+        "early_share": 0.5565819861431871,
+        "ppp": 1.1709006928406467,
+        "ppp_early": 1.1837581505631298,
+        "ppp_not_early": 1.1547619047619047,
+        "median_sec": 8.0
+      },
+      "guard": {
+        "poss": 7595,
+        "early_share": 0.5819618169848585,
+        "ppp": 1.185911784068466,
+        "ppp_early": 1.2228506787330318,
+        "ppp_not_early": 1.134488188976378,
+        "median_sec": 7.0
+      },
+      "unknown": {
+        "poss": 1853,
+        "early_share": 0.2180248246087426,
+        "ppp": 1.1851052347544522,
+        "ppp_early": 1.2648514851485149,
+        "ppp_not_early": 1.162870945479641,
+        "median_sec": 13.0
+      }
+    },
+    "after_def_rebound_by_rebounder_and_miss": {
+      "big | missed 3": {
+        "poss": 2793,
+        "early_share": 0.44432509846043683,
+        "ppp": 1.1765127103472968,
+        "ppp_early": 1.2054794520547945,
+        "ppp_not_early": 1.1533505154639174,
+        "median_sec": 9.0
+      },
+      "big | missed long 2 (15+ ft)": {
+        "poss": 479,
+        "early_share": 0.4718162839248434,
+        "ppp": 1.1315240083507307,
+        "ppp_early": 1.1194690265486726,
+        "ppp_not_early": 1.1422924901185771,
+        "median_sec": 9.0
+      },
+      "big | missed mid 2 (5-15 ft)": {
+        "poss": 1544,
+        "early_share": 0.5660621761658031,
+        "ppp": 1.214378238341969,
+        "ppp_early": 1.2162471395881007,
+        "ppp_not_early": 1.2119402985074628,
+        "median_sec": 7.699999999999989
+      },
+      "big | missed shot at rim (<5 ft)": {
+        "poss": 1131,
+        "early_share": 0.6357206012378426,
+        "ppp": 1.1971706454465074,
+        "ppp_early": 1.2600834492350488,
+        "ppp_not_early": 1.087378640776699,
+        "median_sec": 6.0
+      },
+      "forward | missed 3": {
+        "poss": 3129,
+        "early_share": 0.49824224992010224,
+        "ppp": 1.1553211888782358,
+        "ppp_early": 1.152020525978191,
+        "ppp_not_early": 1.1585987261146498,
+        "median_sec": 8.299999999999955
+      },
+      "forward | missed long 2 (15+ ft)": {
+        "poss": 520,
+        "early_share": 0.5019230769230769,
+        "ppp": 1.1307692307692307,
+        "ppp_early": 1.10727969348659,
+        "ppp_not_early": 1.1544401544401544,
+        "median_sec": 8.0
+      },
+      "forward | missed mid 2 (5-15 ft)": {
+        "poss": 1349,
+        "early_share": 0.6085989621942179,
+        "ppp": 1.1816160118606376,
+        "ppp_early": 1.1839220462850182,
+        "ppp_not_early": 1.178030303030303,
+        "median_sec": 7.0
+      },
+      "forward | missed shot at rim (<5 ft)": {
+        "poss": 1064,
+        "early_share": 0.6889097744360902,
+        "ppp": 1.2227443609022557,
+        "ppp_early": 1.2783083219645293,
+        "ppp_not_early": 1.0996978851963746,
+        "median_sec": 6.0
+      },
+      "guard | missed 3": {
+        "poss": 4117,
+        "early_share": 0.5372844304104931,
+        "ppp": 1.16322564974496,
+        "ppp_early": 1.1858047016274864,
+        "ppp_not_early": 1.137007874015748,
+        "median_sec": 8.0
+      },
+      "guard | missed long 2 (15+ ft)": {
+        "poss": 644,
+        "early_share": 0.5512422360248447,
+        "ppp": 1.2608695652173914,
+        "ppp_early": 1.3211267605633803,
+        "ppp_not_early": 1.1868512110726643,
+        "median_sec": 8.0
+      },
+      "guard | missed mid 2 (5-15 ft)": {
+        "poss": 1578,
+        "early_share": 0.6216730038022814,
+        "ppp": 1.1723700887198987,
+        "ppp_early": 1.2089704383282365,
+        "ppp_not_early": 1.1122278056951425,
+        "median_sec": 7.0
+      },
+      "guard | missed shot at rim (<5 ft)": {
+        "poss": 1256,
+        "early_share": 0.6942675159235668,
+        "ppp": 1.2388535031847134,
+        "ppp_early": 1.2924311926605505,
+        "ppp_not_early": 1.1171875,
+        "median_sec": 5.9500000000000455
+      }
+    },
+    "after_missed_free_throw_rebound": {
+      "poss": 1346,
+      "early_share": 0.18573551263001487,
+      "ppp": 1.1983655274888558,
+      "ppp_early": 1.164,
+      "ppp_not_early": 1.2062043795620438,
+      "median_sec": 13.0
+    },
+    "after_steal_by_stealer": {
+      "big": {
+        "poss": 936,
+        "early_share": 0.6773504273504274,
+        "ppp": 1.3269230769230769,
+        "ppp_early": 1.3249211356466877,
+        "ppp_not_early": 1.3311258278145695,
+        "median_sec": 6.0
+      },
+      "forward": {
+        "poss": 1562,
+        "early_share": 0.7157490396927016,
+        "ppp": 1.3169014084507042,
+        "ppp_early": 1.364937388193202,
+        "ppp_not_early": 1.195945945945946,
+        "median_sec": 5.0
+      },
+      "guard": {
+        "poss": 2787,
+        "early_share": 0.7624686042339434,
+        "ppp": 1.374237531395766,
+        "ppp_early": 1.4550588235294117,
+        "ppp_not_early": 1.1148036253776434,
+        "median_sec": 5.0
+      }
+    },
+    "after_made_shot": {
+      "after made 2": {
+        "poss": 17201,
+        "early_share": 0.09226207778617522,
+        "ppp": 1.13743387012383,
+        "ppp_early": 1.0466288594833018,
+        "ppp_not_early": 1.1466632509286538,
+        "median_sec": 15.0
+      },
+      "after made 3": {
+        "poss": 8584,
+        "early_share": 0.048578751164958064,
+        "ppp": 1.1071761416589003,
+        "ppp_early": 0.9256594724220624,
+        "ppp_not_early": 1.1164442267662544,
+        "median_sec": 17.0
+      }
+    },
+    "after_made_shot_timeout_or_foul": {
+      "clean": {
+        "poss": 0,
+        "early_share": NaN,
+        "ppp": NaN,
+        "ppp_early": null,
+        "ppp_not_early": NaN,
+        "median_sec": NaN
+      },
+      "timeout_or_dead_foul_between": {
+        "poss": 25785,
+        "early_share": 0.0777196044211751,
+        "ppp": 1.1273608687221253,
+        "ppp_early": 1.0214570858283434,
+        "ppp_not_early": 1.1362852697531642,
+        "median_sec": 16.0
+      }
+    },
+    "team_level_within_team": {
+      "guard_reb_share": {
+        "early_share": {
+          "coef": 0.04550575786042955,
+          "se": 0.017087630189115067
+        },
+        "early_after_dreb": {
+          "coef": 0.13041292558422826,
+          "se": 0.03445231317345914
+        },
+        "ppp": {
+          "coef": -0.048133033756984925,
+          "se": 0.04878074895102465
+        },
+        "offensive_rating": {
+          "coef": 1.1670219691139396,
+          "se": 3.3720491058270903
+        },
+        "sd_within_team": 0.10940752087881454
+      },
+      "big_reb_share": {
+        "early_share": {
+          "coef": -3.784654106458189e-07,
+          "se": 0.018317308305632794
+        },
+        "early_after_dreb": {
+          "coef": -0.06077635404508825,
+          "se": 0.03703901729106002
+        },
+        "ppp": {
+          "coef": 0.028652106639110952,
+          "se": 0.05207353959009772
+        },
+        "offensive_rating": {
+          "coef": -1.0533258750032466,
+          "se": 3.598174014988028
+        },
+        "sd_within_team": 0.1025341568689508
+      },
+      "three_miss_share": {
+        "early_share": {
+          "coef": -0.04832033344857509,
+          "se": 0.017019951694205063
+        },
+        "early_after_dreb": {
+          "coef": -0.06907571818400668,
+          "se": 0.03456702043213187
+        },
+        "ppp": {
+          "coef": 0.015387674301032349,
+          "se": 0.04864566898935164
+        },
+        "offensive_rating": {
+          "coef": 1.5724989565996594,
+          "se": 3.3605784070056686
+        },
+        "sd_within_team": 0.1097738576219674
+      },
+      "dreb_start_share": {
+        "early_share": {
+          "coef": 0.21754355139584916,
+          "se": 0.03538145315654371
+        },
+        "early_after_dreb": {
+          "coef": -0.22048210972606788,
+          "se": 0.07298343467150563
+        },
+        "ppp": {
+          "coef": 0.18803283291284287,
+          "se": 0.10283286285685969
+        },
+        "offensive_rating": {
+          "coef": -10.15619025636226,
+          "se": 7.110557849451117
+        },
+        "sd_within_team": 0.05181956686965846
+      },
+      "steal_share": {
+        "early_share": {
+          "coef": 0.4378837661367502,
+          "se": 0.059930348695713884
+        },
+        "early_after_dreb": {
+          "coef": -0.14480692819455143,
+          "se": 0.12544660251840192
+        },
+        "ppp": {
+          "coef": 0.8088814202224305,
+          "se": 0.17380530344161707
+        },
+        "offensive_rating": {
+          "coef": 30.66477071029173,
+          "se": 12.125956639368967
+        },
+        "sd_within_team": 0.030300768122758507
+      },
+      "dead_start_share": {
+        "early_share": {
+          "coef": -0.33705415313667475,
+          "se": 0.0327649823691538
+        },
+        "early_after_dreb": {
+          "coef": 0.2784687308028431,
+          "se": 0.07008738183694334
+        },
+        "ppp": {
+          "coef": -0.35795740291484696,
+          "se": 0.0985467949504424
+        },
+        "offensive_rating": {
+          "coef": 2.2708152247018463,
+          "se": 6.866311084791218
+        },
+        "sd_within_team": 0.05373045771679495
+      },
+      "deflections": {
+        "early_share": {
+          "coef": 0.0022782141113644808,
+          "se": 0.00035991714526119567
+        },
+        "early_after_dreb": {
+          "coef": 0.0005043663992193847,
+          "se": 0.0007476604572635444
+        },
+        "ppp": {
+          "coef": 0.0004275703306134211,
+          "se": 0.0010497064678080318
+        },
+        "offensive_rating": {
+          "coef": 0.03836562931818932,
+          "se": 0.07251688128058272
+        },
+        "sd_within_team": 5.0869394524593305
+      },
+      "steals": {
+        "early_share": {
+          "coef": 0.0046022823391630475,
+          "se": 0.0006319572818594277
+        },
+        "early_after_dreb": {
+          "coef": -0.0009790026145362217,
+          "se": 0.0013232120501187336
+        },
+        "ppp": {
+          "coef": 0.00472942875390387,
+          "se": 0.0018502128745118394
+        },
+        "offensive_rating": {
+          "coef": 0.18588124763117653,
+          "se": 0.12819599490126585
+        },
+        "sd_within_team": 2.874123175196946
+      }
+    },
+    "offensive_rating_per_pp_early_share": {
+      "coef": 0.09167759614460824,
+      "se": 0.07090175337193033
+    },
+    "team_spread_early_share": [
+      {
+        "team_tricode": "LAC",
+        "early_share": 0.233,
+        "early_after_dreb": 0.444,
+        "steal_share": 0.086,
+        "dreb_start_share": 0.334,
+        "offensive_rating": 113.692
+      },
+      {
+        "team_tricode": "LAL",
+        "early_share": 0.252,
+        "early_after_dreb": 0.5,
+        "steal_share": 0.071,
+        "dreb_start_share": 0.344,
+        "offensive_rating": 118.252
+      },
+      {
+        "team_tricode": "BKN",
+        "early_share": 0.253,
+        "early_after_dreb": 0.522,
+        "steal_share": 0.078,
+        "dreb_start_share": 0.316,
+        "offensive_rating": 112.74
+      },
+      {
+        "team_tricode": "DEN",
+        "early_share": 0.254,
+        "early_after_dreb": 0.484,
+        "steal_share": 0.068,
+        "dreb_start_share": 0.369,
+        "offensive_rating": 124.524
+      },
+      {
+        "team_tricode": "SAC",
+        "early_share": 0.255,
+        "early_after_dreb": 0.512,
+        "steal_share": 0.08,
+        "dreb_start_share": 0.318,
+        "offensive_rating": 108.608
+      },
+      {
+        "team_tricode": "HOU",
+        "early_share": 0.26,
+        "early_after_dreb": 0.446,
+        "steal_share": 0.094,
+        "dreb_start_share": 0.349,
+        "offensive_rating": 121.548
+      },
+      {
+        "team_tricode": "GSW",
+        "early_share": 0.261,
+        "early_after_dreb": 0.453,
+        "steal_share": 0.091,
+        "dreb_start_share": 0.346,
+        "offensive_rating": 113.367
+      },
+      {
+        "team_tricode": "NYK",
+        "early_share": 0.266,
+        "early_after_dreb": 0.489,
+        "steal_share": 0.079,
+        "dreb_start_share": 0.363,
+        "offensive_rating": 122.104
+      },
+      {
+        "team_tricode": "MIN",
+        "early_share": 0.266,
+        "early_after_dreb": 0.501,
+        "steal_share": 0.082,
+        "dreb_start_share": 0.353,
+        "offensive_rating": 118.1
+      },
+      {
+        "team_tricode": "NOP",
+        "early_share": 0.27,
+        "early_after_dreb": 0.5,
+        "steal_share": 0.084,
+        "dreb_start_share": 0.321,
+        "offensive_rating": 111.263
+      },
+      {
+        "team_tricode": "BOS",
+        "early_share": 0.271,
+        "early_after_dreb": 0.491,
+        "steal_share": 0.085,
+        "dreb_start_share": 0.347,
+        "offensive_rating": 121.085
+      },
+      {
+        "team_tricode": "CHA",
+        "early_share": 0.272,
+        "early_after_dreb": 0.501,
+        "steal_share": 0.065,
+        "dreb_start_share": 0.349,
+        "offensive_rating": 113.808
+      },
+      {
+        "team_tricode": "UTA",
+        "early_share": 0.275,
+        "early_after_dreb": 0.543,
+        "steal_share": 0.07,
+        "dreb_start_share": 0.338,
+        "offensive_rating": 113.496
+      },
+      {
+        "team_tricode": "PHI",
+        "early_share": 0.276,
+        "early_after_dreb": 0.542,
+        "steal_share": 0.081,
+        "dreb_start_share": 0.342,
+        "offensive_rating": 113.95
+      },
+      {
+        "team_tricode": "DAL",
+        "early_share": 0.278,
+        "early_after_dreb": 0.506,
+        "steal_share": 0.079,
+        "dreb_start_share": 0.353,
+        "offensive_rating": 109.133
+      },
+      {
+        "team_tricode": "MIL",
+        "early_share": 0.279,
+        "early_after_dreb": 0.546,
+        "steal_share": 0.081,
+        "dreb_start_share": 0.333,
+        "offensive_rating": 114.1
+      },
+      {
+        "team_tricode": "SAS",
+        "early_share": 0.282,
+        "early_after_dreb": 0.52,
+        "steal_share": 0.078,
+        "dreb_start_share": 0.345,
+        "offensive_rating": 118.04
+      },
+      {
+        "team_tricode": "IND",
+        "early_share": 0.283,
+        "early_after_dreb": 0.55,
+        "steal_share": 0.069,
+        "dreb_start_share": 0.331,
+        "offensive_rating": 108.223
+      },
+      {
+        "team_tricode": "MEM",
+        "early_share": 0.283,
+        "early_after_dreb": 0.51,
+        "steal_share": 0.071,
+        "dreb_start_share": 0.355,
+        "offensive_rating": 112.519
+      },
+      {
+        "team_tricode": "WAS",
+        "early_share": 0.285,
+        "early_after_dreb": 0.54,
+        "steal_share": 0.067,
+        "dreb_start_share": 0.343,
+        "offensive_rating": 109.087
+      },
+      {
+        "team_tricode": "DET",
+        "early_share": 0.287,
+        "early_after_dreb": 0.551,
+        "steal_share": 0.089,
+        "dreb_start_share": 0.343,
+        "offensive_rating": 117.492
+      },
+      {
+        "team_tricode": "OKC",
+        "early_share": 0.29,
+        "early_after_dreb": 0.491,
+        "steal_share": 0.099,
+        "dreb_start_share": 0.372,
+        "offensive_rating": 119.904
+      },
+      {
+        "team_tricode": "PHX",
+        "early_share": 0.293,
+        "early_after_dreb": 0.532,
+        "steal_share": 0.101,
+        "dreb_start_share": 0.32,
+        "offensive_rating": 114.273
+      },
+      {
+        "team_tricode": "POR",
+        "early_share": 0.297,
+        "early_after_dreb": 0.526,
+        "steal_share": 0.08,
+        "dreb_start_share": 0.321,
+        "offensive_rating": 113.773
+      },
+      {
+        "team_tricode": "CLE",
+        "early_share": 0.302,
+        "early_after_dreb": 0.591,
+        "steal_share": 0.083,
+        "dreb_start_share": 0.335,
+        "offensive_rating": 114.273
+      },
+      {
+        "team_tricode": "ORL",
+        "early_share": 0.305,
+        "early_after_dreb": 0.576,
+        "steal_share": 0.078,
+        "dreb_start_share": 0.343,
+        "offensive_rating": 115.792
+      },
+      {
+        "team_tricode": "TOR",
+        "early_share": 0.316,
+        "early_after_dreb": 0.6,
+        "steal_share": 0.086,
+        "dreb_start_share": 0.336,
+        "offensive_rating": 114.673
+      },
+      {
+        "team_tricode": "CHI",
+        "early_share": 0.318,
+        "early_after_dreb": 0.576,
+        "steal_share": 0.078,
+        "dreb_start_share": 0.348,
+        "offensive_rating": 112.331
+      },
+      {
+        "team_tricode": "ATL",
+        "early_share": 0.321,
+        "early_after_dreb": 0.594,
+        "steal_share": 0.087,
+        "dreb_start_share": 0.34,
+        "offensive_rating": 114.522
+      },
+      {
+        "team_tricode": "MIA",
+        "early_share": 0.342,
+        "early_after_dreb": 0.586,
+        "steal_share": 0.08,
+        "dreb_start_share": 0.354,
+        "offensive_rating": 114.488
+      }
+    ]
+  }
+}

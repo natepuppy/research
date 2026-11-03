@@ -1,0 +1,576 @@
+{
+  "decision_rule": {
+    "cells": [
+      {
+        "situation": "after_long_miss",
+        "choice": "early_other",
+        "n_even": 491.0,
+        "n_odd": 446.0,
+        "ppp_even": 1.177,
+        "ppp_odd": 1.258,
+        "se_even": 0.049,
+        "se_odd": 0.051
+      },
+      {
+        "situation": "after_long_miss",
+        "choice": "early_rim",
+        "n_even": 767.0,
+        "n_odd": 838.0,
+        "ppp_even": 1.587,
+        "ppp_odd": 1.517,
+        "se_even": 0.035,
+        "se_odd": 0.034
+      },
+      {
+        "situation": "after_long_miss",
+        "choice": "early_three",
+        "n_even": 1035.0,
+        "n_odd": 1024.0,
+        "ppp_even": 1.272,
+        "ppp_odd": 1.275,
+        "se_even": 0.045,
+        "se_odd": 0.045
+      },
+      {
+        "situation": "after_long_miss",
+        "choice": "early_turnover",
+        "n_even": 508.0,
+        "n_odd": 474.0,
+        "ppp_even": 0.0,
+        "ppp_odd": 0.0,
+        "se_even": 0.0,
+        "se_odd": 0.0
+      },
+      {
+        "situation": "after_long_miss",
+        "choice": "pushed_then_settled",
+        "n_even": 406.0,
+        "n_odd": 385.0,
+        "ppp_even": 1.648,
+        "ppp_odd": 1.616,
+        "se_even": 0.031,
+        "se_odd": 0.031
+      },
+      {
+        "situation": "after_long_miss",
+        "choice": "walked",
+        "n_even": 3457.0,
+        "n_odd": 3403.0,
+        "ppp_even": 1.135,
+        "ppp_odd": 1.187,
+        "se_even": 0.02,
+        "se_odd": 0.021
+      },
+      {
+        "situation": "after_opponent_score",
+        "choice": "early_other",
+        "n_even": 123.0,
+        "n_odd": 153.0,
+        "ppp_even": 1.228,
+        "ppp_odd": 1.137,
+        "se_even": 0.105,
+        "se_odd": 0.089
+      },
+      {
+        "situation": "after_opponent_score",
+        "choice": "early_rim",
+        "n_even": 264.0,
+        "n_odd": 275.0,
+        "ppp_even": 1.405,
+        "ppp_odd": 1.356,
+        "se_even": 0.064,
+        "se_odd": 0.066
+      },
+      {
+        "situation": "after_opponent_score",
+        "choice": "early_three",
+        "n_even": 298.0,
+        "n_odd": 311.0,
+        "ppp_even": 1.279,
+        "ppp_odd": 1.463,
+        "se_even": 0.084,
+        "se_odd": 0.083
+      },
+      {
+        "situation": "after_opponent_score",
+        "choice": "early_turnover",
+        "n_even": 324.0,
+        "n_odd": 345.0,
+        "ppp_even": 0.0,
+        "ppp_odd": 0.0,
+        "se_even": 0.0,
+        "se_odd": 0.0
+      },
+      {
+        "situation": "after_opponent_score",
+        "choice": "pushed_then_settled",
+        "n_even": 214.0,
+        "n_odd": 203.0,
+        "ppp_even": 1.593,
+        "ppp_odd": 1.631,
+        "se_even": 0.045,
+        "se_odd": 0.043
+      },
+      {
+        "situation": "after_opponent_score",
+        "choice": "walked",
+        "n_even": 14857.0,
+        "n_odd": 15026.0,
+        "ppp_even": 1.144,
+        "ppp_odd": 1.122,
+        "se_even": 0.01,
+        "se_odd": 0.01
+      },
+      {
+        "situation": "after_short_miss",
+        "choice": "early_other",
+        "n_even": 280.0,
+        "n_odd": 289.0,
+        "ppp_even": 1.129,
+        "ppp_odd": 1.18,
+        "se_even": 0.064,
+        "se_odd": 0.063
+      },
+      {
+        "situation": "after_short_miss",
+        "choice": "early_rim",
+        "n_even": 692.0,
+        "n_odd": 731.0,
+        "ppp_even": 1.605,
+        "ppp_odd": 1.624,
+        "se_even": 0.034,
+        "se_odd": 0.035
+      },
+      {
+        "situation": "after_short_miss",
+        "choice": "early_three",
+        "n_even": 780.0,
+        "n_odd": 892.0,
+        "ppp_even": 1.363,
+        "ppp_odd": 1.345,
+        "se_even": 0.052,
+        "se_odd": 0.048
+      },
+      {
+        "situation": "after_short_miss",
+        "choice": "early_turnover",
+        "n_even": 337.0,
+        "n_odd": 358.0,
+        "ppp_even": 0.0,
+        "ppp_odd": 0.0,
+        "se_even": 0.0,
+        "se_odd": 0.0
+      },
+      {
+        "situation": "after_short_miss",
+        "choice": "pushed_then_settled",
+        "n_even": 283.0,
+        "n_odd": 245.0,
+        "ppp_even": 1.661,
+        "ppp_odd": 1.645,
+        "se_even": 0.036,
+        "se_odd": 0.038
+      },
+      {
+        "situation": "after_short_miss",
+        "choice": "walked",
+        "n_even": 1615.0,
+        "n_odd": 1721.0,
+        "ppp_even": 1.124,
+        "ppp_odd": 1.131,
+        "se_even": 0.03,
+        "se_odd": 0.029
+      },
+      {
+        "situation": "after_steal",
+        "choice": "early_other",
+        "n_even": 157.0,
+        "n_odd": 162.0,
+        "ppp_even": 1.223,
+        "ppp_odd": 1.469,
+        "se_even": 0.086,
+        "se_odd": 0.077
+      },
+      {
+        "situation": "after_steal",
+        "choice": "early_rim",
+        "n_even": 887.0,
+        "n_odd": 931.0,
+        "ppp_even": 1.713,
+        "ppp_odd": 1.737,
+        "se_even": 0.028,
+        "se_odd": 0.027
+      },
+      {
+        "situation": "after_steal",
+        "choice": "early_three",
+        "n_even": 435.0,
+        "n_odd": 493.0,
+        "ppp_even": 1.329,
+        "ppp_odd": 1.426,
+        "se_even": 0.07,
+        "se_odd": 0.065
+      },
+      {
+        "situation": "after_steal",
+        "choice": "early_turnover",
+        "n_even": 211.0,
+        "n_odd": 234.0,
+        "ppp_even": 0.0,
+        "ppp_odd": 0.0,
+        "se_even": 0.0,
+        "se_odd": 0.0
+      },
+      {
+        "situation": "after_steal",
+        "choice": "pushed_then_settled",
+        "n_even": 240.0,
+        "n_odd": 206.0,
+        "ppp_even": 1.621,
+        "ppp_odd": 1.597,
+        "se_even": 0.038,
+        "se_odd": 0.042
+      },
+      {
+        "situation": "after_steal",
+        "choice": "walked",
+        "n_even": 721.0,
+        "n_odd": 715.0,
+        "ppp_even": 1.158,
+        "ppp_odd": 1.225,
+        "se_even": 0.045,
+        "se_odd": 0.045
+      }
+    ],
+    "best_early_shot": [
+      {
+        "situation": "after_steal",
+        "best_early_shot_even": "early_rim",
+        "best_early_shot_odd": "early_rim",
+        "halves_agree": true
+      },
+      {
+        "situation": "after_short_miss",
+        "best_early_shot_even": "early_rim",
+        "best_early_shot_odd": "early_rim",
+        "halves_agree": true
+      },
+      {
+        "situation": "after_long_miss",
+        "best_early_shot_even": "early_rim",
+        "best_early_shot_odd": "early_rim",
+        "halves_agree": true
+      },
+      {
+        "situation": "after_opponent_score",
+        "best_early_shot_even": "early_rim",
+        "best_early_shot_odd": "early_three",
+        "halves_agree": false
+      }
+    ],
+    "worse_than_walking_it_up_on_both_halves": [],
+    "push_versus_walk": [
+      {
+        "situation": "after_steal",
+        "gap_pushed_minus_walked": 0.21462576578225423,
+        "same_sign_both_halves": true,
+        "clears_the_noise_both_halves": true,
+        "halves": {
+          "even": {
+            "pushed": 1.3875647668393782,
+            "walked": 1.1581137309292648,
+            "gap": 0.2294510359101134,
+            "noise": 0.05114818233685351,
+            "n_pushed": 1930,
+            "n_walked": 721
+          },
+          "odd": {
+            "pushed": 1.4249753208292202,
+            "walked": 1.2251748251748251,
+            "gap": 0.19980049565439506,
+            "noise": 0.05102729867110591,
+            "n_pushed": 2026,
+            "n_walked": 715
+          }
+        }
+      },
+      {
+        "situation": "after_short_miss",
+        "gap_pushed_minus_walked": 0.118813172151645,
+        "same_sign_both_halves": true,
+        "clears_the_noise_both_halves": true,
+        "halves": {
+          "even": {
+            "pushed": 1.2478920741989883,
+            "walked": 1.1244582043343654,
+            "gap": 0.1234338698646229,
+            "noise": 0.038509600057384394,
+            "n_pushed": 2372,
+            "n_walked": 1615
+          },
+          "odd": {
+            "pushed": 1.2449304174950298,
+            "walked": 1.1307379430563627,
+            "gap": 0.11419247443866709,
+            "noise": 0.03755081762211645,
+            "n_pushed": 2515,
+            "n_walked": 1721
+          }
+        }
+      },
+      {
+        "situation": "after_long_miss",
+        "gap_pushed_minus_walked": 0.021839672830327617,
+        "same_sign_both_halves": false,
+        "clears_the_noise_both_halves": false,
+        "halves": {
+          "even": {
+            "pushed": 1.1789834736513876,
+            "walked": 1.1347989586346543,
+            "gap": 0.04418451501673326,
+            "noise": 0.02922820130409633,
+            "n_pushed": 3207,
+            "n_walked": 3457
+          },
+          "odd": {
+            "pushed": 1.1871049304677623,
+            "walked": 1.1876100998238404,
+            "gap": -0.0005051693560780279,
+            "noise": 0.029432349540410324,
+            "n_pushed": 3164,
+            "n_walked": 3406
+          }
+        }
+      },
+      {
+        "situation": "after_opponent_score",
+        "gap_pushed_minus_walked": -0.1070123686432245,
+        "same_sign_both_halves": true,
+        "clears_the_noise_both_halves": true,
+        "halves": {
+          "even": {
+            "pushed": 1.0155482815057284,
+            "walked": 1.1438282406784224,
+            "gap": -0.12827995917269397,
+            "noise": 0.03453466818219875,
+            "n_pushed": 1222,
+            "n_walked": 14858
+          },
+          "odd": {
+            "pushed": 1.035769828926905,
+            "walked": 1.12151460704066,
+            "gap": -0.08574477811375503,
+            "noise": 0.03426640374607725,
+            "n_pushed": 1286,
+            "n_walked": 15027
+          }
+        }
+      }
+    ]
+  },
+  "rebounding": {
+    "team_games": 770,
+    "marginal_body": {
+      "oreb_pct": {
+        "second_closest_is_a_guard": {
+          "coef": 0.011627306471330503,
+          "se": 0.005360287367483346
+        }
+      },
+      "opp_fb_per_100": {
+        "second_closest_is_a_guard": {
+          "coef": -0.4577203099476039,
+          "se": 0.5047122177975978
+        }
+      },
+      "defensive_rating": {
+        "second_closest_is_a_guard": {
+          "coef": -0.04795647357631544,
+          "se": 0.8928380898936742
+        }
+      },
+      "net_rating": {
+        "second_closest_is_a_guard": {
+          "coef": 0.8729003439544115,
+          "se": 1.198370769456408
+        }
+      }
+    },
+    "how_often_second_closest_is_a_guard": 0.2506493506493506,
+    "closest_mix": {
+      "big": 0.604,
+      "forward": 0.268,
+      "guard": 0.121,
+      "unknown": 0.008
+    },
+    "second_mix": {
+      "big": 0.396,
+      "forward": 0.345,
+      "guard": 0.251,
+      "unknown": 0.008
+    },
+    "by_miss_mix": {
+      "mostly_twos": {
+        "oreb_pct": {
+          "big": {
+            "coef": 0.2417654751845693,
+            "se": 0.04047392162468818
+          },
+          "forward": {
+            "coef": 0.2065776291942213,
+            "se": 0.04288568574827877
+          },
+          "guard": {
+            "coef": 0.2939824307421197,
+            "se": 0.046568377875693616
+          }
+        },
+        "opp_fb_per_100": {
+          "big": {
+            "coef": 4.191473812836549,
+            "se": 4.006014053483794
+          },
+          "forward": {
+            "coef": 2.0988142831360603,
+            "se": 4.244724822911647
+          },
+          "guard": {
+            "coef": 2.2129851186460074,
+            "se": 4.609229072188026
+          }
+        },
+        "defensive_rating": {
+          "big": {
+            "coef": -6.177036579625349,
+            "se": 6.639834590337254
+          },
+          "forward": {
+            "coef": -4.684654031818345,
+            "se": 7.035489723537473
+          },
+          "guard": {
+            "coef": 12.860620973747867,
+            "se": 7.639643351147808
+          }
+        },
+        "net_rating": {
+          "big": {
+            "coef": 5.827230638192199,
+            "se": 8.767697872398244
+          },
+          "forward": {
+            "coef": 15.279337844267252,
+            "se": 9.290148337446169
+          },
+          "guard": {
+            "coef": 16.528478731444817,
+            "se": 10.087914667816722
+          }
+        },
+        "team_games": 389,
+        "mean_three_miss_share": 0.42847204474496425
+      },
+      "mostly_threes": {
+        "oreb_pct": {
+          "big": {
+            "coef": 0.2433239662988983,
+            "se": 0.04208043929732008
+          },
+          "forward": {
+            "coef": 0.11228222184510503,
+            "se": 0.04466215357752326
+          },
+          "guard": {
+            "coef": 0.24477051700452615,
+            "se": 0.04850596822753485
+          }
+        },
+        "opp_fb_per_100": {
+          "big": {
+            "coef": 3.4356805986527195,
+            "se": 3.9612567931288702
+          },
+          "forward": {
+            "coef": 0.9459492709371924,
+            "se": 4.204287365079765
+          },
+          "guard": {
+            "coef": 2.964525284533501,
+            "se": 4.566126194430018
+          }
+        },
+        "defensive_rating": {
+          "big": {
+            "coef": -5.6938136278697815,
+            "se": 7.210763688679845
+          },
+          "forward": {
+            "coef": 6.236648892441848,
+            "se": 7.6531576345867
+          },
+          "guard": {
+            "coef": 5.1743351114260765,
+            "se": 8.311820889228253
+          }
+        },
+        "net_rating": {
+          "big": {
+            "coef": 15.149396744048671,
+            "se": 9.826254967087337
+          },
+          "forward": {
+            "coef": 1.00364326309215,
+            "se": 10.429114233603178
+          },
+          "guard": {
+            "coef": 12.13057604219996,
+            "se": 11.32668810469261
+          }
+        },
+        "team_games": 381,
+        "mean_three_miss_share": 0.5759187250661918
+      }
+    },
+    "three_miss_share_median": 0.5
+  },
+  "who_gets_the_rebound": {
+    "rim": {
+      "misses": 7226,
+      "offensive_rebound_rate": 0.30431774148906726,
+      "who_got_it": {
+        "big": 0.444,
+        "forward": 0.299,
+        "guard": 0.243,
+        "unknown": 0.014
+      }
+    },
+    "three": {
+      "misses": 18065,
+      "offensive_rebound_rate": 0.21372820370882922,
+      "who_got_it": {
+        "guard": 0.339,
+        "big": 0.324,
+        "forward": 0.316,
+        "unknown": 0.021
+      }
+    },
+    "two": {
+      "misses": 10850,
+      "offensive_rebound_rate": 0.22847926267281107,
+      "who_got_it": {
+        "big": 0.428,
+        "guard": 0.284,
+        "forward": 0.276,
+        "unknown": 0.012
+      }
+    }
+  },
+  "league_push_rates": {
+    "after_long_miss": 0.481,
+    "after_opponent_score": 0.077,
+    "after_short_miss": 0.594,
+    "after_steal": 0.734,
+    "other": 0.149
+  },
+  "reading": "Push means the first action of the possession came within 8 seconds. Walked means it did not. A recommendation has to show up on both the even-numbered games and the odd-numbered games. Frontcourt crashers are bigs and forwards within 3.5 feet of a miss. The top-quarter target is the 75th percentile team, not a theoretical maximum."
+}

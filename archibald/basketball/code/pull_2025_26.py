@@ -19,7 +19,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from db import clear_game, ensure, loaded, mark_loaded, read_table, write_frame
+from db import clear_game, connect, ensure, loaded, mark_loaded, read_table, write_frame
 from nba_api.stats.endpoints import (
     boxscoreadvancedv3,
     boxscoredefensivev2,
@@ -463,7 +463,15 @@ def game_ids() -> pd.DataFrame:
 
 
 def game_done(game_id: str) -> bool:
-    return loaded("games", game_id)
+    """A game marked partial still needs the endpoints this puller did not fetch."""
+    with connect() as conn:
+        row = conn.execute("SELECT detail FROM games.loaded WHERE game_id = %s", (game_id,)).fetchone()
+    if row is None:
+        return False
+    detail = row[0] or {}
+    if isinstance(detail, str):
+        detail = json.loads(detail)
+    return not detail.get("partial")
 
 
 def pull_game(game_id: str) -> None:

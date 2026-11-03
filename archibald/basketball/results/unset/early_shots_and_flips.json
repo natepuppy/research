@@ -1,0 +1,730 @@
+{
+  "early_shots": {
+    "def_reb": {
+      "early_shots": 8265,
+      "half_court_ppp_same_start": 1.2665796654407404,
+      "early_by_zone": [
+        {
+          "zone": "mid-range (14+ ft, 2)",
+          "early_shots": 323,
+          "share_of_early_shots": 0.03908045977011494,
+          "fg_pct": 0.4891640866873065,
+          "points_per_shot": 0.978328173374613,
+          "possession_ppp": 1.1702786377708978,
+          "se": 0.05912939666603595,
+          "vs_half_court": -0.09630102766984261
+        },
+        {
+          "zone": "paint (5-14 ft)",
+          "early_shots": 1183,
+          "share_of_early_shots": 0.14313369630973988,
+          "fg_pct": 0.46745562130177515,
+          "points_per_shot": 0.9349112426035503,
+          "possession_ppp": 1.198647506339814,
+          "se": 0.031486928271433776,
+          "vs_half_court": -0.06793215910092631
+        },
+        {
+          "zone": "rim (<5 ft)",
+          "early_shots": 3028,
+          "share_of_early_shots": 0.3663641863278887,
+          "fg_pct": 0.6776750330250991,
+          "points_per_shot": 1.3553500660501983,
+          "possession_ppp": 1.5805812417437253,
+          "se": 0.017199178298238287,
+          "vs_half_court": 0.31400157630298486
+        },
+        {
+          "zone": "three",
+          "early_shots": 3731,
+          "share_of_early_shots": 0.4514216575922565,
+          "fg_pct": 0.3623693379790941,
+          "points_per_shot": 1.0871080139372822,
+          "possession_ppp": 1.3095684803001877,
+          "se": 0.023643260211765698,
+          "vs_half_court": 0.04298881485944728
+        }
+      ],
+      "late_by_zone": [
+        {
+          "zone": "mid-range (14+ ft, 2)",
+          "shots": 900,
+          "fg_pct": 0.4111111111111111,
+          "points_per_shot": 0.8222222222222222,
+          "possession_ppp": 0.9866666666666667
+        },
+        {
+          "zone": "paint (5-14 ft)",
+          "shots": 2025,
+          "fg_pct": 0.43753086419753084,
+          "points_per_shot": 0.8750617283950617,
+          "possession_ppp": 1.0913580246913581
+        },
+        {
+          "zone": "rim (<5 ft)",
+          "shots": 1971,
+          "fg_pct": 0.6387620497209539,
+          "points_per_shot": 1.2775240994419077,
+          "possession_ppp": 1.4718417047184171
+        },
+        {
+          "zone": "three",
+          "shots": 3533,
+          "fg_pct": 0.37899801868100763,
+          "points_per_shot": 1.136994056043023,
+          "possession_ppp": 1.323804132465327
+        }
+      ],
+      "early_zone_mix": {
+        "three": 0.451,
+        "rim (<5 ft)": 0.366,
+        "paint (5-14 ft)": 0.143,
+        "mid-range (14+ ft, 2)": 0.039
+      },
+      "late_zone_mix": {
+        "three": 0.419,
+        "paint (5-14 ft)": 0.24,
+        "rim (<5 ft)": 0.234,
+        "mid-range (14+ ft, 2)": 0.107
+      }
+    },
+    "steal": {
+      "early_shots": 3065,
+      "half_court_ppp_same_start": 1.310374149659864,
+      "early_by_zone": [
+        {
+          "zone": "mid-range (14+ ft, 2)",
+          "early_shots": 45,
+          "share_of_early_shots": 0.01468189233278956,
+          "fg_pct": 0.4222222222222222,
+          "points_per_shot": 0.8444444444444444,
+          "possession_ppp": 1.3111111111111111,
+          "se": 0.1615024852741264,
+          "vs_half_court": 0.0007369614512471312
+        },
+        {
+          "zone": "paint (5-14 ft)",
+          "early_shots": 274,
+          "share_of_early_shots": 0.08939641109298532,
+          "fg_pct": 0.5328467153284672,
+          "points_per_shot": 1.0656934306569343,
+          "possession_ppp": 1.354014598540146,
+          "se": 0.06212081401670537,
+          "vs_half_court": 0.04364044888028196
+        },
+        {
+          "zone": "rim (<5 ft)",
+          "early_shots": 1818,
+          "share_of_early_shots": 0.5931484502446982,
+          "fg_pct": 0.7475247524752475,
+          "points_per_shot": 1.495049504950495,
+          "possession_ppp": 1.724972497249725,
+          "se": 0.01925318363088126,
+          "vs_half_court": 0.4145983475898609
+        },
+        {
+          "zone": "three",
+          "early_shots": 928,
+          "share_of_early_shots": 0.3027732463295269,
+          "fg_pct": 0.37176724137931033,
+          "points_per_shot": 1.115301724137931,
+          "possession_ppp": 1.3803879310344827,
+          "se": 0.047399194249594205,
+          "vs_half_court": 0.07001378137461867
+        }
+      ],
+      "late_by_zone": [
+        {
+          "zone": "mid-range (14+ ft, 2)",
+          "shots": 107,
+          "fg_pct": 0.4392523364485981,
+          "points_per_shot": 0.8785046728971962,
+          "possession_ppp": 1.0467289719626167
+        },
+        {
+          "zone": "paint (5-14 ft)",
+          "shots": 289,
+          "fg_pct": 0.4463667820069204,
+          "points_per_shot": 0.8927335640138409,
+          "possession_ppp": 1.1764705882352942
+        },
+        {
+          "zone": "rim (<5 ft)",
+          "shots": 273,
+          "fg_pct": 0.6959706959706959,
+          "points_per_shot": 1.3919413919413919,
+          "possession_ppp": 1.5604395604395604
+        },
+        {
+          "zone": "three",
+          "shots": 507,
+          "fg_pct": 0.3629191321499014,
+          "points_per_shot": 1.0887573964497042,
+          "possession_ppp": 1.3076923076923077
+        }
+      ],
+      "early_zone_mix": {
+        "rim (<5 ft)": 0.593,
+        "three": 0.303,
+        "paint (5-14 ft)": 0.089,
+        "mid-range (14+ ft, 2)": 0.015
+      },
+      "late_zone_mix": {
+        "three": 0.431,
+        "paint (5-14 ft)": 0.246,
+        "rim (<5 ft)": 0.232,
+        "mid-range (14+ ft, 2)": 0.091
+      }
+    },
+    "made_fg": {
+      "early_shots": 1154,
+      "half_court_ppp_same_start": 1.2650094796713713,
+      "early_by_zone": [
+        {
+          "zone": "mid-range (14+ ft, 2)",
+          "early_shots": 57,
+          "share_of_early_shots": 0.049393414211438474,
+          "fg_pct": 0.5789473684210527,
+          "points_per_shot": 1.1578947368421053,
+          "possession_ppp": 1.263157894736842,
+          "se": 0.13601543244455297,
+          "vs_half_court": -0.0018515849345293045
+        },
+        {
+          "zone": "paint (5-14 ft)",
+          "early_shots": 162,
+          "share_of_early_shots": 0.14038128249566725,
+          "fg_pct": 0.4012345679012346,
+          "points_per_shot": 0.8024691358024691,
+          "possession_ppp": 1.1419753086419753,
+          "se": 0.0942594640185262,
+          "vs_half_court": -0.12303417102939607
+        },
+        {
+          "zone": "rim (<5 ft)",
+          "early_shots": 450,
+          "share_of_early_shots": 0.389948006932409,
+          "fg_pct": 0.5711111111111111,
+          "points_per_shot": 1.1422222222222222,
+          "possession_ppp": 1.3511111111111112,
+          "se": 0.05075643809546528,
+          "vs_half_court": 0.08610163143973981
+        },
+        {
+          "zone": "three",
+          "early_shots": 485,
+          "share_of_early_shots": 0.4202772963604853,
+          "fg_pct": 0.4020618556701031,
+          "points_per_shot": 1.2061855670103092,
+          "possession_ppp": 1.3752577319587629,
+          "se": 0.06623117478331811,
+          "vs_half_court": 0.11024825228739155
+        }
+      ],
+      "late_by_zone": [
+        {
+          "zone": "mid-range (14+ ft, 2)",
+          "shots": 1970,
+          "fg_pct": 0.4304568527918782,
+          "points_per_shot": 0.8609137055837564,
+          "possession_ppp": 1.0431472081218274
+        },
+        {
+          "zone": "paint (5-14 ft)",
+          "shots": 4361,
+          "fg_pct": 0.44003668883283653,
+          "points_per_shot": 0.8800733776656731,
+          "possession_ppp": 1.1077734464572346
+        },
+        {
+          "zone": "rim (<5 ft)",
+          "shots": 4434,
+          "fg_pct": 0.6326116373477673,
+          "points_per_shot": 1.2652232746955345,
+          "possession_ppp": 1.4688768606224627
+        },
+        {
+          "zone": "three",
+          "shots": 8223,
+          "fg_pct": 0.36470874376748147,
+          "points_per_shot": 1.0941262313024445,
+          "possession_ppp": 1.291621062872431
+        }
+      ],
+      "early_zone_mix": {
+        "three": 0.42,
+        "rim (<5 ft)": 0.39,
+        "paint (5-14 ft)": 0.14,
+        "mid-range (14+ ft, 2)": 0.049
+      },
+      "late_zone_mix": {
+        "three": 0.433,
+        "rim (<5 ft)": 0.234,
+        "paint (5-14 ft)": 0.23,
+        "mid-range (14+ ft, 2)": 0.104
+      }
+    },
+    "made_ft": {
+      "early_shots": 270,
+      "half_court_ppp_same_start": 1.2517199514366653,
+      "early_by_zone": [
+        {
+          "zone": "mid-range (14+ ft, 2)",
+          "early_shots": 17,
+          "share_of_early_shots": 0.06296296296296296,
+          "fg_pct": 0.47058823529411764,
+          "points_per_shot": 0.9411764705882353,
+          "possession_ppp": 1.1764705882352942,
+          "se": 0.24607647839237515,
+          "vs_half_court": -0.0752493632013711
+        },
+        {
+          "zone": "paint (5-14 ft)",
+          "early_shots": 40,
+          "share_of_early_shots": 0.14814814814814814,
+          "fg_pct": 0.475,
+          "points_per_shot": 0.95,
+          "possession_ppp": 1.2,
+          "se": 0.16870547845739467,
+          "vs_half_court": -0.0517199514366653
+        },
+        {
+          "zone": "rim (<5 ft)",
+          "early_shots": 89,
+          "share_of_early_shots": 0.3296296296296296,
+          "fg_pct": 0.6629213483146067,
+          "points_per_shot": 1.3258426966292134,
+          "possession_ppp": 1.5280898876404494,
+          "se": 0.10367344775431639,
+          "vs_half_court": 0.27636993620378414
+        },
+        {
+          "zone": "three",
+          "early_shots": 124,
+          "share_of_early_shots": 0.45925925925925926,
+          "fg_pct": 0.3709677419354839,
+          "points_per_shot": 1.1129032258064515,
+          "possession_ppp": 1.3629032258064515,
+          "se": 0.13272284054458486,
+          "vs_half_court": 0.11118327436978626
+        }
+      ],
+      "late_by_zone": [
+        {
+          "zone": "mid-range (14+ ft, 2)",
+          "shots": 541,
+          "fg_pct": 0.4121996303142329,
+          "points_per_shot": 0.8243992606284658,
+          "possession_ppp": 1.011090573012939
+        },
+        {
+          "zone": "paint (5-14 ft)",
+          "shots": 1158,
+          "fg_pct": 0.41018998272884283,
+          "points_per_shot": 0.8203799654576857,
+          "possession_ppp": 1.0863557858376511
+        },
+        {
+          "zone": "rim (<5 ft)",
+          "shots": 1140,
+          "fg_pct": 0.6149122807017544,
+          "points_per_shot": 1.2298245614035088,
+          "possession_ppp": 1.4517543859649122
+        },
+        {
+          "zone": "three",
+          "shots": 2103,
+          "fg_pct": 0.36329053732762717,
+          "points_per_shot": 1.0898716119828815,
+          "possession_ppp": 1.2962434617213505
+        }
+      ],
+      "early_zone_mix": {
+        "three": 0.459,
+        "rim (<5 ft)": 0.33,
+        "paint (5-14 ft)": 0.148,
+        "mid-range (14+ ft, 2)": 0.063
+      },
+      "late_zone_mix": {
+        "three": 0.426,
+        "paint (5-14 ft)": 0.234,
+        "rim (<5 ft)": 0.231,
+        "mid-range (14+ ft, 2)": 0.109
+      }
+    },
+    "dead_tov": {
+      "early_shots": 310,
+      "half_court_ppp_same_start": 1.2792948496370549,
+      "early_by_zone": [
+        {
+          "zone": "mid-range (14+ ft, 2)",
+          "early_shots": 21,
+          "share_of_early_shots": 0.06774193548387097,
+          "fg_pct": 0.5238095238095238,
+          "points_per_shot": 1.0476190476190477,
+          "possession_ppp": 1.1428571428571428,
+          "se": 0.2213133340689953,
+          "vs_half_court": -0.13643770677991207
+        },
+        {
+          "zone": "paint (5-14 ft)",
+          "early_shots": 50,
+          "share_of_early_shots": 0.16129032258064516,
+          "fg_pct": 0.56,
+          "points_per_shot": 1.12,
+          "possession_ppp": 1.42,
+          "se": 0.16185153186592624,
+          "vs_half_court": 0.14070515036294506
+        },
+        {
+          "zone": "rim (<5 ft)",
+          "early_shots": 103,
+          "share_of_early_shots": 0.33225806451612905,
+          "fg_pct": 0.5631067961165048,
+          "points_per_shot": 1.1262135922330097,
+          "possession_ppp": 1.4757281553398058,
+          "se": 0.10029905805096982,
+          "vs_half_court": 0.19643330570275097
+        },
+        {
+          "zone": "three",
+          "early_shots": 136,
+          "share_of_early_shots": 0.43870967741935485,
+          "fg_pct": 0.36764705882352944,
+          "points_per_shot": 1.1029411764705883,
+          "possession_ppp": 1.375,
+          "se": 0.12302359091478603,
+          "vs_half_court": 0.09570515036294514
+        }
+      ],
+      "late_by_zone": [
+        {
+          "zone": "mid-range (14+ ft, 2)",
+          "shots": 315,
+          "fg_pct": 0.3873015873015873,
+          "points_per_shot": 0.7746031746031746,
+          "possession_ppp": 0.946031746031746
+        },
+        {
+          "zone": "paint (5-14 ft)",
+          "shots": 699,
+          "fg_pct": 0.45064377682403434,
+          "points_per_shot": 0.9012875536480687,
+          "possession_ppp": 1.1316165951359085
+        },
+        {
+          "zone": "rim (<5 ft)",
+          "shots": 680,
+          "fg_pct": 0.6647058823529411,
+          "points_per_shot": 1.3294117647058823,
+          "possession_ppp": 1.5279411764705881
+        },
+        {
+          "zone": "three",
+          "shots": 1199,
+          "fg_pct": 0.37364470391993326,
+          "points_per_shot": 1.1209341117597997,
+          "possession_ppp": 1.311926605504587
+        }
+      ],
+      "early_zone_mix": {
+        "three": 0.439,
+        "rim (<5 ft)": 0.332,
+        "paint (5-14 ft)": 0.161,
+        "mid-range (14+ ft, 2)": 0.068
+      },
+      "late_zone_mix": {
+        "three": 0.414,
+        "paint (5-14 ft)": 0.242,
+        "rim (<5 ft)": 0.235,
+        "mid-range (14+ ft, 2)": 0.109
+      }
+    },
+    "rule_summary": {
+      "def_reb": {
+        "early_ppp": 1.2105169657132706,
+        "early_tov_rate": 0.1489607390300231,
+        "slow_ppp": 1.150112756152564,
+        "slow_tov_rate": 0.12481615844690656
+      },
+      "steal": {
+        "early_ppp": 1.4067239635995956,
+        "early_tov_rate": 0.11248736097067745,
+        "slow_ppp": 1.1915041782729805,
+        "slow_tov_rate": 0.12256267409470752
+      },
+      "made_fg": {
+        "early_ppp": 1.0214570858283434,
+        "early_tov_rate": 0.26497005988023953,
+        "slow_ppp": 1.1362852697531642,
+        "slow_tov_rate": 0.1406585088936546
+      }
+    },
+    "after_rebound_curve": [
+      {
+        "zone": "mid-range (14+ ft, 2)",
+        "sec_bin": "0-4",
+        "mean": 1.409,
+        "count": 44
+      },
+      {
+        "zone": "mid-range (14+ ft, 2)",
+        "sec_bin": "4-8",
+        "mean": 1.133,
+        "count": 279
+      },
+      {
+        "zone": "mid-range (14+ ft, 2)",
+        "sec_bin": "8-12",
+        "mean": 1.011,
+        "count": 350
+      },
+      {
+        "zone": "mid-range (14+ ft, 2)",
+        "sec_bin": "12-16",
+        "mean": 0.964,
+        "count": 248
+      },
+      {
+        "zone": "mid-range (14+ ft, 2)",
+        "sec_bin": "16-24",
+        "mean": 0.929,
+        "count": 280
+      },
+      {
+        "zone": "paint (5-14 ft)",
+        "sec_bin": "0-4",
+        "mean": 1.224,
+        "count": 219
+      },
+      {
+        "zone": "paint (5-14 ft)",
+        "sec_bin": "4-8",
+        "mean": 1.199,
+        "count": 955
+      },
+      {
+        "zone": "paint (5-14 ft)",
+        "sec_bin": "8-12",
+        "mean": 1.153,
+        "count": 916
+      },
+      {
+        "zone": "paint (5-14 ft)",
+        "sec_bin": "12-16",
+        "mean": 1.091,
+        "count": 562
+      },
+      {
+        "zone": "paint (5-14 ft)",
+        "sec_bin": "16-24",
+        "mean": 1.0,
+        "count": 497
+      },
+      {
+        "zone": "rim (<5 ft)",
+        "sec_bin": "0-4",
+        "mean": 1.688,
+        "count": 1264
+      },
+      {
+        "zone": "rim (<5 ft)",
+        "sec_bin": "4-8",
+        "mean": 1.514,
+        "count": 1700
+      },
+      {
+        "zone": "rim (<5 ft)",
+        "sec_bin": "8-12",
+        "mean": 1.498,
+        "count": 958
+      },
+      {
+        "zone": "rim (<5 ft)",
+        "sec_bin": "12-16",
+        "mean": 1.471,
+        "count": 569
+      },
+      {
+        "zone": "rim (<5 ft)",
+        "sec_bin": "16-24",
+        "mean": 1.411,
+        "count": 406
+      },
+      {
+        "zone": "three",
+        "sec_bin": "0-4",
+        "mean": 1.37,
+        "count": 1113
+      },
+      {
+        "zone": "three",
+        "sec_bin": "4-8",
+        "mean": 1.285,
+        "count": 2610
+      },
+      {
+        "zone": "three",
+        "sec_bin": "8-12",
+        "mean": 1.31,
+        "count": 1656
+      },
+      {
+        "zone": "three",
+        "sec_bin": "12-16",
+        "mean": 1.378,
+        "count": 1034
+      },
+      {
+        "zone": "three",
+        "sec_bin": "16-24",
+        "mean": 1.289,
+        "count": 771
+      }
+    ]
+  },
+  "flips": {
+    "sample_games": 388,
+    "per_possession_gains": {
+      "stop_pushing_after_opponent_score": 0.06677082503152598,
+      "push_after_rebound": 0.060894684345779826
+    },
+    "sample_scenarios": {
+      "A. never push after being scored on": {
+        "team_games": 776,
+        "losses": 388,
+        "flipped": 0.0,
+        "flipped_per_82_games_one_team": 0.0,
+        "mean_shift_points": 0.29676878290429526,
+        "assumption": "every early possession after an opponent score becomes a normal one; gain 0.067 per possession, 4.4 such possessions per game"
+      },
+      "B. push after 25% more of defensive rebounds": {
+        "team_games": 776,
+        "losses": 388,
+        "flipped": 0.0,
+        "flipped_per_82_games_one_team": 0.0,
+        "mean_shift_points": 0.2585081364769139,
+        "assumption": "25% of slow after-rebound possessions become early at the league-average early gain of 0.061; 17.0 slow after-rebound possessions per game. Assumes the extra pushes are as good as the ones teams already choose, which is optimistic."
+      },
+      "B. push after 50% more of defensive rebounds": {
+        "team_games": 776,
+        "losses": 388,
+        "flipped": 1.0,
+        "flipped_per_82_games_one_team": 0.1056701030927835,
+        "mean_shift_points": 0.5170162729538278,
+        "assumption": "50% of slow after-rebound possessions become early at the league-average early gain of 0.061; 17.0 slow after-rebound possessions per game. Assumes the extra pushes are as good as the ones teams already choose, which is optimistic."
+      },
+      "A + B(25%)": {
+        "team_games": 776,
+        "losses": 388,
+        "flipped": 0.0,
+        "flipped_per_82_games_one_team": 0.0,
+        "mean_shift_points": 0.5552769193812092,
+        "assumption": "both rules"
+      },
+      "C. +0.05 crashers per miss": {
+        "team_games": 776,
+        "losses": 388,
+        "flipped": 0.0,
+        "flipped_per_82_games_one_team": 0.0,
+        "mean_shift_points": 0.6041811340206186,
+        "assumption": "+0.05 bodies near the ball per own miss (league SD within team is 0.14; median-to-top-8 is about 0.10). Net +12.1 per 100 possessions per unit, SE 3.7. Applied to the team's own possessions."
+      },
+      "C. +0.10 crashers per miss": {
+        "team_games": 776,
+        "losses": 388,
+        "flipped": 15.0,
+        "flipped_per_82_games_one_team": 1.5850515463917527,
+        "mean_shift_points": 1.2083622680412371,
+        "assumption": "+0.10 bodies near the ball per own miss (league SD within team is 0.14; median-to-top-8 is about 0.10). Net +12.1 per 100 possessions per unit, SE 3.7. Applied to the team's own possessions."
+      },
+      "A + B(25%) + C(0.10)": {
+        "team_games": 776,
+        "losses": 388,
+        "flipped": 17.0,
+        "flipped_per_82_games_one_team": 1.7963917525773194,
+        "mean_shift_points": 1.7636391874224466,
+        "assumption": "all three"
+      }
+    },
+    "full_season_rebounding": {
+      "+0.05 crashers per miss": {
+        "team_games": 2460,
+        "losses": 1230,
+        "flipped": 0,
+        "flipped_per_team_per_season": 0.0,
+        "by_team": {
+          "ATL": 0,
+          "BKN": 0,
+          "BOS": 0,
+          "CHA": 0,
+          "CHI": 0,
+          "CLE": 0,
+          "DAL": 0,
+          "DEN": 0,
+          "DET": 0,
+          "GSW": 0,
+          "HOU": 0,
+          "IND": 0,
+          "LAC": 0,
+          "LAL": 0,
+          "MEM": 0,
+          "MIA": 0,
+          "MIL": 0,
+          "MIN": 0,
+          "NOP": 0,
+          "NYK": 0,
+          "OKC": 0,
+          "ORL": 0,
+          "PHI": 0,
+          "PHX": 0,
+          "POR": 0,
+          "SAC": 0,
+          "SAS": 0,
+          "TOR": 0,
+          "UTA": 0,
+          "WAS": 0
+        }
+      },
+      "+0.10 crashers per miss": {
+        "team_games": 2460,
+        "losses": 1230,
+        "flipped": 47,
+        "flipped_per_team_per_season": 1.5666666666666667,
+        "by_team": {
+          "ATL": 2,
+          "BKN": 2,
+          "BOS": 2,
+          "CHA": 2,
+          "CHI": 1,
+          "CLE": 0,
+          "DAL": 1,
+          "DEN": 3,
+          "DET": 1,
+          "GSW": 4,
+          "HOU": 3,
+          "IND": 2,
+          "LAC": 1,
+          "LAL": 1,
+          "MEM": 2,
+          "MIA": 2,
+          "MIL": 1,
+          "MIN": 2,
+          "NOP": 0,
+          "NYK": 0,
+          "OKC": 0,
+          "ORL": 2,
+          "PHI": 3,
+          "PHX": 2,
+          "POR": 1,
+          "SAC": 1,
+          "SAS": 3,
+          "TOR": 0,
+          "UTA": 2,
+          "WAS": 1
+        }
+      }
+    },
+    "reading": "Flipped = a loss that becomes a win when the estimated point shift is added to the final margin, one team adopting while the opponent does not. Margins are whole-game, so overtime games count at their final margin."
+  }
+}
