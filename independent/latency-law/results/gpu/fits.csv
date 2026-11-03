@@ -1,0 +1,7 @@
+kind,enc,reset,slope,intercept,r2,eta,n_knobs
+dqn,onehot,random,38.666667,1166.666667,1.0,1.034483,3
+dqn,onehot,start,38.619048,1200.0,0.999998,1.035758,3
+dqn,coord,random,38.238095,3116.666667,0.985109,1.046077,3
+dqn,coord,start,70.380952,-2350.0,0.992061,0.568336,3
+polyak,onehot,random,37.903226,1100.0,0.999999,1.028936,3
+polyak,coord,random,39.032258,1250.0,0.99992,0.999174,3

@@ -4,7 +4,7 @@
 
 **Claim.** The number is set by the target mechanism and by nothing else. A hard target refreshed every K updates takes (⌈D/n⌉ − 1)·K updates. A Polyak target of rate τ takes (⌈D/n⌉ − 1)/τ + ⌈D/n⌉/α. GAE takes about D·((1 − γλ) + 1/T) critic fits. The same hard-target count holds for a neural critic wherever the data covers the path. n is the one knob that divides all three, and it has a ceiling set by the exploratory bias of uncorrected n-step returns. Under ordinary DQN settings, most of the time charged to "hard exploration" is this count.
 
-**Status.** Combined draft, `paper/main.md`. No new experiment was run for this folder. Every number in the draft is from a finished laptop pilot. The GPU replications (MinAtar DQN, CleanRL PPO, TD3) are listed in the draft and have not been run.
+**Status.** RLC manuscript: `paper/paper_rlc.md`. The laptop pilots are unchanged. An RTX 3080 run (`code/gpu_3080.py`, `results/gpu/`) measured the same corridor online: one-hot DQN takes 1.03–1.04 hops per sync (\(R^2 = 1.000\)), Polyak slope 37.9–39.0 against a predicted 39. MinAtar, MuJoCo and long-horizon PPO were not run. The neural PPO grid on a length-16 corridor did not resolve the GAE formula.
 
 ## Where the numbers come from
 
