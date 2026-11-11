@@ -1,5 +1,9 @@
 .venv/
+.venv-gpu/
 venv/
+yolov8s-worldv2.pt
+yolov8s.pt
+weights/
 __pycache__/
 *.pyc
 .DS_Store

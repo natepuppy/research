@@ -1,0 +1,2 @@
+n_images,auroc_text,auroc_box,btn_covers_anchor,btx_covers_anchor,btx_text_iou_over_half,btn_fp_rate,btn_fp_rate_gated,btn_fp_relative_drop,btp_iou,btp_iou_gated,btn_presence_at_clamp,bntn_presence_at_neg_clamp,bntn_any_mask,b_presence_mean,text_presence_present_mean,text_presence_absent_mean
+500,0.9961703703703703,0.6734240000000001,0.8953333333333333,0.8646080760095012,0.10451306413301663,0.9986666666666667,0.018666666666666668,0.9813084112149533,0.8085203215229737,0.7927307105431066,0.5913333333333334,0.954,0.0,9.971609375,4.794752495920556,-6.20761979675293

@@ -1,0 +1,2 @@
+n_val,n_test,t_gap,t_side,k1_seeds,k2_seeds,k3_seeds,s0_geom,s0_vlm,s0_router,s0_exactly,s0_gap_delta,s0_keep
+39,120,0.05,0.05,0,0,1,0.9083333333333333,0.7,0.8666666666666667,0.275,0.03582332579398255,nan

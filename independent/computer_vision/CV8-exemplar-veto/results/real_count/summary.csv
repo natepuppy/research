@@ -1,0 +1,2 @@
+n_images,text_mae,box_mae,box_mae_hard,mae_cost,false_count,false_count_hard,false_drop,absent_presence_ge0,gt_mean
+400,34.075,28.725,29.2725,0.5474999999999994,0.855,0.0425,0.9502923976608187,0.9475,63.7575

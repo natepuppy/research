@@ -1,0 +1,1 @@
+KILL TEST: KILLED. K1 (patch AUROC high 0.624, low 0.564, each >= 0.80; pooled patch 0.594 vs pixels 0.594 is logged, not required) = False. K2 (crossings high nan, low nan inside [0.75, 1.25] and within 0.25) = False. K3 (flagged n=157 error base 0.159, x2 0.140, zoom 0.892, retile 0.854) = False. Images with a box: 209. One tower, token side 32px, 2x cap 1048576px.

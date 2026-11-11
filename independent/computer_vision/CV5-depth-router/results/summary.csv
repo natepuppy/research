@@ -1,0 +1,2 @@
+n_seeds,geom_acc,vlm_acc,router_acc,oracle_acc,gain,oracle_gain,frac_exactly_one,median_gap_geom_only,median_gap_vlm_only,gap_t,size_t,conf_t,frac_routed_to_geom,k1_seeds,k2_seeds,k3_seeds
+8,0.354375,0.5842499999999999,0.725125,0.72725,0.14062499999999994,0.14187500000000003,0.61825,0.622177868795154,0.3820043953461936,0.3,0.19999999999999998,0.27499999999999997,0.362625,8,8,8

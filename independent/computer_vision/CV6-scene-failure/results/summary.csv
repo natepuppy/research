@@ -1,0 +1,2 @@
+n_seeds,auroc_probe_intr,auroc_anchor_intr,auroc_conf_intr,auroc_fusion_intr,auroc_probe_dup,auroc_anchor_dup,auroc_conf_dup,auroc_fusion_dup,auroc_probe_any,reduction,forwards,z_thr,k1_seeds,k2_seeds,k3_seeds
+8,0.9990878307085742,0.800689106408862,0.8334091649616253,0.9996609920596295,0.9997060546875001,0.50356201171875,0.00975,0.9988173828125,0.9994007006885803,0.7018701774691358,2.0,0.4,8,8,8

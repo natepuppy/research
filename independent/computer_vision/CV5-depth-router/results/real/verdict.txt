@@ -1,0 +1,1 @@
+KILL TEST: KILLED. K1 (exactly-one and gap split on >= 6/8: 0/8) = False. K2 (router beats the better system by >= 0.05 on >= 6/8: 0/8) = False. K3 (frozen router keeps >= 80% of the oracle gain on >= 6/8: 1/8) = False. Val n=39 test n=120 thresholds gap 0.05 side 0.05. Seed 0 geom 0.908 vlm 0.700 router 0.867 exactly 0.275 gap_delta 0.036. TUM RGB-D, not What'sUp.

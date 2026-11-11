@@ -1,0 +1,5 @@
+quartile,n,context_min,context_max,sam3_presence_mean,sam3_false_alarm,sam3_any_mask,sam3_maxquery_mean,yw_false_alarm_025,yw_max_mean,text_sim_mean
+Q1 low,463,-4.42,-3.05,-6.5,0.0022,0.0022,0.552,0.0,0.002,0.739
+Q2,462,-3.0,-0.34,-5.97,0.0065,0.0022,0.545,0.0,0.002,0.764
+Q3,459,-0.34,0.85,-5.31,0.0131,0.0087,0.567,0.0065,0.007,0.78
+Q4 high,461,0.85,4.01,-4.51,0.0325,0.0239,0.618,0.0022,0.007,0.786

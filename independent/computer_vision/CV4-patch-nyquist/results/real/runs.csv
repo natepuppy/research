@@ -1,0 +1,492 @@
+index,noun,gold,question,high_pred,high_ok,high_nbox,high_size,high_gap,high_ratio,high_pixels,high_text,low_pred,low_ok,low_nbox,low_size,low_gap,low_ratio,low_pixels,low_text,up_ok,tile_ok,zoom_ok
+0,headsets,10,How many headsets are there in the image?,10,1,2,174.1275758743286,377.6407800618341,5.441486746072769,174.1275758743286,10,10,1,2,80.13815116882324,188.82557925218038,2.5043172240257263,80.13815116882324,10,,,
+1,light bulbs,3,How many light bulbs are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+2,prints,3,How many prints are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+3,arrows,8,How many arrows are there in the image?,12,0,0,nan,nan,nan,nan,12,12,0,0,nan,nan,nan,nan,12,,,
+4,spoons,6,How many spoons are there in the image?,6,1,6,79.68484497070312,0.0,0.0,0.0,6,6,1,6,48.19844436645508,0.0,0.0,0.0,6,1,0,0
+5,girls,2,How many girls are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+6,parrots,4,How many parrots are there in the image?,4,1,2,105.2745483443141,0.0,0.0,0.0,4,4,1,2,105.2745483443141,0.0,0.0,0.0,4,1,0,0
+7,coloring pages,7,How many coloring pages are there in the image?,7,1,0,nan,nan,nan,nan,7,7,1,0,nan,nan,nan,nan,7,,,
+8,food containers,4,How many food containers are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+9,birdhouse patterns,9,How many birdhouse patterns are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+10,sofas,2,How many sofas are there in the image?,2,1,1,95.45127868652344,-1.0,2.9828524589538574,95.45127868652344,2,2,1,1,95.45127868652344,-1.0,2.9828524589538574,95.45127868652344,2,,,
+11,waterlilies,3,How many waterlilies are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+12,chairs,8,How many chairs are there in the image?,8,1,8,137.1097412109375,12.59375,0.3935546875,12.59375,8,8,1,8,69.1451416015625,6.091644287109375,0.19036388397216797,6.091644287109375,8,1,0,0
+13,eggs,8,How many eggs are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,1,66.28567504882812,-1.0,2.071427345275879,66.28567504882812,8,,,
+14,golfers,9,How many golfers are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+15,people,2,How many people are there in the image?,2,1,1,201.1993682864122,-1.0,6.2874802589503815,201.1993682864122,2,2,1,1,158.08811950683594,-1.0,4.940253734588623,158.08811950683594,2,,,
+16,outfits,4,How many outfits are there in the image?,4,1,4,97.39371490478516,0.41656494140625,0.013017654418945312,0.41656494140625,4,4,1,4,82.6801528930664,1.05865478515625,0.03308296203613281,1.05865478515625,4,1,0,0
+17,pigs,3,How many pigs are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+18,cars,5,How many cars are there in the image?,5,1,5,54.49385070800781,0.0,0.0,0.0,5,5,1,5,26.918617248535156,0.0,0.0,0.0,5,1,0,0
+19,aum symbols,9,How many aum symbols are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+20,men,3,How many men are there in the image?,3,1,3,151.6806182861328,47.61187744140625,1.4878711700439453,47.61187744140625,3,3,1,3,103.91549682617188,32.526885986328125,1.016465187072754,32.526885986328125,3,,,
+21,chairs,6,How many chairs are there in the image?,6,1,3,171.41366577148438,0.0,0.0,0.0,6,6,1,2,86.65077209472656,102.4593734741211,2.707836627960205,86.65077209472656,6,1,1,0
+22,buttons,9,How many buttons are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+23,rackets,2,How many rackets are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+24,pots,4,How many pots are there in the image?,4,1,4,268.8448486328125,0.0,0.0,0.0,4,4,1,4,126.58427429199219,0.0,0.0,0.0,4,1,1,0
+25,stars,5,How many stars are there in the image?,5,1,0,nan,nan,nan,nan,5,6,0,0,nan,nan,nan,nan,6,,,
+26,chairs,10,How many chairs are there in the image?,10,1,10,87.39678955078125,0.0,0.0,0.0,10,10,1,10,62.46759033203125,0.0,0.0,0.0,10,1,0,0
+27,dice,10,How many dice are there in the image?,11,0,0,nan,nan,nan,nan,11,11,0,0,nan,nan,nan,nan,11,,,
+28,silhouettes,10,How many silhouettes are there in the image?,10,1,8,36.53633117675781,0.0,0.0,0.0,10,10,1,8,28.43749237060547,0.0,0.0,0.0,10,1,0,0
+29,kids,5,How many kids are there in the image?,5,1,3,50.02122497558594,0.0,0.0,0.0,5,5,1,4,39.230377197265625,0.0,0.0,0.0,5,1,0,0
+30,moth silhouettes,2,How many moth silhouettes are there in the image?,2,1,1,138.66387939453125,-1.0,4.333246231079102,138.66387939453125,2,2,1,1,138.66387939453125,-1.0,4.333246231079102,138.66387939453125,2,,,
+31,pumpkin candles,3,How many pumpkin candles are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+32,stencils,10,How many stencils are there in the image?,10,1,0,nan,nan,nan,nan,10,12,0,0,nan,nan,nan,nan,12,,,
+33,text boxes,5,How many text boxes are there in the image?,5,1,0,nan,nan,nan,nan,5,5,1,0,nan,nan,nan,nan,5,,,
+34,basketball players,6,How many basketball players are there in the image?,6,1,0,nan,nan,nan,nan,6,8,0,0,nan,nan,nan,nan,8,,,
+35,photos,4,How many photos are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+36,forks,4,How many forks are there in the image?,4,1,4,29.802032470703125,38.51921844482422,0.9313135147094727,29.802032470703125,4,4,1,4,29.802032470703125,38.51921844482422,0.9313135147094727,29.802032470703125,4,1,0,0
+37,icons,9,How many icons are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+38,bags,7,How many bags are there in the image?,8,0,0,nan,nan,nan,nan,8,8,0,0,nan,nan,nan,nan,8,,,
+39,couples,3,How many couples are there in the image?,2,0,0,nan,nan,nan,nan,2,2,0,0,nan,nan,nan,nan,2,,,
+40,weights,2,How many weights are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+41,women,3,How many women are there in the image?,3,1,1,92.0577392578125,-1.0,2.8768043518066406,92.0577392578125,3,3,1,2,77.00392150878906,0.0,0.0,0.0,3,,,
+42,fish,5,How many fish are there in the image?,5,1,1,174.26081466674805,-1.0,5.4456504583358765,174.26081466674805,5,5,1,1,87.66095542907715,-1.0,2.739404857158661,87.66095542907715,5,,,
+43,icons,9,How many icons are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+44,clocks,8,How many clocks are there in the image?,8,1,8,62.003631591796875,10.733993530273438,0.3354372978210449,10.733993530273438,8,8,1,8,62.003631591796875,10.733993530273438,0.3354372978210449,10.733993530273438,8,1,0,0
+45,banners,4,How many banners are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+46,chests,6,How many chests are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+47,stars,2,How many stars are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+48,globe icons,9,How many globe icons are there in the image?,9,1,3,57.598167419433594,2.7484893798828125,0.08589029312133789,2.7484893798828125,9,9,1,3,57.598167419433594,2.7484893798828125,0.08589029312133789,2.7484893798828125,9,1,0,0
+49,men,5,How many men are there in the image?,5,1,6,101.49256134033203,0.0,0.0,0.0,5,5,1,6,90.69252014160156,0.0,0.0,0.0,5,1,0,0
+50,snails,4,How many snails are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+51,crochet potholders,4,How many crochet potholders are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+52,christmas cards,10,How many christmas cards are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+53,double beds,2,How many double beds are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+54,baseball players,9,How many baseball players are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+55,icons,9,How many icons are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+56,symbols,9,How many symbols are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+57,cars,4,How many cars are there in the image?,4,1,3,51.79833984375,10.569427490234375,0.3302946090698242,10.569427490234375,4,4,1,3,29.6990966796875,5.911865234375,0.18474578857421875,5.911865234375,4,1,0,0
+58,trees,2,How many trees are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+59,people,3,How many people are there in the image?,3,1,3,82.33360290527344,0.0,0.0,0.0,3,3,1,3,59.000885009765625,0.0,0.0,0.0,3,1,0,0
+60,tree trunk cuts,4,How many tree trunk cuts are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+61,women,6,How many women are there in the image?,6,1,6,74.20506286621094,0.0,0.0,0.0,6,6,1,6,74.20506286621094,0.0,0.0,0.0,6,1,0,0
+62,chairs,10,How many chairs are there in the image?,12,0,10,59.471923828125,2.4720535278320312,0.07725167274475098,2.4720535278320312,12,10,1,10,54.450469970703125,2.22564697265625,0.06955146789550781,2.22564697265625,10,1,0,0
+63,icons,9,How many icons are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+64,banners,2,How many banners are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+65,people,8,How many people are there in the image?,8,1,5,107.26408386230469,38.46220397949219,1.2019438743591309,38.46220397949219,8,8,1,8,53.440696716308594,18.351104736328125,0.5734720230102539,18.351104736328125,8,,,
+66,individual earrings,6,How many individual earrings are there in the image?,12,0,0,nan,nan,nan,nan,12,12,0,0,nan,nan,nan,nan,12,,,
+67,men,10,How many men are there in the image?,10,1,11,72.04492950439453,0.0,0.0,0.0,10,10,1,10,45.05929946899414,0.0,0.0,0.0,10,1,0,0
+68,tomatoes,3,How many tomatoes are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+69,chairs,6,How many chairs are there in the image?,6,1,6,80.07913208007812,0.0,0.0,0.0,6,6,1,6,53.051788330078125,0.0,0.0,0.0,6,1,0,0
+70,ice creams,8,How many ice creams are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+71,plates,6,How many plates are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+72,sumo wrestlers,2,How many sumo wrestlers are there in the image?,2,1,2,104.37192392349243,0.0,0.0,0.0,2,2,1,2,104.37192392349243,0.0,0.0,0.0,2,1,0,1
+73,compositions,4,How many compositions are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+74,PVC vinyls,6,How many PVC vinyls are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+75,photos of fruit,9,How many photos of fruit are there in the image?,9,1,1,51.89497375488281,-1.0,1.621717929840088,51.89497375488281,9,9,1,1,51.89497375488281,-1.0,1.621717929840088,51.89497375488281,9,,,
+76,people,8,How many people are there in the image?,8,1,8,150.62152099609375,0.0,0.0,0.0,8,8,1,8,81.25900268554688,0.0,0.0,0.0,8,1,0,0
+77,icons,9,How many icons are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+78,bottles,7,How many bottles are there in the image?,8,0,7,57.557647705078125,1.220001220703125,0.038125038146972656,1.220001220703125,8,8,0,8,49.39117431640625,0.0,0.0,0.0,8,0,0,0
+79,mirrors,2,How many mirrors are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+80,posters,10,How many posters are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+81,pumpkins,10,How many pumpkins are there in the image?,10,1,0,nan,nan,nan,nan,10,9,0,0,nan,nan,nan,nan,9,,,
+82,people,5,How many people are there in the image?,5,1,4,142.56951904296875,0.0,0.0,0.0,5,5,1,4,78.59688949584961,0.0,0.0,0.0,5,1,0,0
+83,kittens,5,How many kittens are there in the image?,5,1,5,111.33010864257812,0.0,0.0,0.0,5,5,1,5,53.12268829345703,0.0,0.0,0.0,5,1,0,0
+84,people,7,How many people are there in the image?,7,1,7,93.36111450195312,0.0,0.0,0.0,7,8,0,7,47.237159729003906,0.0,0.0,0.0,8,1,0,0
+85,boots,7,How many boots are there in the image?,6,0,1,151.87273597717285,-1.0,4.746022999286652,151.87273597717285,6,6,0,2,65.90391540527344,0.0,0.0,0.0,6,,,
+86,figurines,5,How many figurines are there in the image?,5,1,4,105.8851318359375,0.0,0.0,0.0,5,5,1,3,53.08863067626953,1.7190322875976562,0.05371975898742676,1.7190322875976562,5,1,0,0
+87,moais,7,How many moais are there in the image?,7,1,0,nan,nan,nan,nan,7,8,0,0,nan,nan,nan,nan,8,,,
+88,icons,9,How many icons are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+89,cats,6,How many cats are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+90,wallpaper variants,4,How many wallpaper variants are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+91,nail polishes,5,How many nail polishes are there in the image?,5,1,0,nan,nan,nan,nan,5,5,1,0,nan,nan,nan,nan,5,,,
+92,bumble bees,4,How many bumble bees are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+93,tickets,8,How many tickets are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+94,people,6,How many people are there in the image?,7,0,6,48.65442657470703,0.0,0.0,0.0,7,7,0,6,48.65442657470703,0.0,0.0,0.0,7,0,0,0
+95,wine bottles,2,How many wine bottles are there in the image?,2,1,2,40.4017333984375,19.42076873779297,0.6068990230560303,19.42076873779297,2,2,1,2,40.4017333984375,19.42076873779297,0.6068990230560303,19.42076873779297,2,1,0,0
+96,silhouettes of couples,10,How many silhouettes of couples are there in the image?,10,1,10,16.263587951660156,0.0,0.0,0.0,10,10,1,10,16.263587951660156,0.0,0.0,0.0,10,0,0,0
+97,owls,4,How many owls are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+98,candles,10,How many candles are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+99,flower pots,6,How many flower pots are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+100,coins,7,How many coins are there in the image?,7,1,0,nan,nan,nan,nan,7,7,1,0,nan,nan,nan,nan,7,,,
+101,placemats,2,How many placemats are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+102,women,6,How many women are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+103,bottles,7,How many bottles are there in the image?,7,1,7,59.94134521484375,0.0,0.0,0.0,7,7,1,7,47.077720642089844,0.0,0.0,0.0,7,1,0,0
+104,cars,8,How many cars are there in the image?,8,1,6,96.34744262695312,0.0,0.0,0.0,8,8,1,6,70.65350341796875,0.0,0.0,0.0,8,1,0,0
+105,men,5,How many men are there in the image?,5,1,5,137.4322509765625,0.0,0.0,0.0,5,5,1,5,69.35710144042969,0.0,0.0,0.0,5,1,0,0
+106,candles,3,How many candles are there in the image?,3,1,1,132.25823974609375,-1.0,4.13306999206543,132.25823974609375,3,3,1,1,62.304107666015625,-1.0,1.9470033645629883,62.304107666015625,3,,,
+107,pairs of socks,5,How many pairs of socks are there in the image?,5,1,0,nan,nan,nan,nan,5,5,1,0,nan,nan,nan,nan,5,,,
+108,floral patterns,4,How many floral patterns are there in the image?,4,1,1,219.73641967773438,-1.0,6.866763114929199,219.73641967773438,4,4,1,1,219.73641967773438,-1.0,6.866763114929199,219.73641967773438,4,,,
+109,icons,6,How many icons are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+110,dice,10,How many dice are there in the image?,12,0,0,nan,nan,nan,nan,12,12,0,0,nan,nan,nan,nan,12,,,
+111,bicycles,9,How many bicycles are there in the image?,9,1,7,71.93292236328125,24.0496826171875,0.7515525817871094,24.0496826171875,9,9,1,6,58.49095153808594,19.321884155273438,0.6038088798522949,19.321884155273438,9,1,0,0
+112,stickers,9,How many stickers are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+113,symbols,9,How many symbols are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+114,stamps,6,How many stamps are there in the image?,6,1,0,nan,nan,nan,nan,6,8,0,0,nan,nan,nan,nan,8,,,
+115,pumpkins,6,How many pumpkins are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+116,game cartridges,5,How many game cartridges are there in the image?,0,0,0,nan,nan,nan,nan,0,0,0,0,nan,nan,nan,nan,0,,,
+117,chairs,6,How many chairs are there in the image?,6,1,6,122.30912780761719,0.0,0.0,0.0,6,6,1,6,87.46279907226562,0.0,0.0,0.0,6,1,0,0
+118,glasses,4,How many glasses are there in the image?,4,1,1,182.6810760498047,-1.0,5.7087836265563965,182.6810760498047,4,4,1,2,145.36275482177734,0.0,0.0,0.0,4,,,
+119,bottles,8,How many bottles are there in the image?,8,1,8,78.79556274414062,0.0,0.0,0.0,8,10,0,8,37.5067138671875,0.0,0.0,0.0,10,1,0,0
+120,coins,10,How many coins are there in the image?,9,0,0,nan,nan,nan,nan,9,9,0,0,nan,nan,nan,nan,9,,,
+121,gears,3,How many gears are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+122,flowers,9,How many flowers are there in the image?,9,1,7,104.88050842285156,0.0,0.0,0.0,9,9,1,5,91.45703125,0.0,0.0,0.0,9,1,0,1
+123,crip packages,4,How many crip packages are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+124,bridesmaids,8,How many bridesmaids are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+125,apples,7,How many apples are there in the image?,8,0,7,94.49103927612305,0.0,0.0,0.0,8,7,1,7,85.55181312561035,0.0,0.0,0.0,7,0,0,0
+126,bowls,4,How many bowls are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+127,women,2,How many women are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+128,photographs,10,How many photographs are there in the image?,10,1,2,116.44790649414062,107.09412622860951,3.346691444644047,107.09412622860951,10,10,1,0,nan,nan,nan,nan,10,,,
+129,warning signs,7,How many warning signs are there in the image?,7,1,0,nan,nan,nan,nan,7,7,1,0,nan,nan,nan,nan,7,,,
+130,children,3,How many children are there in the image?,3,1,3,109.49400329589844,0.0,0.0,0.0,3,3,1,3,71.96780395507812,0.0,0.0,0.0,3,1,0,0
+131,cyclists,4,How many cyclists are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+132,women,3,How many women are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+133,chairs,2,How many chairs are there in the image?,2,1,2,261.7545166015625,70.0467529296875,2.1889610290527344,70.0467529296875,2,2,1,2,130.9006805419922,35.104156494140625,1.0970048904418945,35.104156494140625,2,,,
+134,giraffes,10,How many giraffes are there in the image?,10,1,10,37.9207763671875,0.0,0.0,0.0,10,10,1,10,29.526275634765625,0.0,0.0,0.0,10,1,0,0
+135,men,5,How many men are there in the image?,5,1,5,106.2469482421875,0.0,0.0,0.0,5,5,1,5,61.3197021484375,0.0,0.0,0.0,5,1,0,0
+136,male nurses,6,How many male nurses are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+137,people,10,How many people are there in the image?,10,1,10,29.969131469726562,4.44091796875,0.1387786865234375,4.44091796875,10,10,1,8,25.9920654296875,3.97869873046875,0.12433433532714844,3.97869873046875,10,1,0,0
+138,couples,8,How many couples are there in the image?,12,0,0,nan,nan,nan,nan,12,12,0,0,nan,nan,nan,nan,12,,,
+139,cars,4,How many cars are there in the image?,4,1,4,96.10934448242188,4.0258636474609375,0.1258082389831543,4.0258636474609375,4,4,1,4,74.9455394744873,4.6135101318359375,0.14417219161987305,4.6135101318359375,4,1,0,0
+140,apples,7,How many apples are there in the image?,7,1,7,66.22856140136719,0.0,0.0,0.0,7,7,1,7,66.22856140136719,0.0,0.0,0.0,7,1,0,0
+141,smartphones,5,How many smartphones are there in the image?,5,1,2,65.25590515136719,80.06717681884766,2.0392470359802246,65.25590515136719,5,5,1,2,65.25590515136719,80.06717681884766,2.0392470359802246,65.25590515136719,5,,,
+142,roses,9,How many roses are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+143,people,2,How many people are there in the image?,2,1,2,192.0485076904297,0.0,0.0,0.0,2,2,1,2,192.0485076904297,0.0,0.0,0.0,2,1,1,0
+144,greeting cards,10,How many greeting cards are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+145,guitars,3,How many guitars are there in the image?,3,1,3,52.69996643066406,9.157569885253906,0.28617405891418457,9.157569885253906,3,3,1,3,52.69996643066406,9.157569885253906,0.28617405891418457,9.157569885253906,3,1,0,0
+146,ironman suits,8,How many ironman suits are there in the image?,8,1,2,95.43745052814484,311.8992209155523,2.982420329004526,95.43745052814484,8,8,1,1,65.90740966796875,-1.0,2.0596065521240234,65.90740966796875,8,,,
+147,people,7,How many people are there in the image?,7,1,4,78.78774642944336,0.0,0.0,0.0,7,7,1,5,45.66676330566406,0.0,0.0,0.0,7,1,0,1
+148,CDs,3,How many CDs are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+149,people,5,How many people are there in the image?,5,1,3,112.17488098144531,0.0,0.0,0.0,5,5,1,5,23.377716064453125,0.0,0.0,0.0,5,1,0,0
+150,symbols,9,How many symbols are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+151,chairs,5,How many chairs are there in the image?,5,1,5,179.641357421875,30.658233642578125,0.9580698013305664,30.658233642578125,5,5,1,5,89.783935546875,15.584182739257812,0.48700571060180664,15.584182739257812,5,1,0,0
+152,pot holders,3,How many pot holders are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+153,stamps,6,How many stamps are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+154,bookmarks,4,How many bookmarks are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+155,girls,3,How many girls are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+156,labels,9,How many labels are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+157,mandalas,9,How many mandalas are there in the image?,9,1,2,67.29523468017578,4.183051540899998,0.13072036065312495,4.183051540899998,9,9,1,2,67.29523468017578,4.183051540899998,0.13072036065312495,4.183051540899998,9,1,0,0
+158,silhouettes,6,How many silhouettes are there in the image?,6,1,6,155.33349609375,0.0,0.0,0.0,6,6,1,6,76.90924072265625,0.0,0.0,0.0,6,1,0,0
+159,peacocks,2,How many peacocks are there in the image?,2,1,2,170.98362731933594,11.927078247070312,0.37272119522094727,11.927078247070312,2,2,1,2,98.33447456359863,7.270751953125,0.22721099853515625,7.270751953125,2,1,1,1
+160,roses,7,How many roses are there in the image?,7,1,1,302.1462917327881,-1.0,9.442071616649628,302.1462917327881,7,8,0,1,223.583824634552,-1.0,6.98699451982975,223.583824634552,8,,,
+161,children,5,How many children are there in the image?,5,1,3,93.43860626220703,0.0,0.0,0.0,5,6,0,5,42.1241455078125,0.0,0.0,0.0,6,1,0,0
+162,chairs,6,How many chairs are there in the image?,0,0,0,nan,nan,nan,nan,0,0,0,0,nan,nan,nan,nan,0,,,
+163,symbols,9,How many symbols are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+164,canvases,4,How many canvases are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+165,cards,4,How many cards are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+166,bell pepper halves,8,How many bell pepper halves are there in the image?,8,1,8,138.926513671875,0.0,0.0,0.0,8,8,1,8,41.75537109375,0.0,0.0,0.0,8,1,0,0
+167,pigs,5,How many pigs are there in the image?,5,1,0,nan,nan,nan,nan,5,5,1,0,nan,nan,nan,nan,5,,,
+168,people,3,How many people are there in the image?,3,1,2,118.85321807861328,69.61137390136719,2.1753554344177246,69.61137390136719,3,3,1,3,92.74075317382812,0.0,0.0,0.0,3,,,
+169,newspapers,7,How many newspapers are there in the image?,8,0,0,nan,nan,nan,nan,8,7,1,0,nan,nan,nan,nan,7,,,
+170,leggings,2,How many leggings are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+171,medals,3,How many medals are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+172,patterns,10,How many patterns are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+173,women,6,How many women are there in the image?,7,0,4,236.9752960205078,0.291534423828125,0.009110450744628906,0.291534423828125,7,6,1,3,107.97537231445312,13.568207046384343,0.4240064701995107,13.568207046384343,6,1,0,0
+174,doors,3,How many doors are there in the image?,4,0,0,nan,nan,nan,nan,4,4,0,0,nan,nan,nan,nan,4,,,
+175,pairs of socks,5,How many pairs of socks are there in the image?,5,1,6,31.627090454101562,0.0,0.0,0.0,5,5,1,2,34.014556884765625,40.458324061573556,1.0629549026489258,34.014556884765625,5,1,0,0
+176,people,7,How many people are there in the image?,7,1,7,54.555023193359375,0.0,0.0,0.0,7,7,1,7,36.185333251953125,0.0,0.0,0.0,7,1,0,0
+177,backgrounds,3,How many backgrounds are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+178,images of,7,How many images of dogs are there in the image?,6,0,0,nan,nan,nan,nan,6,6,0,0,nan,nan,nan,nan,6,,,
+179,broadheads,3,How many broadheads are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+180,figurines,8,How many figurines are there in the image?,12,0,7,119.06304931640625,0.0,0.0,0.0,12,8,1,7,59.43590545654297,0.0,0.0,0.0,8,0,0,0
+181,candles,6,How many candles are there in the image?,6,1,1,46.120357513427734,-1.0,1.4412611722946167,46.120357513427734,6,6,1,1,46.120357513427734,-1.0,1.4412611722946167,46.120357513427734,6,,,
+182,petals,5,How many petals does each flower have in this image?,5,1,0,nan,nan,nan,nan,5,5,1,0,nan,nan,nan,nan,5,,,
+183,men,2,How many men are there in the image?,2,1,2,146.92093658447266,0.0,0.0,0.0,2,2,1,2,146.92093658447266,0.0,0.0,0.0,2,1,1,1
+184,frames,3,How many frames are there in the image?,3,1,3,226.5430908203125,12.0927734375,0.377899169921875,12.0927734375,3,3,1,3,113.46885681152344,6.38128662109375,0.1994152069091797,6.38128662109375,3,1,1,0
+185,animals,6,How many animals are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+186,people,5,How many people are there in the image?,5,1,5,69.99568176269531,0.0,0.0,0.0,5,5,1,5,69.99568176269531,0.0,0.0,0.0,5,1,0,0
+187,cats,6,How many cats are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+188,sconces,2,How many sconces are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+189,spoons,5,How many spoons are there in the image?,5,1,2,72.43722534179688,190.9943618774414,2.2636632919311523,72.43722534179688,5,5,1,2,72.43722534179688,190.9943618774414,2.2636632919311523,72.43722534179688,5,,,
+190,people,8,How many people are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+191,people,4,How many people are there in the image?,4,1,4,168.7292022705078,0.0,0.0,0.0,4,4,1,4,132.89035034179688,0.0,0.0,0.0,4,1,0,0
+192,icons,9,How many icons are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+193,people,7,How many people are there in the image?,7,1,7,39.31333351135254,0.0,0.0,0.0,7,7,1,7,28.732790756213944,0.0,0.0,0.0,7,0,0,0
+194,planes,5,How many planes are there in the image?,5,1,4,82.81927490234375,0.0,0.0,0.0,5,6,0,4,48.346649169921875,0.0,0.0,0.0,6,1,0,0
+195,cats,2,How many cats are there in the image?,2,1,3,177.1531219482422,0.0,0.0,0.0,2,2,1,2,119.18206787109375,0.0,0.0,0.0,2,1,0,1
+196,sketches,4,How many sketches are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+197,trees,6,How many trees are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+198,dice,10,How many dice are there in the image?,10,1,0,nan,nan,nan,nan,10,11,0,0,nan,nan,nan,nan,11,,,
+199,figurines,8,How many figurines are there in the image?,8,1,4,56.246490478515625,0.0,0.0,0.0,8,8,1,4,56.246490478515625,0.0,0.0,0.0,8,1,1,0
+200,napkins,4,How many napkins are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+201,dogs,3,How many dogs are there in the image?,3,1,3,204.0439453125,0.0,0.0,0.0,3,3,1,3,97.18453979492188,0.0,0.0,0.0,3,1,1,1
+202,kids,2,How many kids are there in the image?,2,1,1,203.62649536132812,-1.0,6.363327980041504,203.62649536132812,2,2,1,1,97.13318634033203,-1.0,3.035412073135376,97.13318634033203,2,,,
+203,hearts,4,How many hearts are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+204,apples,8,How many apples are there in the image?,9,0,8,91.57605743408203,0.0,0.0,0.0,9,9,0,8,71.87934875488281,0.0,0.0,0.0,9,1,1,0
+205,post-its,7,How many post-its are there in the image?,7,1,1,103.66901397705078,-1.0,3.239656686782837,103.66901397705078,7,7,1,0,nan,nan,nan,nan,7,,,
+206,dice,10,How many dice are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+207,books,10,How many books are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+208,women,6,How many women are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+209,sofas,6,How many sofas are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+210,dice,7,How many dice are there in the image?,8,0,0,nan,nan,nan,nan,8,8,0,0,nan,nan,nan,nan,8,,,
+211,girls,4,How many girls are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+212,sketches,6,How many sketches are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+213,men,6,How many men are there in the image?,6,1,6,145.32118225097656,1.195709228515625,0.03736591339111328,1.195709228515625,6,6,1,6,103.84271240234375,0.961395263671875,0.030043601989746094,0.961395263671875,6,1,1,0
+214,moons,7,How many moons are there in the image?,7,1,0,nan,nan,nan,nan,7,6,0,0,nan,nan,nan,nan,6,,,
+215,labels,6,How many labels are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+216,cylinders,5,How many cylinders are there in the image?,5,1,0,nan,nan,nan,nan,5,5,1,0,nan,nan,nan,nan,5,,,
+217,silhouettes of couples,9,How many silhouettes of couples are there in the image?,12,0,14,34.860076904296875,0.0,0.0,0.0,12,12,0,13,22.944656372070312,0.0,0.0,0.0,12,0,0,0
+218,people,2,How many people are there in the image?,2,1,2,179.81243896484375,45.55596923828125,1.423624038696289,45.55596923828125,2,2,1,2,111.08341979980469,28.628005981445312,0.894625186920166,28.628005981445312,2,,,
+219,dogs,4,How many dogs are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+220,people on stage,10,How many people on stage are there in the image?,10,1,9,30.28265380859375,0.0,0.0,0.0,10,10,1,8,38.03594970703125,0.0,0.0,0.0,10,1,0,0
+221,lambs,4,How many lambs are there in the image?,4,1,2,91.22357177734375,14.940871085823893,0.46690222143199667,14.940871085823893,4,4,1,2,91.22357177734375,14.940871085823893,0.46690222143199667,14.940871085823893,4,1,0,0
+222,violins,3,How many violins are there in the image?,3,1,1,120.69338989257812,-1.0,3.7716684341430664,120.69338989257812,3,3,1,1,95.375244140625,-1.0,2.9804763793945312,95.375244140625,3,,,
+223,armchairs,4,How many armchairs are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,1,71.34982299804688,-1.0,2.229681968688965,71.34982299804688,4,,,
+224,silhouettes,10,How many silhouettes are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+225,eggs,6,How many eggs are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+226,photos,9,How many photos are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+227,chairs,8,How many chairs are there in the image?,8,1,8,92.6883544921875,11.799468994140625,0.36873340606689453,11.799468994140625,8,8,1,8,46.613494873046875,5.679389953613281,0.17748093605041504,5.679389953613281,8,1,0,0
+228,figurines,5,How many figurines are there in the image?,5,1,3,79.3436279296875,12.89752197265625,0.4030475616455078,12.89752197265625,5,5,1,2,40.06640625,83.16566467285156,1.2520751953125,40.06640625,5,1,0,0
+229,moais,9,How many moais are there in the image?,10,0,0,nan,nan,nan,nan,10,10,0,0,nan,nan,nan,nan,10,,,
+230,symbols,9,How many symbols are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+231,glasses,3,How many glasses are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+232,sinks,2,How many sinks are there in the image?,2,1,1,21.478225708007812,-1.0,0.6711945533752441,21.478225708007812,2,2,1,1,21.478225708007812,-1.0,0.6711945533752441,21.478225708007812,2,1,0,0
+233,women,5,How many women are there in the image?,5,1,0,nan,nan,nan,nan,5,5,1,0,nan,nan,nan,nan,5,,,
+234,buildings,7,How many buildings are there in the image?,8,0,0,nan,nan,nan,nan,8,8,0,0,nan,nan,nan,nan,8,,,
+235,flyers,8,How many flyers are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+236,dice,10,How many dice are there in the image?,12,0,0,nan,nan,nan,nan,12,12,0,0,nan,nan,nan,nan,12,,,
+237,pizza slices,4,How many pizza slices are there in the image?,4,1,1,351.2925720214844,-1.0,10.977892875671387,351.2925720214844,4,6,0,1,255.8459014892578,-1.0,7.995184421539307,255.8459014892578,6,,,
+238,stickers,6,How many stickers are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+239,gifts,3,How many gifts are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+240,bowls,5,How many bowls are there in the image?,5,1,5,32.310699462890625,0.0,0.0,0.0,5,5,1,5,32.310699462890625,0.0,0.0,0.0,5,1,0,0
+241,people,9,How many people are there in the image?,9,1,16,20.677772521972656,0.0,0.0,0.0,9,10,0,15,18.205421447753906,0.0,0.0,0.0,10,0,0,0
+242,posters,6,How many posters are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+243,cards,10,How many cards are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+244,portraits,5,How many portraits are there in the image?,5,1,1,118.1629409790039,-1.0,3.692591905593872,118.1629409790039,5,5,1,2,60.194427490234375,9.699352332247006,0.30310476038271894,9.699352332247006,5,,,
+245,poinsettias,10,How many poinsettias are there in the image?,12,0,0,nan,nan,nan,nan,12,12,0,0,nan,nan,nan,nan,12,,,
+246,glass windows,8,How many glass windows are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+247,people,3,How many people are there in the image?,3,1,1,119.99684143066406,-1.0,3.749901294708252,119.99684143066406,3,3,1,2,101.69464111328125,0.0,0.0,0.0,3,,,
+248,baskets,8,How many baskets are there in the image?,8,1,9,97.42587280273438,0.0,0.0,0.0,8,8,1,11,53.220855712890625,0.0,0.0,0.0,8,0,0,0
+249,tulips,7,How many tulips are there in the image?,7,1,0,nan,nan,nan,nan,7,7,1,0,nan,nan,nan,nan,7,,,
+250,bottles,5,How many bottles are there in the image?,6,0,7,36.60285949707031,0.0,0.0,0.0,6,5,1,7,19.999801635742188,0.0,0.0,0.0,5,1,0,0
+251,stuffed animals,3,How many stuffed animals are there in the image?,3,1,1,92.22113037109375,-1.0,2.8819103240966797,92.22113037109375,3,3,1,1,92.22113037109375,-1.0,2.8819103240966797,92.22113037109375,3,,,
+252,keychains,8,How many keychains are there in the image?,9,0,0,nan,nan,nan,nan,9,8,1,0,nan,nan,nan,nan,8,,,
+253,photos,9,How many photos are there in the image?,16,0,2,34.5093994140625,146.64794921875,1.0784187316894531,34.5093994140625,16,12,0,1,35.074615478515625,-1.0,1.0960817337036133,35.074615478515625,12,,,
+254,people,10,How many people are there in the image?,11,0,10,57.80718994140625,0.0,0.0,0.0,11,10,1,10,29.043853759765625,0.0,0.0,0.0,10,1,0,0
+255,adults,2,How many adults are there in the image?,2,1,1,376.0303649902344,-1.0,11.750948905944824,376.0303649902344,2,2,1,1,188.3594207763672,-1.0,5.886231899261475,188.3594207763672,2,,,
+256,tulips,3,How many tulips are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+257,frames,9,How many frames are there in the image?,9,1,9,80.60464477539062,0.0,0.0,0.0,9,9,1,9,55.813201904296875,0.0,0.0,0.0,9,0,0,0
+258,strawberries,5,How many strawberries are there in the image?,5,1,4,53.03692626953125,0.0,0.0,0.0,5,5,1,4,53.03692626953125,0.0,0.0,0.0,5,1,0,0
+259,cocktails,3,How many cocktails are there in the image?,3,1,1,172.5532627105713,-1.0,5.392289459705353,172.5532627105713,3,3,1,1,123.71780014038086,-1.0,3.866181254386902,123.71780014038086,3,,,
+260,men,6,How many men are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+261,wineglasses,2,How many wineglasses are there in the image?,2,1,2,54.885650634765625,0.0,0.0,0.0,2,2,1,2,54.885650634765625,0.0,0.0,0.0,2,1,0,1
+262,goblets,2,How many goblets are there in the image?,0,0,0,nan,nan,nan,nan,0,0,0,0,nan,nan,nan,nan,0,,,
+263,flowers,3,How many flowers are there in the image?,4,0,1,163.47197341918945,-1.0,5.10849916934967,163.47197341918945,4,4,0,1,163.47197341918945,-1.0,5.10849916934967,163.47197341918945,4,,,
+264,zebras,2,How many zebras are there in the image?,2,1,2,124.05303955078125,0.0,0.0,0.0,2,2,1,3,76.71578979492188,0.0,0.0,0.0,2,1,0,1
+265,paint brushes,7,How many paint brushes are there in the image?,7,1,0,nan,nan,nan,nan,7,6,0,0,nan,nan,nan,nan,6,,,
+266,prints,9,How many prints are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+267,glasses,8,How many glasses are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+268,sunglasses,8,How many sunglasses are there in the image?,8,1,2,39.58721923828125,33.633094787597656,1.0510342121124268,33.633094787597656,8,8,1,2,39.58721923828125,33.633094787597656,1.0510342121124268,33.633094787597656,8,,,
+269,banners,3,How many banners are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+270,bottle caps,7,How many bottle caps are there in the image?,8,0,0,nan,nan,nan,nan,8,8,0,0,nan,nan,nan,nan,8,,,
+271,prints,4,How many prints are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+272,eggs,3,How many eggs are there in the image?,3,1,1,392.4361801147461,-1.0,12.263630628585815,392.4361801147461,3,3,1,1,195.44521713256836,-1.0,6.107663035392761,195.44521713256836,3,,,
+273,people,8,How many people are there in the image?,8,1,8,156.9949951171875,0.0,0.0,0.0,8,8,1,6,97.94021606445312,2.368316650390625,0.07400989532470703,2.368316650390625,8,1,1,0
+274,books,5,How many books are there in the image?,5,1,0,nan,nan,nan,nan,5,5,1,0,nan,nan,nan,nan,5,,,
+275,animals,8,How many animals are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+276,eyeshadows,9,How many eyeshadows are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+277,keychains,8,How many keychains are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+278,canisters,8,How many canisters are there in the image?,8,1,8,30.65576171875,0.0,0.0,0.0,8,8,1,8,30.65576171875,0.0,0.0,0.0,8,0,0,0
+279,bags,10,How many bags are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+280,baking trays,2,How many baking trays are there in the image?,2,1,2,335.6158752441406,29.760955810546875,0.9300298690795898,29.760955810546875,2,2,1,1,162.51375102996826,-1.0,5.078554719686508,162.51375102996826,2,1,0,1
+281,diamonds,6,How many diamonds are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+282,portraits,7,How many portraits are there in the image?,6,0,0,nan,nan,nan,nan,6,6,0,1,69.73148345947266,-1.0,2.1791088581085205,69.73148345947266,6,,,
+283,flags,8,How many flags are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+284,framed pictures,6,How many framed pictures are there in the image?,6,1,6,89.67012023925781,8.043548583984375,0.2513608932495117,8.043548583984375,6,6,1,6,45.24608612060547,3.80108642578125,0.11878395080566406,3.80108642578125,6,1,1,0
+285,eggs,10,How many eggs are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+286,croissants,2,How many croissants are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+287,Manikins,3,How many Manikins are there in the image?,3,1,3,62.37055969238281,18.016876220703125,0.5630273818969727,18.016876220703125,3,3,1,3,62.37055969238281,18.016876220703125,0.5630273818969727,18.016876220703125,3,1,0,0
+288,symbols,9,How many symbols are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+289,labels,7,How many labels are there in the image?,8,0,0,nan,nan,nan,nan,8,6,0,0,nan,nan,nan,nan,6,,,
+290,people in the foreground,3,How many people in the foreground are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+291,armchairs,4,How many armchairs are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+292,cups,6,How many cups are there in the image?,6,1,6,72.37875366210938,0.0,0.0,0.0,6,6,1,6,49.747772216796875,0.0,0.0,0.0,6,1,0,0
+293,helicopters,5,How many helicopters are there in the image?,5,1,5,36.837928771972656,0.0,0.0,0.0,5,5,1,5,27.448692321777344,0.0,0.0,0.0,5,1,0,0
+294,icons,9,How many icons are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+295,children,2,How many children are there in the image?,2,1,2,196.09066772460938,0.0,0.0,0.0,2,2,1,2,104.19435119628906,0.0,0.0,0.0,2,1,1,1
+296,people,3,How many people are there in the image?,3,1,3,153.93502807617188,0.0,0.0,0.0,3,3,1,3,120.93315124511719,0.0,0.0,0.0,3,1,1,0
+297,buttons,9,How many buttons are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+298,people,4,How many people are there in the image?,4,1,4,129.75442504882812,0.0,0.0,0.0,4,4,1,4,83.98079681396484,0.0,0.0,0.0,4,1,0,0
+299,Cookies,7,How many Cookies are there in the image?,8,0,5,168.4856731891632,0.0,0.0,0.0,8,7,1,7,78.79671478271484,0.0,0.0,0.0,7,1,0,0
+300,sculptures,7,How many sculptures are there in the image?,8,0,0,nan,nan,nan,nan,8,7,1,0,nan,nan,nan,nan,7,,,
+301,school uniforms,4,How many school uniforms are there in the image?,4,1,4,108.877197265625,10.144424438476562,0.3170132637023926,10.144424438476562,4,8,0,4,86.20731163024902,7.593360900878906,0.23729252815246582,7.593360900878906,8,1,0,0
+302,sculptures,2,How many sculptures are there in the image?,2,1,2,156.0430908203125,64.19993591308594,2.0062479972839355,64.19993591308594,2,2,1,2,96.53567504882812,39.95329284667969,1.2485404014587402,39.95329284667969,2,,,
+303,eggs,6,How many eggs are there in the image?,6,1,1,73.8831787109375,-1.0,2.308849334716797,73.8831787109375,6,6,1,1,38.266868591308594,-1.0,1.1958396434783936,38.266868591308594,6,,,
+304,packages,4,How many packages are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+305,bottles,7,How many bottles are there in the image?,7,1,7,52.6038818359375,0.0,0.0,0.0,7,7,1,7,41.111419677734375,0.0,0.0,0.0,7,1,0,0
+306,stories,2,How many stories does this cottage have?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+307,gift cards,2,How many gift cards are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+308,eggs,5,How many eggs are there in the image?,5,1,0,nan,nan,nan,nan,5,5,1,0,nan,nan,nan,nan,5,,,
+309,beers,10,How many beers are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+310,children,10,How many children are there in the image?,9,0,3,81.217529296875,0.0,0.0,0.0,9,9,0,2,40.481689453125,34.035499572753906,1.0636093616485596,34.035499572753906,9,1,1,0
+311,planes,4,How many planes are there in the image?,4,1,4,128.1612892150879,31.8251953125,0.994537353515625,31.8251953125,4,4,1,4,70.17485046386719,18.778167724609375,0.586817741394043,18.778167724609375,4,1,1,0
+312,cactus pots,4,How many cactus pots are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+313,picture frames,9,How many picture frames are there in the image?,9,1,5,50.36943054199219,6.259147644042969,0.19559836387634277,6.259147644042969,9,9,1,5,50.36943054199219,6.259147644042969,0.19559836387634277,6.259147644042969,9,1,0,0
+314,elephants,9,How many elephants are there in the image?,9,1,9,63.19100379943848,16.038925170898438,0.5012164115905762,16.038925170898438,9,9,1,7,56.25263977050781,14.160087585449219,0.4425027370452881,14.160087585449219,9,1,0,0
+315,guitars,5,How many guitars are there in the image?,5,1,5,78.27262115478516,7.985992431640625,0.24956226348876953,7.985992431640625,5,5,1,5,67.16041564941406,6.8546142578125,0.21420669555664062,6.8546142578125,5,1,0,0
+316,samurai,2,How many samurai are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+317,ghosts,9,How many ghosts are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+318,bottles,7,How many bottles are there in the image?,8,0,7,57.557647705078125,1.220001220703125,0.038125038146972656,1.220001220703125,8,8,0,8,49.39117431640625,0.0,0.0,0.0,8,0,0,0
+319,candles,9,How many candles are there in the image?,10,0,0,nan,nan,nan,nan,10,9,1,0,nan,nan,nan,nan,9,,,
+320,vases,3,How many vases are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+321,sets of headphones,10,How many sets of headphones are there in the image?,10,1,2,141.2623291015625,502.6111145019531,4.414447784423828,141.2623291015625,10,9,0,2,70.7578125,250.61166381835938,2.211181640625,70.7578125,9,,,
+322,pandas,3,How many pandas are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+323,books,2,How many books are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+324,stickers,7,How many stickers are there in the image?,7,1,0,nan,nan,nan,nan,7,7,1,0,nan,nan,nan,nan,7,,,
+325,rings,3,How many rings are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+326,dice,7,How many dice are there in the image?,8,0,0,nan,nan,nan,nan,8,8,0,0,nan,nan,nan,nan,8,,,
+327,dragon balls,7,How many dragon balls are there in the image?,8,0,0,nan,nan,nan,nan,8,8,0,0,nan,nan,nan,nan,8,,,
+328,tanks,3,How many tanks are there in the image?,3,1,1,149.66733932495117,-1.0,4.677104353904724,149.66733932495117,3,3,1,0,nan,nan,nan,nan,3,,,
+329,cups,7,How many cups are there in the image?,8,0,7,146.7759246826172,9.804168701171875,0.3063802719116211,9.804168701171875,8,7,1,7,68.96814727783203,4.4016265869140625,0.13755083084106445,4.4016265869140625,7,0,1,0
+330,people,10,How many people are there in the image?,10,1,5,13.523048400878906,8.833518981933594,0.2760474681854248,8.833518981933594,10,10,1,5,13.523048400878906,8.833518981933594,0.2760474681854248,8.833518981933594,10,1,0,0
+331,cushions,7,How many cushions are there in the image?,8,0,7,48.265106201171875,0.0,0.0,0.0,8,8,0,7,48.265106201171875,0.0,0.0,0.0,8,0,0,0
+332,shoes,10,How many shoes are there in the image?,12,0,11,104.6973876953125,0.0,0.0,0.0,12,10,1,13,24.363479614257812,0.0,0.0,0.0,10,0,0,0
+333,wine glasses,4,How many wine glasses are there in the image?,4,1,4,102.62115478515625,0.0,0.0,0.0,4,4,1,3,81.45866012573242,0.0,0.0,0.0,4,1,0,0
+334,cards,4,How many cards are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+335,boots,10,How many boots are there in the image?,10,1,5,134.79591369628906,0.0,0.0,0.0,10,10,1,6,60.22642517089844,0.0,0.0,0.0,10,1,0,0
+336,stickers,9,How many stickers are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+337,dice,7,How many dice are there in the image?,7,1,0,nan,nan,nan,nan,7,7,1,0,nan,nan,nan,nan,7,,,
+338,butterflies,10,How many butterflies are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+339,butterflies,10,How many butterflies are there in the image?,12,0,0,nan,nan,nan,nan,12,12,0,0,nan,nan,nan,nan,12,,,
+340,chairs,8,How many chairs are there in the image?,8,1,8,100.96218872070312,2.455963134765625,0.07674884796142578,2.455963134765625,8,8,1,8,72.1300048828125,1.416595458984375,0.04426860809326172,1.416595458984375,8,1,0,0
+341,hexagons,7,How many hexagons are there in the image?,7,1,0,nan,nan,nan,nan,7,7,1,0,nan,nan,nan,nan,7,,,
+342,chairs,8,How many chairs are there in the image?,8,1,8,117.22164916992188,1.257354736328125,0.039292335510253906,1.257354736328125,8,8,1,8,78.320556640625,0.526031494140625,0.01643848419189453,0.526031494140625,8,1,0,0
+343,football players,8,How many football players are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+344,gifts,6,How many gifts are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+345,light bulbs,8,How many light bulbs are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+346,people,10,How many people are there in the image?,11,0,9,41.35247802734375,0.0,0.0,0.0,11,11,0,9,25.159942626953125,0.0,0.0,0.0,11,1,0,0
+347,chairs,8,How many chairs are there in the image?,10,0,7,31.941301345825195,0.0,0.0,0.0,10,10,0,7,31.941301345825195,0.0,0.0,0.0,10,1,0,0
+348,people,5,How many people are there in the image?,5,1,5,64.59419250488281,0.0,0.0,0.0,5,5,1,5,64.59419250488281,0.0,0.0,0.0,5,1,0,0
+349,candles,7,How many candles are there in the image?,7,1,0,nan,nan,nan,nan,7,7,1,0,nan,nan,nan,nan,7,,,
+350,people,3,How many people are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+351,silhouettes,4,How many silhouettes are there in the image?,4,1,4,89.63726806640625,0.0,0.0,0.0,4,4,1,4,70.87896728515625,0.0,0.0,0.0,4,1,0,0
+352,pots,4,How many pots are there in the image?,0,0,4,51.37351989746094,0.0,0.0,0.0,0,0,0,4,51.37351989746094,0.0,0.0,0.0,0,0,0,0
+353,pumpkins,9,How many pumpkins are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,2,77.08145141601562,111.30694580078125,2.4087953567504883,77.08145141601562,9,,,
+354,owls,9,How many owls are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+355,doctors,6,How many doctors are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+356,pillars,9,How many pillars are there in the image?,10,0,0,nan,nan,nan,nan,10,10,0,0,nan,nan,nan,nan,10,,,
+357,symbols,9,How many symbols are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+358,pumpkins,9,How many pumpkins are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+359,people,10,How many people are there in the image?,11,0,10,86.46697998046875,0.0,0.0,0.0,11,10,1,9,41.62530517578125,0.0,0.0,0.0,10,1,0,0
+360,eggs,10,How many eggs are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+361,roses,8,How many roses are there in the image?,9,0,3,150.68096923828125,0.0,0.0,0.0,9,9,0,3,107.68243408203125,0.0,0.0,0.0,9,0,0,0
+362,people,8,How many people are there in the image?,8,1,5,151.34642028808594,0.0,0.0,0.0,8,8,1,4,71.63549041748047,0.0,0.0,0.0,8,1,0,0
+363,bottles,3,How many bottles are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+364,illustrations,3,How many illustrations are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+365,butterflies,8,How many butterflies are there in the image?,9,0,0,nan,nan,nan,nan,9,9,0,0,nan,nan,nan,nan,9,,,
+366,spoons,6,How many spoons are there in the image?,6,1,2,61.07513427734375,251.93670654296875,1.9085979461669922,61.07513427734375,6,6,1,2,43.59031677246094,179.45249938964844,1.3621973991394043,43.59031677246094,6,,,
+367,potato spreads,3,How many potato spreads are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+368,women,4,How many women are there in the image?,4,1,1,233.68400758504868,-1.0,7.302625237032771,233.68400758504868,4,4,1,1,148.53738215565681,-1.0,4.6417931923642755,148.53738215565681,4,,,
+369,people,2,How many people are there in the image?,2,1,2,342.6860656738281,0.0,0.0,0.0,2,2,1,2,160.66610717773438,0.0,0.0,0.0,2,1,1,1
+370,wall arts,6,How many wall arts are there in the image?,0,0,0,nan,nan,nan,nan,0,0,0,0,nan,nan,nan,nan,0,,,
+371,soldiers,2,How many soldiers are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+372,posters,10,How many posters are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+373,chairs,8,How many chairs are there in the image?,8,1,8,98.8525390625,29.8719482421875,0.9334983825683594,29.8719482421875,8,10,0,8,47.2486572265625,13.619598388671875,0.4256124496459961,13.619598388671875,10,1,0,0
+374,patterns,4,How many patterns are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+375,dogs,2,How many dogs are there in the image?,2,1,2,71.99092102050781,61.28565216064453,1.9151766300201416,61.28565216064453,2,2,1,2,71.99092102050781,61.28565216064453,1.9151766300201416,61.28565216064453,2,,,
+376,pennies,2,How many pennies are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+377,windows,8,How many windows are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+378,eggs,8,How many eggs are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+379,tickets,3,How many tickets are there in the image?,5,0,0,nan,nan,nan,nan,5,5,0,0,nan,nan,nan,nan,5,,,
+380,figurines,8,How many figurines are there in the image?,8,1,3,43.70010185241699,54.69328308105469,1.365628182888031,43.70010185241699,8,8,1,3,43.70010185241699,54.69328308105469,1.365628182888031,43.70010185241699,8,,,
+381,cases,4,How many cases are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+382,people,7,How many people are in the foreground of this image?,7,1,1,151.33764648449142,-1.0,4.729301452640357,151.33764648449142,7,7,1,1,95.59157257061452,-1.0,2.9872366428317036,95.59157257061452,7,,,
+383,glasses,2,How many glasses are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+384,people,8,How many people are there in the image?,8,1,8,145.591552734375,0.0,0.0,0.0,8,8,1,8,91.88540649414062,0.0,0.0,0.0,8,1,0,0
+385,cups,2,How many cups are there in the image?,2,1,2,125.59989929199219,0.0,0.0,0.0,2,2,1,2,112.00172424316406,0.0,0.0,0.0,2,1,1,0
+386,dice,10,How many dice are there in the image?,11,0,0,nan,nan,nan,nan,11,11,0,0,nan,nan,nan,nan,11,,,
+387,kittens,2,How many kittens are there in the image?,2,1,1,205.51882934570312,-1.0,6.422463417053223,205.51882934570312,2,2,1,1,205.51882934570312,-1.0,6.422463417053223,205.51882934570312,2,,,
+388,scones,8,How many scones are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+389,schoolgirls,8,How many schoolgirls are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+390,padlocks,9,How many padlocks are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+391,people,7,How many people are there in the image?,7,1,7,51.95063781738281,0.0,0.0,0.0,7,7,1,7,38.32392883300781,0.0,0.0,0.0,7,1,0,0
+392,windows,2,How many windows are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+393,icons,9,How many icons are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+394,banners,4,How many banners are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+395,dogs,9,How many dogs are there in the image?,9,1,8,76.19013977050781,5.356056213378906,0.16737675666809082,5.356056213378906,9,9,1,8,68.1575927734375,5.423072814941406,0.16947102546691895,5.423072814941406,9,1,0,0
+396,groomsmen,7,How many groomsmen are there in the image?,6,0,7,50.821044921875,0.0,0.0,0.0,6,6,0,7,25.83441162109375,0.0,0.0,0.0,6,0,0,0
+397,children,2,How many children are there in the image?,2,1,2,147.35015869140625,61.841033935546875,1.9325323104858398,61.841033935546875,2,2,1,2,73.63134765625,31.26263427734375,0.9769573211669922,31.26263427734375,2,,,
+398,glasses,3,How many glasses are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+399,icons,8,How many icons are there in the image?,8,1,0,nan,nan,nan,nan,8,9,0,0,nan,nan,nan,nan,9,,,
+400,coins,10,How many coins are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+401,trees,6,How many trees are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+402,people,8,How many people are there in the image?,9,0,8,68.57781982421875,0.0,0.0,0.0,9,9,0,8,37.64952087402344,0.0,0.0,0.0,9,0,0,0
+403,frames,9,How many frames are there in the image?,9,1,8,81.87077331542969,10.47528076171875,0.32735252380371094,10.47528076171875,9,9,1,8,58.519378662109375,7.589378356933594,0.2371680736541748,7.589378356933594,9,1,0,0
+404,firescreens,10,How many firescreens are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+405,bowls,7,How many bowls are there in the image?,7,1,7,97.35737609863281,0.0,0.0,0.0,7,7,1,7,48.69209289550781,0.0,0.0,0.0,7,1,0,0
+406,stickers,5,How many stickers are there in the image?,5,1,0,nan,nan,nan,nan,5,5,1,0,nan,nan,nan,nan,5,,,
+407,archaic mirrors,7,How many archaic mirrors are there in the image?,7,1,0,nan,nan,nan,nan,7,7,1,0,nan,nan,nan,nan,7,,,
+408,dogs,3,How many dogs are there in the image?,3,1,3,67.89584350585938,0.0,0.0,0.0,3,3,1,3,59.35591125488281,0.0,0.0,0.0,3,1,1,0
+409,candles,7,How many candles are there in the image?,8,0,0,nan,nan,nan,nan,8,7,1,0,nan,nan,nan,nan,7,,,
+410,paint brushes,7,How many paint brushes are there in the image?,8,0,0,nan,nan,nan,nan,8,7,1,0,nan,nan,nan,nan,7,,,
+411,forks,6,How many forks are there in the image?,6,1,2,79.14364624023438,329.0600128173828,2.473238945007324,79.14364624023438,6,6,1,2,42.64037322998047,0.0,0.0,0.0,6,,,
+412,figurines,3,How many figurines are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+413,owls,9,How many owls are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+414,icons,9,How many icons are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+415,silhouettes,6,How many silhouettes are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+416,fried eggs,6,How many fried eggs are there in the image?,8,0,0,nan,nan,nan,nan,8,8,0,0,nan,nan,nan,nan,8,,,
+417,guitars,7,How many guitars are there in the image?,6,0,7,74.272705078125,0.0,0.0,0.0,6,7,1,7,52.9251708984375,0.0,0.0,0.0,7,0,0,0
+418,signs,7,How many signs are there in the image?,7,1,0,nan,nan,nan,nan,7,7,1,0,nan,nan,nan,nan,7,,,
+419,women,9,How many women are there in the image?,9,1,4,82.59609794616699,30.40167551026216,0.9500523596956925,30.40167551026216,9,9,1,3,65.61125373840332,7.425445556640625,0.23204517364501953,7.425445556640625,9,1,0,0
+420,children,7,How many children are there in the image?,3,0,0,nan,nan,nan,nan,3,3,0,0,nan,nan,nan,nan,3,,,
+421,kittens,8,How many kittens are there in the image?,8,1,4,100.62506103515625,0.0,0.0,0.0,8,9,0,3,53.668304443359375,0.0,0.0,0.0,9,1,0,0
+422,kids,2,How many kids are there in the image?,2,1,1,111.81906127929688,-1.0,3.4943456649780273,111.81906127929688,2,2,1,1,80.63873291015625,-1.0,2.519960403442383,80.63873291015625,2,,,
+423,kittens,6,How many kittens are there in the image?,6,1,2,89.64256286621094,30.673568725585938,0.9585490226745605,30.673568725585938,6,6,1,2,70.32850646972656,23.490318298339844,0.7340724468231201,23.490318298339844,6,1,0,0
+424,toys,8,How many toys are there in the image?,9,0,8,63.17137145996094,0.0,0.0,0.0,9,9,0,8,63.17137145996094,0.0,0.0,0.0,9,0,0,0
+425,pairs of socks,5,How many pairs of socks are there in the image?,5,1,5,126.57597351074219,0.0,0.0,0.0,5,5,1,4,29.063720703125,0.0,0.0,0.0,5,1,0,1
+426,pairs of socks,3,How many pairs of socks are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+427,men,3,How many men are there in the image?,3,1,4,49.247467041015625,0.0,0.0,0.0,3,3,1,4,45.753604888916016,0.0,0.0,0.0,3,1,0,0
+428,stars,5,How many stars are there in the image?,5,1,0,nan,nan,nan,nan,5,5,1,0,nan,nan,nan,nan,5,,,
+429,chairs,4,How many chairs are there in the image?,4,1,3,212.24781036376953,17.108123779296875,0.5346288681030273,17.108123779296875,4,4,1,3,101.5176157951355,7.992767333984375,0.24977397918701172,7.992767333984375,4,1,0,1
+430,diamonds,10,How many diamonds are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+431,moais,7,How many moais are there in the image?,7,1,0,nan,nan,nan,nan,7,7,1,0,nan,nan,nan,nan,7,,,
+432,banners,2,How many banners are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+433,silhouettes,10,How many silhouettes are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+434,coins,10,How many coins are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+435,people,5,How many people are there in the image?,5,1,5,91.40547943115234,0.0,0.0,0.0,5,5,1,5,65.9637451171875,0.0,0.0,0.0,5,1,0,0
+436,banners,3,How many banners are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+437,people,4,How many people are there in the image?,4,1,4,163.6788330078125,0.0,0.0,0.0,4,5,0,4,106.382568359375,0.0,0.0,0.0,5,1,0,0
+438,flags,5,How many flags are there in the image?,6,0,0,nan,nan,nan,nan,6,6,0,0,nan,nan,nan,nan,6,,,
+439,frames,9,How many frames are there in the image?,9,1,8,78.6630859375,4.55316162109375,0.1422863006591797,4.55316162109375,9,9,1,7,78.99676513671875,2.79791259765625,0.08743476867675781,2.79791259765625,9,1,0,0
+440,contestants,4,How many contestants are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+441,people,6,How many people are there in the image?,6,1,6,39.93565368652344,0.0,0.0,0.0,6,6,1,6,39.93565368652344,0.0,0.0,0.0,6,1,0,0
+442,globes,6,How many globes are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+443,animals,8,How many animals are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+444,buttons,9,How many buttons are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+445,icons,8,How many icons are there in the image?,8,1,0,nan,nan,nan,nan,8,10,0,0,nan,nan,nan,nan,10,,,
+446,piles of candy,9,How many piles of candy are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+447,pictures,4,How many pictures are there in the image?,4,1,4,180.11563873291016,21.20819091796875,0.6627559661865234,21.20819091796875,4,4,1,4,105.87835693359375,12.598846435546875,0.39371395111083984,12.598846435546875,4,1,1,0
+448,plates,6,How many plates are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+449,calendars,4,How many calendars are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+450,oranges,9,How many oranges are there in the image?,9,1,9,88.39407348632812,14.235443115234375,0.4448575973510742,14.235443115234375,9,9,1,9,73.62274169921875,11.949874877929688,0.37343358993530273,11.949874877929688,9,1,1,0
+451,puppies,7,How many puppies are there in the image?,7,1,7,67.26129150390625,0.0,0.0,0.0,7,7,1,7,55.535430908203125,0.0,0.0,0.0,7,1,0,0
+452,buffalos,2,How many buffalos are there in the image?,2,1,2,177.5235595703125,0.0,0.0,0.0,2,2,1,2,89.07542419433594,0.0,0.0,0.0,2,1,1,1
+453,bottles,6,How many bottles are there in the image?,6,1,7,108.41900634765625,0.0,0.0,0.0,6,6,1,6,53.920135498046875,0.0,0.0,0.0,6,1,0,1
+454,people,3,How many people are there in the image?,3,1,3,86.74114990234375,12.568603515625,0.39276885986328125,12.568603515625,3,3,1,3,68.63270568847656,9.833473205566406,0.3072960376739502,9.833473205566406,3,1,0,1
+455,icons,8,How many icons are there in the image?,16,0,0,nan,nan,nan,nan,16,16,0,0,nan,nan,nan,nan,16,,,
+456,christmas balls,5,How many christmas balls are there in the image?,5,1,0,nan,nan,nan,nan,5,5,1,0,nan,nan,nan,nan,5,,,
+457,people,3,How many people are there in the image?,3,1,3,162.55911254882812,0.0,0.0,0.0,3,3,1,3,77.1080322265625,0.0,0.0,0.0,3,1,0,0
+458,frames,4,How many frames are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+459,people,6,How many people are there in the image?,6,1,3,100.97794342041016,55.507568359375,1.7346115112304688,55.507568359375,6,6,1,1,82.4818115234375,-1.0,2.577556610107422,82.4818115234375,6,,,
+460,soldiers,2,How many soldiers are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+461,chairs,2,How many chairs are there in the image?,2,1,1,97.21297836303711,-1.0,3.0379055738449097,97.21297836303711,2,2,1,1,97.21297836303711,-1.0,3.0379055738449097,97.21297836303711,2,,,
+462,chairs,8,How many chairs are there in the image?,8,1,8,69.12203979492188,0.24542236328125,0.0076694488525390625,0.24542236328125,8,8,1,8,58.24016571044922,0.330108642578125,0.010315895080566406,0.330108642578125,8,1,0,0
+463,cards,5,How many cards are there in the image?,5,1,0,nan,nan,nan,nan,5,5,1,0,nan,nan,nan,nan,5,,,
+464,colored tiles,10,How many colored tiles are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+465,trapezoids,3,How many trapezoids are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+466,plants,10,How many plants are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+467,place mats,6,How many place mats are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+468,symbols,9,How many symbols are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+469,mazes,10,How many mazes are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+470,tea bags,8,How many tea bags are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+471,photos,4,How many photos are there in the image?,4,1,0,nan,nan,nan,nan,4,4,1,0,nan,nan,nan,nan,4,,,
+472,children,2,How many children are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+473,starfish,8,How many starfish are there in the image?,8,1,0,nan,nan,nan,nan,8,8,1,0,nan,nan,nan,nan,8,,,
+474,mugs,6,How many mugs are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+475,bottles,5,How many bottles are there in the image?,5,1,5,71.62765502929688,0.0,0.0,0.0,5,5,1,5,34.46551513671875,0.0,0.0,0.0,5,1,0,0
+476,eggs,10,How many eggs are there in the image?,12,0,0,nan,nan,nan,nan,12,12,0,0,nan,nan,nan,nan,12,,,
+477,icons,9,How many icons are there in the image?,9,1,0,nan,nan,nan,nan,9,9,1,0,nan,nan,nan,nan,9,,,
+478,balls,3,How many balls are there in the image?,3,1,0,nan,nan,nan,nan,3,3,1,0,nan,nan,nan,nan,3,,,
+479,paper bags,7,How many paper bags are there in the image?,8,0,1,116.70440673828125,-1.0,3.647012710571289,116.70440673828125,8,8,0,1,65.20509338378906,-1.0,2.037659168243408,65.20509338378906,8,,,
+480,silhouettes,8,How many silhouettes are there in the image?,8,1,7,50.903130531311035,0.0,0.0,0.0,8,8,1,7,40.77971410751343,0.0,0.0,0.0,8,0,0,0
+481,couples,10,How many couples are there in the image?,10,1,0,nan,nan,nan,nan,10,10,1,0,nan,nan,nan,nan,10,,,
+482,dice,6,How many dice are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+483,women,2,How many women are there in the image?,2,1,0,nan,nan,nan,nan,2,2,1,0,nan,nan,nan,nan,2,,,
+484,icons,6,How many icons are there in the image?,6,1,0,nan,nan,nan,nan,6,6,1,0,nan,nan,nan,nan,6,,,
+485,wooden spoons,9,How many wooden spoons are there in the image?,9,1,3,47.685791015625,3.0690765380859375,0.09590864181518555,3.0690765380859375,9,9,1,4,40.29081726074219,0.0,0.0,0.0,9,1,0,0
+486,people,7,How many people are there in the image?,7,1,7,45.839111328125,7.901618957519531,0.24692559242248535,7.901618957519531,7,7,1,7,30.601318359375,0.405120849609375,0.012660026550292969,0.405120849609375,7,1,0,0
+487,chairs,6,How many chairs are there in the image?,6,1,6,137.57150268554688,0.0,0.0,0.0,6,6,1,6,66.25579833984375,0.0,0.0,0.0,6,1,0,0
+488,chairs,8,How many chairs are there in the image?,8,1,8,45.438514709472656,2.9398956298828125,0.09187173843383789,2.9398956298828125,8,8,1,8,45.438514709472656,2.9398956298828125,0.09187173843383789,2.9398956298828125,8,1,0,0
+489,beds,2,How many beds are there in the image?,2,1,1,126.05292510986328,-1.0,3.9391539096832275,126.05292510986328,2,2,1,1,126.05292510986328,-1.0,3.9391539096832275,126.05292510986328,2,,,
+490,chairs,10,How many chairs are there in the image?,10,1,10,87.39678955078125,0.0,0.0,0.0,10,10,1,10,62.46759033203125,0.0,0.0,0.0,10,1,0,0

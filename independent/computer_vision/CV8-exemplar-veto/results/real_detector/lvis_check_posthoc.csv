@@ -1,0 +1,2 @@
+n_class_absent_lvis_covered,n_gated_accepted,gated_accepted_lvis_matched,n_gated_rejected,gated_rejected_lvis_matched,n_clean,clean_accept_ungated,clean_accept_gated,clean_text_presence_ge0
+525,204,0.06862745098039216,321,0.009345794392523364,508,1.0,0.37401574803149606,0.3799212598425197
