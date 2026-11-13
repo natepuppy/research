@@ -16,5 +16,7 @@ if ($LASTEXITCODE -ne 0) { Get-Content main.blg; throw "bibtex failed" }
 cmd /c "pdflatex -interaction=nonstopmode -halt-on-error main.tex >nul 2>&1"
 cmd /c "pdflatex -interaction=nonstopmode -halt-on-error main.tex >nul 2>&1"
 cmd /c "pdflatex -interaction=nonstopmode -halt-on-error main.tex >nul 2>&1"
+# One more pass: from a clean build the review-mode line numbers on the reference pages need it to settle.
+cmd /c "pdflatex -interaction=nonstopmode -halt-on-error main.tex >nul 2>&1"
 Select-String -Path main.log -Pattern "^!|Overfull|undefined|multiply defined|Rerun to|Output written" | ForEach-Object { $_.Line }
 Remove-Item main.aux, main.blg, main.brf, main.log, main.out -ErrorAction SilentlyContinue
