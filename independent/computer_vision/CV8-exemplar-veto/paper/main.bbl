@@ -120,10 +120,10 @@ Viresh Ranjan, Udbhav Sharma, Thu Nguyen, and Minh Hoai.
 \newblock Learning to count everything.
 \newblock In \emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 3394--3403, 2021.
 
-\bibitem[Ravi et~al.(2024)Ravi, Gabeur, Hu, Hu, Ryali, Ma, Khedr, R{\"a}dle, Rolland, Gustafson, et~al.]{ravi2024sam2}
+\bibitem[Ravi et~al.(2025)Ravi, Gabeur, Hu, Hu, Ryali, Ma, Khedr, R{\"a}dle, Rolland, Gustafson, et~al.]{ravi2024sam2}
 Nikhila Ravi, Valentin Gabeur, Yuan-Ting Hu, Ronghang Hu, Chaitanya Ryali, Tengyu Ma, Haitham Khedr, Roman R{\"a}dle, Chloe Rolland, Laura Gustafson, et~al.
 \newblock {SAM} 2: Segment anything in images and videos.
-\newblock \emph{arXiv preprint arXiv:2408.00714}, 2024.
+\newblock In \emph{International Conference on Learning Representations}, 2025.
 
 \bibitem[Ren et~al.(2015)Ren, He, Girshick, and Sun]{ren2015faster}
 Shaoqing Ren, Kaiming He, Ross Girshick, and Jian Sun.
