@@ -1,0 +1,30 @@
+[
+ {
+  "image": 65350,
+  "phrase": "coconut",
+  "anchor": "jean",
+  "presence_text": -6.5546875,
+  "presence_box": 9.6953125,
+  "presence_bg": 7.4609375,
+  "n_text": 0,
+  "n_box": 1,
+  "n_bg": 1,
+  "n_gated": 0,
+  "anchor_pixels_covered": 0.9473684210526315,
+  "text_prob": 0.0014214043524267083
+ },
+ {
+  "image": 65455,
+  "phrase": "wine bucket",
+  "anchor": "giraffe",
+  "presence_text": -4.74609375,
+  "presence_box": 10.0,
+  "presence_bg": 10.0,
+  "n_text": 0,
+  "n_box": 1,
+  "n_bg": 1,
+  "n_gated": 0,
+  "anchor_pixels_covered": 0.9487166782281241,
+  "text_prob": 0.008610767667510729
+ }
+]

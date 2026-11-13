@@ -100,12 +100,26 @@ Known before these runs, so not claimed as results: SA-Co/Gold ships annotations
 Five of the six pre-registered tags are SUPPORTED. The geometry gate (H4) fails. Nothing here changes the phase 1 or phase 2 verdicts.
 
 - **Held-out LVIS, SUPPORTED** (500 images not in phase 2). H1: verified-absent presence ≥ 0 in 1.6% of text-only episodes and 99.5% with the anchor box, 8/8. H2: the anchor is returned as that concept in 96.8%. H3: the hard gate at 0.10 cuts false-positive episodes 99.5% → 6.4% (relative drop 0.936) at a cost of 0.002 mIoU (0.864 → 0.862), 8/8. H5: a background box still has presence ≥ 0 in 99.6% (mean 8.74) and returns a mask in 99.6%. H6, scored and passing: false counts 99.5% → 6.4%, and the count MAE on the true category moves 0.708 → 0.710. **H4 fails 0/8.** The geometry gate only cuts false-positive episodes by 0.480 (to 51.8%) at zero cost, because the false mask often has IoU below 0.5 with the box rectangle and the rule keeps it. The hard gate is the one that works; the geometry rule does not.
-- **Ablations, SUPPORTED** (400 of the phase-2 images, one verified-absent phrase). Presence ≥ 0 for 1, 2 and 3 positive boxes in 99.8%, 100% and 100% (n = 400, 305, 226). Presence ≥ 0 for a half-scale box, a double-scale box and a box shifted by half its width in 100%, 99.8% and 100%. Those perturbed boxes cover the anchor in 0.3%, 17.7% and 3.7%. The pin does not require the box to contain the object, and the mask follows the box rather than the object once the box is wrong.
+- **Ablations, SUPPORTED** (400 of the phase-2 images, one verified-absent phrase). Presence ≥ 0 for 1, 2 and 3 positive boxes in 99.8%, 100% and 100% (n = 400, 305, 226). Presence ≥ 0 for a half-scale box, a double-scale box and a box shifted by half its width in 100%, 99.8% and 100%. Those perturbed boxes cover the anchor in 1, 71 and 15 of 400 episodes (0.25%, 17.75% and 3.75%; the paper rounds half up to 0.3%, 17.8% and 3.8%). The pin does not require the box to contain the object, and the mask follows the box rather than the object once the box is wrong.
 - **RetinaNet, SUPPORTED** (500 phase-2 images, 2,767 detections, 326 class-absent). Ungated SAM 3 accepts 99.7% of class-absent detections. Gated AUROC correct-versus-class-absent is 0.958, against the detector's own score at 0.896 and ungated SAM 3 at 0.571. The hard gate, reported and not scored, still accepts 59.8% of class-absent detections and 99.9% of correct ones.
 - **Held-out Faster R-CNN, SUPPORTED** (499 images in neither earlier detector file, 3,152 detections, 565 class-absent). Acceptance of class-absent detections is 99.8%. Gated AUROC is 0.961 against the detector at 0.932 and ungated SAM 3 at 0.646. Hard-gate acceptance of class-absent detections is 57.9%, of correct detections 99.9%. The same gap as RetinaNet: on LVIS-verified absence the hard gate reaches 6.4%, and on a detector's "class absent" (COCO, not verified) it reaches about 58%.
 - **FSC-147 counting, SUPPORTED** (400 test images, mean ground-truth count 63.8). An absent class plus the exemplar box produces a count of at least 1 in 85.5% of images (presence ≥ 0 in 94.8%). The hard gate takes that to 4.3% (relative drop 0.950). True-class MAE is 34.1 text-only, 28.7 with the exemplar, 29.3 with the hard gate (cost 0.55, within the bound of 2.0). SAM 3 is not a strong counter on this benchmark at either setting; the exemplar is what creates the false counts, and the gate removes them.
 
 Not run, as stated before the runs: SA-Co images, SAM 3.1. The labeling page for the 536 phase-2 class-absent boxes is `C:\Users\natha\dev\cv-data\smoke\cv8_review.html`. It is empty until someone labels it, and no label is reported here.
+
+## Phase 4: precision check (pre-registered before running)
+
+Every number above is from half precision. The presence logit saturating at exactly +10 could in principle be helped along by fp16, so one run repeats the held-out LVIS protocol in fp32 on the first 100 of the 500 held-out images (`code/cv8_precision.py`, same image order, same seeded absent phrases, same anchor). It runs T−, B+T−, the anchor category text-only, and B+T+, and compares each episode to the stored fp16 row. Eight image-level bootstrap resamples, a criterion passes at ≥ 6 of 8.
+
+- **P1.** In fp32, verified-absent presence ≥ 0 in ≤ 0.10 of text-only episodes and ≥ 0.90 of episodes with the anchor box.
+- **P2.** The hard-gate decision (text-only presence probability ≥ 0.10) is the same in fp32 and fp16 for ≥ 0.95 of absent-phrase episodes.
+- **P3.** Mean absolute difference between the fp32 and fp16 presence logits over all matched episodes is ≤ 0.5.
+
+SUPPORTED if P1 and P2. INCONCLUSIVE if only P1. KILLED if P1 fails. P3 is scored in the line and does not change the tag. If the model does not fit in memory in fp32, the run is reported as not done and fp16 stays a stated limitation.
+
+### Phase 4 result (3080, 2.5 minutes, peak 3.8 GB)
+
+**SUPPORTED: P1, P2, P3 pass 8/8** (100 images, 800 episodes). In fp32, verified-absent presence is ≥ 0 in 1.7% of text-only episodes and 98.3% with the anchor box; fp16 gives the same two rates on these episodes. The hard-gate decision is identical in 100% of the 300 absent-phrase episodes. The presence logit differs between fp32 and fp16 by 0.009 on average (largest difference 0.155), its sign is identical in every episode, and the number of kept masks is identical in 99.7%. With the box, the fp32 logit is at the +10 clamp in 54.7% of absent-phrase episodes. Half precision is not what produces the result. This run covers 100 of the 500 held-out images and the four conditions listed; the other experiments were not repeated in fp32.
 
 ## Layout
 
@@ -115,6 +129,8 @@ Not run, as stated before the runs: SA-Co images, SAM 3.1. The labeling page for
 | `results/real/` | phase 1 |
 | `results/real_lvis/`, `results/real_detector/` | phase 2 |
 | `results/real_heldout/`, `results/real_ablate/`, `results/real_retinanet/`, `results/real_detector_heldout/`, `results/real_count/` | phase 3, each with `episodes.csv`, `summary.csv`, `seeds.csv`, `verdict.txt` |
+| `results/real_precision/` | phase 4, fp32 against fp16 |
+| `paper/` | CVPR 2027 submission sources; tables and figures are generated from `results/` by `paper/make_tables.py`, `paper/make_figures.py`, `paper/make_qualitative.py`; `paper/build.ps1` rebuilds `paper/main.pdf` with pdfLaTeX and BibTeX (not XeTeX or Tectonic, which lose the Times fonts) |
 
 ## Run
 

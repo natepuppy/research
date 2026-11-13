@@ -1,0 +1,10 @@
+\begin{abstract}
+\sam{} decides whether a prompted concept is in the image with a presence head and multiplies every proposal's score by its output; this is what lets the model return nothing for an absent concept.
+We show that a positive exemplar box removes this ability.
+On 500 held-out LVIS images, for categories that the annotations verify to be absent, the presence logit is non-negative in 1.6\% of text-only prompts and in 99.5\% once one positive box is added, and the boxed object is returned as the absent concept in 96.8\% of cases.
+The effect does not depend on what the box contains: a box on background gives the same result in 99.6\% of cases, as do shrunken, enlarged and shifted boxes, while a lone negative box pins the head at its lower bound.
+This is consistent with the published training protocol, in which positive exemplars are drawn from instances of concepts that are present.
+A training-free fix, gating the exemplar pass on the text-only presence at the cost of one extra decoder pass over cached image features, cuts false-positive episodes from 99.5\% to 6.4\% at a cost of 0.002 mIoU, and cuts false counts on FSC-147 from 85.5\% to 4.3\%.
+Used to verify detector boxes, the gated score separates correct from class-absent detections better than the detectors' own confidence (AUROC 0.96 against 0.90--0.93) for two detectors.
+All criteria were fixed before each run; 23 of 27 passed, and we report the four that failed.
+\end{abstract}

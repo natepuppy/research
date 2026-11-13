@@ -1,0 +1,36 @@
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}cllll@{}}
+\toprule
+Phase & ID & Criterion (fixed before the run) & Observed & Pass \\
+\midrule
+1 & K1 & presence AUROC $\geq 0.95$ text only, $\leq 0.60$ with box & 0.996, 0.673 & \textbf{0/8} \\
+1 & K2 & boxed object returned $\geq 70\%$; box beats text $2{:}1$ in conflicts & 89.5\%; 86.5\% vs.\ 10.5\% & 8/8 \\
+1 & K3 & multiplicative gate: FP drop $\geq 80\%$, mIoU cost $\leq 0.02$ & 98.1\%, 0.016 & 6/8 \\
+\addlinespace[2pt]
+2 & L1 & absent $s_p \geq 0$: $\leq 10\%$ text only, $\geq 90\%$ with box & 1.5\%, 99.8\% & 8/8 \\
+2 & L2 & boxed object returned $\geq 70\%$ & 96.6\% & 8/8 \\
+2 & L3 & multiplicative gate: FP drop $\geq 80\%$, mIoU cost $\leq 0.03$ & 98.5\%, 0.056 & \textbf{0/8} \\
+2 & D1 & class-absent detections accepted $\geq 90\%$ & 100.0\% & 8/8 \\
+2 & D2 & multiplicative gate: drop $\geq 70\%$, correct lost $\leq 5$ pts & 61.0\%, 1.1 pts & \textbf{0/8} \\
+\addlinespace[2pt]
+3 & H1 & as L1, held-out images & 1.6\%, 99.5\% & 8/8 \\
+3 & H2 & as L2, held-out images & 96.8\% & 8/8 \\
+3 & H3 & hard gate: FP drop $\geq 80\%$, mIoU cost $\leq 0.02$ & 93.6\%, 0.002 & 8/8 \\
+3 & H4 & geometry gate: same bars as H3 & 48.0\%, 0.000 & \textbf{0/8} \\
+3 & H5 & background box: $s_p \geq 0$ in $\geq 90\%$ & 99.6\% & 8/8 \\
+3 & H6 & false counts $\geq 90\%$, gate drop $\geq 80\%$, count MAE rises by $\leq 0.30$ & 99.5\%, 93.6\%, $+$0.002 & 8/8 \\
+3 & A1 & $s_p \geq 0$ in $\geq 90\%$ with 1, 2, 3 boxes & 99.8, 100.0, 100.0\% & 8/8 \\
+3 & A2 & $s_p \geq 0$ in $\geq 90\%$ for half, double, shifted box & 100.0, 99.8, 100.0\% & 8/8 \\
+3 & A3 & half-scale box covers the object $\leq 50\%$ & 0.3\% & 8/8 \\
+3 & R1 & RetinaNet: class-absent accepted $\geq 90\%$ & 99.7\% & 8/8 \\
+3 & R2 & RetinaNet: gated AUROC $\geq 0.90$ and above detector & 0.958 vs.\ 0.896 & 8/8 \\
+3 & R1$'$ & Faster R-CNN, held-out: as R1 & 99.8\% & 8/8 \\
+3 & R2$'$ & Faster R-CNN, held-out: as R2 & 0.961 vs.\ 0.932 & 8/8 \\
+3 & F1 & FSC-147: absent class + exemplar counts $\geq 1$ in $\geq 80\%$ & 85.5\% & 8/8 \\
+3 & F2 & FSC-147: hard gate drops that by $\geq 70\%$ & 95.0\% & 8/8 \\
+3 & F3 & FSC-147: true-class MAE rises by $\leq 2.0$ & $+$0.55 & 8/8 \\
+\addlinespace[2pt]
+4 & P1 & fp32: as L1 on 100 held-out images & 1.7\%, 98.3\% & 8/8 \\
+4 & P2 & fp32 and fp16 gate decisions agree $\geq 95\%$ & 100.0\% & 8/8 \\
+4 & P3 & mean $|s_p^{32} - s_p^{16}| \leq 0.5$ & 0.009 & 8/8 \\
+\bottomrule
+\end{tabular*}

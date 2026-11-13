@@ -1,0 +1,50 @@
+\section{Setup}
+\label{sec:setup}
+
+\paragraph{Presence and exemplars in \sam{}.}
+\sam{}'s detector decodes a set of object queries and one presence token.
+Query $i$ yields a mask and a logit $s_i$; the presence token yields a logit $\spres$.
+The paper defines the presence output as $p(\text{phrase is present in the image})$, the query output as the probability of a match given presence, and the final score as their product~\cite{carion2026sam3}:
+\begin{equation}
+    \mathrm{score}_i = \sigma(s_i)\,\sigma(\spres).
+    \label{eq:score}
+\end{equation}
+A mask is kept when $\mathrm{score}_i > 0.5$, so a negative $\spres$ rejects every proposal at once.
+We call this the veto.
+In the implementation we use, $\spres$ is clamped to $[-10, 10]$.
+An exemplar is a box with a binary label.
+It is encoded from its position, an embedding of its label, and pooled image features, and the resulting tokens are concatenated with the text tokens~\cite{carion2026sam3}.
+
+\paragraph{Model and implementation.}
+We use the released \sam{} checkpoint through the Transformers library~\cite{wolf2020transformers}, with the library's own post-processing rule, which is \cref{eq:score}.
+The image backbone runs once per image and every prompt reuses its features.
+Masks are thresholded at logit 0.
+All runs are in half precision on one RTX~3080; \cref{sec:limits} reports a single-precision check.
+
+\paragraph{Episodes.}
+An episode is one image and one prompt.
+The \emph{anchor} is the largest annotated instance in the image with an area of at least $32^2$ pixels, and its ground-truth box is the exemplar.
+An \emph{absent phrase} names a category that is not in the image.
+We compare the phrase alone with the phrase plus the anchor box as a positive exemplar.
+Further conditions put the box on background, perturb it, add boxes, flip the label, drop the text, or name a different category that is present.
+A mask \emph{covers} an object when its IoU with the object's ground-truth mask exceeds 0.5.
+An absent-phrase episode is a \emph{false positive} when any mask is kept.
+For \emph{consistent} prompts, where the phrase names the anchor's category, we report the IoU between the union of kept masks and the union of that category's ground truth (mIoU over episodes).
+
+\paragraph{Data.}
+\emph{COCO}: the first 500 val2017 images by id~\cite{lin2014coco}, with three absent phrases per image drawn from the 80 class names with a fixed seed.
+Absence here means only that COCO has no label.
+\emph{LVIS}: LVIS is federated, and each image lists categories that annotators verified to be absent~\cite{gupta2019lvis}.
+We draw up to three of them per image with a fixed seed, out of 1,203 categories, and use the first synonym of the category as the phrase.
+The \emph{selection} set is 500 LVIS val images; 454 are also in the COCO set.
+The \emph{held-out} set is 500 further LVIS val images that share no image with either.
+Each set gives 1,500 absent-phrase episodes.
+\emph{FSC-147}: the first 400 test images~\cite{ranjan2021fsc}, with the first annotated exemplar box.
+
+\paragraph{Preregistration.}
+The study ran in four phases.
+Before each phase we wrote down its criteria with numeric thresholds, then ran it once.
+A criterion is scored on eight bootstrap resamples of the images and passes when it holds in at least six.
+A failed criterion is never rescored: phase 2 restated a phase-1 claim with a different metric and phase 3 changed the gate, and both are reported as new criteria next to the failures they follow (\cref{tab:criteria}).
+The gate threshold $\tau = 0.10$ was read off the selection set after phase 2 and then fixed for the held-out set.
+Intervals in brackets are 95\% percentile intervals from 2,000 image-level bootstrap resamples; they describe uncertainty and are not part of the preregistered test.

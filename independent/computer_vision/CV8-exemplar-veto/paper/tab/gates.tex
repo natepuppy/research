@@ -1,0 +1,14 @@
+\begin{tabular}{@{}llcccc@{}}
+\toprule
+Gate & Status & False-pos.\ episodes (\%) & Drop (\%) & mIoU & mIoU cost \\
+\midrule
+\multicolumn{6}{@{}l}{\emph{LVIS selection images (500)}} \\
+none & -- & 99.8 & -- & 0.866 & -- \\
+multiplicative & pre-reg., \textbf{fails} & 1.5 & 98.5 & 0.810 & 0.056 {\scriptsize[0.038, 0.077]} \\
+hard, $\tau\!=\!0.10$ & post hoc & 5.7 & 94.3 & 0.861 & 0.005 {\scriptsize[0.000, 0.011]} \\
+\multicolumn{6}{@{}l}{\emph{LVIS held-out images (500)}} \\
+none & -- & 99.5 & -- & 0.864 & -- \\
+hard, $\tau\!=\!0.10$ & pre-reg., passes & 6.4 {\scriptsize[5.1, 7.8]} & 93.6 & 0.862 & 0.002 {\scriptsize[0.000, 0.006]} \\
+geometry & pre-reg., \textbf{fails} & 51.8 {\scriptsize[47.9, 55.9]} & 48.0 & 0.864 & 0.000 {\scriptsize[0.000, 0.000]} \\
+\bottomrule
+\end{tabular}

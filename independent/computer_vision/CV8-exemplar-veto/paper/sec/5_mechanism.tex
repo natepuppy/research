@@ -1,0 +1,49 @@
+\section{What the Presence Head Responds To}
+\label{sec:mechanism}
+
+\begin{table}[t]
+    \centering
+    \small
+    \setlength{\tabcolsep}{3.2pt}
+    \resizebox{\columnwidth}{!}{\input{tab/controls}}
+    \caption{\textbf{Controls.}
+    Percent of episodes, and the mean presence logit.
+    \emph{Object}: a kept mask covers the anchor.
+    Boxes are positive exemplars unless marked.
+    Rows with two and three boxes use the images that have that many further instances.}
+    \label{tab:controls}
+\end{table}
+
+A box could raise presence for a reason that has something to do with the image: there is an object in it, and the head might take the phrase as a loose name for that object.
+The controls in \cref{tab:controls} rule this out.
+
+\paragraph{Background.}
+We place a box of the anchor's size at the position, on a $12 \times 12$ grid, where it overlaps the fewest annotated pixels, and prompt with a verified-absent phrase.
+On the held-out images presence is non-negative in 99.6\% of 500 episodes, with a mean logit of 8.74, and a mask is returned in 99.6\%.
+On the selection images the returned mask covers the box region in 37.4\% of episodes; elsewhere the model finds something else to return.
+LVIS cannot certify that such a region is empty, only that nothing in it was annotated.
+
+\paragraph{Perturbed and multiple boxes.}
+On 400 selection images we shrink the anchor box to half its size, enlarge it to double, or shift it by half its width.
+Presence stays non-negative in 100\%, 99.8\% and 100\% of episodes, while a kept mask covers the anchor in 0.3\%, 17.8\% and 3.8\%.
+The head does not need the box to hold the object, and the masks follow the box.
+With two and three positive boxes the rate is 100\% and the mean logit approaches the clamp (9.96 and 10.00).
+
+\paragraph{The label decides.}
+Flipping the label reverses the effect.
+With the anchor box as a lone \emph{negative} exemplar and an absent phrase, presence is negative in all 1,000 COCO episodes, at the lower clamp of $-10$ in 95.4\%, and no mask is returned.
+With a positive box and no text at all, the mean logit is 9.97.
+
+\paragraph{An account from the training protocol.}
+The \sam{} paper introduces the presence token in the training stage that also introduces interactive exemplars.
+In that stage, positive boxes are the ground-truth boxes of instances the model missed, and negative boxes are confident false positives without significant overlap with ground truth~\cite{carion2026sam3}.
+A missed instance exists only when the concept is present.
+So, in the protocol as published, a positive exemplar is not paired with an absent concept, and its label alone predicts presence.
+A false positive can occur whether or not the concept is present, so a negative label carries no such guarantee.
+Before the runs we wrote down two predictions from this account: a positive box on background would still pin presence high, and a lone negative box with an absent phrase would pin it low.
+Both hold in \cref{tab:controls}.
+The negative box in fact pushes presence lower than the phrase alone does (mean $-9.88$ against $-6.21$), which would follow if prompts whose only exemplars are negative arise mostly on images where every detection is a false positive.
+The published evaluation could not have exposed the problem, because exemplar prompts were scored only on images where the prompted object appears~\cite{carion2026sam3}.
+The account is consistent with what we measured, and it is the textbook form of a shortcut~\cite{geirhos2020shortcut}.
+It remains an account.
+Confirming it would take a training run in which positive exemplars are paired with absent phrases, and we have not done one.

@@ -1,0 +1,49 @@
+\section{Limitations and Failed Criteria}
+\label{sec:limits}
+
+\begin{table*}[t]
+    \centering
+    \footnotesize
+    \setlength{\tabcolsep}{3pt}
+    \input{tab/criteria}
+    \caption{\textbf{Every preregistered criterion and its outcome.}
+    \emph{Pass} counts the bootstrap resamples, out of eight, in which the criterion held; six are needed.
+    Failures are in bold.
+    FP: absent-phrase episodes that return a mask.
+    Phases 1--2 use the COCO and selection images; phase 3 adds the held-out images, the box controls, a second detector and counting; phase 4 is the precision check.}
+    \label{tab:criteria}
+\end{table*}
+
+\paragraph{Failed criteria.}
+Four of 27 criteria failed (\cref{tab:criteria}): the AUROC form of the main claim (K1, \cref{sec:failure}), the multiplicative gate on LVIS (L3) and on detector boxes (D2), and the geometry gate (H4).
+Each failure changed what we claim.
+The claim about presence is made at the decision level, the gate we recommend is the hard one, and we do not claim that any gate cleans up detector errors.
+
+\paragraph{One model, one implementation.}
+We tested one checkpoint of one model, through the Transformers port and not the reference code.
+The scoring rule we use is the port's own.
+A port-specific defect is unlikely to produce the label-dependent pattern of \cref{tab:controls}, but we have not excluded it by running the reference implementation.
+We did not evaluate on SA-Co (the release we had access to contains annotations without the images), on the later \sam{}.1 checkpoint, or on video.
+
+\paragraph{Precision.}
+All main runs are in half precision.
+We repeated the absent-phrase conditions in single precision on the first 100 held-out images, with criteria fixed in advance.
+The rates with $\spres \geq 0$ are identical (1.7\% text only, 98.3\% with the box), the gate decision agrees in all 300 absent-phrase episodes, and the logits differ by 0.009 on average.
+
+\paragraph{Scope of the prompts.}
+Exemplars are ground-truth boxes of the largest object, detector boxes, or FSC-147 exemplars; we did not test cross-image exemplars, although they reach the model as the same kind of token.
+Absent phrases are random draws from the verified-absent list, so most are unrelated to the scene.
+Confusable phrases would raise the text-only false-positive rate and with it the gate's residual, as the detector experiment shows.
+The mIoU cost of the gate is measured where the phrase names the largest object; for small or rare targets it may be higher.
+
+\paragraph{Cause.}
+The training-protocol account of \cref{sec:mechanism} is an inference from the published description and from behaviour.
+We did not retrain or probe the model's internals.
+
+\section{Conclusion}
+\label{sec:conclusion}
+
+\sam{}'s presence head is its means of saying that a concept is not there, and a positive exemplar turns it off.
+The effect is close to total, does not depend on what is in the box, reverses with the exemplar's label, and appears in every use of exemplars we tried.
+A text-only presence pass over the same image features restores most of the rejection for the cost of one decoder pass, and makes \sam{} a useful verifier of whether a detector's class is in the image at all.
+The remedy at the source is likely to be in training: pair positive exemplars with absent concepts, and evaluate exemplar prompts on images where the answer is that nothing matches.

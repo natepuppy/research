@@ -1,0 +1,29 @@
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{Concept prompts and exemplars.}
+SAM~\cite{kirillov2023sam} and SAM~2~\cite{ravi2024sam2} segment one object per geometric prompt.
+\sam{}~\cite{carion2026sam3} adds concept prompts on a DETR-style detector~\cite{carion2020detr} and returns all instances.
+Image exemplars as queries predate it: OWL-ViT and OWLv2 support image-conditioned detection~\cite{minderer2022owlvit,minderer2023owlv2}, MQ-Det adds exemplars to text queries~\cite{xu2023mqdet}, T-Rex2 aligns text and visual prompts~\cite{jiang2024trex2}, and SEEM and DINOv take visual prompts for segmentation~\cite{zou2023seem,li2024dinov}.
+Counting uses exemplar boxes by design~\cite{ranjan2021fsc}, and recent counters combine them with text~\cite{amini2023countx,amini2024countgd}.
+These works evaluate exemplars where the target is present.
+We ask what the exemplar does to the decision that the target is absent.
+
+\paragraph{Rejecting absent concepts.}
+Grounding models such as GLIP~\cite{li2022glip} and Grounding DINO~\cite{liu2024groundingdino} are trained to localize a given phrase.
+Whether a model can decline is measured by benchmarks with no-target expressions~\cite{liu2023gres} and absent descriptions~\cite{xie2023dod}, and by object-hallucination probes for vision-language models~\cite{li2023pope}.
+\sam{} answers with hard negative phrases in training and a presence head~\cite{carion2026sam3}.
+Our result is that the head's answer depends on the prompt's modality.
+
+\paragraph{Studies of \sam{}'s recognition.}
+CAFE finds that promptable segmenters, \sam{} included, often return accurate masks for misleading \emph{text} prompts~\cite{liang2026cafe}; we study the exemplar channel, where the failure is near total.
+TAG identifies concept recognition, not mask quality, as \sam{}'s bottleneck on downstream benchmarks~\cite{zhu2026tag}.
+SAM3-LoRA reports that fine-tuning on positive prompts alone makes the presence prediction fire for any prompt~\cite{malaisree2026sam3lora}; we find the same collapse in the frozen model whenever a positive box is present.
+A remote-sensing evaluation uses the presence head as a scene classifier and compares text, box and text-plus-box prompts, with an oracle that removes absent categories~\cite{dabaja2026remote}; its box-prompt results are detection and segmentation accuracy, not the presence output.
+An adversarial attack on \sam{} suppresses presence-gated scores and names the activation of absent concepts as a threat it leaves open~\cite{wang2026ucd}; we show that an ordinary prompt achieves it without any perturbation.
+Two studies report that \emph{negative} exemplars are not reliable exclusion evidence in cross-image prompting~\cite{tsai2026fss,tsai2026case}.
+To our knowledge, none of these measures the effect of a positive exemplar on presence.
+
+\paragraph{Shortcuts and method.}
+A head that reads a label embedding in place of image evidence is a shortcut in the sense of Geirhos~\etal~\cite{geirhos2020shortcut}, and its saturated output is a calibration failure~\cite{guo2017calibration} of an unusual kind, tied to the prompt and not to the image.
+We borrow preregistration~\cite{nosek2018prereg} to keep an analysis of a released model from fitting its thresholds to its results.

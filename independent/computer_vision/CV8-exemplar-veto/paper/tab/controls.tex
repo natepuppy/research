@@ -1,0 +1,22 @@
+\begin{tabular}{@{}lrcccc@{}}
+\toprule
+Prompt & $n$ & $s_p\!\geq\!0$ & mean $s_p$ & any mask & object \\
+\midrule
+\multicolumn{6}{@{}l}{\emph{Absent phrase, LVIS held-out}} \\
+text only & 1,500 & 1.6 & $-5.69$ & 1.3 & -- \\
++ box on largest object & 1,500 & 99.5 & $9.17$ & 99.5 & 96.8 \\
++ box on background & 500 & 99.6 & $8.74$ & 99.6 & -- \\
+\multicolumn{6}{@{}l}{\emph{Absent phrase, LVIS selection images}} \\
+text only & 400 & 2.0 & $-5.73$ & -- & -- \\
++ 1 box & 400 & 99.8 & $9.29$ & 99.8 & 96.3 \\
++ 2 boxes & 305 & 100.0 & $9.96$ & 100.0 & 94.4 \\
++ 3 boxes & 226 & 100.0 & $10.00$ & 100.0 & 95.1 \\
++ box at half scale & 400 & 100.0 & $9.33$ & 100.0 & 0.3 \\
++ box at double scale & 400 & 99.8 & $8.83$ & 99.8 & 17.8 \\
++ box shifted by half its width & 400 & 100.0 & $9.15$ & 100.0 & 3.8 \\
+\multicolumn{6}{@{}l}{\emph{COCO (absence by the 80-class label set)}} \\
+absent phrase + \emph{negative} box & 1,000 & 0.0 & $-9.88$ & 0.0 & -- \\
+positive box, no text & 500 & 100.0 & $9.97$ & 100.0 & 90.8 \\
+other present class + box & 421 & 100.0 & -- & -- & 86.5 \\
+\bottomrule
+\end{tabular}

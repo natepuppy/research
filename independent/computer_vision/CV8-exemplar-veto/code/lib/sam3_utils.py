@@ -52,13 +52,13 @@ def xyxy(bbox) -> list[float]:
 class Sam3Runner:
     """Holds the model and a cache of the current image's vision features."""
 
-    def __init__(self, device: str = "cuda"):
+    def __init__(self, device: str = "cuda", dtype: torch.dtype = torch.float16):
         from transformers import Sam3Model, Sam3Processor
 
         self.processor = Sam3Processor.from_pretrained("facebook/sam3")
-        self.model = Sam3Model.from_pretrained("facebook/sam3", torch_dtype=torch.float16).to(device).eval()
+        self.model = Sam3Model.from_pretrained("facebook/sam3", torch_dtype=dtype).to(device).eval()
         self.device = device
-        self.dtype = torch.float16
+        self.dtype = dtype
         self.vision = None
         self.size = None
 

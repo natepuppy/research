@@ -1,0 +1,11 @@
+\begin{tabular}{@{}lrr ccc ccc@{}}
+\toprule
+ & \multicolumn{2}{c}{Detections} & \multicolumn{3}{c}{Accepted by SAM 3 (\%)} & \multicolumn{3}{c}{AUROC, correct vs.\ class-absent} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-6}\cmidrule(l){7-9}
+Detector, images & all & class-absent & absent & absent, gated & correct, gated & detector & SAM 3 & SAM 3, gated \\
+\midrule
+Faster R-CNN, COCO set & 3,122 & 536 & 100.0 & 60.8 & 99.9 & 0.919 & 0.665 & 0.960 {\scriptsize[0.948, 0.972]} \\
+Faster R-CNN, held-out & 3,152 & 565 & 99.8 & 57.9 & 99.9 & 0.932 & 0.646 & 0.961 {\scriptsize[0.949, 0.971]} \\
+RetinaNet, COCO set & 2,767 & 326 & 99.7 & 59.8 & 99.9 & 0.896 & 0.571 & 0.958 {\scriptsize[0.944, 0.972]} \\
+\bottomrule
+\end{tabular}
